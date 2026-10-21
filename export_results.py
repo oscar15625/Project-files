@@ -12,7 +12,7 @@ if __name__=='__main__':
         folder=Path('results')/tag
         if not (folder/'metrics.json').exists(): continue
         r=json.loads((folder/'metrics.json').read_text()); m=Model(r['network'],r['maas'],r['theta'],r['penalty'],r['wholesale'],r['access_scope']); y=np.load(folder/'state.npy'); m.evaluate(y,True)
-        np.savetxt(folder/'od_results.csv',m.last_od,delimiter=',',header='origin,destination,demand,maas_fare,share_non,share_drive,share_maas,value',comments='')
+        np.savetxt(folder/'od_results.csv',m.last_od,delimiter=',',header='origin,destination,demand,maas_fare,share_non,share_drive,share_maas,value,conditional_wholesale_mod,conditional_wholesale_pt',comments='')
         np.savetxt(folder/'resource_results.csv',np.c_[np.arange(m.nt),m.t0,m.cap,m.congest,y[:m.nt],m.last_flows],delimiter=',',header='resource,t0,capacity,congestible,time,flow',comments='')
         status='residual_only_not_strategically_audited'
         if (folder/'audit.json').exists():

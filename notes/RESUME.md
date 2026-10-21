@@ -1,12 +1,14 @@
 # Resume checkpoint
 
 Updated: 2026-10-21 evening, Asia/Seoul.
-Status: **SCHEDULED_NOT_STARTED**. Preparation only; no new reproduction experiments were started in this scheduling turn.
+Status: **RUNNING_V4**. User changed the schedule on 2026-10-22: start immediately (about 02:40 KST), recovery at 07:40. Old start automation is PAUSED; maas-2 now runs once at 07:40. No author contact.
+
+Current implementation: independent MoD/PT aggregate/node/line-node resources; stable shortest-distance potential transformation of the Shannon Bellman linear system; root mode scale separate from route scale, analytic fare formula uses mode scale and Wright omega; retail/wholesale accounting and first-boarding shares. Atomic NPZ checkpoint and JSONL lifecycle log added to refine.py, including least-squares callbacks and intentional restart test. Tests are running via validate_v4.py, log results/validation_v4.log. Verify that log and results/v4/validation.json before continuing. Next: mixed-scope no-MaaS experiments, then staged common/mode scale sweeps with paired cases and cross-network validation. Supplied follow-up copied to sources/pume_followup.pdf and text; 49 pages, arXiv2607.09568v1 July 10 2026. Read Sections 3,6.1 and Appendix E.1: state scales are allowed; follow-up logit uses 1 and NRL samples [.5,2], NOT evidence for earlier MaaS settings. Implementation uses exact potential transform instead of low-scale log iteration, to be regression-tested.
 
 ## Authorization and schedule
 - User requests substantial precision improvement using public sources and experiments; author contact is unavailable.
-- Start 2026-10-22 01:20 KST, existing-chat automation `maas`.
-- Recovery 2026-10-22 06:30 KST, existing-chat automation `maas-2`.
+- Immediate start replaces old 01:20 booking; `maas` paused.
+- Recovery 2026-10-22 07:40 KST, existing-chat automation `maas-2`.
 - Branch `maas-reproduction-2026-10-21`, remote `oscar15625/Project-files`, authorized for milestone backups.
 
 ## Completed preparation

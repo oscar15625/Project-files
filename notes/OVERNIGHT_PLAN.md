@@ -1,5 +1,7 @@
 # Overnight precision-reproduction plan
 
+SUPERSEDING USER UPDATE (2026-10-22): start immediately; recover at 07:40 KST instead of 06:30. Supplied follow-up is now locally available at sources/pume_followup.pdf. Historical scheduling paragraphs below are retained as history and do not override this update.
+
 User authorization: 2026-10-21, in this chat. Begin substantive implementation/research at **2026-10-22 01:20 Asia/Seoul**. Recovery check at **2026-10-22 06:30 Asia/Seoul**. Both are one-shot heartbeat automations in the existing chat (IDs maas and maas-2). These are scheduled attempts, not guarantees of execution during account limits or machine sleep.
 
 ## Objective and constraints

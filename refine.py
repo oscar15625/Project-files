@@ -5,8 +5,10 @@ from scipy.optimize import root, least_squares
 from pathlib import Path
 import json,time,argparse
 from src.model import Model
+from src.checkpoint import save as save_checkpoint, load as load_checkpoint
 
-def refine(m,tag,start=None,maxiter=300):
+def refine(m,tag,start=None,maxiter=300,resume=False,stop_after=None):
+    out=Path('results')/tag; out.mkdir(parents=True,exist_ok=True)
     y=m.initial() if start is None else start.copy(); history=[]; tick=time.time(); calls=0
     mask=m.congest
     m.optimize_fares=m.maas
@@ -16,6 +18,10 @@ def refine(m,tag,start=None,maxiter=300):
         if m.maas: y=np.r_[y[:m.nt],np.zeros(m.nod),y[-2:]]
         return m.project(y)
     x=y.copy(); x[:m.nt][mask]=(np.maximum(y[:m.nt][mask]/m.t0[mask]-1,0)/.15)**.25
+    offset=0
+    if resume:
+        x,meta=load_checkpoint(out,m.config()); offset=meta['iteration']
+    save_checkpoint(out,x,m.config(),offset,float('inf'))
     def fun(x):
         nonlocal calls
         y=decode(x); h,_=m.evaluate(y); f=m.last_flows
@@ -28,11 +34,13 @@ def refine(m,tag,start=None,maxiter=300):
         return r
     def callback(x,f):
         history.append([len(history),float(np.linalg.norm(f)),time.time()-tick])
+        save_checkpoint(out,x,m.config(),offset+len(history),np.linalg.norm(f))
         print(tag,len(history),np.linalg.norm(f),flush=True)
+        if stop_after is not None and len(history)>=stop_after: raise InterruptedError('Intentional checkpoint interruption')
     if m.name=='small':
         lower=np.r_[np.where(mask,0,m.t0),np.zeros(len(x)-m.nt)]
         x=np.maximum(x,lower+1e-8)
-        opt=least_squares(fun,x,bounds=(lower,np.full(len(x),200.)),xtol=1e-12,ftol=1e-12,gtol=1e-12,max_nfev=maxiter)
+        opt=least_squares(fun,x,bounds=(lower,np.full(len(x),200.)),xtol=1e-12,ftol=1e-12,gtol=1e-12,max_nfev=maxiter,callback=lambda x:callback(x,fun(x)))
         callback(opt.x,opt.fun)
     else:
         opt=root(fun,x,method='krylov',callback=callback,options={'fatol':1e-8,'maxiter':maxiter,'line_search':'armijo'})
@@ -42,7 +50,9 @@ def refine(m,tag,start=None,maxiter=300):
     h[:m.nt][mask]=m.cap[mask]*np.maximum(opt.x[:m.nt][mask],0)-m.last_flows[mask]
     r.update(network=m.name,maas=m.maas,theta=m.theta,penalty=m.penalty,wholesale=m.wholesale.tolist(),method='Flow-coordinate root refinement of equivalent VI',solver_success=bool(opt.success),message=str(opt.message),calls=calls,seconds=time.time()-tick,natural_residual=float(np.linalg.norm(y-m.project(y-1e-4*h))),scaled_residual=float(np.linalg.norm(fun(opt.x))))
     r['access_scope']=m.access_scope
+    r['config']=m.config()
     r['converged']=r['natural_residual']<1e-6
+    save_checkpoint(out,opt.x,m.config(),offset+len(history),r['scaled_residual'],'completed' if r['converged'] else 'failed')
     out=Path('results')/tag; out.mkdir(parents=True,exist_ok=True); np.save(out/'state.npy',y); np.save(out/'coordinates.npy',opt.x); (out/'metrics.json').write_text(json.dumps(r,indent=2)); np.savetxt(out/'history.csv',history,delimiter=',',header='iteration,scaled_residual,seconds',comments='')
     print(json.dumps(r,indent=2)); return y,r
 if __name__=='__main__':

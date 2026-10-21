@@ -7,7 +7,7 @@ from src.model import Model
 
 def audit(tag):
     folder=Path('results')/tag; r=json.loads((folder/'metrics.json').read_text()); y=np.load(folder/'state.npy')
-    m=Model(r['network'],r['maas'],r['theta'],r['penalty'],r['wholesale'],r['access_scope'])
+    m=Model(**r['config']) if 'config' in r else Model(r['network'],r['maas'],r['theta'],r['penalty'],r['wholesale'],r['access_scope'])
     h,base=m.evaluate(y); ans={}
     for idx,key in [(-2,'profit_mod'),(-1,'profit_pt')]:
         failed=[]

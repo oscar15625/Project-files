@@ -1,0 +1,32 @@
+{
+  "small_potential_equivalence": 6.59383658785373e-12,
+  "sioux_potential_equivalence": 8.731149137020111e-11,
+  "scales_1_0.03": {
+    "gradient_errors": [
+      6.94727007367856e-11,
+      3.005770669528557e-09,
+      1.458951022139936e-53
+    ],
+    "accounting_error": -2.064722972131735e-37,
+    "conservation": 7.275957614183426e-12
+  },
+  "scales_0.03_0.03": {
+    "gradient_errors": [
+      1.449783764535765e-09,
+      2.548283606382652e-66,
+      6.77351049610523e-55
+    ],
+    "accounting_error": -1.9960275305654788e-42,
+    "conservation": 3.637978807091713e-12
+  },
+  "scales_0.01_0.01": {
+    "gradient_errors": [
+      4.4900437808454235e-09,
+      4.44251820658095e-208,
+      4.877411099156571e-171
+    ],
+    "accounting_error": -2.8236339532815576e-134,
+    "conservation": 3.637978807091713e-12
+  },
+  "interrupted_restart_state_error": 3.3941738308840286e-12
+}
