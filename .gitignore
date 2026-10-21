@@ -1,0 +1,7 @@
+.vendor/
+__pycache__/
+sources/
+*.pdf
+backups/
+tmp/
+.mplconfig/
