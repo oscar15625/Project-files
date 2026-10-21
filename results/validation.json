@@ -1,0 +1,24 @@
+{
+  "small": {
+    "gradient_relative_errors": [
+      1.0377187150296587e-10,
+      8.071468127737802e-11,
+      1.8095102127232806e-11
+    ],
+    "flow_conservation_error": 1.1368683772161603e-13,
+    "demand": 1000.0,
+    "road_links": 12,
+    "od_pairs": 3
+  },
+  "sioux": {
+    "gradient_relative_errors": [
+      9.227944730501578e-10,
+      6.6238027953550805e-12,
+      1.068582989845109e-09
+    ],
+    "flow_conservation_error": 5.4569682106375694e-12,
+    "demand": 432720.0,
+    "road_links": 76,
+    "od_pairs": 528
+  }
+}

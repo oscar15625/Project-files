@@ -1,0 +1,31 @@
+{
+  "profit_mod": 295.89904345486184,
+  "profit_pt": 566.319861724247,
+  "profit_maas": 0.0,
+  "profit_total": 862.2189051791088,
+  "share_non": 66.50951924310561,
+  "share_drive": 33.490480756894385,
+  "share_maas": 0.0,
+  "price_mod": 0.2767530725229087,
+  "price_pt": 0.9398993908558931,
+  "traveler_welfare": -17169.891654464245,
+  "social_welfare": -16307.672749285137,
+  "transfer_flow": 0.005298841236106899,
+  "flow_conservation_error": 2.842170943040401e-14,
+  "network": "small",
+  "maas": false,
+  "theta": 1,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Krylov root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of iterations allowed has been reached.",
+  "calls": 3043,
+  "seconds": 21.461295127868652,
+  "natural_residual": 0.0004771233805423208,
+  "scaled_residual": 2.49322991136218e-05,
+  "converged": false
+}
