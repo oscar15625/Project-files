@@ -127,6 +127,8 @@ class Model:
         return np.r_[self.t0+.05,np.full(self.nod,5.) if self.maas else [],[.65,1.4] if self.name=='small' else [.81,3.65]]
     def project(self,y): return np.clip(y,np.r_[self.t0,np.zeros(len(y)-self.nt)],200.)
     def evaluate(self,y,details=False):
+        self.last_od=[]
+        self.retail_volume=np.zeros(2)
         t=y[:self.nt]; prices=y[-2:]; fares=y[self.nt:-2] if self.maas else np.zeros(self.nod)
         flows=np.zeros(self.nt); profit=np.zeros(3); gradient=np.zeros(2); gp=np.zeros(self.nod); shares=np.zeros(3); welfare=0.; transfers=0.; conservation=0.
         for ids,group in self.graphs:
@@ -137,11 +139,15 @@ class Model:
                 fares[ids]=ci+self.theta*(1+lambertw(np.exp(np.clip((vi-ci-alt)/self.theta-1,-700,700))).real)
             values=np.array([s[0]-(self.fixed if k=='drive' else fares[ids] if k=='maas' else 0) for k,s in zip(kinds,sol)]).T
             lv=logsumexp(values/self.theta,axis=1); share=np.exp(values/self.theta-lv[:,None]); q=self.ods[ids,2]; welfare+=q@ (self.theta*lv)
+            if details:
+                for row,idx in enumerate(ids):
+                    self.last_od.append([*self.ods[idx],fares[idx] if self.maas else 0,*(share[row,kinds.index(k)] if k in kinds else 0 for k in ['non','drive','maas']),self.theta*lv[row]])
             non=kinds.index('non'); dv=sol[non][2]
             ds=-share[:,:,None]*share[:,non,None,None]*dv[:,None,:]/self.theta
             ds[:,non,:]+=share[:,non,None]*dv/self.theta
             for b,(k,s) in enumerate(zip(kinds,sol)):
                 V,R,dV,dR,load=s; demand=q*share[:,b]; flow=load(demand); g=group[k]
+                if k=='non': self.retail_volume+=flow@g.attr[:,2:4]
                 mask=g.res>=0; np.add.at(flows,g.res[mask],flow[mask]); transfers+=flow@g.attr[:,6]
                 shares[{'non':0,'drive':1,'maas':2}[k]]+=demand.sum()
                 # Telescoping flow balance at terminal is an independent loading check.

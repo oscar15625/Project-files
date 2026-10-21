@@ -2,10 +2,17 @@ import run
 import numpy as np
 import json
 from pathlib import Path
-from src.model import Model
+from src.model import Model, Graph
 
 def validate():
     report={}
+    edges=[(('gate',1),('end',2),-1,1.,0,0,0,0,0),(('gate',1),('end',2),-1,2.,0,0,0,0,0)]
+    graph=Graph(edges,[('gate',1)],2,1.)
+    value,_,_,_,load=graph.solve(np.array([]),np.array([0.,0.]),np.array([0.,0.]),'drive')
+    exact=np.exp(-np.array([1.,2.])); exact/=exact.sum()
+    assert np.max(np.abs(load(np.array([100.]))-100*exact))<1e-12
+    assert abs(value[0]-np.log(np.exp(-1)+np.exp(-2)))<1e-12
+    report['independent_two_route_check']='passed'
     for name in ['small','sioux']:
         m=Model(name,True); y=m.initial(); h,metrics=m.evaluate(y)
         errs=[]

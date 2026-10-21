@@ -2,6 +2,7 @@ import os,sys
 from pathlib import Path
 sys.path.insert(0,str(Path('.vendor').resolve()))
 os.environ.setdefault('OPENBLAS_NUM_THREADS','1')
+os.environ.setdefault('MPLCONFIGDIR',str(Path('.mplconfig').resolve()))
 import argparse,json,time
 import numpy as np
 from src.model import Model

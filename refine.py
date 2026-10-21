@@ -22,7 +22,7 @@ def refine(m,tag,start=None,maxiter=300):
         r=np.r_[h[:m.nt],h[-2:]]
         r[:m.nt][mask]=x[:m.nt][mask]-f[mask]/m.cap[mask]
         r[:m.nt][~mask]=(y[:m.nt]-np.maximum(m.t0,y[:m.nt]-h[:m.nt]/m.cap))[~mask]
-        r[-2:]/=max(m.retail_mass,1e-8)
+        r[-2:]/=np.maximum(m.retail_volume,1e-8)
         r[-2:]=y[-2:]-np.maximum(0,y[-2:]-r[-2:])
         calls+=1
         return r
