@@ -1,0 +1,31 @@
+{
+  "profit_mod": 294.9056113069367,
+  "profit_pt": 1063.5533398255957,
+  "profit_maas": 72.62342832161724,
+  "profit_total": 1431.0823794541495,
+  "share_non": 54.95683044645464,
+  "share_drive": 38.82461909082527,
+  "share_maas": 6.218550462720191,
+  "price_mod": 0.2747380693782241,
+  "price_pt": 2.4961389123167756,
+  "traveler_welfare": -18548.757255829198,
+  "social_welfare": -17117.674876375047,
+  "transfer_flow": 1.2124070400814035,
+  "flow_conservation_error": 5.684341886080802e-14,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "calls": 7275,
+  "seconds": 71.09197497367859,
+  "natural_residual": 0.006584861505303939,
+  "scaled_residual": 0.06575350697445458,
+  "converged": false
+}

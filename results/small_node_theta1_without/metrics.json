@@ -1,0 +1,32 @@
+{
+  "profit_mod": 569.9228949328923,
+  "profit_pt": 486.0882483556506,
+  "profit_maas": 0.0,
+  "profit_total": 1056.0111432885428,
+  "share_non": 78.62543116859942,
+  "share_drive": 21.374568831400616,
+  "share_maas": 0.0,
+  "price_mod": 0.3565084737190258,
+  "price_pt": 0.8216384061286102,
+  "traveler_welfare": -16826.68068726018,
+  "social_welfare": -15770.669543971639,
+  "transfer_flow": 0.02769141699191118,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "network": "small",
+  "maas": false,
+  "theta": 1,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1422,
+  "seconds": 11.638510704040527,
+  "natural_residual": 2.8018028696751473e-09,
+  "scaled_residual": 1.5136569310235105e-08,
+  "access_scope": "node",
+  "converged": true
+}

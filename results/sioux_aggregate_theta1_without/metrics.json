@@ -1,0 +1,32 @@
+{
+  "profit_mod": 98902.199944322,
+  "profit_pt": 172759.11162503524,
+  "profit_maas": 0.0,
+  "profit_total": 271661.31156935723,
+  "share_non": 30.74841056252341,
+  "share_drive": 69.2515894374766,
+  "share_maas": 0.0,
+  "price_mod": 0.5869171107623542,
+  "price_pt": 2.966282999374591,
+  "traveler_welfare": -11134702.744235737,
+  "social_welfare": -10863041.43266638,
+  "transfer_flow": 1161.4776502030704,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 308,
+  "seconds": 27.57605004310608,
+  "natural_residual": 2.6709114125194724e-14,
+  "scaled_residual": 1.7670516971034372e-14,
+  "access_scope": "aggregate",
+  "converged": true
+}

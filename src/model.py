@@ -2,7 +2,7 @@
 import numpy as np
 from scipy.sparse import csc_matrix, eye
 from scipy.sparse.linalg import splu
-from scipy.special import logsumexp
+from scipy.special import logsumexp, lambertw
 import re
 from pathlib import Path
 
@@ -72,8 +72,8 @@ class Graph:
         return V,R,dV,dR,load
 
 class Model:
-    def __init__(self,name='small',maas=True,theta=1.,penalty=None,wholesale=None):
-        self.name=name; self.maas=maas; self.theta=theta
+    def __init__(self,name='small',maas=True,theta=1.,penalty=None,wholesale=None,access_scope='aggregate'):
+        self.name=name; self.maas=maas; self.theta=theta; self.access_scope=access_scope
         rows,lines,ods=inputs(name); self.rows=rows; self.ods=np.array(ods); self.total=self.ods[:,2].sum()
         n=max(max(r[:2]) for r in rows); self.n=n
         self.wholesale=np.array(wholesale or ([1.3,1.3] if name=='small' else [1.5,1.]))
@@ -89,6 +89,11 @@ class Model:
                     idx=len(self.t0); self.t0.append(tm); self.cap.append(1e6); self.congest.append(False); pt.append((l,i,j,idx))
         self.accessM=len(self.t0); self.t0.append(1); self.cap.append(100 if name=='small' else 60000); self.congest.append(True)
         self.accessP=len(self.t0); self.t0.append(2); self.cap.append(500 if name=='small' else 30000); self.congest.append(False)
+        am={i:self.accessM for i in range(1,n+1)}; ap={i:self.accessP for i in range(1,n+1)}
+        if access_scope=='node':
+            for node in range(2,n+1):
+                am[node]=len(self.t0); self.t0.append(1); self.cap.append(100 if name=='small' else 60000); self.congest.append(True)
+                ap[node]=len(self.t0); self.t0.append(2); self.cap.append(500 if name=='small' else 30000); self.congest.append(False)
         self.t0=np.array(self.t0,float); self.cap=np.array(self.cap,float); self.congest=np.array(self.congest)
         self.nt=len(self.t0); self.nod=len(ods); self.graphs=[]
         for d in sorted(set(self.ods[:,1].astype(int))):
@@ -104,12 +109,12 @@ class Model:
                         states=[('M',node)]+[(l,node) for l,line in enumerate(lines) if node in line]
                         for s in states:
                             for j in states:
-                                if s!=j: add(s,j,self.accessM if j[0]=='M' else self.accessP,self.nonpen if kind=='non' else self.penalty,tr=1)
+                                if s!=j: add(s,j,am[node] if j[0]=='M' else ap[node],self.nonpen if kind=='non' else self.penalty,tr=1)
                 for o,g in zip(origins,gates):
-                    add(g,('M',int(o)),-1 if kind=='drive' else self.accessM)
+                    add(g,('M',int(o)),-1 if kind=='drive' else am[o])
                     if kind!='drive':
                         for l,line in enumerate(lines):
-                            if o in line: add(g,(l,int(o)),self.accessP)
+                            if o in line: add(g,(l,int(o)),ap[o])
                 add(('M',d),('end',d))
                 if kind!='drive':
                     for l,line in enumerate(lines):
@@ -126,6 +131,10 @@ class Model:
         flows=np.zeros(self.nt); profit=np.zeros(3); gradient=np.zeros(2); gp=np.zeros(self.nod); shares=np.zeros(3); welfare=0.; transfers=0.; conservation=0.
         for ids,group in self.graphs:
             kinds=list(group); sol=[group[k].solve(t,prices,self.wholesale,k) for k in kinds]
+            if self.maas and getattr(self,'optimize_fares',False):
+                vi=sol[kinds.index('maas')][0]; ci=sol[kinds.index('maas')][1].sum(axis=1)
+                alt=self.theta*logsumexp(np.array([s[0]-(self.fixed if k=='drive' else 0) for k,s in zip(kinds,sol) if k!='maas'])/self.theta,axis=0)
+                fares[ids]=ci+self.theta*(1+lambertw(np.exp(np.clip((vi-ci-alt)/self.theta-1,-700,700))).real)
             values=np.array([s[0]-(self.fixed if k=='drive' else fares[ids] if k=='maas' else 0) for k,s in zip(kinds,sol)]).T
             lv=logsumexp(values/self.theta,axis=1); share=np.exp(values/self.theta-lv[:,None]); q=self.ods[ids,2]; welfare+=q@ (self.theta*lv)
             non=kinds.index('non'); dv=sol[non][2]
@@ -147,5 +156,6 @@ class Model:
         supply[mask]=self.cap[mask]*(np.maximum(t[mask]/self.t0[mask]-1,0)/.15)**.25
         H=np.r_[supply-flows,-gp if self.maas else [],-gradient]
         self.last_flows=flows
+        self.retail_mass=shares[0]
         out=dict(profit_mod=profit[0],profit_pt=profit[1],profit_maas=profit[2],profit_total=profit.sum(),share_non=shares[0]/self.total*100,share_drive=shares[1]/self.total*100,share_maas=shares[2]/self.total*100,price_mod=prices[0],price_pt=prices[1],traveler_welfare=welfare,social_welfare=welfare+profit.sum(),transfer_flow=transfers,flow_conservation_error=conservation)
         return H,out

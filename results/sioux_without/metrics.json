@@ -1,0 +1,31 @@
+{
+  "profit_mod": 98902.19994432187,
+  "profit_pt": 172759.1116250274,
+  "profit_maas": 0.0,
+  "profit_total": 271661.31156934926,
+  "share_non": 30.748410562523365,
+  "share_drive": 69.25158943747664,
+  "share_maas": 0.0,
+  "price_mod": 0.5869171107623542,
+  "price_pt": 2.9662829993744446,
+  "traveler_welfare": -11134702.744235732,
+  "social_welfare": -10863041.432666382,
+  "transfer_flow": 1161.4776502031584,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Krylov root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 718,
+  "seconds": 62.7479305267334,
+  "natural_residual": 3.6310765234098804e-13,
+  "scaled_residual": 1.8749142585511495e-13,
+  "converged": true
+}
