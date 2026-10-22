@@ -1,31 +1,28 @@
 # Resume checkpoint
 
-Updated: 2026-10-22 about 02:53 Asia/Seoul.
-Status: **RUNNING_V4**. User changed the schedule on 2026-10-22: start immediately (about 02:40 KST), recovery at 07:40. Old start automation is PAUSED; maas-2 now runs once at 07:40. No author contact.
+Updated: 2026-10-22 12:15 Asia/Seoul (verified system clock).
+Status: **V4_CAMPAIGN_COMPLETE; QUANTITATIVE_REPLICATION_INCOMPLETE**.
 
-Current implementation: independent MoD/PT aggregate/node/line-node resources; stable shortest-distance potential transformation of the Shannon Bellman linear system; root mode scale separate from route scale, analytic fare formula uses mode scale and Wright omega; retail/wholesale accounting and first-boarding shares. Atomic NPZ checkpoint and JSONL lifecycle log added to refine.py, including least-squares callbacks and intentional restart test. Tests are running via validate_v4.py, log results/validation_v4.log. Verify that log and results/v4/validation.json before continuing. Next: mixed-scope no-MaaS experiments, then staged common/mode scale sweeps with paired cases and cross-network validation. Supplied follow-up copied to sources/pume_followup.pdf and text; 49 pages, arXiv2607.09568v1 July 10 2026. Read Sections 3,6.1 and Appendix E.1: state scales are allowed; follow-up logit uses 1 and NRL samples [.5,2], NOT evidence for earlier MaaS settings. Implementation uses exact potential transform instead of low-scale log iteration, to be regression-tested.
+All 82 planned primary trials and 7 additional deviation-informed starts completed. No experiment remains running or partially executed. 89 records: 55 PASS, 18 rejected by unilateral-price deviation checks, 16 not converged, zero execution errors/incomplete. PASS means numerical/deviation/accounting validation, not proof of global Nash equilibrium or agreement with the paper. All 55 accepted OD exports independently reproduce aggregate results within 5.6e-9. Forced-interruption restart agreed within 3.4e-12.
 
-## Authorization and schedule
-- User requests substantial precision improvement using public sources and experiments; author contact is unavailable.
-- Immediate start replaces old 01:20 booking; `maas` paused.
-- Recovery 2026-10-22 07:40 KST, existing-chat automation `maas-2`.
-- Branch `maas-reproduction-2026-10-21`, remote `oscar15625/Project-files`, authorized for milestone backups.
+## Deliverables
+- REPRODUCTION_V4.md and output/pdf/MaaS_reproduction_v4_ko.pdf (Korean, five pages).
+- results/v4/manifest.json, summary.csv, paper_errors.csv, campaign_completion.json, export_verification.json.
+- Per-run configurations, metrics, state, OD/resource CSV, audit, iteration histories and immutable checkpoints.
+- notes/FOLLOWUP_LEDGER.md records source evidence and conditional Jensen bound mu_mode <= 0.02003 for the paper's reported MaaS share/profit under interior Shannon OD pricing.
 
-## Completed preparation
-- Read 14-page supplied critique text and inspected its key mathematical page.
-- Preserved critique locally under ignored `sources/`.
-- Created detailed `notes/OVERNIGHT_PLAN.md` including critique hypotheses, source verification, phase ordering, numerical tests, recovery protocol and reporting criteria.
-- Created both one-shot automations and verified their saved prompts, schedules and target chat.
-- Existing v3 reports/results remain unchanged. Baseline before this preparation: `d956bd9`.
+## Authorization and scheduling
+- User authorized immediate start, no author contact, public sources/experiments, and backups to oscar15625/Project-files branch maas-reproduction-2026-10-21.
+- Original 01:20 automation maas paused; maas-2 was moved from 06:30 to 07:40.
+- Since this campaign is complete, maas-2 is now PAUSED. Do not restart the finished campaign automatically or imply successful quantitative replication.
 
-## Exact next action
-Check processes before launching duplicates. Active batch scripts: `batch_v4.py scope`, `batch_v4.py common`, `batch_v4.py mode`, and `repair_v4.py`. Logs: results/v4_scope.log, v4_common.log, v4_mode.log, v4_repair.log. Each accepted optimizer step has an immutable snapshot in each result's checkpoints/ directory. Rerun the same script to skip completed metrics and resume unfinished runs. Failed metrics are preserved and skipped, not silently retried; additional starts use a distinct tag. On completion, aggregate all v4 metrics/audits into an honest comparison report; do not treat residual-only stationary points as equilibria. In particular sioux_common_0.2_without passed residual but FAILED the deviation check (PT gain ~20,738). Some small aggregate starts fail; repair_v4.py adds warm starts from the prior validated aggregate case.
+## Reproduction and recovery
+Use bundled Python or install requirements.txt. README lists commands. batch_v4.py scope/common/mode skip completed runs and recover interrupted states; repair_v4.py and topology_v4.py preserve alternate starts/structures. global_response_v4.py tries up to three price-deviation starts. report_v4.py regenerates summaries/PDF; verify_manifest_v4.py checks OD-derived results; verify_campaign_v4.py verifies all 82 planned trials have termination records. Failed trials should be retained, with any new attempt using a new tag. Source PDFs remain ignored/local.
 
-Methods checkpoint 5927bae pushed to authorized GitHub branch; local backups/v4-methods.bundle. Validation passed, including forced restart. Many v4 simulations are now running/completed. Update this file after the next milestone.
+## Findings and next direction
+Independent MoD/PT access scopes, total-capacity controls, separate mode/route scales, and small-network figure variants did not jointly reproduce the paper's shares/prices/profits. Figure-versus-appendix small-network differences have negligible influence in the tested settings. Low scales produce multiple stationary points and profitable deviations; root convergence alone is insufficient. Do not claim a failed solver proves a behavioral model impossible. The direct-reading aggregate-MoD/node-PT case has Sioux driving 62.17% to 59.50%, MaaS 14.27%; the paper has 48.5% to 40.3%, MaaS 39.5%.
 
-## Known baseline cautions
-- Old results include rejected/degenerate equilibria; consult audit.json and final_manifest.json.
-- V4 checkpoints support restart after each accepted iteration; the earlier v3 files were completion-only.
-- Do not call a node-access variant the original experiment; behavior scale and units remain unverified.
-- PDF feedback suggests contacting authors, but user's current instruction explicitly excludes that route.
-- Usage reset may not occur exactly at 06:30; the scheduled attempt does not bypass limits or guarantee runtime availability.
+Further scientific work, if continued, should focus on identifying the smooth surplus/perturbation function, service-access units and normalizations, and mode/transfer accounting from public sources. No author contact. Avoid arbitrary rescaling or fitting one target. Validate no-MaaS settings first, then hold them fixed for MaaS and cross-network comparisons. Any new generalized perturbation model must be an explicit hypothesis with analytic/finite-difference verification and deviation tests.
+
+## Backups
+Methods 5927bae; intermediate experiments 254943d; topology/report code 29740be. Final revision is tagged maas-reproduction-v4. Local final bundle: backups/maas-reproduction-v4.bundle. Verify git log/tag and remote branch for the exact final SHA.

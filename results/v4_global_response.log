@@ -1,0 +1,657 @@
+v4/sioux_common_0.2_without {'profit_mod': {'equilibrium': np.float64(255971.41408982803), 'best_grid_refined': 255971.41408982806, 'best_tested_price': 0.44815297310548463, 'unilateral_gain': 2.9103830456733704e-11, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(194426.72667420728), 'best_grid_refined': 215164.45774117872, 'best_tested_price': 3.1414725293692527, 'unilateral_gain': 20737.731066971435, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_common_0.2_without_deviation_start1 1 1.8417199048178323
+v4/sioux_common_0.2_without_deviation_start1 2 1.3877607756830261
+v4/sioux_common_0.2_without_deviation_start1 3 0.9130844890829267
+v4/sioux_common_0.2_without_deviation_start1 4 0.91256489139938
+v4/sioux_common_0.2_without_deviation_start1 5 0.9122753828961365
+v4/sioux_common_0.2_without_deviation_start1 6 0.9099902178067707
+v4/sioux_common_0.2_without_deviation_start1 7 0.9068327239329628
+v4/sioux_common_0.2_without_deviation_start1 8 0.9064493526920855
+v4/sioux_common_0.2_without_deviation_start1 9 0.9064189151190458
+v4/sioux_common_0.2_without_deviation_start1 10 0.9046768137950705
+v4/sioux_common_0.2_without_deviation_start1 11 0.9039535241931497
+v4/sioux_common_0.2_without_deviation_start1 12 0.9036419210825014
+v4/sioux_common_0.2_without_deviation_start1 13 0.9028565160338349
+v4/sioux_common_0.2_without_deviation_start1 14 0.8963761080140791
+v4/sioux_common_0.2_without_deviation_start1 15 0.8960615163868654
+v4/sioux_common_0.2_without_deviation_start1 16 0.8960074181590134
+v4/sioux_common_0.2_without_deviation_start1 17 0.8942378553105083
+v4/sioux_common_0.2_without_deviation_start1 18 0.8918687462748943
+v4/sioux_common_0.2_without_deviation_start1 19 0.8914933390317463
+v4/sioux_common_0.2_without_deviation_start1 20 2.437866916956199
+v4/sioux_common_0.2_without_deviation_start1 21 0.667438796273881
+v4/sioux_common_0.2_without_deviation_start1 22 0.6409095761990646
+v4/sioux_common_0.2_without_deviation_start1 23 0.3839659710776316
+v4/sioux_common_0.2_without_deviation_start1 24 0.1602477661021108
+v4/sioux_common_0.2_without_deviation_start1 25 0.09279748003666857
+v4/sioux_common_0.2_without_deviation_start1 26 0.021791283248406727
+v4/sioux_common_0.2_without_deviation_start1 27 0.001425303319820574
+v4/sioux_common_0.2_without_deviation_start1 28 9.186767938808579e-06
+v4/sioux_common_0.2_without_deviation_start1 29 8.941663269324196e-11
+{
+  "profit_mod": 261048.7682251036,
+  "profit_pt": 311797.92849991703,
+  "profit_maas": 0.0,
+  "profit_total": 572846.6967250207,
+  "share_non": 90.29171701889541,
+  "share_drive": 9.708282981104611,
+  "share_maas": 0.0,
+  "price_mod": 0.442853522900845,
+  "price_pt": 2.837396909236193,
+  "traveler_welfare": -9531296.255647572,
+  "social_welfare": -8958449.558922552,
+  "transfer_flow": 4201.896936426306,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 261048.7682251036,
+  "retail_pt": 311797.92849991703,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 75.90151811031168,
+  "share_non_pt": 14.390198908583681,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 637.3734729586008,
+  "intermodal_transfers": 3564.523463467705,
+  "pt_access_flow": 64733.47334734333,
+  "mod_access_flow": 330178.7414732472,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 0.2,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 395,
+  "seconds": 32532.691068172455,
+  "natural_residual": 6.545782161420511e-10,
+  "scaled_residual": 8.941663269324196e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 0.2,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.2,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+v4/sioux_common_0.2_without_deviation_start1 {'profit_mod': {'equilibrium': np.float64(261048.7682251036), 'best_grid_refined': 261048.7682251039, 'best_tested_price': 0.4428535228118247, 'unilateral_gain': 3.2014213502407074e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(311797.92849991703), 'best_grid_refined': 346153.3901230232, 'best_tested_price': 2.2810298656430823, 'unilateral_gain': 34355.46162310615, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_common_0.2_without_deviation_start1 {'profit_mod': {'equilibrium': np.float64(261048.7682251036), 'best_grid_refined': 261048.7682251039, 'best_tested_price': 0.4428535228118247, 'unilateral_gain': 3.2014213502407074e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(311797.92849991703), 'best_grid_refined': 346153.3901230232, 'best_tested_price': 2.2810298656430823, 'unilateral_gain': 34355.46162310615, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_common_0.2_without_deviation_start2 1 0.9723129693662854
+v4/sioux_common_0.2_without_deviation_start2 2 0.4932980175568726
+v4/sioux_common_0.2_without_deviation_start2 3 0.23969587599880512
+v4/sioux_common_0.2_without_deviation_start2 4 0.01873730763461756
+v4/sioux_common_0.2_without_deviation_start2 5 0.0003638339790503728
+v4/sioux_common_0.2_without_deviation_start2 6 2.3183928470013434e-07
+v4/sioux_common_0.2_without_deviation_start2 7 1.1791824268668867e-12
+{
+  "profit_mod": 255971.4141037922,
+  "profit_pt": 194426.72678567586,
+  "profit_maas": 0.0,
+  "profit_total": 450398.140889468,
+  "share_non": 90.42022718453778,
+  "share_drive": 9.579772815462231,
+  "share_maas": 0.0,
+  "price_mod": 0.44815297311132213,
+  "price_pt": 1.4251250111055125,
+  "traveler_welfare": -8901006.322100064,
+  "social_welfare": -8450608.181210596,
+  "transfer_flow": 10085.865618292475,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 255971.4141037922,
+  "retail_pt": 194426.72678567586,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 74.3667889236022,
+  "share_non_pt": 16.053438260935547,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 2229.6615009381394,
+  "intermodal_transfers": 7856.204117354336,
+  "pt_access_flow": 75667.10197372935,
+  "mod_access_flow": 325685.1707174949,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 0.2,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 160,
+  "seconds": 19.611323595046997,
+  "natural_residual": 1.5488379814876397e-12,
+  "scaled_residual": 1.1791824268668867e-12,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 0.2,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.2,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+v4/sioux_common_0.2_without_deviation_start2 {'profit_mod': {'equilibrium': np.float64(255971.4141037922), 'best_grid_refined': 255971.4141037923, 'best_tested_price': 0.4481529730380313, 'unilateral_gain': 1.1641532182693481e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(194426.72678567586), 'best_grid_refined': 215164.45780939533, 'best_tested_price': 3.1414726295323, 'unilateral_gain': 20737.731023719476, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_common_0.2_without_deviation_start2 {'profit_mod': {'equilibrium': np.float64(255971.4141037922), 'best_grid_refined': 255971.4141037923, 'best_tested_price': 0.4481529730380313, 'unilateral_gain': 1.1641532182693481e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(194426.72678567586), 'best_grid_refined': 215164.45780939533, 'best_tested_price': 3.1414726295323, 'unilateral_gain': 20737.731023719476, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_common_0.2_without_deviation_start3 1 1.8417175595553303
+v4/sioux_common_0.2_without_deviation_start3 2 1.3877637986438827
+v4/sioux_common_0.2_without_deviation_start3 3 0.9130858107551273
+v4/sioux_common_0.2_without_deviation_start3 4 0.9125661102188163
+v4/sioux_common_0.2_without_deviation_start3 5 0.9122765517627864
+v4/sioux_common_0.2_without_deviation_start3 6 0.9120556024875028
+v4/sioux_common_0.2_without_deviation_start3 7 0.9117640284316332
+v4/sioux_common_0.2_without_deviation_start3 8 0.9114199939408568
+v4/sioux_common_0.2_without_deviation_start3 9 0.9106620433274095
+v4/sioux_common_0.2_without_deviation_start3 10 0.9103450288804555
+v4/sioux_common_0.2_without_deviation_start3 11 7.340069179919749
+v4/sioux_common_0.2_without_deviation_start3 12 5.773331058326155
+v4/sioux_common_0.2_without_deviation_start3 13 5.279054950479093
+v4/sioux_common_0.2_without_deviation_start3 14 2.2293773310754372
+v4/sioux_common_0.2_without_deviation_start3 15 1.7331450699063304
+v4/sioux_common_0.2_without_deviation_start3 16 1.5739968135022058
+v4/sioux_common_0.2_without_deviation_start3 17 1.1988583709638265
+v4/sioux_common_0.2_without_deviation_start3 18 0.655131834332365
+v4/sioux_common_0.2_without_deviation_start3 19 0.4641194593148493
+v4/sioux_common_0.2_without_deviation_start3 20 0.32302937392800385
+v4/sioux_common_0.2_without_deviation_start3 21 0.2819677485835844
+v4/sioux_common_0.2_without_deviation_start3 22 0.16074938981887
+v4/sioux_common_0.2_without_deviation_start3 23 0.021688796931890582
+v4/sioux_common_0.2_without_deviation_start3 24 0.0008379319174598307
+v4/sioux_common_0.2_without_deviation_start3 25 1.364023879345049e-06
+v4/sioux_common_0.2_without_deviation_start3 26 1.3257298464680064e-11
+{
+  "profit_mod": 255971.4141037795,
+  "profit_pt": 194426.7267856051,
+  "profit_maas": 0.0,
+  "profit_total": 450398.1408893846,
+  "share_non": 90.42022718453684,
+  "share_drive": 9.579772815463171,
+  "share_maas": 0.0,
+  "price_mod": 0.4481529731113379,
+  "price_pt": 1.4251250111047613,
+  "traveler_welfare": -8901006.322099958,
+  "social_welfare": -8450608.181210574,
+  "transfer_flow": 10085.865618299968,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 255971.4141037795,
+  "retail_pt": 194426.7267856051,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 74.36678892360023,
+  "share_non_pt": 16.053438260936606,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 2229.6615009426996,
+  "intermodal_transfers": 7856.204117357268,
+  "pt_access_flow": 75667.10197374095,
+  "mod_access_flow": 325685.1707174869,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 0.2,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 414,
+  "seconds": 50.637447118759155,
+  "natural_residual": 2.1923344946729593e-11,
+  "scaled_residual": 1.3257298464680064e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 0.2,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.2,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+v4/sioux_common_0.2_without_deviation_start3 {'profit_mod': {'equilibrium': np.float64(255971.4141037795), 'best_grid_refined': 255971.4141037795, 'best_tested_price': 0.4481529731113379, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(194426.7267856051), 'best_grid_refined': 215164.45780938098, 'best_tested_price': 3.1414725795549407, 'unilateral_gain': 20737.73102377588, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.05_with {'profit_mod': {'equilibrium': np.float64(320203.67115329485), 'best_grid_refined': 320203.6711532959, 'best_tested_price': 0.47145138632110134, 'unilateral_gain': 1.0477378964424133e-09, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(205024.7748753005), 'best_grid_refined': 206626.99646689146, 'best_tested_price': 1.5207082428171281, 'unilateral_gain': 1602.221591590962, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.0913936421275139e-11), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.05_with_deviation_start1 1 1.02410493660356
+v4/sioux_mode_0.05_with_deviation_start1 2 0.989311018316523
+v4/sioux_mode_0.05_with_deviation_start1 3 0.9661951598953782
+v4/sioux_mode_0.05_with_deviation_start1 4 0.075769716963516
+v4/sioux_mode_0.05_with_deviation_start1 5 0.012261111947645127
+v4/sioux_mode_0.05_with_deviation_start1 6 0.0024320235513646937
+v4/sioux_mode_0.05_with_deviation_start1 7 0.0007626510411286641
+v4/sioux_mode_0.05_with_deviation_start1 8 0.00038674357077799154
+v4/sioux_mode_0.05_with_deviation_start1 9 9.516730877732393e-05
+v4/sioux_mode_0.05_with_deviation_start1 10 1.169588783197358e-05
+v4/sioux_mode_0.05_with_deviation_start1 11 1.1479780381023023e-06
+v4/sioux_mode_0.05_with_deviation_start1 12 2.7883221191455477e-09
+{
+  "profit_mod": 320203.6711543736,
+  "profit_pt": 205024.7748801825,
+  "profit_maas": 54341.696624843855,
+  "profit_total": 579570.1426594,
+  "share_non": 76.81808983415793,
+  "share_drive": 4.412004552361503,
+  "share_maas": 18.769905613480482,
+  "price_mod": 0.47145138622360117,
+  "price_pt": 1.1089741395513024,
+  "traveler_welfare": -7938475.38615824,
+  "social_welfare": -7358905.24349884,
+  "transfer_flow": 68831.0261006954,
+  "flow_conservation_error": 1.4551915228366852e-11,
+  "retail_mod": 251903.0441147646,
+  "retail_pt": 30399.840976351614,
+  "wholesale_mod": 68300.6270396091,
+  "wholesale_pt": 174624.93390383085,
+  "maas_receipts": 297267.25756828376,
+  "accounting_error": 0.0,
+  "share_non_mod": 71.9935935489826,
+  "share_non_pt": 4.824496285175315,
+  "share_maas_mod": 6.635627448878906,
+  "share_maas_pt": 12.134278164601573,
+  "pt_pt_transfers": 12731.549725488689,
+  "intermodal_transfers": 56099.47637520671,
+  "pt_access_flow": 119089.77511723684,
+  "mod_access_flow": 363369.62488447945,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 277,
+  "seconds": 39.70437932014465,
+  "natural_residual": 2.0716612865111312e-08,
+  "scaled_residual": 2.7883221191455477e-09,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.05,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+v4/sioux_mode_0.05_with_deviation_start1 {'profit_mod': {'equilibrium': np.float64(320203.6711543736), 'best_grid_refined': 320203.6711543748, 'best_tested_price': 0.47145138632378486, 'unilateral_gain': 1.1641532182693481e-09, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(205024.7748801825), 'best_grid_refined': 206626.9964683247, 'best_tested_price': 1.5207080822560501, 'unilateral_gain': 1602.2215881422162, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4551915228366852e-11), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.05_with_deviation_start1 {'profit_mod': {'equilibrium': np.float64(320203.6711543736), 'best_grid_refined': 320203.6711543748, 'best_tested_price': 0.47145138632378486, 'unilateral_gain': 1.1641532182693481e-09, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(205024.7748801825), 'best_grid_refined': 206626.9964683247, 'best_tested_price': 1.5207080822560501, 'unilateral_gain': 1602.2215881422162, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4551915228366852e-11), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.05_with_deviation_start2 1 1.024105107736516
+v4/sioux_mode_0.05_with_deviation_start2 2 0.989310880575284
+v4/sioux_mode_0.05_with_deviation_start2 3 0.9661950498047948
+v4/sioux_mode_0.05_with_deviation_start2 4 0.9647709606146306
+v4/sioux_mode_0.05_with_deviation_start2 5 0.9645480856258906
+v4/sioux_mode_0.05_with_deviation_start2 6 0.963810043202498
+v4/sioux_mode_0.05_with_deviation_start2 7 0.9636803579688062
+v4/sioux_mode_0.05_with_deviation_start2 8 0.9634243511805919
+v4/sioux_mode_0.05_with_deviation_start2 9 0.9634138303316545
+v4/sioux_mode_0.05_with_deviation_start2 10 0.9634038114693858
+v4/sioux_mode_0.05_with_deviation_start2 11 0.9633457042971035
+v4/sioux_mode_0.05_with_deviation_start2 12 1.0067752205767309
+v4/sioux_mode_0.05_with_deviation_start2 13 0.9933356287241489
+v4/sioux_mode_0.05_with_deviation_start2 14 0.9706137317706895
+v4/sioux_mode_0.05_with_deviation_start2 15 0.9575252369657145
+v4/sioux_mode_0.05_with_deviation_start2 16 0.13000391645333897
+v4/sioux_mode_0.05_with_deviation_start2 17 0.03154701394340977
+v4/sioux_mode_0.05_with_deviation_start2 18 0.008528484552028613
+v4/sioux_mode_0.05_with_deviation_start2 19 0.0016053259198971037
+v4/sioux_mode_0.05_with_deviation_start2 20 0.0002221786324741427
+v4/sioux_mode_0.05_with_deviation_start2 21 5.8324965210418325e-05
+v4/sioux_mode_0.05_with_deviation_start2 22 6.434582746047845e-06
+v4/sioux_mode_0.05_with_deviation_start2 23 3.3455714560028905e-06
+v4/sioux_mode_0.05_with_deviation_start2 24 1.2014522850722615e-08
+{
+  "profit_mod": 320203.67118705565,
+  "profit_pt": 205024.7747965153,
+  "profit_maas": 54341.69651126342,
+  "profit_total": 579570.1424948344,
+  "share_non": 76.81808988658045,
+  "share_drive": 4.412004522033755,
+  "share_maas": 18.76990559138597,
+  "price_mod": 0.4714513859531811,
+  "price_pt": 1.1089741388499168,
+  "traveler_welfare": -7938475.384405187,
+  "social_welfare": -7358905.241910353,
+  "transfer_flow": 68831.02605179144,
+  "flow_conservation_error": 9.094947017729282e-12,
+  "retail_mod": 251903.0442280299,
+  "retail_pt": 30399.841041315016,
+  "wholesale_mod": 68300.62695902589,
+  "wholesale_pt": 174624.93375520024,
+  "maas_receipts": 297267.2572254896,
+  "accounting_error": -1.1641532182693481e-10,
+  "share_non_mod": 71.99359358964286,
+  "share_non_pt": 4.824496296937614,
+  "share_maas_mod": 6.635627440748718,
+  "share_maas_pt": 12.134278150637256,
+  "pt_pt_transfers": 12731.549728649079,
+  "intermodal_transfers": 56099.476323142364,
+  "pt_access_flow": 119089.7750793942,
+  "mod_access_flow": 363369.6250046536,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 378,
+  "seconds": 58.50811505317688,
+  "natural_residual": 3.1010779674003534e-07,
+  "scaled_residual": 1.2014522850722615e-08,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.05,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+v4/sioux_mode_0.05_with_deviation_start2 {'profit_mod': {'equilibrium': np.float64(320203.67118705565), 'best_grid_refined': 320203.67118705565, 'best_tested_price': 0.4714513859531811, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(205024.7747965153), 'best_grid_refined': 206626.99640405457, 'best_tested_price': 1.520708058485743, 'unilateral_gain': 1602.221607539279, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(9.094947017729282e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.05_with_deviation_start2 {'profit_mod': {'equilibrium': np.float64(320203.67118705565), 'best_grid_refined': 320203.67118705565, 'best_tested_price': 0.4714513859531811, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(205024.7747965153), 'best_grid_refined': 206626.99640405457, 'best_tested_price': 1.520708058485743, 'unilateral_gain': 1602.221607539279, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(9.094947017729282e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.05_with_deviation_start3 1 1.024105206258235
+v4/sioux_mode_0.05_with_deviation_start3 2 0.9893109789243585
+v4/sioux_mode_0.05_with_deviation_start3 3 0.9661951567166787
+v4/sioux_mode_0.05_with_deviation_start3 4 0.9653993204465471
+v4/sioux_mode_0.05_with_deviation_start3 5 9.31327287222576
+v4/sioux_mode_0.05_with_deviation_start3 6 6.551873331591164
+v4/sioux_mode_0.05_with_deviation_start3 7 4.818173888789076
+v4/sioux_mode_0.05_with_deviation_start3 8 4.06340593788566
+v4/sioux_mode_0.05_with_deviation_start3 9 2.2029456297371817
+v4/sioux_mode_0.05_with_deviation_start3 10 2.095536675608543
+v4/sioux_mode_0.05_with_deviation_start3 11 1.2872575941851976
+v4/sioux_mode_0.05_with_deviation_start3 12 1.2508695530477554
+v4/sioux_mode_0.05_with_deviation_start3 13 1.2465121478479255
+v4/sioux_mode_0.05_with_deviation_start3 14 0.9984055851085559
+v4/sioux_mode_0.05_with_deviation_start3 15 0.5719612341674855
+v4/sioux_mode_0.05_with_deviation_start3 16 0.46980818339988634
+v4/sioux_mode_0.05_with_deviation_start3 17 0.46966447787593707
+v4/sioux_mode_0.05_with_deviation_start3 18 0.21379979699659227
+v4/sioux_mode_0.05_with_deviation_start3 19 0.07049005145516912
+v4/sioux_mode_0.05_with_deviation_start3 20 0.03641671964132854
+v4/sioux_mode_0.05_with_deviation_start3 21 0.008953430644084385
+v4/sioux_mode_0.05_with_deviation_start3 22 0.0023992595698339
+v4/sioux_mode_0.05_with_deviation_start3 23 7.529795850901575e-05
+v4/sioux_mode_0.05_with_deviation_start3 24 2.4285095658211998e-08
+v4/sioux_mode_0.05_with_deviation_start3 25 1.7579222846918996e-13
+{
+  "profit_mod": 326687.3474647442,
+  "profit_pt": 202533.33020966215,
+  "profit_maas": 176981.22458617602,
+  "profit_total": 706201.9022605823,
+  "share_non": 71.25777537543941,
+  "share_drive": 4.335146466010818,
+  "share_maas": 24.407078158549695,
+  "price_mod": 0.47071130109738063,
+  "price_pt": 4.8281002806764395,
+  "traveler_welfare": -8065101.665100748,
+  "social_welfare": -7358899.762840166,
+  "transfer_flow": 74610.21167206648,
+  "flow_conservation_error": 1.0913936421275139e-11,
+  "retail_mod": 250326.28549765123,
+  "retail_pt": 1105.618249867483,
+  "wholesale_mod": 76361.06196709294,
+  "wholesale_pt": 201427.71195979475,
+  "maas_receipts": 454769.9985130637,
+  "accounting_error": -1.1641532182693481e-10,
+  "share_non_mod": 71.20408883414942,
+  "share_non_pt": 0.053686541290002665,
+  "share_maas_mod": 8.42522261839645,
+  "share_maas_pt": 15.981855540153243,
+  "pt_pt_transfers": 13032.86386085323,
+  "intermodal_transfers": 61577.34781121325,
+  "pt_access_flow": 119642.08047089107,
+  "mod_access_flow": 368929.0854134531,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 318,
+  "seconds": 54.41896152496338,
+  "natural_residual": 3.951976187138759e-12,
+  "scaled_residual": 1.7579222846918996e-13,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.05,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+v4/sioux_mode_0.05_with_deviation_start3 {'profit_mod': {'equilibrium': np.float64(326687.3474647442), 'best_grid_refined': 326687.3474647447, 'best_tested_price': 0.47071129266732, 'unilateral_gain': 5.238689482212067e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(202533.33020966215), 'best_grid_refined': 236024.34537307252, 'best_tested_price': 1.8404788560460215, 'unilateral_gain': 33491.01516341037, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.0913936421275139e-11), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.03_with {'profit_mod': {'equilibrium': np.float64(307639.704580035), 'best_grid_refined': 315780.35864324524, 'best_tested_price': 0.46159348950861734, 'unilateral_gain': 8140.654063210241, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(206625.02079985553), 'best_grid_refined': 208151.0147803776, 'best_tested_price': 1.8828638438740144, 'unilateral_gain': 1525.9939805220638, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.03_with_deviation_start1 1 1.6638477411301802
+v4/sioux_mode_0.03_with_deviation_start1 2 1.6606614953537404
+v4/sioux_mode_0.03_with_deviation_start1 3 1.2279178609324455
+v4/sioux_mode_0.03_with_deviation_start1 4 1.1011014127863532
+v4/sioux_mode_0.03_with_deviation_start1 5 0.9387191985840109
+v4/sioux_mode_0.03_with_deviation_start1 6 0.8374512931747119
+v4/sioux_mode_0.03_with_deviation_start1 7 0.7604029482493485
+v4/sioux_mode_0.03_with_deviation_start1 8 0.7207882836801346
+v4/sioux_mode_0.03_with_deviation_start1 9 0.2797012477631196
+v4/sioux_mode_0.03_with_deviation_start1 10 0.2762161201152598
+v4/sioux_mode_0.03_with_deviation_start1 11 0.2726748337263351
+v4/sioux_mode_0.03_with_deviation_start1 12 0.2694625635777993
+v4/sioux_mode_0.03_with_deviation_start1 13 0.2668372473675953
+v4/sioux_mode_0.03_with_deviation_start1 14 0.26382873809908025
+v4/sioux_mode_0.03_with_deviation_start1 15 0.2612971554617839
+v4/sioux_mode_0.03_with_deviation_start1 16 0.25869389009405874
+v4/sioux_mode_0.03_with_deviation_start1 17 0.2567113644621021
+v4/sioux_mode_0.03_with_deviation_start1 18 0.2543323934902084
+v4/sioux_mode_0.03_with_deviation_start1 19 0.25133437025945654
+v4/sioux_mode_0.03_with_deviation_start1 20 0.24854550163297365
+v4/sioux_mode_0.03_with_deviation_start1 21 0.24585115855662873
+v4/sioux_mode_0.03_with_deviation_start1 22 0.24324788958588925
+v4/sioux_mode_0.03_with_deviation_start1 23 0.24072786804809349
+v4/sioux_mode_0.03_with_deviation_start1 24 0.23829026256809296
+v4/sioux_mode_0.03_with_deviation_start1 25 0.2357394670573641
+v4/sioux_mode_0.03_with_deviation_start1 26 0.23342596456532008
+v4/sioux_mode_0.03_with_deviation_start1 27 0.2312116227927658
+v4/sioux_mode_0.03_with_deviation_start1 28 0.22895842679201822
+v4/sioux_mode_0.03_with_deviation_start1 29 0.22682407027621798
+v4/sioux_mode_0.03_with_deviation_start1 30 0.2247505137456756
+v4/sioux_mode_0.03_with_deviation_start1 31 0.2227351122580178
+v4/sioux_mode_0.03_with_deviation_start1 32 0.22078253065937642
+v4/sioux_mode_0.03_with_deviation_start1 33 0.21886009236912266
+v4/sioux_mode_0.03_with_deviation_start1 34 0.21701334768862468
+v4/sioux_mode_0.03_with_deviation_start1 35 0.2151819235515163
+v4/sioux_mode_0.03_with_deviation_start1 36 0.21341466601903594
+v4/sioux_mode_0.03_with_deviation_start1 37 0.21174079056233325
+v4/sioux_mode_0.03_with_deviation_start1 38 0.21004869581700847
+v4/sioux_mode_0.03_with_deviation_start1 39 0.2083980636223988
+v4/sioux_mode_0.03_with_deviation_start1 40 0.20683056200879466
+v4/sioux_mode_0.03_with_deviation_start1 41 0.20524936687482545
+v4/sioux_mode_0.03_with_deviation_start1 42 0.20369549099130413
+v4/sioux_mode_0.03_with_deviation_start1 43 0.2021786054099127
+v4/sioux_mode_0.03_with_deviation_start1 44 0.2006963406249492
+v4/sioux_mode_0.03_with_deviation_start1 45 0.19925835361758096
+v4/sioux_mode_0.03_with_deviation_start1 46 0.1978359290501981
+v4/sioux_mode_0.03_with_deviation_start1 47 0.1963842257149895
+v4/sioux_mode_0.03_with_deviation_start1 48 0.19501441149839832
+v4/sioux_mode_0.03_with_deviation_start1 49 0.19367347303998844
+v4/sioux_mode_0.03_with_deviation_start1 50 0.19235881511281994
+v4/sioux_mode_0.03_with_deviation_start1 51 0.19106942163874605
+v4/sioux_mode_0.03_with_deviation_start1 52 0.1900434964208109
+v4/sioux_mode_0.03_with_deviation_start1 53 1.6397446504429407
+v4/sioux_mode_0.03_with_deviation_start1 54 0.2603932521917267
+v4/sioux_mode_0.03_with_deviation_start1 55 0.2572428256683935
+v4/sioux_mode_0.03_with_deviation_start1 56 0.2541433111416018
+v4/sioux_mode_0.03_with_deviation_start1 57 0.2511910789973635
+v4/sioux_mode_0.03_with_deviation_start1 58 0.24839181966096527
+v4/sioux_mode_0.03_with_deviation_start1 59 0.24568122280618163
+v4/sioux_mode_0.03_with_deviation_start1 60 0.24305714384299829
+v4/sioux_mode_0.03_with_deviation_start1 61 0.24051349825265358
+v4/sioux_mode_0.03_with_deviation_start1 62 0.23804669457234445
+v4/sioux_mode_0.03_with_deviation_start1 63 0.2356528229055048
+v4/sioux_mode_0.03_with_deviation_start1 64 0.23332586950684236
+v4/sioux_mode_0.03_with_deviation_start1 65 0.23107463033899475
+v4/sioux_mode_0.03_with_deviation_start1 66 0.22888929116177723
+v4/sioux_mode_0.03_with_deviation_start1 67 0.2267772968010803
+v4/sioux_mode_0.03_with_deviation_start1 68 0.22470315555302628
+v4/sioux_mode_0.03_with_deviation_start1 69 0.22268198387840882
+v4/sioux_mode_0.03_with_deviation_start1 70 0.22071322363369172
+v4/sioux_mode_0.03_with_deviation_start1 71 0.2187926323243442
+v4/sioux_mode_0.03_with_deviation_start1 72 0.21692291793534144
+v4/sioux_mode_0.03_with_deviation_start1 73 0.2150951532077753
+v4/sioux_mode_0.03_with_deviation_start1 74 0.2133234601698698
+v4/sioux_mode_0.03_with_deviation_start1 75 0.21159864324052927
+v4/sioux_mode_0.03_with_deviation_start1 76 0.20991576867589284
+v4/sioux_mode_0.03_with_deviation_start1 77 0.20826697716801598
+v4/sioux_mode_0.03_with_deviation_start1 78 0.20665744747749487
+v4/sioux_mode_0.03_with_deviation_start1 79 0.20508622325789974
+v4/sioux_mode_0.03_with_deviation_start1 80 0.2035476624589722
+{
+  "profit_mod": 329614.191681673,
+  "profit_pt": 201302.68136643257,
+  "profit_maas": 182768.57414392542,
+  "profit_total": 713685.447192031,
+  "share_non": 71.87361149629311,
+  "share_drive": 3.73563694555661,
+  "share_maas": 24.39075155815068,
+  "price_mod": 0.4690577997004141,
+  "price_pt": 200.0,
+  "traveler_welfare": -8089921.225702057,
+  "social_welfare": -7376235.778510026,
+  "transfer_flow": 73484.85388007568,
+  "flow_conservation_error": 1.0913936421275139e-11,
+  "retail_mod": 253851.07691238556,
+  "retail_pt": 6.001888715532964e-81,
+  "wholesale_mod": 75763.11476928752,
+  "wholesale_pt": 201302.68136643257,
+  "maas_receipts": 459834.37027964555,
+  "accounting_error": -1.1641532182693481e-10,
+  "share_non_mod": 71.8719803921087,
+  "share_non_pt": 0.0016311041844114169,
+  "share_maas_mod": 8.455633737280415,
+  "share_maas_pt": 15.935117820870259,
+  "pt_pt_transfers": 12523.731067943863,
+  "intermodal_transfers": 60961.12281213181,
+  "pt_access_flow": 118752.50553523314,
+  "mod_access_flow": 371287.5001540317,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of iterations allowed has been reached.",
+  "calls": 948,
+  "seconds": 123.34792280197144,
+  "natural_residual": 0.5137059519947428,
+  "scaled_residual": 0.2035476624589722,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.03,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": false
+}

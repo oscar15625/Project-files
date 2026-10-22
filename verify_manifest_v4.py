@@ -6,6 +6,7 @@ records=json.loads(Path('results/v4/manifest.json').read_text()); checks=[]
 for r in records:
     if r['status']!='PASS': continue
     f=Path('results/v4')/r['run']; od=np.loadtxt(f/'od_results.csv',delimiter=',',skiprows=1,ndmin=2)
+    state=np.load(f/'state.npy'); assert np.max(state)<199.999,(r['run'],'Artificial upper bound is active')
     q=od[:,2]; Q=q.sum(); err={}
     err['choice_probability_sum']=float(np.max(abs(od[:,4:7].sum(axis=1)-1)))
     for col,key in [(4,'share_non'),(5,'share_drive'),(6,'share_maas')]: err[key]=float(abs(100*q@od[:,col]/Q-r[key]))

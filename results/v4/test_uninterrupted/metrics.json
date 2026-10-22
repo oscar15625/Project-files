@@ -39,7 +39,7 @@
   "solver_success": true,
   "message": "`xtol` termination condition is satisfied.",
   "calls": 791,
-  "seconds": 5.58123254776001,
+  "seconds": 10.574015617370605,
   "natural_residual": 1.73795640020494e-11,
   "scaled_residual": 2.0345264321625392e-11,
   "access_scope": "node",
@@ -56,7 +56,8 @@
     "mod_access_scope": "node",
     "pt_access_scope": "node",
     "mode_theta": 1.0,
-    "pt_capacity_total": false
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
   },
   "converged": true
 }

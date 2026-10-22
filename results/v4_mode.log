@@ -1,0 +1,2422 @@
+v4/sioux_mode_0.5_without 1 0.2382135053774077
+v4/sioux_mode_0.5_without 2 0.011362591363632652
+v4/sioux_mode_0.5_without 3 6.184397922698078e-05
+v4/sioux_mode_0.5_without 4 6.468203830019862e-09
+{
+  "profit_mod": 226506.76327737264,
+  "profit_pt": 288166.7111098499,
+  "profit_maas": 0.0,
+  "profit_total": 514673.47438722255,
+  "share_non": 71.60578716303775,
+  "share_drive": 28.39421283696223,
+  "share_maas": 0.0,
+  "price_mod": 0.531934515349728,
+  "price_pt": 2.5078014699339772,
+  "traveler_welfare": -9320705.645882763,
+  "social_welfare": -8806032.17149554,
+  "transfer_flow": 6732.126839190105,
+  "flow_conservation_error": 1.0913936421275139e-11,
+  "retail_mod": 226506.76327737264,
+  "retail_pt": 288166.7111098499,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 56.8213150706772,
+  "share_non_pt": 14.784472092360563,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 1014.0074843920213,
+  "intermodal_transfers": 5718.119354798084,
+  "pt_access_flow": 67887.6954627991,
+  "mod_access_flow": 248696.99358828808,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 97,
+  "seconds": 11.278060913085938,
+  "natural_residual": 5.069878348278531e-08,
+  "scaled_residual": 6.468203830019862e-09,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.5,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.5_without {'profit_mod': {'equilibrium': np.float64(226506.76327737264), 'best_grid_refined': 226506.76327737287, 'unilateral_gain': 2.3283064365386963e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(288166.7111098499), 'best_grid_refined': 288166.71110985015, 'unilateral_gain': 2.3283064365386963e-10, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.0913936421275139e-11), 'all_retail_deviation_gains_below_1e-4': True}
+v4/sioux_mode_0.5_with 1 5.370840296127341
+v4/sioux_mode_0.5_with 2 2.428441303087586
+v4/sioux_mode_0.5_with 3 0.9167754639316726
+v4/sioux_mode_0.5_with 4 0.19879076571699078
+v4/sioux_mode_0.5_with 5 0.006160621110817105
+v4/sioux_mode_0.5_with 6 0.0004552379503087522
+v4/sioux_mode_0.5_with 7 5.953527573820204e-05
+v4/sioux_mode_0.5_with 8 4.528862931938021e-06
+v4/sioux_mode_0.5_with 9 2.3544056823908528e-07
+v4/sioux_mode_0.5_with 10 1.2097336572762134e-08
+{
+  "profit_mod": 263313.0451265883,
+  "profit_pt": 210185.17418340113,
+  "profit_maas": 89111.5307804841,
+  "profit_total": 562609.7500904736,
+  "share_non": 55.32623350911332,
+  "share_drive": 28.259309722918918,
+  "share_maas": 16.41445676796777,
+  "price_mod": 0.581930742252399,
+  "price_pt": 1.4374171899823451,
+  "traveler_welfare": -8053033.305637945,
+  "social_welfare": -7490423.555547472,
+  "transfer_flow": 60930.19948614682,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 195750.830234583,
+  "retail_pt": 67833.20346755955,
+  "wholesale_mod": 67562.2148920052,
+  "wholesale_pt": 142351.97071584157,
+  "maas_receipts": 299025.7163883308,
+  "accounting_error": 2.3283064365386963e-10,
+  "share_non_mod": 48.04509582633103,
+  "share_non_pt": 7.281137682782305,
+  "share_maas_mod": 6.597882146972579,
+  "share_maas_pt": 9.816574620995198,
+  "pt_pt_transfers": 11628.634708668584,
+  "intermodal_transfers": 49301.564777478234,
+  "pt_access_flow": 113813.5278627784,
+  "mod_access_flow": 257552.98659035377,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 237,
+  "seconds": 32.40384578704834,
+  "natural_residual": 3.6050830173680534e-08,
+  "scaled_residual": 1.2097336572762134e-08,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.5,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.5_with {'profit_mod': {'equilibrium': np.float64(263313.0451265883), 'best_grid_refined': 263313.0451265883, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(210185.17418340113), 'best_grid_refined': 210185.17418340113, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': True}
+v4/sioux_mode_0.2_without 1 0.3552203880288979
+v4/sioux_mode_0.2_without 2 0.04464660244966686
+v4/sioux_mode_0.2_without 3 0.00023841005893509282
+v4/sioux_mode_0.2_without 4 3.29198766843749e-08
+v4/sioux_mode_0.2_without 5 7.815193987841598e-14
+{
+  "profit_mod": 266109.83926619,
+  "profit_pt": 288129.3841258839,
+  "profit_maas": 0.0,
+  "profit_total": 554239.223392074,
+  "share_non": 90.27163038594487,
+  "share_drive": 9.72836961405511,
+  "share_maas": 0.0,
+  "price_mod": 0.4508662874649347,
+  "price_pt": 2.482119813795098,
+  "traveler_welfare": -9307575.588963171,
+  "social_welfare": -8753336.365571097,
+  "transfer_flow": 7218.705787328302,
+  "flow_conservation_error": 1.0913936421275139e-11,
+  "retail_mod": 266109.83926619,
+  "retail_pt": 288129.3841258839,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 75.39654841448535,
+  "share_non_pt": 14.875081971459528,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 1061.691806933705,
+  "intermodal_transfers": 6157.013980394597,
+  "pt_access_flow": 68546.50698050107,
+  "mod_access_flow": 329295.59781288786,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 122,
+  "seconds": 12.366698980331421,
+  "natural_residual": 5.291981667065151e-13,
+  "scaled_residual": 7.815193987841598e-14,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.2,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.2_without {'profit_mod': {'equilibrium': np.float64(266109.83926619), 'best_grid_refined': 266109.83926619, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(288129.3841258839), 'best_grid_refined': 288129.384125884, 'unilateral_gain': 5.820766091346741e-11, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.0913936421275139e-11), 'all_retail_deviation_gains_below_1e-4': True}
+v4/sioux_mode_0.2_with 1 3.8422662621410364
+v4/sioux_mode_0.2_with 2 1.3763601569269661
+v4/sioux_mode_0.2_with 3 1.357938906015875
+v4/sioux_mode_0.2_with 4 0.7636392941061567
+v4/sioux_mode_0.2_with 5 0.34464136320050137
+v4/sioux_mode_0.2_with 6 0.0705002424607949
+v4/sioux_mode_0.2_with 7 0.03738807898159898
+v4/sioux_mode_0.2_with 8 0.0049226896730789095
+v4/sioux_mode_0.2_with 9 3.146705747525693e-05
+v4/sioux_mode_0.2_with 10 1.589084370066346e-05
+v4/sioux_mode_0.2_with 11 1.007860042558356e-06
+v4/sioux_mode_0.2_with 12 1.0381085721062527e-12
+{
+  "profit_mod": 292457.5262005488,
+  "profit_pt": 205084.9926838737,
+  "profit_maas": 63626.300796979776,
+  "profit_total": 561168.8196814023,
+  "share_non": 72.44911739537191,
+  "share_drive": 10.991346792071818,
+  "share_maas": 16.559535812556287,
+  "price_mod": 0.48052020716578103,
+  "price_pt": 1.2168171468716051,
+  "traveler_welfare": -7995256.273065019,
+  "social_welfare": -7434087.453383617,
+  "transfer_flow": 63621.3854780942,
+  "flow_conservation_error": 1.4551915228366852e-11,
+  "retail_mod": 229071.507804963,
+  "retail_pt": 50837.71708610489,
+  "wholesale_mod": 63386.01839558575,
+  "wholesale_pt": 154247.2755977688,
+  "maas_receipts": 281259.59479033435,
+  "accounting_error": 5.820766091346741e-11,
+  "share_non_mod": 65.74933914583679,
+  "share_non_pt": 6.699778249535121,
+  "share_maas_mod": 6.072956543882564,
+  "share_maas_pt": 10.486579268673715,
+  "pt_pt_transfers": 12119.368307196857,
+  "intermodal_transfers": 51502.01717089734,
+  "pt_access_flow": 116188.99454025619,
+  "mod_access_flow": 332590.6350991849,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 256,
+  "seconds": 36.438766956329346,
+  "natural_residual": 1.3257675719377234e-12,
+  "scaled_residual": 1.0381085721062527e-12,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.2,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.2_with {'profit_mod': {'equilibrium': np.float64(292457.5262005488), 'best_grid_refined': 292457.5262005488, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(205084.9926838737), 'best_grid_refined': 205084.9926838737, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4551915228366852e-11), 'all_retail_deviation_gains_below_1e-4': True}
+v4/sioux_mode_0.1_without 1 0.000728945086569837
+v4/sioux_mode_0.1_without 2 9.526963688502092e-07
+v4/sioux_mode_0.1_without 3 2.6031533527371756e-12
+{
+  "profit_mod": 287749.7007013497,
+  "profit_pt": 285958.2648308456,
+  "profit_maas": 0.0,
+  "profit_total": 573707.9655321953,
+  "share_non": 95.70177234279245,
+  "share_drive": 4.298227657207523,
+  "share_maas": 0.0,
+  "price_mod": 0.44479905637743844,
+  "price_pt": 2.440811410015295,
+  "traveler_welfare": -9287800.573148694,
+  "social_welfare": -8714092.607616499,
+  "transfer_flow": 7522.88586243981,
+  "flow_conservation_error": 2.1827872842550278e-11,
+  "retail_mod": 287749.7007013497,
+  "retail_pt": 285958.2648308456,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 80.75816885999069,
+  "share_non_pt": 14.943603482801768,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 1119.9000570051721,
+  "intermodal_transfers": 6402.985805434638,
+  "pt_access_flow": 69023.08603173282,
+  "mod_access_flow": 352620.5091124385,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 89,
+  "seconds": 9.268833637237549,
+  "natural_residual": 3.071251491813591e-11,
+  "scaled_residual": 2.6031533527371756e-12,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.1,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.1_without {'profit_mod': {'equilibrium': np.float64(287749.7007013497), 'best_grid_refined': 287749.7007013502, 'unilateral_gain': 4.656612873077393e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(285958.2648308456), 'best_grid_refined': 285958.2648308457, 'unilateral_gain': 1.1641532182693481e-10, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.1827872842550278e-11), 'all_retail_deviation_gains_below_1e-4': True}
+v4/sioux_mode_0.1_with 1 4.44571801255312
+v4/sioux_mode_0.1_with 2 2.1648042334781783
+v4/sioux_mode_0.1_with 3 0.8945792135456072
+v4/sioux_mode_0.1_with 4 0.1764067029672899
+v4/sioux_mode_0.1_with 5 0.027073867476704438
+v4/sioux_mode_0.1_with 6 0.00021938736210680266
+v4/sioux_mode_0.1_with 7 3.962652898296082e-08
+v4/sioux_mode_0.1_with 8 7.593469000239727e-14
+{
+  "profit_mod": 311835.05104941735,
+  "profit_pt": 204547.05498741072,
+  "profit_maas": 56363.41615043149,
+  "profit_total": 572745.5221872595,
+  "share_non": 76.52920034736704,
+  "share_drive": 5.92432998876828,
+  "share_maas": 17.546469663864677,
+  "price_mod": 0.4727665896313547,
+  "price_pt": 1.1381858158372267,
+  "traveler_welfare": -7960739.536440373,
+  "social_welfare": -7387994.014253113,
+  "transfer_flow": 66370.55526036926,
+  "flow_conservation_error": 1.4551915228366852e-11,
+  "retail_mod": 245860.57394210223,
+  "retail_pt": 40086.44659635306,
+  "wholesale_mod": 65974.47710731514,
+  "wholesale_pt": 164460.60839105767,
+  "maas_receipts": 286798.5016488043,
+  "accounting_error": -5.820766091346741e-11,
+  "share_non_mod": 70.65002138805127,
+  "share_non_pt": 5.879178959315751,
+  "share_maas_mod": 6.308017180291673,
+  "share_maas_pt": 11.238452483572999,
+  "pt_pt_transfers": 12449.093676505818,
+  "intermodal_transfers": 53921.46158386345,
+  "pt_access_flow": 117831.85018413351,
+  "mod_access_flow": 355622.9443488376,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 164,
+  "seconds": 24.730989694595337,
+  "natural_residual": 7.611838682849927e-13,
+  "scaled_residual": 7.593469000239727e-14,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.1,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.1_with {'profit_mod': {'equilibrium': np.float64(311835.05104941735), 'best_grid_refined': 311835.05104941735, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(204547.05498741072), 'best_grid_refined': 204849.78011521304, 'unilateral_gain': 302.72512780231773, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4551915228366852e-11), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.05_without 1 0.003636186774219855
+v4/sioux_mode_0.05_without 2 1.6773616166072117e-05
+v4/sioux_mode_0.05_without 3 3.7278152015489865e-10
+{
+  "profit_mod": 296377.13144504454,
+  "profit_pt": 286425.5054633299,
+  "profit_maas": 0.0,
+  "profit_total": 582802.6369083745,
+  "share_non": 96.98684797340984,
+  "share_drive": 3.013152026590139,
+  "share_maas": 0.0,
+  "price_mod": 0.4471183551742802,
+  "price_pt": 2.441063561068395,
+  "traveler_welfare": -9287730.033439754,
+  "social_welfare": -8704927.396531379,
+  "transfer_flow": 7585.251558392296,
+  "flow_conservation_error": 1.8189894035458565e-11,
+  "retail_mod": 296377.13144504454,
+  "retail_pt": 286425.5054633299,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 82.04073906763809,
+  "share_non_pt": 14.946108905771752,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 1117.7975477990278,
+  "intermodal_transfers": 6467.454010593268,
+  "pt_access_flow": 69063.60287294023,
+  "mod_access_flow": 358203.1372359911,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 84,
+  "seconds": 8.358530521392822,
+  "natural_residual": 2.3069416115759678e-08,
+  "scaled_residual": 3.7278152015489865e-10,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.05,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.05_without {'profit_mod': {'equilibrium': np.float64(296377.13144504454), 'best_grid_refined': 296377.13144504454, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(286425.5054633299), 'best_grid_refined': 286425.50546333025, 'unilateral_gain': 3.4924596548080444e-10, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.8189894035458565e-11), 'all_retail_deviation_gains_below_1e-4': True}
+v4/sioux_mode_0.05_with 1 4.858044598174642
+v4/sioux_mode_0.05_with 2 3.2568420268562615
+v4/sioux_mode_0.05_with 3 2.24046848475754
+v4/sioux_mode_0.05_with 4 1.4741643551923564
+v4/sioux_mode_0.05_with 5 1.4274013798350453
+v4/sioux_mode_0.05_with 6 1.3342120319062414
+v4/sioux_mode_0.05_with 7 1.2872294627686618
+v4/sioux_mode_0.05_with 8 1.2567724300279877
+v4/sioux_mode_0.05_with 9 0.918602166123868
+v4/sioux_mode_0.05_with 10 0.5251921943203162
+v4/sioux_mode_0.05_with 11 0.41600279592810613
+v4/sioux_mode_0.05_with 12 0.40415180868390266
+v4/sioux_mode_0.05_with 13 0.363891743393456
+v4/sioux_mode_0.05_with 14 0.2660454764388267
+v4/sioux_mode_0.05_with 15 0.039800546613746844
+v4/sioux_mode_0.05_with 16 0.0021990978012024808
+v4/sioux_mode_0.05_with 17 8.912849792569528e-06
+v4/sioux_mode_0.05_with 18 2.8073185167682915e-10
+{
+  "profit_mod": 320203.67115329485,
+  "profit_pt": 205024.7748753005,
+  "profit_maas": 54341.69660531714,
+  "profit_total": 579570.1426339125,
+  "share_non": 76.81808984013372,
+  "share_drive": 4.412004550112764,
+  "share_maas": 18.769905609753565,
+  "price_mod": 0.471451386205074,
+  "price_pt": 1.1089741393444186,
+  "traveler_welfare": -7938475.386060779,
+  "social_welfare": -7358905.243426867,
+  "transfer_flow": 68831.02609409047,
+  "flow_conservation_error": 1.0913936421275139e-11,
+  "retail_mod": 251903.0441235553,
+  "retail_pt": 30399.840991984856,
+  "wholesale_mod": 68300.62702973957,
+  "wholesale_pt": 174624.93388331562,
+  "maas_receipts": 297267.2575183724,
+  "accounting_error": -5.820766091346741e-11,
+  "share_non_mod": 71.99359355202122,
+  "share_non_pt": 4.824496288112488,
+  "share_maas_mod": 6.635627447927862,
+  "share_maas_pt": 12.134278161825701,
+  "pt_pt_transfers": 12731.549725117162,
+  "intermodal_transfers": 56099.47636897331,
+  "pt_access_flow": 119089.77511418956,
+  "mod_access_flow": 363369.6248906532,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 301,
+  "seconds": 54.253764629364014,
+  "natural_residual": 1.385338220387098e-09,
+  "scaled_residual": 2.8073185167682915e-10,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.05,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.05_with {'profit_mod': {'equilibrium': np.float64(320203.67115329485), 'best_grid_refined': 320203.6711532959, 'unilateral_gain': 1.0477378964424133e-09, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(205024.7748753005), 'best_grid_refined': 206626.99646689146, 'unilateral_gain': 1602.221591590962, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.0913936421275139e-11), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.03_without 1 0.1540755103803893
+v4/sioux_mode_0.03_without 2 0.12942800970433596
+v4/sioux_mode_0.03_without 3 0.10466833982288248
+v4/sioux_mode_0.03_without 4 0.012885278596362997
+v4/sioux_mode_0.03_without 5 0.008365828435804952
+v4/sioux_mode_0.03_without 6 0.008364689691438295
+v4/sioux_mode_0.03_without 7 0.008364689691453922
+v4/sioux_mode_0.03_without 8 0.008364689691441732
+v4/sioux_mode_0.03_without 9 0.008364689691416599
+v4/sioux_mode_0.03_without 10 0.008364689691497644
+v4/sioux_mode_0.03_without 11 0.008364689691372853
+v4/sioux_mode_0.03_without 12 0.008364689691434826
+v4/sioux_mode_0.03_without 13 0.008629753366033409
+v4/sioux_mode_0.03_without 14 0.008364692374167492
+v4/sioux_mode_0.03_without 15 0.008364689691497324
+v4/sioux_mode_0.03_without 16 0.008364689691461308
+v4/sioux_mode_0.03_without 17 0.009615222757039557
+v4/sioux_mode_0.03_without 18 0.025536585829087157
+v4/sioux_mode_0.03_without 19 0.01665751421850464
+v4/sioux_mode_0.03_without 20 0.008372011970843661
+v4/sioux_mode_0.03_without 21 0.021913861941199406
+v4/sioux_mode_0.03_without 22 0.008383124599038142
+v4/sioux_mode_0.03_without 23 0.008366178695133746
+v4/sioux_mode_0.03_without 24 0.008364691300229795
+v4/sioux_mode_0.03_without 25 0.02756187681852727
+v4/sioux_mode_0.03_without 26 0.030747402490133535
+v4/sioux_mode_0.03_without 27 0.008440116860988856
+v4/sioux_mode_0.03_without 28 0.008364650305966045
+v4/sioux_mode_0.03_without 29 0.008364650240302727
+v4/sioux_mode_0.03_without 30 0.02747377720500294
+v4/sioux_mode_0.03_without 31 0.016649898389561064
+v4/sioux_mode_0.03_without 32 0.009321214178926868
+v4/sioux_mode_0.03_without 33 0.006897343447678602
+v4/sioux_mode_0.03_without 34 0.022358290434562417
+v4/sioux_mode_0.03_without 35 0.02189823999773272
+v4/sioux_mode_0.03_without 36 0.2717673034618977
+v4/sioux_mode_0.03_without 37 0.07661137903423307
+v4/sioux_mode_0.03_without 38 0.5283234616345232
+v4/sioux_mode_0.03_without 39 0.5109079722653547
+v4/sioux_mode_0.03_without 40 0.20937868266568666
+v4/sioux_mode_0.03_without 41 0.19022053740637815
+v4/sioux_mode_0.03_without 42 0.1734684071110655
+v4/sioux_mode_0.03_without 43 0.121708507559282
+v4/sioux_mode_0.03_without 44 0.04248153020472972
+v4/sioux_mode_0.03_without 45 0.0016682377303713356
+v4/sioux_mode_0.03_without 46 3.373587453884688e-06
+v4/sioux_mode_0.03_without 47 6.297212609515442e-10
+{
+  "profit_mod": 299244.676614776,
+  "profit_pt": 286105.8607345225,
+  "profit_maas": 0.0,
+  "profit_total": 585350.5373492986,
+  "share_non": 96.78712608587293,
+  "share_drive": 3.212873914127057,
+  "share_maas": 0.0,
+  "price_mod": 0.4546589488545458,
+  "price_pt": 2.4318525541061806,
+  "traveler_welfare": -9286175.123003978,
+  "social_welfare": -8700824.58565468,
+  "transfer_flow": 7648.621939840731,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 299244.676614776,
+  "retail_pt": 286105.8607345225,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 81.82069320938996,
+  "share_non_pt": 14.966432876482965,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 1131.9368174467852,
+  "intermodal_transfers": 6516.685122393946,
+  "pt_access_flow": 69190.53390277814,
+  "mod_access_flow": 357275.34003585187,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 556,
+  "seconds": 77.1614282131195,
+  "natural_residual": 1.1862640965669159e-08,
+  "scaled_residual": 6.297212609515442e-10,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.03,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.03_without {'profit_mod': {'equilibrium': np.float64(299244.676614776), 'best_grid_refined': 299244.6766147772, 'unilateral_gain': 1.1641532182693481e-09, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(286105.8607345225), 'best_grid_refined': 286105.8607345229, 'unilateral_gain': 4.0745362639427185e-10, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': True}
+v4/sioux_mode_0.03_with 1 5.201423312289956
+v4/sioux_mode_0.03_with 2 4.2034334710110555
+v4/sioux_mode_0.03_with 3 2.0719442543091033
+v4/sioux_mode_0.03_with 4 1.8828483852424727
+v4/sioux_mode_0.03_with 5 1.8617925467394625
+v4/sioux_mode_0.03_with 6 1.592249562776446
+v4/sioux_mode_0.03_with 7 1.298987910961624
+v4/sioux_mode_0.03_with 8 1.1492807689955635
+v4/sioux_mode_0.03_with 9 1.1253412528673203
+v4/sioux_mode_0.03_with 10 1.094721012739534
+v4/sioux_mode_0.03_with 11 1.0598008633430989
+v4/sioux_mode_0.03_with 12 1.0587979407452692
+v4/sioux_mode_0.03_with 13 1.0142093991345424
+v4/sioux_mode_0.03_with 14 1.0141994123346094
+v4/sioux_mode_0.03_with 15 1.0140806565483766
+v4/sioux_mode_0.03_with 16 1.0138750491873172
+v4/sioux_mode_0.03_with 17 1.0116772792581303
+v4/sioux_mode_0.03_with 18 1.011675944330096
+v4/sioux_mode_0.03_with 19 1.0105437464853324
+v4/sioux_mode_0.03_with 20 1.0087875638362562
+v4/sioux_mode_0.03_with 21 1.0087173292944858
+v4/sioux_mode_0.03_with 22 16.761043241730977
+v4/sioux_mode_0.03_with 23 10.600037590580802
+v4/sioux_mode_0.03_with 24 10.55964885332236
+v4/sioux_mode_0.03_with 25 7.876029839248179
+v4/sioux_mode_0.03_with 26 5.100533210324596
+v4/sioux_mode_0.03_with 27 3.3362097058691815
+v4/sioux_mode_0.03_with 28 2.4357453716772213
+v4/sioux_mode_0.03_with 29 1.5408586688463175
+v4/sioux_mode_0.03_with 30 1.2689746077074813
+v4/sioux_mode_0.03_with 31 1.265657795273916
+v4/sioux_mode_0.03_with 32 1.2609061098428578
+v4/sioux_mode_0.03_with 33 1.1437360489912904
+v4/sioux_mode_0.03_with 34 1.11895962733808
+v4/sioux_mode_0.03_with 35 1.0859447101152102
+v4/sioux_mode_0.03_with 36 1.0765257143219191
+v4/sioux_mode_0.03_with 37 1.075704983596916
+v4/sioux_mode_0.03_with 38 1.074864964420921
+v4/sioux_mode_0.03_with 39 1.074099465565995
+v4/sioux_mode_0.03_with 40 1.0728549797509463
+v4/sioux_mode_0.03_with 41 1.0722596147527528
+v4/sioux_mode_0.03_with 42 1.0703193736559187
+v4/sioux_mode_0.03_with 43 1.0673299659719524
+v4/sioux_mode_0.03_with 44 1.0669336605842283
+v4/sioux_mode_0.03_with 45 1.066187656390153
+v4/sioux_mode_0.03_with 46 1.0654541567809326
+v4/sioux_mode_0.03_with 47 0.8694840805910345
+v4/sioux_mode_0.03_with 48 0.6276308346453552
+v4/sioux_mode_0.03_with 49 0.3096191976302922
+v4/sioux_mode_0.03_with 50 0.1811443560411004
+v4/sioux_mode_0.03_with 51 0.02827541089094721
+v4/sioux_mode_0.03_with 52 0.0011629071651809313
+v4/sioux_mode_0.03_with 53 7.291411480358522e-06
+v4/sioux_mode_0.03_with 54 4.4651930215469844e-10
+{
+  "profit_mod": 307639.704580035,
+  "profit_pt": 206625.02079985553,
+  "profit_maas": 55600.55527585656,
+  "profit_total": 569865.280655747,
+  "share_non": 70.27351477321362,
+  "share_drive": 9.589861102251339,
+  "share_maas": 20.13662412453493,
+  "price_mod": 0.518616575082744,
+  "price_pt": 1.112218963573273,
+  "traveler_welfare": -7942029.7824821295,
+  "social_welfare": -7372164.501826382,
+  "transfer_flow": 71419.23991513385,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 234820.75058199893,
+  "retail_pt": 23957.535737763526,
+  "wholesale_mod": 72818.95399803609,
+  "wholesale_pt": 182667.48506209202,
+  "maas_receipts": 311086.99433598464,
+  "accounting_error": -5.820766091346741e-11,
+  "share_non_mod": 66.30318984374931,
+  "share_non_pt": 3.9703249294643244,
+  "share_maas_mod": 7.171811648031046,
+  "share_maas_pt": 12.964812476503887,
+  "pt_pt_transfers": 12882.17121450279,
+  "intermodal_transfers": 58537.068700631055,
+  "pt_access_flow": 120989.8039537845,
+  "mod_access_flow": 341652.18899968686,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 639,
+  "seconds": 103.71681666374207,
+  "natural_residual": 4.60480164947144e-09,
+  "scaled_residual": 4.4651930215469844e-10,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.03,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.03_with {'profit_mod': {'equilibrium': np.float64(307639.704580035), 'best_grid_refined': 315780.35864324524, 'unilateral_gain': 8140.654063210241, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(206625.02079985553), 'best_grid_refined': 208151.0147803776, 'unilateral_gain': 1525.9939805220638, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.01_without 1 0.2511000305296079
+v4/sioux_mode_0.01_without 2 0.24657262656034334
+v4/sioux_mode_0.01_without 3 0.2464953897093877
+v4/sioux_mode_0.01_without 4 1.996203336237899
+v4/sioux_mode_0.01_without 5 1.9160492510379654
+v4/sioux_mode_0.01_without 6 0.6557355121561841
+v4/sioux_mode_0.01_without 7 0.5309680269174097
+v4/sioux_mode_0.01_without 8 0.48343194751473334
+v4/sioux_mode_0.01_without 9 0.052524247402296574
+v4/sioux_mode_0.01_without 10 0.03670907136728509
+v4/sioux_mode_0.01_without 11 0.036700681259831426
+v4/sioux_mode_0.01_without 12 0.03473000957315324
+v4/sioux_mode_0.01_without 13 0.03381443096446972
+v4/sioux_mode_0.01_without 14 0.0334862321667243
+v4/sioux_mode_0.01_without 15 0.03307891091958988
+v4/sioux_mode_0.01_without 16 1.0114042711993327
+v4/sioux_mode_0.01_without 17 1.0113018468286046
+v4/sioux_mode_0.01_without 18 0.40068035102424654
+v4/sioux_mode_0.01_without 19 0.3921077413721619
+v4/sioux_mode_0.01_without 20 0.2955599152489631
+v4/sioux_mode_0.01_without 21 0.227233111743372
+v4/sioux_mode_0.01_without 22 0.12674324207877852
+v4/sioux_mode_0.01_without 23 0.12336223098190756
+v4/sioux_mode_0.01_without 24 0.12325932077671264
+v4/sioux_mode_0.01_without 25 0.12318499685984677
+v4/sioux_mode_0.01_without 26 0.12312175669838715
+v4/sioux_mode_0.01_without 27 1.3284429061010736
+v4/sioux_mode_0.01_without 28 0.8789076365324949
+v4/sioux_mode_0.01_without 29 0.6875702043615095
+v4/sioux_mode_0.01_without 30 0.660993318002278
+v4/sioux_mode_0.01_without 31 0.602154818804249
+v4/sioux_mode_0.01_without 32 0.5811648011765537
+v4/sioux_mode_0.01_without 33 0.36229278196067605
+v4/sioux_mode_0.01_without 34 0.25406448376616464
+v4/sioux_mode_0.01_without 35 0.22822974807914315
+v4/sioux_mode_0.01_without 36 0.18776782911539786
+v4/sioux_mode_0.01_without 37 0.174274784738349
+v4/sioux_mode_0.01_without 38 0.1730826162889283
+v4/sioux_mode_0.01_without 39 0.17219237553793745
+v4/sioux_mode_0.01_without 40 0.17158089061644807
+v4/sioux_mode_0.01_without 41 0.1711615398168445
+v4/sioux_mode_0.01_without 42 0.1708000365813948
+v4/sioux_mode_0.01_without 43 1.2551565633985202
+v4/sioux_mode_0.01_without 44 0.8880771526170324
+v4/sioux_mode_0.01_without 45 0.5396757288162953
+v4/sioux_mode_0.01_without 46 0.2783480938878546
+v4/sioux_mode_0.01_without 47 0.03360176869116044
+v4/sioux_mode_0.01_without 48 0.0012090732377946036
+v4/sioux_mode_0.01_without 49 9.637372230897808e-07
+v4/sioux_mode_0.01_without 50 4.6090944550212724e-10
+{
+  "profit_mod": 297482.24551723886,
+  "profit_pt": 295507.9657274916,
+  "profit_maas": 0.0,
+  "profit_total": 592990.2112447305,
+  "share_non": 98.64175866340179,
+  "share_drive": 1.3582413365984525,
+  "share_maas": 0.0,
+  "price_mod": 0.42888169449611685,
+  "price_pt": 2.5760347118819764,
+  "traveler_welfare": -9337960.560674401,
+  "social_welfare": -8744970.34942967,
+  "transfer_flow": 7100.054520151058,
+  "flow_conservation_error": 2.1827872842550278e-11,
+  "retail_mod": 297482.24551723886,
+  "retail_pt": 295507.9657274916,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 83.90842696139451,
+  "share_non_pt": 14.733331702007277,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 963.028227013671,
+  "intermodal_transfers": 6137.026293137386,
+  "pt_access_flow": 67821.77462294363,
+  "mod_access_flow": 366120.8979854796,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 791,
+  "seconds": 67.18856167793274,
+  "natural_residual": 1.5565899815192578e-08,
+  "scaled_residual": 4.6090944550212724e-10,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.01,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/sioux_mode_0.01_without {'profit_mod': {'equilibrium': np.float64(297482.24551723886), 'best_grid_refined': 303387.9509270663, 'unilateral_gain': 5905.7054098274675, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(295507.9657274916), 'best_grid_refined': 295507.9657274916, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.1827872842550278e-11), 'all_retail_deviation_gains_below_1e-4': False}
+v4/sioux_mode_0.01_with 1 18.284240334248807
+v4/sioux_mode_0.01_with 2 13.698751559362229
+v4/sioux_mode_0.01_with 3 12.06341043718014
+v4/sioux_mode_0.01_with 4 8.13254256718264
+v4/sioux_mode_0.01_with 5 6.512574085879898
+v4/sioux_mode_0.01_with 6 4.001890228766402
+v4/sioux_mode_0.01_with 7 3.107403929116781
+v4/sioux_mode_0.01_with 8 2.739923238604178
+v4/sioux_mode_0.01_with 9 2.332699841172759
+v4/sioux_mode_0.01_with 10 1.6926825009836477
+v4/sioux_mode_0.01_with 11 1.6691565736581098
+v4/sioux_mode_0.01_with 12 1.4536875869663426
+v4/sioux_mode_0.01_with 13 1.2558521947027361
+v4/sioux_mode_0.01_with 14 1.2470587228211474
+v4/sioux_mode_0.01_with 15 1.2133265520927583
+v4/sioux_mode_0.01_with 16 1.1754317263160938
+v4/sioux_mode_0.01_with 17 1.1453873743861664
+v4/sioux_mode_0.01_with 18 1.1196003396104965
+v4/sioux_mode_0.01_with 19 1.1167004158738363
+v4/sioux_mode_0.01_with 20 0.6686575635082496
+v4/sioux_mode_0.01_with 21 7.339384362960303
+v4/sioux_mode_0.01_with 22 7.304063261150214
+v4/sioux_mode_0.01_with 23 6.549396537569902
+v4/sioux_mode_0.01_with 24 3.8228980620655535
+v4/sioux_mode_0.01_with 25 2.9927599117883688
+v4/sioux_mode_0.01_with 26 2.1772164412010264
+v4/sioux_mode_0.01_with 27 1.9857098731530411
+v4/sioux_mode_0.01_with 28 1.8475399307247888
+v4/sioux_mode_0.01_with 29 1.7238167054815539
+v4/sioux_mode_0.01_with 30 1.5493954446680411
+v4/sioux_mode_0.01_with 31 1.9045430962075518
+v4/sioux_mode_0.01_with 32 1.8253153798780906
+v4/sioux_mode_0.01_with 33 1.6432786779136435
+v4/sioux_mode_0.01_with 34 1.341414816124104
+v4/sioux_mode_0.01_with 35 14248.85786353524
+v4/sioux_mode_0.01_with 36 14244.196937904513
+v4/sioux_mode_0.01_with 37 12731.86109768374
+v4/sioux_mode_0.01_with 38 1240.470907669819
+v4/sioux_mode_0.01_with 39 27.46683243981901
+v4/sioux_mode_0.01_with 40 14.904248955547965
+v4/sioux_mode_0.01_with 41 11.200934078436566
+v4/sioux_mode_0.01_with 42 9.043270191309794
+v4/sioux_mode_0.01_with 43 6.367692078414313
+v4/sioux_mode_0.01_with 44 3.8440336624484477
+v4/sioux_mode_0.01_with 45 15.131302920770198
+v4/sioux_mode_0.01_with 46 13.87526251496698
+v4/sioux_mode_0.01_with 47 9.230003229476175
+v4/sioux_mode_0.01_with 48 6.598993054109414
+v4/sioux_mode_0.01_with 49 4.757002752233135
+v4/sioux_mode_0.01_with 50 4.432258390554133
+v4/sioux_mode_0.01_with 51 3.040799943106093
+v4/sioux_mode_0.01_with 52 3.0383845905271327
+v4/sioux_mode_0.01_with 53 2.7269103846983733
+v4/sioux_mode_0.01_with 54 1.8009658010435428
+v4/sioux_mode_0.01_with 55 1.7961648995204682
+v4/sioux_mode_0.01_with 56 1.461494928767146
+v4/sioux_mode_0.01_with 57 1.4297517897999208
+v4/sioux_mode_0.01_with 58 1.3960975144698196
+v4/sioux_mode_0.01_with 59 1.395630472124186
+v4/sioux_mode_0.01_with 60 1.2653598845951182
+v4/sioux_mode_0.01_with 61 446.85690952624856
+v4/sioux_mode_0.01_with 62 387.15658617974367
+v4/sioux_mode_0.01_with 63 153.08438924712266
+v4/sioux_mode_0.01_with 64 45.059940590152074
+v4/sioux_mode_0.01_with 65 31.20454996849611
+v4/sioux_mode_0.01_with 66 28.698813576071625
+v4/sioux_mode_0.01_with 67 20.761688771436962
+v4/sioux_mode_0.01_with 68 13.55467624926395
+v4/sioux_mode_0.01_with 69 10.564280991212712
+v4/sioux_mode_0.01_with 70 10.443863576094866
+v4/sioux_mode_0.01_with 71 9.486539798998516
+v4/sioux_mode_0.01_with 72 9.345468836640961
+v4/sioux_mode_0.01_with 73 9.192084816800326
+v4/sioux_mode_0.01_with 74 8.623042814839371
+v4/sioux_mode_0.01_with 75 7.517118630028589
+v4/sioux_mode_0.01_with 76 4.874958863414247
+v4/sioux_mode_0.01_with 77 3.4653157882043435
+v4/sioux_mode_0.01_with 78 2.092586637781595
+v4/sioux_mode_0.01_with 79 25747.757840804483
+v4/sioux_mode_0.01_with 80 25691.441840739186
+v4/sioux_mode_0.01_with 81 22050.439682195745
+v4/sioux_mode_0.01_with 82 9238.41140366929
+v4/sioux_mode_0.01_with 83 1058.4466585692724
+v4/sioux_mode_0.01_with 84 33.48577745082136
+v4/sioux_mode_0.01_with 85 32.528486016656416
+v4/sioux_mode_0.01_with 86 30.937972934519692
+v4/sioux_mode_0.01_with 87 28.426462979426955
+v4/sioux_mode_0.01_with 88 22.65495739947275
+v4/sioux_mode_0.01_with 89 17.51648879361991
+v4/sioux_mode_0.01_with 90 9.552460055427577
+v4/sioux_mode_0.01_with 91 6.004623095592793
+v4/sioux_mode_0.01_with 92 4.941697707894734
+v4/sioux_mode_0.01_with 93 4.447628613620981
+v4/sioux_mode_0.01_with 94 3.514704421644939
+v4/sioux_mode_0.01_with 95 2.9017798868274562
+v4/sioux_mode_0.01_with 96 2.44220658625287
+v4/sioux_mode_0.01_with 97 8.270125401256227
+v4/sioux_mode_0.01_with 98 8.265308634829871
+v4/sioux_mode_0.01_with 99 8.18447587405053
+v4/sioux_mode_0.01_with 100 7.513549669098892
+{
+  "profit_mod": 62283.804591770604,
+  "profit_pt": 86753.89099773325,
+  "profit_maas": 67340.57604330574,
+  "profit_total": 216378.2716328096,
+  "share_non": 91.67339034183968,
+  "share_drive": 2.3092612383541397e-47,
+  "share_maas": 8.326609658160326,
+  "price_mod": 0.0,
+  "price_pt": 0.0,
+  "traveler_welfare": -7976240.66923139,
+  "social_welfare": -7759862.39759858,
+  "transfer_flow": 53873.68296366834,
+  "flow_conservation_error": 1.0913936421275139e-11,
+  "retail_mod": 0.0,
+  "retail_pt": 0.0,
+  "wholesale_mod": 62283.804591770604,
+  "wholesale_pt": 86753.89099773325,
+  "maas_receipts": 216378.27163280963,
+  "accounting_error": -2.9103830456733704e-11,
+  "share_non_mod": 79.00923564578564,
+  "share_non_pt": 12.664154696054041,
+  "share_maas_mod": 4.352129960989188,
+  "share_maas_pt": 3.974479697171137,
+  "pt_pt_transfers": 8962.320323226271,
+  "intermodal_transfers": 44911.362640442065,
+  "pt_access_flow": 105089.24335352468,
+  "mod_access_flow": 381504.43961014366,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of iterations allowed has been reached.",
+  "calls": 1283,
+  "seconds": 32706.355994462967,
+  "natural_residual": 112.68850706476573,
+  "scaled_residual": 7.513549669098892,
+  "access_scope": "node",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.01,
+    "pt_capacity_total": false
+  },
+  "converged": false
+}
+v4/small_mode_0.5_without 1 0.3296001541663998
+v4/small_mode_0.5_without 2 0.2589627021677499
+v4/small_mode_0.5_without 3 0.20474532500922654
+v4/small_mode_0.5_without 4 0.16018142209285727
+v4/small_mode_0.5_without 5 0.13133641774518687
+v4/small_mode_0.5_without 6 0.07219083799941935
+v4/small_mode_0.5_without 7 0.011541874261156635
+v4/small_mode_0.5_without 8 0.004154155336008754
+v4/small_mode_0.5_without 9 0.003700499758741871
+v4/small_mode_0.5_without 10 0.003486575568193895
+v4/small_mode_0.5_without 11 0.0032757157260394527
+v4/small_mode_0.5_without 12 0.003067952091581963
+v4/small_mode_0.5_without 13 0.002863319292710407
+v4/small_mode_0.5_without 14 0.0026618588537694744
+v4/small_mode_0.5_without 15 0.0024636243295533917
+v4/small_mode_0.5_without 16 0.002268692637103225
+v4/small_mode_0.5_without 17 0.0020771603178074698
+v4/small_mode_0.5_without 18 0.0018891445573021985
+v4/small_mode_0.5_without 19 0.0017047999573838184
+v4/small_mode_0.5_without 20 0.001524324814436215
+v4/small_mode_0.5_without 21 0.0013479783134939622
+v4/small_mode_0.5_without 22 0.001176099264941403
+v4/small_mode_0.5_without 23 0.0010091408573643264
+v4/small_mode_0.5_without 24 0.000847720593268075
+v4/small_mode_0.5_without 25 0.0006926998830520247
+v4/small_mode_0.5_without 26 0.0005453032287989474
+v4/small_mode_0.5_without 27 0.0004073313251212027
+v4/small_mode_0.5_without 28 0.000281504454226455
+v4/small_mode_0.5_without 29 0.00017199171152601942
+v4/small_mode_0.5_without 30 8.49967482932247e-05
+v4/small_mode_0.5_without 31 2.8122136255850623e-05
+v4/small_mode_0.5_without 32 4.041493012100132e-06
+v4/small_mode_0.5_without 33 9.745101212432344e-08
+v4/small_mode_0.5_without 34 2.681896531905216e-10
+v4/small_mode_0.5_without 35 1.3408915538255776e-10
+v4/small_mode_0.5_without 36 6.703883425559285e-11
+v4/small_mode_0.5_without 37 3.351388809033497e-11
+v4/small_mode_0.5_without 38 1.6751494602058384e-11
+v4/small_mode_0.5_without 39 1.6751494602058384e-11
+{
+  "profit_mod": 411.37263687016275,
+  "profit_pt": 457.83643380229495,
+  "profit_maas": 0.0,
+  "profit_total": 869.2090706724578,
+  "share_non": 82.60467817810967,
+  "share_drive": 17.395321821890324,
+  "share_maas": 0.0,
+  "price_mod": 0.24334980083141716,
+  "price_pt": 0.7421152912265417,
+  "traveler_welfare": -16845.160727109564,
+  "social_welfare": -15975.951656437106,
+  "transfer_flow": 0.0434543267660219,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 411.37263687016275,
+  "retail_pt": 457.83643380229495,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 41.784991102792155,
+  "share_non_pt": 40.81968707531751,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0018666123785404194,
+  "intermodal_transfers": 0.04158771438748148,
+  "pt_access_flow": 408.199840767529,
+  "mod_access_flow": 417.8903953403336,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 1717,
+  "seconds": 22.48532462120056,
+  "natural_residual": 1.3953077275066201e-11,
+  "scaled_residual": 1.6751494602058384e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.5,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/small_mode_0.5_without {'profit_mod': {'equilibrium': np.float64(411.37263687016275), 'best_grid_refined': 411.3726368701632, 'unilateral_gain': 4.547473508864641e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(457.83643380229495), 'best_grid_refined': 457.8364338022955, 'unilateral_gain': 5.684341886080801e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+v4/small_mode_0.5_with 1 0.009707058834611025
+v4/small_mode_0.5_with 2 0.0005147815778629035
+v4/small_mode_0.5_with 3 1.2447457748271042e-05
+v4/small_mode_0.5_with 4 7.695607519460406e-08
+v4/small_mode_0.5_with 5 2.652125518456387e-09
+v4/small_mode_0.5_with 6 1.324726224697774e-09
+v4/small_mode_0.5_with 7 6.62117211687339e-10
+v4/small_mode_0.5_with 8 3.308714922538664e-10
+v4/small_mode_0.5_with 9 1.652672833709603e-10
+v4/small_mode_0.5_with 10 8.24966892205536e-11
+v4/small_mode_0.5_with 11 4.116087105010472e-11
+v4/small_mode_0.5_with 12 2.054784359318762e-11
+v4/small_mode_0.5_with 13 2.054784359318762e-11
+{
+  "profit_mod": 487.01003417652515,
+  "profit_pt": 491.4635830466589,
+  "profit_maas": 40.2088574278569,
+  "profit_total": 1018.6824746510409,
+  "share_non": 75.86985332607036,
+  "share_drive": 16.851473021386237,
+  "share_maas": 7.278673652543621,
+  "price_mod": 0.26526552252432645,
+  "price_pt": 0.754718851661163,
+  "traveler_welfare": -16782.80952993622,
+  "social_welfare": -15764.12705528518,
+  "transfer_flow": 17.438472158880806,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "retail_mod": 419.3528157964179,
+  "retail_pt": 427.84897239884594,
+  "wholesale_mod": 67.65721838010737,
+  "wholesale_pt": 63.614610647812995,
+  "maas_receipts": 171.48068645577726,
+  "accounting_error": -1.4210854715202004e-13,
+  "share_non_mod": 38.673062843307335,
+  "share_non_pt": 37.196790482763014,
+  "share_maas_mod": 2.5408732088223775,
+  "share_maas_pt": 4.737800443721243,
+  "pt_pt_transfers": 1.7882490444464383,
+  "intermodal_transfers": 15.650223114434368,
+  "pt_access_flow": 422.08019675515345,
+  "mod_access_flow": 426.84354518986714,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 571,
+  "seconds": 9.660769701004028,
+  "natural_residual": 2.0040405379864925e-11,
+  "scaled_residual": 2.054784359318762e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.5,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/small_mode_0.5_with {'profit_mod': {'equilibrium': np.float64(487.01003417652515), 'best_grid_refined': 487.01003417652515, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(491.4635830466589), 'best_grid_refined': 491.4635830466589, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4210854715202004e-14), 'all_retail_deviation_gains_below_1e-4': True}
+v4/small_mode_0.2_without 1 0.3226315526130131
+v4/small_mode_0.2_without 2 0.21991248364141325
+v4/small_mode_0.2_without 3 0.18088940777723192
+v4/small_mode_0.2_without 4 0.052635760960642305
+v4/small_mode_0.2_without 5 0.001263291894582697
+v4/small_mode_0.2_without 6 0.00042627929818552125
+v4/small_mode_0.2_without 7 0.0002132305973639077
+v4/small_mode_0.2_without 8 0.00010676682168644257
+v4/small_mode_0.2_without 9 5.7490955602711524e-05
+v4/small_mode_0.2_without 10 3.675269693707703e-05
+v4/small_mode_0.2_without 11 1.837630454579103e-05
+v4/small_mode_0.2_without 12 9.188142802908725e-06
+v4/small_mode_0.2_without 13 4.594068333906059e-06
+v4/small_mode_0.2_without 14 2.297033336950093e-06
+v4/small_mode_0.2_without 15 1.1485164180086517e-06
+v4/small_mode_0.2_without 16 5.742581019787953e-07
+v4/small_mode_0.2_without 17 2.8712900991110195e-07
+v4/small_mode_0.2_without 18 1.4356449407539884e-07
+v4/small_mode_0.2_without 19 7.178226502325497e-08
+v4/small_mode_0.2_without 20 3.5891124295980285e-08
+v4/small_mode_0.2_without 21 1.7945559705545e-08
+v4/small_mode_0.2_without 22 8.972782517323168e-09
+v4/small_mode_0.2_without 23 4.486391258656484e-09
+v4/small_mode_0.2_without 24 2.2431989602187568e-09
+v4/small_mode_0.2_without 25 1.1215992586535917e-09
+v4/small_mode_0.2_without 26 5.607994074248454e-10
+v4/small_mode_0.2_without 27 2.803988170058207e-10
+v4/small_mode_0.2_without 28 1.4019852112647699e-10
+v4/small_mode_0.2_without 29 7.010392593640237e-11
+v4/small_mode_0.2_without 30 3.5050643002050956e-11
+v4/small_mode_0.2_without 31 1.7526874572134707e-11
+v4/small_mode_0.2_without 32 1.7526874572134707e-11
+{
+  "profit_mod": 241.34914327882984,
+  "profit_pt": 439.51393375941217,
+  "profit_maas": 0.0,
+  "profit_total": 680.863077038242,
+  "share_non": 84.67020528989005,
+  "share_drive": 15.329794710110184,
+  "share_maas": 0.0,
+  "price_mod": 0.13789237393839865,
+  "price_pt": 0.6868592188203911,
+  "traveler_welfare": -16780.309678269183,
+  "social_welfare": -16099.44660123094,
+  "transfer_flow": 0.06108015319878455,
+  "flow_conservation_error": 0.0,
+  "retail_mod": 241.34914327882984,
+  "retail_pt": 439.51393375941217,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 43.29723297648618,
+  "share_non_pt": 41.37297231340388,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0018469701199469268,
+  "intermodal_transfers": 0.059233183078837626,
+  "pt_access_flow": 413.73247716771067,
+  "mod_access_flow": 433.0306558843887,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 1408,
+  "seconds": 14.105687379837036,
+  "natural_residual": 1.7526869154938595e-11,
+  "scaled_residual": 1.7526874572134707e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.2,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/small_mode_0.2_without {'profit_mod': {'equilibrium': np.float64(241.34914327882984), 'best_grid_refined': 241.34914327882984, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(439.51393375941217), 'best_grid_refined': 439.51393375941285, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': 0.0, 'all_retail_deviation_gains_below_1e-4': True}
+v4/small_mode_0.2_with 1 0.04203295385871177
+v4/small_mode_0.2_with 2 0.007857550076781229
+v4/small_mode_0.2_with 3 0.0009024117745256029
+v4/small_mode_0.2_with 4 1.495781466229087e-05
+v4/small_mode_0.2_with 5 1.1946922341167036e-07
+v4/small_mode_0.2_with 6 3.5879437255324473e-09
+v4/small_mode_0.2_with 7 1.7917222016440049e-09
+v4/small_mode_0.2_with 8 8.94285374535862e-10
+v4/small_mode_0.2_with 9 4.464074370629841e-10
+v4/small_mode_0.2_with 10 2.2306413997923522e-10
+v4/small_mode_0.2_with 11 1.1152483971276712e-10
+v4/small_mode_0.2_with 12 5.5759640461987974e-11
+v4/small_mode_0.2_with 13 2.7876980550862053e-11
+v4/small_mode_0.2_with 14 1.3935313851667346e-11
+v4/small_mode_0.2_with 15 1.3935313851667346e-11
+{
+  "profit_mod": 254.89689469338666,
+  "profit_pt": 445.3669606357888,
+  "profit_maas": 1.7876743609786245,
+  "profit_total": 702.0515296901541,
+  "share_non": 83.85681855005969,
+  "share_drive": 15.260663239900124,
+  "share_maas": 0.8825182100404277,
+  "price_mod": 0.142366764210104,
+  "price_pt": 0.6908105608827462,
+  "traveler_welfare": -16777.57255491842,
+  "social_welfare": -16075.521025228267,
+  "transfer_flow": 2.678152899819149,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 247.51506930586245,
+  "retail_pt": 437.3617328817772,
+  "wholesale_mod": 7.381825387524195,
+  "wholesale_pt": 8.005227754011656,
+  "maas_receipts": 17.174727502514475,
+  "accounting_error": -4.618527782440651e-14,
+  "share_non_mod": 42.95273549896293,
+  "share_non_pt": 40.90408305109675,
+  "share_maas_mod": 0.2518747160647644,
+  "share_maas_pt": 0.6306434939756635,
+  "pt_pt_transfers": 0.22512379300345153,
+  "intermodal_transfers": 2.4530291068156975,
+  "pt_access_flow": 415.6571623537971,
+  "mod_access_flow": 434.41435814702305,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 659,
+  "seconds": 9.776620864868164,
+  "natural_residual": 1.3547414332653379e-11,
+  "scaled_residual": 1.3935313851667346e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.2,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/small_mode_0.2_with {'profit_mod': {'equilibrium': np.float64(254.89689469338666), 'best_grid_refined': 254.89689469338666, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(445.3669606357888), 'best_grid_refined': 445.3669606357888, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+v4/small_mode_0.1_without 1 0.1745833212553898
+v4/small_mode_0.1_without 2 0.15520076536474053
+v4/small_mode_0.1_without 3 0.11891576136755591
+v4/small_mode_0.1_without 4 0.0030336083275510546
+v4/small_mode_0.1_without 5 0.0016458605074036767
+v4/small_mode_0.1_without 6 0.0014616253301265084
+v4/small_mode_0.1_without 7 0.0009171277878306512
+v4/small_mode_0.1_without 8 0.0004585517819830298
+v4/small_mode_0.1_without 9 0.0002292677340000964
+v4/small_mode_0.1_without 10 0.00011463184051334719
+v4/small_mode_0.1_without 11 5.731540031411173e-05
+v4/small_mode_0.1_without 12 2.865756985113309e-05
+v4/small_mode_0.1_without 13 1.4328754199847863e-05
+v4/small_mode_0.1_without 14 7.164368385835487e-06
+v4/small_mode_0.1_without 15 3.58218265408934e-06
+v4/small_mode_0.1_without 16 1.7910906204101585e-06
+v4/small_mode_0.1_without 17 8.955452948305887e-07
+v4/small_mode_0.1_without 18 4.4777257210016054e-07
+v4/small_mode_0.1_without 19 2.238862941666823e-07
+v4/small_mode_0.1_without 20 1.1194313612335991e-07
+v4/small_mode_0.1_without 21 5.597157530019347e-08
+v4/small_mode_0.1_without 22 2.7985790955875138e-08
+v4/small_mode_0.1_without 23 1.399289856738624e-08
+v4/small_mode_0.1_without 24 6.9964481154722785e-09
+v4/small_mode_0.1_without 25 3.4982214904928393e-09
+v4/small_mode_0.1_without 26 1.7491107573252867e-09
+v4/small_mode_0.1_without 27 8.745581032432794e-10
+v4/small_mode_0.1_without 28 4.3727744646616187e-10
+v4/small_mode_0.1_without 29 2.1863967472828816e-10
+v4/small_mode_0.1_without 30 1.0932000334650411e-10
+v4/small_mode_0.1_without 31 5.465832395837127e-11
+v4/small_mode_0.1_without 32 2.7331197713487546e-11
+v4/small_mode_0.1_without 33 1.3663601968112148e-11
+v4/small_mode_0.1_without 34 1.3663601968112148e-11
+{
+  "profit_mod": 168.0607426403393,
+  "profit_pt": 478.33492058722373,
+  "profit_maas": 0.0,
+  "profit_total": 646.3956632275631,
+  "share_non": 84.98719284718787,
+  "share_drive": 15.012807152812165,
+  "share_maas": 0.0,
+  "price_mod": 0.09510647178982876,
+  "price_pt": 0.7504573246520042,
+  "traveler_welfare": -16859.927153438155,
+  "social_welfare": -16213.531490210593,
+  "transfer_flow": 0.06822608660744572,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 168.0607426403393,
+  "retail_pt": 478.33492058722373,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 43.83797290167824,
+  "share_non_pt": 41.14921994550963,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0018339642294376783,
+  "intermodal_transfers": 0.06639212237800804,
+  "pt_access_flow": 411.49488859003696,
+  "mod_access_flow": 438.4452659684491,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 1496,
+  "seconds": 16.564029216766357,
+  "natural_residual": 1.3663194554318232e-11,
+  "scaled_residual": 1.3663601968112148e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.1,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/small_mode_0.1_without {'profit_mod': {'equilibrium': np.float64(168.0607426403393), 'best_grid_refined': 177.81654138264673, 'unilateral_gain': 9.755798742307434, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(478.33492058722373), 'best_grid_refined': 478.33492058722624, 'unilateral_gain': 2.5011104298755527e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': False}
+v4/small_mode_0.1_with 1 4.414491708332832
+v4/small_mode_0.1_with 2 3.230362578723593
+v4/small_mode_0.1_with 3 3.1758845366965307
+v4/small_mode_0.1_with 4 2.951792205110129
+v4/small_mode_0.1_with 5 2.7978816981753507
+v4/small_mode_0.1_with 6 2.635753900124369
+v4/small_mode_0.1_with 7 2.471817689845338
+v4/small_mode_0.1_with 8 2.390121709661477
+v4/small_mode_0.1_with 9 2.3824175037710864
+v4/small_mode_0.1_with 10 2.3578902433182685
+v4/small_mode_0.1_with 11 2.346898233843273
+v4/small_mode_0.1_with 12 2.327783674838783
+v4/small_mode_0.1_with 13 2.2902880561373538
+v4/small_mode_0.1_with 14 2.2155614262423406
+v4/small_mode_0.1_with 15 2.204544078970406
+v4/small_mode_0.1_with 16 2.1910799599360975
+v4/small_mode_0.1_with 17 2.1754731670092333
+v4/small_mode_0.1_with 18 2.138839277361163
+v4/small_mode_0.1_with 19 2.1309768145062633
+v4/small_mode_0.1_with 20 2.1232608879096206
+v4/small_mode_0.1_with 21 2.0847574209408677
+v4/small_mode_0.1_with 22 2.074494065410189
+v4/small_mode_0.1_with 23 2.0679252722896226
+v4/small_mode_0.1_with 24 2.064735999619672
+v4/small_mode_0.1_with 25 2.0619589715999007
+v4/small_mode_0.1_with 26 2.055977977096009
+v4/small_mode_0.1_with 27 2.0424489141903024
+v4/small_mode_0.1_with 28 2.007817902728753
+v4/small_mode_0.1_with 29 1.9432076072102957
+v4/small_mode_0.1_with 30 1.8611641870367341
+v4/small_mode_0.1_with 31 1.7410231883108946
+v4/small_mode_0.1_with 32 1.717730748276427
+v4/small_mode_0.1_with 33 1.6950879105499035
+v4/small_mode_0.1_with 34 1.6750671048438235
+v4/small_mode_0.1_with 35 1.659722618379589
+v4/small_mode_0.1_with 36 1.6472569181772
+v4/small_mode_0.1_with 37 1.636678234001522
+v4/small_mode_0.1_with 38 1.5099312105113099
+v4/small_mode_0.1_with 39 1.4982048949946662
+v4/small_mode_0.1_with 40 1.4874434664598237
+v4/small_mode_0.1_with 41 1.4775015788413268
+v4/small_mode_0.1_with 42 1.4682627374787696
+v4/small_mode_0.1_with 43 1.4596394758423608
+v4/small_mode_0.1_with 44 1.4515559367725328
+v4/small_mode_0.1_with 45 1.4439533262350013
+v4/small_mode_0.1_with 46 1.4367782440369066
+v4/small_mode_0.1_with 47 1.429990028823359
+v4/small_mode_0.1_with 48 1.423554077190958
+v4/small_mode_0.1_with 49 1.1958859318993607
+v4/small_mode_0.1_with 50 1.1856097613626555
+v4/small_mode_0.1_with 51 1.176018163887709
+v4/small_mode_0.1_with 52 1.1670459242967526
+v4/small_mode_0.1_with 53 1.1586515640448187
+v4/small_mode_0.1_with 54 1.1508084605181308
+v4/small_mode_0.1_with 55 1.1438427061003913
+v4/small_mode_0.1_with 56 1.1371372038506402
+v4/small_mode_0.1_with 57 1.130670027363877
+v4/small_mode_0.1_with 58 0.767820554875241
+v4/small_mode_0.1_with 59 0.5041096403704469
+v4/small_mode_0.1_with 60 0.27492320044938545
+v4/small_mode_0.1_with 61 0.1827880642760121
+v4/small_mode_0.1_with 62 0.17051745216933714
+v4/small_mode_0.1_with 63 0.16001006662327286
+v4/small_mode_0.1_with 64 0.15024161468276273
+v4/small_mode_0.1_with 65 0.1410396550287575
+v4/small_mode_0.1_with 66 0.1322650973301551
+v4/small_mode_0.1_with 67 0.12381811556235323
+v4/small_mode_0.1_with 68 0.11561012219199693
+v4/small_mode_0.1_with 69 0.10757304959150545
+v4/small_mode_0.1_with 70 0.0996432063719326
+v4/small_mode_0.1_with 71 0.09176853751880082
+v4/small_mode_0.1_with 72 0.083902142816912
+v4/small_mode_0.1_with 73 0.07600698515171005
+v4/small_mode_0.1_with 74 0.06806242538004809
+v4/small_mode_0.1_with 75 0.06006917308787165
+v4/small_mode_0.1_with 76 0.052082377386503766
+v4/small_mode_0.1_with 77 0.044216266650214775
+v4/small_mode_0.1_with 78 0.0367083947440885
+v4/small_mode_0.1_with 79 0.029845664825184966
+v4/small_mode_0.1_with 80 0.02392881626031132
+v4/small_mode_0.1_with 81 0.019046810753726523
+v4/small_mode_0.1_with 82 0.015103894723311908
+v4/small_mode_0.1_with 83 0.011876375802623126
+v4/small_mode_0.1_with 84 0.009112271431830615
+v4/small_mode_0.1_with 85 0.006514191464572742
+v4/small_mode_0.1_with 86 0.003205158348395076
+v4/small_mode_0.1_with 87 0.003205158348395076
+{
+  "profit_mod": 253.09495893982722,
+  "profit_pt": 812.1819995379234,
+  "profit_maas": 33.974542366689256,
+  "profit_total": 1099.25150084444,
+  "share_non": 58.61074064429561,
+  "share_drive": 17.57652975943509,
+  "share_maas": 23.81272959626939,
+  "price_mod": 0.09356574445157709,
+  "price_pt": 1.8578900497377417,
+  "traveler_welfare": -18090.423579963157,
+  "social_welfare": -16991.172079118718,
+  "transfer_flow": 38.05173012768384,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 158.42161730399195,
+  "retail_pt": 440.0321875268922,
+  "wholesale_mod": 94.67334163583526,
+  "wholesale_pt": 372.14981201103126,
+  "maas_receipts": 500.7976960135557,
+  "accounting_error": 1.7053025658242404e-13,
+  "share_non_mod": 39.97771437913048,
+  "share_non_pt": 18.63302626516512,
+  "share_maas_mod": 3.1875154910958186,
+  "share_maas_pt": 20.62521410517357,
+  "pt_pt_transfers": 7.880146196317229,
+  "intermodal_transfers": 30.171583931366612,
+  "pt_access_flow": 403.8999074595584,
+  "mod_access_flow": 458.3865250737755,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "calls": 3840,
+  "seconds": 49.46904015541077,
+  "natural_residual": 0.0008036211355246465,
+  "scaled_residual": 0.003205158348395076,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.1,
+    "pt_capacity_total": false
+  },
+  "converged": false
+}
+v4/small_mode_0.05_without 1 0.21499894076371479
+v4/small_mode_0.05_without 2 0.1344523865675953
+v4/small_mode_0.05_without 3 0.07108015907119222
+v4/small_mode_0.05_without 4 0.06873931857441268
+v4/small_mode_0.05_without 5 0.06582081095100556
+v4/small_mode_0.05_without 6 0.024612983232377598
+v4/small_mode_0.05_without 7 0.00012441249997960385
+v4/small_mode_0.05_without 8 6.223655054810651e-07
+v4/small_mode_0.05_without 9 5.7354037267600755e-09
+v4/small_mode_0.05_without 10 2.7897241094293588e-09
+v4/small_mode_0.05_without 11 1.3948559082646394e-09
+v4/small_mode_0.05_without 12 6.974223096381305e-10
+v4/small_mode_0.05_without 13 3.4870497556602427e-10
+v4/small_mode_0.05_without 14 1.743461928460081e-10
+v4/small_mode_0.05_without 15 8.7166879369661e-11
+v4/small_mode_0.05_without 16 4.357737611024219e-11
+v4/small_mode_0.05_without 17 2.1782972465027558e-11
+v4/small_mode_0.05_without 18 2.1782972465027558e-11
+{
+  "profit_mod": 106.76251746276932,
+  "profit_pt": 520.7390071525192,
+  "profit_maas": 0.0,
+  "profit_total": 627.5015246152885,
+  "share_non": 84.8901745157023,
+  "share_drive": 15.109825484297708,
+  "share_maas": 0.0,
+  "price_mod": 0.05993782515399468,
+  "price_pt": 0.8312003980687817,
+  "traveler_welfare": -16972.952160870886,
+  "social_welfare": -16345.450636255597,
+  "transfer_flow": 0.07497072572883309,
+  "flow_conservation_error": 2.2737367544323206e-13,
+  "retail_mod": 106.76251746276932,
+  "retail_pt": 520.7390071525192,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 44.19525453760731,
+  "share_non_pt": 40.694919978094994,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0018255334256960713,
+  "intermodal_transfers": 0.07314519230313703,
+  "pt_access_flow": 406.95183525234427,
+  "mod_access_flow": 442.0248806304077,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 792,
+  "seconds": 7.953715085983276,
+  "natural_residual": 1.8099445405230383e-11,
+  "scaled_residual": 2.1782972465027558e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.05,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/small_mode_0.05_without {'profit_mod': {'equilibrium': np.float64(106.76251746276932), 'best_grid_refined': 112.45204472891226, 'unilateral_gain': 5.689527266142932, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(520.7390071525192), 'best_grid_refined': 520.7390071525214, 'unilateral_gain': 2.1600499167107046e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': False}
+v4/small_mode_0.05_with 1 5.1018284370004405
+v4/small_mode_0.05_with 2 5.0145661793880745
+v4/small_mode_0.05_with 3 4.813818212192626
+v4/small_mode_0.05_with 4 4.634022871060094
+v4/small_mode_0.05_with 5 3.682421059589563
+v4/small_mode_0.05_with 6 2.562414352717771
+v4/small_mode_0.05_with 7 2.4856417885709603
+v4/small_mode_0.05_with 8 2.399670259251166
+v4/small_mode_0.05_with 9 2.2958856675757393
+v4/small_mode_0.05_with 10 2.2688608119524067
+v4/small_mode_0.05_with 11 2.2228150730724066
+v4/small_mode_0.05_with 12 2.205421846255515
+v4/small_mode_0.05_with 13 2.1747201243335192
+v4/small_mode_0.05_with 14 2.1457443466945687
+v4/small_mode_0.05_with 15 2.1370442468823403
+v4/small_mode_0.05_with 16 2.1354790954672995
+v4/small_mode_0.05_with 17 2.1211366033686816
+v4/small_mode_0.05_with 18 2.0944205458449896
+v4/small_mode_0.05_with 19 2.051658106567586
+v4/small_mode_0.05_with 20 2.0054651654195097
+v4/small_mode_0.05_with 21 1.9970753114293136
+v4/small_mode_0.05_with 22 1.9746642992790735
+v4/small_mode_0.05_with 23 1.9603194220179117
+v4/small_mode_0.05_with 24 1.8626908968669436
+v4/small_mode_0.05_with 25 1.6802850789033648
+v4/small_mode_0.05_with 26 1.3813656505502327
+v4/small_mode_0.05_with 27 1.1711618548898783
+v4/small_mode_0.05_with 28 0.6921507052189527
+v4/small_mode_0.05_with 29 0.6662387359274805
+v4/small_mode_0.05_with 30 0.5458236508682227
+v4/small_mode_0.05_with 31 0.5041367527382556
+v4/small_mode_0.05_with 32 0.5005577452467712
+v4/small_mode_0.05_with 33 0.4974279348999862
+v4/small_mode_0.05_with 34 0.4942675201572935
+v4/small_mode_0.05_with 35 0.49130638191289894
+v4/small_mode_0.05_with 36 0.4883447579332172
+v4/small_mode_0.05_with 37 0.4854985703485338
+v4/small_mode_0.05_with 38 0.482688530087696
+v4/small_mode_0.05_with 39 0.48036580127042616
+v4/small_mode_0.05_with 40 0.4780540293015427
+v4/small_mode_0.05_with 41 0.4766690176250507
+v4/small_mode_0.05_with 42 0.4758358968313228
+v4/small_mode_0.05_with 43 0.47526457639150005
+v4/small_mode_0.05_with 44 0.474979953854543
+v4/small_mode_0.05_with 45 0.4746915779018818
+v4/small_mode_0.05_with 46 0.4746796690176826
+v4/small_mode_0.05_with 47 0.47422551336213964
+v4/small_mode_0.05_with 48 0.4740778623476738
+v4/small_mode_0.05_with 49 0.3946339617579755
+v4/small_mode_0.05_with 50 0.3822095350292601
+v4/small_mode_0.05_with 51 0.37925363270647483
+v4/small_mode_0.05_with 52 0.37631200838972406
+v4/small_mode_0.05_with 53 0.37326020597608184
+v4/small_mode_0.05_with 54 0.37180929284443626
+v4/small_mode_0.05_with 55 0.37115166751308915
+v4/small_mode_0.05_with 56 0.2786602132117252
+v4/small_mode_0.05_with 57 0.2663472114250444
+v4/small_mode_0.05_with 58 0.2613880146961933
+v4/small_mode_0.05_with 59 0.25609717655875924
+v4/small_mode_0.05_with 60 0.2504976434882318
+v4/small_mode_0.05_with 61 0.24438194381631403
+v4/small_mode_0.05_with 62 0.23765552014685168
+v4/small_mode_0.05_with 63 0.13277038852404507
+v4/small_mode_0.05_with 64 0.09116272134271597
+v4/small_mode_0.05_with 65 0.04541911097206385
+v4/small_mode_0.05_with 66 0.02694427052730093
+v4/small_mode_0.05_with 67 0.018081576400210568
+v4/small_mode_0.05_with 68 0.010637502650294397
+v4/small_mode_0.05_with 69 0.00535938132364188
+v4/small_mode_0.05_with 70 0.0028468628571841743
+v4/small_mode_0.05_with 71 0.0014035481938783432
+v4/small_mode_0.05_with 72 0.0006915995719182678
+v4/small_mode_0.05_with 73 0.0003430190952173497
+v4/small_mode_0.05_with 74 0.00017063430134674865
+v4/small_mode_0.05_with 75 8.45805121246469e-05
+v4/small_mode_0.05_with 76 4.168091600819762e-05
+v4/small_mode_0.05_with 77 2.042637075397453e-05
+v4/small_mode_0.05_with 78 1.0012993500718324e-05
+v4/small_mode_0.05_with 79 4.938377944604931e-06
+v4/small_mode_0.05_with 80 2.4537479238373795e-06
+v4/small_mode_0.05_with 81 1.2221881084441354e-06
+v4/small_mode_0.05_with 82 1.0065944761486559e-06
+v4/small_mode_0.05_with 83 8.046060216107062e-07
+v4/small_mode_0.05_with 84 6.196435731536455e-07
+v4/small_mode_0.05_with 85 4.554793719996923e-07
+v4/small_mode_0.05_with 86 3.1633661780917364e-07
+v4/small_mode_0.05_with 87 1.552302775679734e-07
+v4/small_mode_0.05_with 88 7.585613941219941e-08
+v4/small_mode_0.05_with 89 3.726426816762539e-08
+v4/small_mode_0.05_with 90 1.8371588522481045e-08
+v4/small_mode_0.05_with 91 8.989600867865795e-09
+v4/small_mode_0.05_with 92 8.989600867865795e-09
+{
+  "profit_mod": 226.5244766881968,
+  "profit_pt": 828.9250843108979,
+  "profit_maas": 10.536398811641718,
+  "profit_total": 1065.9859598107364,
+  "share_non": 65.86659652449804,
+  "share_drive": 17.669368322366527,
+  "share_maas": 16.464035153136514,
+  "price_mod": 0.09368794968658606,
+  "price_pt": 1.71187691669565,
+  "traveler_welfare": -18073.56501817113,
+  "social_welfare": -17007.579058360396,
+  "transfer_flow": 28.3051638405611,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 159.79613742375636,
+  "retail_pt": 599.8962605921773,
+  "wholesale_mod": 66.72833926444045,
+  "wholesale_pt": 229.02882371872062,
+  "maas_receipts": 306.29356179480277,
+  "accounting_error": -5.684341886080802e-14,
+  "share_non_mod": 41.07288717886742,
+  "share_non_pt": 24.79370934563062,
+  "share_maas_mod": 2.3368776320868654,
+  "share_maas_pt": 14.127157521049647,
+  "pt_pt_transfers": 5.743843642567642,
+  "intermodal_transfers": 22.56132019799346,
+  "pt_access_flow": 397.10762515942406,
+  "mod_access_flow": 454.50385545748253,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "calls": 4055,
+  "seconds": 55.553833961486816,
+  "natural_residual": 4.039862668437108e-09,
+  "scaled_residual": 8.989600867865795e-09,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.05,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/small_mode_0.05_with {'profit_mod': {'equilibrium': np.float64(226.5244766881968), 'best_grid_refined': 240.64789021841517, 'unilateral_gain': 14.123413530218357, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(828.9250843108979), 'best_grid_refined': 1003.1098891297918, 'unilateral_gain': 174.1848048188939, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': False}
+v4/small_mode_0.03_without 1 0.2921900346781917
+v4/small_mode_0.03_without 2 0.15945862721217582
+v4/small_mode_0.03_without 3 0.10690241096418597
+v4/small_mode_0.03_without 4 0.10436402302759296
+v4/small_mode_0.03_without 5 0.10344463083664822
+v4/small_mode_0.03_without 6 0.09337719787585015
+v4/small_mode_0.03_without 7 0.08843063072918023
+v4/small_mode_0.03_without 8 0.07884877769331886
+v4/small_mode_0.03_without 9 0.06519327342987175
+v4/small_mode_0.03_without 10 0.06462944005787168
+v4/small_mode_0.03_without 11 0.06431186177985083
+v4/small_mode_0.03_without 12 0.04865251071618245
+v4/small_mode_0.03_without 13 0.04508724677542906
+v4/small_mode_0.03_without 14 0.027146910100129512
+v4/small_mode_0.03_without 15 5.127218335744116e-05
+v4/small_mode_0.03_without 16 6.067386392979996e-07
+v4/small_mode_0.03_without 17 3.034331957660305e-07
+v4/small_mode_0.03_without 18 1.5171654904095183e-07
+v4/small_mode_0.03_without 19 7.585825541634691e-08
+v4/small_mode_0.03_without 20 3.792911968253932e-08
+v4/small_mode_0.03_without 21 1.8964554705675524e-08
+v4/small_mode_0.03_without 22 9.482275595494783e-09
+v4/small_mode_0.03_without 23 4.741176168138296e-09
+v4/small_mode_0.03_without 24 2.3705691795129735e-09
+v4/small_mode_0.03_without 25 1.1852737070013127e-09
+v4/small_mode_0.03_without 26 5.926350332953291e-10
+v4/small_mode_0.03_without 27 2.9631176154118556e-10
+v4/small_mode_0.03_without 28 1.4815174136389044e-10
+v4/small_mode_0.03_without 29 7.407885155523788e-11
+v4/small_mode_0.03_without 30 3.7034719183877795e-11
+v4/small_mode_0.03_without 31 1.851716740148831e-11
+v4/small_mode_0.03_without 32 1.851716740148831e-11
+{
+  "profit_mod": 66.86589071807292,
+  "profit_pt": 522.9125479785716,
+  "profit_maas": 0.0,
+  "profit_total": 589.7784386966446,
+  "share_non": 84.98940284763913,
+  "share_drive": 15.010597152361404,
+  "share_maas": 0.0,
+  "price_mod": 0.03731946094690675,
+  "price_pt": 0.8370985132765396,
+  "traveler_welfare": -16981.50060484885,
+  "social_welfare": -16391.722166152205,
+  "transfer_flow": 0.08032395514110854,
+  "flow_conservation_error": 2.2737367544323206e-13,
+  "retail_mod": 66.86589071807292,
+  "retail_pt": 522.9125479785716,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 44.399730323052665,
+  "share_non_pt": 40.58967252458645,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0018213838159842504,
+  "intermodal_transfers": 0.0785025713251243,
+  "pt_access_flow": 405.8993253750386,
+  "mod_access_flow": 444.07502705649375,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 1409,
+  "seconds": 14.090884923934937,
+  "natural_residual": 1.8516866707033628e-11,
+  "scaled_residual": 1.851716740148831e-11,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.03,
+    "pt_capacity_total": false
+  },
+  "converged": true
+}
+v4/small_mode_0.03_without {'profit_mod': {'equilibrium': np.float64(66.86589071807292), 'best_grid_refined': 108.77505681743054, 'unilateral_gain': 41.90916609935762, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(522.9125479785716), 'best_grid_refined': 522.9125479785727, 'unilateral_gain': 1.0231815394945443e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': False}
+v4/small_mode_0.03_with 1 5.129630365658172
+v4/small_mode_0.03_with 2 4.33655685388645
+v4/small_mode_0.03_with 3 3.0075959372121917
+v4/small_mode_0.03_with 4 2.868591444363381
+v4/small_mode_0.03_with 5 2.8077921230770593
+v4/small_mode_0.03_with 6 2.606605186716353
+v4/small_mode_0.03_with 7 2.3675638937500367
+v4/small_mode_0.03_with 8 2.2820667524515805
+v4/small_mode_0.03_with 9 2.216104758282408
+v4/small_mode_0.03_with 10 2.139344829167831
+v4/small_mode_0.03_with 11 2.068690662800747
+v4/small_mode_0.03_with 12 1.9818134682124504
+v4/small_mode_0.03_with 13 1.9639538745052427
+v4/small_mode_0.03_with 14 1.9634106327323166
+v4/small_mode_0.03_with 15 1.963186447436387
+v4/small_mode_0.03_with 16 1.9627330581403963
+v4/small_mode_0.03_with 17 1.9619158724822927
+v4/small_mode_0.03_with 18 1.9602684779455544
+v4/small_mode_0.03_with 19 1.9574520372531015
+v4/small_mode_0.03_with 20 1.9566663937766537
+v4/small_mode_0.03_with 21 1.9541461159906757
+v4/small_mode_0.03_with 22 1.9505068761367808
+v4/small_mode_0.03_with 23 1.9451051975852434
+v4/small_mode_0.03_with 24 1.9353336732117645
+v4/small_mode_0.03_with 25 1.9223908871136772
+v4/small_mode_0.03_with 26 1.9135046208466844
+v4/small_mode_0.03_with 27 1.913179887398927
+v4/small_mode_0.03_with 28 1.9125629438833418
+v4/small_mode_0.03_with 29 1.9113159186061603
+v4/small_mode_0.03_with 30 1.9088525462823749
+v4/small_mode_0.03_with 31 1.9039797421344948
+v4/small_mode_0.03_with 32 1.8935752488075912
+v4/small_mode_0.03_with 33 1.8739875827833772
+v4/small_mode_0.03_with 34 1.8672406791811664
+v4/small_mode_0.03_with 35 1.8636236227484873
+v4/small_mode_0.03_with 36 1.8593717029313035
+v4/small_mode_0.03_with 37 1.8541636043242875
+v4/small_mode_0.03_with 38 1.8511045225647884
+v4/small_mode_0.03_with 39 1.8462678488699384
+v4/small_mode_0.03_with 40 1.839161491374123
+v4/small_mode_0.03_with 41 1.8274627392381328
+v4/small_mode_0.03_with 42 1.80519833618047
+v4/small_mode_0.03_with 43 1.7657955819114675
+v4/small_mode_0.03_with 44 1.7600512289480716
+v4/small_mode_0.03_with 45 1.7572321993418434
+v4/small_mode_0.03_with 46 1.7520857010691027
+v4/small_mode_0.03_with 47 1.7421828465302198
+v4/small_mode_0.03_with 48 1.7229864747779602
+v4/small_mode_0.03_with 49 1.6867658142238853
+v4/small_mode_0.03_with 50 1.6178361372234185
+v4/small_mode_0.03_with 51 1.616755142851842
+v4/small_mode_0.03_with 52 1.6125250202445645
+v4/small_mode_0.03_with 53 1.6083157777575698
+v4/small_mode_0.03_with 54 1.6031561302212087
+v4/small_mode_0.03_with 55 1.6013763081947225
+v4/small_mode_0.03_with 56 1.5977598831611683
+v4/small_mode_0.03_with 57 1.5936747417422141
+v4/small_mode_0.03_with 58 1.590923587535316
+v4/small_mode_0.03_with 59 1.5879022739038482
+v4/small_mode_0.03_with 60 1.5840744028321483
+v4/small_mode_0.03_with 61 1.5834920258387337
+v4/small_mode_0.03_with 62 1.5783477421729155
+v4/small_mode_0.03_with 63 1.5756112148753751
+v4/small_mode_0.03_with 64 1.5713577523903155
+v4/small_mode_0.03_with 65 1.563120590270273
+v4/small_mode_0.03_with 66 1.5467446566380305
+v4/small_mode_0.03_with 67 1.5142794718082082
+v4/small_mode_0.03_with 68 1.4502050605168169
+v4/small_mode_0.03_with 69 1.4195996289246051
+v4/small_mode_0.03_with 70 1.418478694600455
+v4/small_mode_0.03_with 71 1.4177734269520272
+v4/small_mode_0.03_with 72 1.416393826333463
+v4/small_mode_0.03_with 73 1.413652261902351
+v4/small_mode_0.03_with 74 1.408365436783453
+v4/small_mode_0.03_with 75 1.3973830119995854
+v4/small_mode_0.03_with 76 1.3973830119995854
+{
+  "profit_mod": 979.5382532834358,
+  "profit_pt": 727.53840137275,
+  "profit_maas": 185.7711305082156,
+  "profit_total": 1892.8477851644016,
+  "share_non": 23.335378274376218,
+  "share_drive": 16.759826895470578,
+  "share_maas": 59.90479483015348,
+  "price_mod": 0.6782195948043381,
+  "price_pt": 1.2791607020025528,
+  "traveler_welfare": -17945.157731016574,
+  "social_welfare": -16052.309945852172,
+  "transfer_flow": 129.36604231615206,
+  "flow_conservation_error": 8.526512829121202e-14,
+  "retail_mod": 113.75244008094623,
+  "retail_pt": 193.60364395575178,
+  "wholesale_mod": 865.7858132024896,
+  "wholesale_pt": 533.9347574169982,
+  "maas_receipts": 1585.4917011277032,
+  "accounting_error": 2.2737367544323206e-13,
+  "share_non_mod": 8.273126282915436,
+  "share_non_pt": 15.062251991460778,
+  "share_maas_mod": 27.958692348311814,
+  "share_maas_pt": 31.94610248184165,
+  "pt_pt_transfers": 7.451400416390994,
+  "intermodal_transfers": 121.91464189976107,
+  "pt_access_flow": 487.51956546941165,
+  "mod_access_flow": 474.24820789203704,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "calls": 3367,
+  "seconds": 49.63680911064148,
+  "natural_residual": 0.1964645019241113,
+  "scaled_residual": 1.3973830119995854,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.03,
+    "pt_capacity_total": false
+  },
+  "converged": false
+}
+v4/small_mode_0.01_without 1 0.36158469081034655
+v4/small_mode_0.01_without 2 0.22172785365075692
+v4/small_mode_0.01_without 3 0.16103262737088125
+v4/small_mode_0.01_without 4 0.14420263985925127
+v4/small_mode_0.01_without 5 0.14054585516779317
+v4/small_mode_0.01_without 6 0.13722691018985725
+v4/small_mode_0.01_without 7 0.13091180313012354
+v4/small_mode_0.01_without 8 0.12033494038509371
+v4/small_mode_0.01_without 9 0.11076406171389457
+v4/small_mode_0.01_without 10 0.09370002080676304
+v4/small_mode_0.01_without 11 0.08723911749855401
+v4/small_mode_0.01_without 12 0.07622692438335797
+v4/small_mode_0.01_without 13 0.0714337345166224
+v4/small_mode_0.01_without 14 0.0670001799943203
+v4/small_mode_0.01_without 15 0.06070202143953794
+v4/small_mode_0.01_without 16 0.059255531784060476
+v4/small_mode_0.01_without 17 0.050518645433466736
+v4/small_mode_0.01_without 18 0.04971595650188565
+v4/small_mode_0.01_without 19 0.04903514306266275
+v4/small_mode_0.01_without 20 0.04772816892718504
+v4/small_mode_0.01_without 21 0.04525409955358148
+v4/small_mode_0.01_without 22 0.040511555741747474
+v4/small_mode_0.01_without 23 0.03763417617876727
+v4/small_mode_0.01_without 24 0.03618503552163035
+v4/small_mode_0.01_without 25 0.03616303304631224
+v4/small_mode_0.01_without 26 0.036145740624402685
+v4/small_mode_0.01_without 27 0.0361286204442697
+v4/small_mode_0.01_without 28 0.03611167198813231
+v4/small_mode_0.01_without 29 0.036094894325874455
+v4/small_mode_0.01_without 30 0.036078284681795456
+v4/small_mode_0.01_without 31 0.03606184159845705
+v4/small_mode_0.01_without 32 0.036045563066140665
+v4/small_mode_0.01_without 33 0.03602944774222357
+v4/small_mode_0.01_without 34 0.036013493840746945
+v4/small_mode_0.01_without 35 0.03599769967167846
+v4/small_mode_0.01_without 36 0.03598206402060558
+v4/small_mode_0.01_without 37 0.035966585388192196
+v4/small_mode_0.01_without 38 0.035951261852600745
+v4/small_mode_0.01_without 39 0.035936091781824796
+v4/small_mode_0.01_without 40 0.03592107354916171
+v4/small_mode_0.01_without 41 0.035906205125445755
+v4/small_mode_0.01_without 42 0.03589148527114589
+v4/small_mode_0.01_without 43 0.03587691329146255
+v4/small_mode_0.01_without 44 0.035862487532640125
+v4/small_mode_0.01_without 45 0.035848205886787686
+v4/small_mode_0.01_without 46 0.03583406685925689
+v4/small_mode_0.01_without 47 0.0358200706646375
+v4/small_mode_0.01_without 48 0.035806214957174794
+v4/small_mode_0.01_without 49 0.03579249757394643
+v4/small_mode_0.01_without 50 0.035778916742136894
+v4/small_mode_0.01_without 51 0.03576547274018459
+v4/small_mode_0.01_without 52 0.035752163783890616
+v4/small_mode_0.01_without 53 0.03573898663444364
+v4/small_mode_0.01_without 54 0.03572594163080179
+v4/small_mode_0.01_without 55 0.03571302753573053
+v4/small_mode_0.01_without 56 0.03570024203840967
+v4/small_mode_0.01_without 57 0.03568758500783716
+v4/small_mode_0.01_without 58 0.035675054622417
+v4/small_mode_0.01_without 59 0.03566264855271209
+v4/small_mode_0.01_without 60 0.0356503664640778
+v4/small_mode_0.01_without 61 0.035638207420363624
+v4/small_mode_0.01_without 62 0.035626170401140765
+v4/small_mode_0.01_without 63 0.03561425375752693
+v4/small_mode_0.01_without 64 0.03560245645298208
+v4/small_mode_0.01_without 65 0.035590777232231065
+v4/small_mode_0.01_without 66 0.035579214685957865
+v4/small_mode_0.01_without 67 0.03556776734861446
+v4/small_mode_0.01_without 68 0.035556433879569686
+v4/small_mode_0.01_without 69 0.035545213266434526
+v4/small_mode_0.01_without 70 0.035534105286873466
+v4/small_mode_0.01_without 71 0.035523107633931995
+v4/small_mode_0.01_without 72 0.035512220288227425
+v4/small_mode_0.01_without 73 0.035501440949483
+v4/small_mode_0.01_without 74 0.03549076956919404
+v4/small_mode_0.01_without 75 0.03548020466551993
+v4/small_mode_0.01_without 76 0.035469745317931484
+v4/small_mode_0.01_without 77 0.035459391164908705
+v4/small_mode_0.01_without 78 0.035449140092345205
+v4/small_mode_0.01_without 79 0.03543899225159032
+v4/small_mode_0.01_without 80 0.03542894570928413
+v4/small_mode_0.01_without 81 0.03541899971767951
+v4/small_mode_0.01_without 82 0.035409152985222556
+v4/small_mode_0.01_without 83 0.03539940504037943
+v4/small_mode_0.01_without 84 0.03539019544586108
+v4/small_mode_0.01_without 85 0.035384241025885936
+v4/small_mode_0.01_without 86 0.02780874437947115
+v4/small_mode_0.01_without 87 0.026384939866529615
+v4/small_mode_0.01_without 88 0.026233620396204062
+v4/small_mode_0.01_without 89 0.026177978254270505
+v4/small_mode_0.01_without 90 0.02612342262763713
+v4/small_mode_0.01_without 91 0.026082670626582986
+v4/small_mode_0.01_without 92 0.01877543091562536
+v4/small_mode_0.01_without 93 0.0010699245330710553
+v4/small_mode_0.01_without 94 0.0010699245330710553
+{
+  "profit_mod": 23.086125428009623,
+  "profit_pt": 521.1937295281041,
+  "profit_maas": 0.0,
+  "profit_total": 544.2798549561137,
+  "share_non": 85.11740005164768,
+  "share_drive": 14.882599948351762,
+  "share_maas": 0.0,
+  "price_mod": 0.012803727985077128,
+  "price_pt": 0.8360393914882007,
+  "traveler_welfare": -16979.72213096526,
+  "social_welfare": -16435.442276009147,
+  "transfer_flow": 0.08662133674440829,
+  "flow_conservation_error": 3.1554436208840472e-30,
+  "retail_mod": 23.086125428009623,
+  "retail_pt": 521.1937295281041,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 44.6176631347614,
+  "share_non_pt": 40.49973691688628,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0018159912571441429,
+  "intermodal_transfers": 0.08480534548726415,
+  "pt_access_flow": 404.9999303757454,
+  "mod_access_flow": 446.26069147747575,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "calls": 4141,
+  "seconds": 46.321410179138184,
+  "natural_residual": 0.0005582676990075761,
+  "scaled_residual": 0.0010699245330710553,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.01,
+    "pt_capacity_total": false
+  },
+  "converged": false
+}
+v4/small_mode_0.01_with 1 5.280744753620591
+v4/small_mode_0.01_with 2 3.199838546283676
+v4/small_mode_0.01_with 3 3.0293595339754362
+v4/small_mode_0.01_with 4 2.955791270672886
+v4/small_mode_0.01_with 5 2.7886365186958626
+v4/small_mode_0.01_with 6 2.7200210609498376
+v4/small_mode_0.01_with 7 2.5447659325014316
+v4/small_mode_0.01_with 8 2.422652398881589
+v4/small_mode_0.01_with 9 2.2799649427224526
+v4/small_mode_0.01_with 10 2.2532801480205715
+v4/small_mode_0.01_with 11 2.2417580196267797
+v4/small_mode_0.01_with 12 2.2345635101203207
+v4/small_mode_0.01_with 13 2.2321777561044294
+v4/small_mode_0.01_with 14 2.2277673001277343
+v4/small_mode_0.01_with 15 2.218238293680174
+v4/small_mode_0.01_with 16 2.213716703201394
+v4/small_mode_0.01_with 17 2.208070833755556
+v4/small_mode_0.01_with 18 2.2045462670830185
+v4/small_mode_0.01_with 19 2.194904931345922
+v4/small_mode_0.01_with 20 2.1917746111864562
+v4/small_mode_0.01_with 21 2.1889387434625482
+v4/small_mode_0.01_with 22 2.1879959414792225
+v4/small_mode_0.01_with 23 2.1873835491252183
+v4/small_mode_0.01_with 24 2.186963649281981
+v4/small_mode_0.01_with 25 2.1853873567643323
+v4/small_mode_0.01_with 26 2.183079161177128
+v4/small_mode_0.01_with 27 2.182271425396281
+v4/small_mode_0.01_with 28 2.180136850825286
+v4/small_mode_0.01_with 29 2.1794724773512
+v4/small_mode_0.01_with 30 2.1774792547732247
+v4/small_mode_0.01_with 31 2.176909767419547
+v4/small_mode_0.01_with 32 2.175752020109517
+v4/small_mode_0.01_with 33 2.174210024702706
+v4/small_mode_0.01_with 34 2.1733599709399765
+v4/small_mode_0.01_with 35 2.1701632078141997
+v4/small_mode_0.01_with 36 2.168317630842191
+v4/small_mode_0.01_with 37 2.1674684813985112
+v4/small_mode_0.01_with 38 2.1659136470599982
+v4/small_mode_0.01_with 39 2.1650599666990367
+v4/small_mode_0.01_with 40 2.163548156289052
+v4/small_mode_0.01_with 41 2.1627163311037774
+v4/small_mode_0.01_with 42 2.1612476340742797
+v4/small_mode_0.01_with 43 2.1604325421050015
+v4/small_mode_0.01_with 44 2.1590069776566647
+v4/small_mode_0.01_with 45 2.1582061999165796
+v4/small_mode_0.01_with 46 2.1568234924997016
+v4/small_mode_0.01_with 47 2.156035394464352
+v4/small_mode_0.01_with 48 2.1546949809319553
+v4/small_mode_0.01_with 49 2.1539181736578454
+v4/small_mode_0.01_with 50 2.152618953347093
+v4/small_mode_0.01_with 51 2.1518524051351218
+v4/small_mode_0.01_with 52 2.150593149111927
+v4/small_mode_0.01_with 53 2.1498359522154056
+v4/small_mode_0.01_with 54 2.148615295037743
+v4/small_mode_0.01_with 55 2.1478666938024302
+v4/small_mode_0.01_with 56 2.1466830359793447
+v4/small_mode_0.01_with 57 2.145942378827585
+v4/small_mode_0.01_with 58 2.144794179345253
+v4/small_mode_0.01_with 59 2.1440610013956984
+v4/small_mode_0.01_with 60 2.1430935652733276
+v4/small_mode_0.01_with 61 2.1430881222319123
+v4/small_mode_0.01_with 62 2.142492406312902
+v4/small_mode_0.01_with 63 2.1414553159517773
+v4/small_mode_0.01_with 64 2.140667215946153
+v4/small_mode_0.01_with 65 2.1398107256827963
+v4/small_mode_0.01_with 66 2.138934317993465
+v4/small_mode_0.01_with 67 2.13820253120944
+v4/small_mode_0.01_with 68 2.1372771873943828
+v4/small_mode_0.01_with 69 2.1372771873943828
+{
+  "profit_mod": 1163.2874853920382,
+  "profit_pt": 1096.4776676839786,
+  "profit_maas": 158.04819569111385,
+  "profit_total": 2417.8133487671307,
+  "share_non": 21.704990300444777,
+  "share_drive": 2.02240238964678,
+  "share_maas": 76.2726073099114,
+  "price_mod": 0.6193002239120489,
+  "price_pt": 1.2798227811065932,
+  "traveler_welfare": -17978.786593538072,
+  "social_welfare": -15560.973244770941,
+  "transfer_flow": 172.97089793920196,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 165.22174443499364,
+  "retail_pt": 238.78482794717914,
+  "wholesale_mod": 998.0657409570445,
+  "wholesale_pt": 857.6928397367996,
+  "maas_receipts": 2013.8067763849576,
+  "accounting_error": 4.547473508864641e-13,
+  "share_non_mod": 8.593186025552109,
+  "share_non_pt": 13.11180427489267,
+  "share_maas_mod": 31.071033213109423,
+  "share_maas_pt": 45.20157409680198,
+  "pt_pt_transfers": 11.471784017690544,
+  "intermodal_transfers": 161.49911392151142,
+  "pt_access_flow": 611.4055205819761,
+  "mod_access_flow": 541.3413534607877,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": false,
+  "message": "The maximum number of function evaluations is exceeded.",
+  "calls": 3066,
+  "seconds": 40.83199906349182,
+  "natural_residual": 0.20987167725625241,
+  "scaled_residual": 2.1372771873943828,
+  "access_scope": "node",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "node",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 0.01,
+    "pt_capacity_total": false
+  },
+  "converged": false
+}
