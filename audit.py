@@ -19,11 +19,13 @@ def audit(tag):
         grid=np.unique(np.r_[np.linspace(0,10,31),y[idx],20,50,100,200])
         vals=np.array([obj(p) for p in grid]); j=vals.argmin()
         fit=minimize_scalar(obj,bounds=(grid[max(0,j-1)],grid[min(len(grid)-1,j+1)]),method='bounded',options={'xatol':1e-8})
-        best=min(vals.min(),fit.fun); ans[key]={'equilibrium':base[key],'best_grid_refined':float(-best),'unilateral_gain':max(0,float(-best-base[key])),'failed_price_evaluations':failed}
+        best=min(vals.min(),fit.fun); best_price=grid[j] if vals[j]<=fit.fun else fit.x
+        ans[key]={'equilibrium':base[key],'best_grid_refined':float(-best),'best_tested_price':float(best_price),'unilateral_gain':max(0,float(-best-base[key])),'failed_price_evaluations':failed}
     # Root equation and terminal balance are independently observable diagnostics.
     ans['flow_conservation_error']=base['flow_conservation_error']
     ans['all_retail_deviation_gains_below_1e-4']=all(ans[k]['unilateral_gain']<1e-4 for k in ['profit_mod','profit_pt'])
     (folder/'audit.json').write_text(json.dumps(ans,indent=2)); print(tag,ans,flush=True)
+    return ans
 if __name__=='__main__':
     for tag in ['small_node_theta1_without','small_node_theta1_with','sioux_node_theta1_without','sioux_node_theta1_with']:
         audit(tag)

@@ -84,13 +84,19 @@ class Graph:
         return V,R,dV,dR,load
 
 class Model:
-    def __init__(self,name='small',maas=True,theta=1.,penalty=None,wholesale=None,access_scope='aggregate',mod_access_scope=None,pt_access_scope=None,mode_theta=None,pt_capacity_total=False):
+    def __init__(self,name='small',maas=True,theta=1.,penalty=None,wholesale=None,access_scope='aggregate',mod_access_scope=None,pt_access_scope=None,mode_theta=None,pt_capacity_total=False,small_network_variant='appendix'):
         self.name=name; self.maas=maas; self.theta=theta; self.access_scope=access_scope
         self.mod_access_scope=mod_access_scope or access_scope; self.pt_access_scope=pt_access_scope or access_scope
         self.mode_theta=theta if mode_theta is None else mode_theta; self.pt_capacity_total=pt_capacity_total
         assert self.mod_access_scope in ['aggregate','node']
         assert self.pt_access_scope in ['aggregate','node','line_node']
-        rows,lines,ods=inputs(name); self.rows=rows; self.ods=np.array(ods); self.total=self.ods[:,2].sum()
+        self.small_network_variant=small_network_variant
+        assert small_network_variant in ['appendix','figure_pt','figure_pt_reverse23']
+        rows,lines,ods=inputs(name)
+        if name=='small' and small_network_variant!='appendix':
+            lines[0]=[1,2,3,5]
+            if small_network_variant=='figure_pt_reverse23': rows.append((3,2,1.6,200,4))
+        self.rows=rows; self.ods=np.array(ods); self.total=self.ods[:,2].sum()
         n=max(max(r[:2]) for r in rows); self.n=n
         self.wholesale=np.array(wholesale or ([1.3,1.3] if name=='small' else [1.5,1.]))
         self.penalty=(1. if name=='small' else .5) if penalty is None else penalty
@@ -154,7 +160,7 @@ class Model:
         return np.r_[self.t0+.05,np.full(self.nod,5.) if self.maas else [],[.65,1.4] if self.name=='small' else [.81,3.65]]
     def project(self,y): return np.clip(y,np.r_[self.t0,np.zeros(len(y)-self.nt)],200.)
     def config(self):
-        return dict(name=self.name,maas=self.maas,theta=self.theta,penalty=self.penalty,wholesale=self.wholesale.tolist(),access_scope=self.access_scope,mod_access_scope=self.mod_access_scope,pt_access_scope=self.pt_access_scope,mode_theta=self.mode_theta,pt_capacity_total=self.pt_capacity_total)
+        return dict(name=self.name,maas=self.maas,theta=self.theta,penalty=self.penalty,wholesale=self.wholesale.tolist(),access_scope=self.access_scope,mod_access_scope=self.mod_access_scope,pt_access_scope=self.pt_access_scope,mode_theta=self.mode_theta,pt_capacity_total=self.pt_capacity_total,small_network_variant=self.small_network_variant)
     def evaluate(self,y,details=False):
         self.last_od=[]
         self.retail_volume=np.zeros(2)

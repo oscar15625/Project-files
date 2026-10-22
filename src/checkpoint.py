@@ -20,5 +20,7 @@ def load(folder,config):
     target=paths[-1] if paths else Path(folder)/'checkpoint.npz'
     with np.load(target) as snap:
         meta=json.loads(str(snap['metadata']))
+        meta['config'].setdefault('small_network_variant','appendix')
+        config=dict(config); config.setdefault('small_network_variant','appendix')
         if meta['config']!=config: raise ValueError('Checkpoint model configuration differs')
         return snap['x'].copy(),meta
