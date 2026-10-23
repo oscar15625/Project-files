@@ -37,6 +37,8 @@ class Graph:
         nodes=sorted(reachable-{terminal},key=str); index={x:i for i,x in enumerate(nodes)}
         self.n=len(nodes); self.gates=np.array([index.get(g,-1) for g in gates]); self.theta=theta
         edges=[e for e in edges if e[0] in index and e[1] in reachable]
+        # Read-only labels for structural audits; no change to numerical arrays.
+        self.edge_labels=[(e[0],e[1]) for e in edges]
         self.i=np.array([index[e[0]] for e in edges]); self.j=np.array([index.get(e[1],self.n) for e in edges])
         self.attr=np.array([e[2:] for e in edges],float); self.res=self.attr[:,0].astype(int)
         self.board_mod=np.array([e[0][0]=='gate' and e[1][0]=='M' for e in edges])
