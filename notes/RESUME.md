@@ -1,7 +1,13 @@
 # V5 resume checkpoint
 
-Status: RUNNING_V5_SPECIFICATION_AUDIT. User resumed on 2026-10-23 (Asia/Seoul). Do not schedule automatic reconnect; user will reconnect and instruct again if interrupted.
+Status: COMPLETE_V5_AUDIT_QUANTITATIVE_REPLICATION_INCOMPLETE. Date: 2026-10-23 (Asia/Seoul).
 
-Branch codex/maas-v5-spec-audit from v4 71176e5. v4 remains unchanged in its tag. Read notes/V5_PLAN.md. Supplied feedback is local sources/v4_feedback.pdf and extracted .txt (ignored). Read-only edge labels added to src/model.py. spec_audit_v5.py runs six validated v4 cases, exporting complete OD cost decompositions, pure-PT representative path ledgers, resource delays/capacity utilization, and PT price profiles. Execution log results/v5_run.log; check for active process before duplicating. Per-case COMPLETE markers make reruns skip completed cases. Partial cases can be recomputed safely. No behavior parameters have changed.
+All six audit cases and independent verification are complete. All audit/check processes finished. No automatic reconnect is scheduled; wait for the user's instruction following connection recovery.
 
-Next: inspect audit results; create source-equation-code assumption matrix, independent representative-path arithmetic and regression tests; Korean report with actual numbers and unresolved specifications; preserve code/results in branch and local bundle. No author contact. Avoid treating lower residuals or closer single metrics as recovered author settings. All source PDFs remain private/local.
+Branch: codex/maas-v5-spec-audit. Final tag: maas-reproduction-v5. Previous v4 tag remains unchanged. Final local backup: backups/maas-reproduction-v5.bundle.
+
+Read REPRODUCTION_V5.md, notes/V5_SPECIFICATION_LEDGER.md and results/v5/independent_checks.json. PDF: output/pdf/MaaS_reproduction_v5_ko.pdf. Results include 5,295 OD-mode rows, six resource/path/price ledgers, 18 explicit graph checks and 12 gradient decompositions. All source PDFs remain local and ignored.
+
+No behavioral settings changed. Read-only edge labels added to src/model.py. spec_audit_v5.py skips completed cases via COMPLETE markers; verify_spec_v5.py repeats independent checks; report_v5.py creates the report without running experiments.
+
+Next research: identify source-backed initial PT access waiting and shared-capacity definitions, perturbation settings and reporting definitions. Test only explicit, documented candidate settings before rerunning leader optimization. Do not call closer individual metrics a recovered original specification. Do not contact authors. Preserve previous failed trials and baseline v4 results.

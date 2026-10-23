@@ -1,5 +1,11 @@
 # Project-files
 
+## Revision 5 (2026-10-23)
+
+[Korean audit report](REPRODUCTION_V5.md), [PDF](output/pdf/MaaS_reproduction_v5_ko.pdf), [source-to-code ledger](notes/V5_SPECIFICATION_LEDGER.md), [independent checks](results/v5/independent_checks.json).
+
+Completed six-case specification audit: 5,295 OD-mode cost rows, 18 explicit-root graph comparisons and 12 price-gradient checks. No behavioral parameters changed and no quantitative replication improvement is claimed. Remaining uncertainty includes initial PT waiting, access aggregation/capacity sharing, perturbation scales and paper metric definitions. Run `python spec_audit_v5.py`, `python verify_spec_v5.py`, or regenerate the report with `python report_v5.py`. Tag: `maas-reproduction-v5`; branch: `codex/maas-v5-spec-audit`.
+
 ## Revision 4 (2026-10-22)
 
 Latest: [Korean precision-reproduction report](REPRODUCTION_V4.md), [PDF](output/pdf/MaaS_reproduction_v4_ko.pdf), [all run statuses](results/v4/manifest.json), [metric comparison with the paper](results/v4/paper_errors.csv).

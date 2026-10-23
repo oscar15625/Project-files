@@ -1,0 +1,73 @@
+{
+  "source_run": "sioux_node_node_total0_without",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "checks": {
+    "regression": 0.0,
+    "value_identity": 5.214578768786282e-14,
+    "root_identity": 1.5631940186722204e-13,
+    "load_balance": 9.992007221626409e-16
+  },
+  "welfare_reconstruction_error": 0.0,
+  "total_components": {
+    "road_time": 7833059.788975808,
+    "pt_ride_base": 533943.0228343729,
+    "pt_ride_shadow": 0.0,
+    "initial_access_base": 301891.6763694497,
+    "initial_mod_delay": 55.347270335104675,
+    "initial_pt_shadow": 0.0,
+    "transfer_access_base": 9971.617499127515,
+    "transfer_mod_delay": 0.31572856924063986,
+    "transfer_pt_shadow": 0.0,
+    "transfer_penalty": 50170.97835874877,
+    "retail_mod": 227625.60065200293,
+    "retail_pt": 292166.6965573854,
+    "driving_variable": 85943.34703978825
+  },
+  "entry_total": 386811.73453260364,
+  "entropy_total": 375626.17738366494,
+  "baseline": {
+    "profit_mod": 227625.60065200287,
+    "profit_pt": 292166.6965573858,
+    "profit_maas": 0.0,
+    "profit_total": 519792.2972093887,
+    "share_non": 55.304615625276845,
+    "share_drive": 44.69538437472315,
+    "share_maas": 0.0,
+    "price_mod": 0.7759110148276591,
+    "price_pt": 2.601456194503837,
+    "traveler_welfare": -9346013.948434528,
+    "social_welfare": -8826221.651225138,
+    "transfer_flow": 6271.3722948435925,
+    "flow_conservation_error": 7.275957614183426e-12,
+    "retail_mod": 227625.60065200287,
+    "retail_pt": 292166.6965573858,
+    "wholesale_mod": 0.0,
+    "wholesale_pt": 0.0,
+    "maas_receipts": 0.0,
+    "accounting_error": 0.0,
+    "share_non_mod": 40.843175517181166,
+    "share_non_pt": 14.461440108095674,
+    "share_maas_mod": 0.0,
+    "share_maas_pt": 0.0,
+    "pt_pt_transfers": 1058.070847300159,
+    "intermodal_transfers": 5213.301447543434,
+    "pt_access_flow": 66277.7888400355,
+    "mod_access_flow": 179307.71618850605,
+    "pt_total_capacity": 420000.0
+  }
+}

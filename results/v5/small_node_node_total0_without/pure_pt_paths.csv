@@ -1,0 +1,4 @@
+﻿origin,destination,kind,available,path,cost,entry_charge,road_time,pt_ride_base,pt_ride_shadow,initial_access_base,initial_mod_delay,initial_pt_shadow,transfer_access_base,transfer_mod_delay,transfer_pt_shadow,transfer_penalty,retail_mod,retail_pt,driving_variable
+3,5,non,True,"('gate', 3) -> (0, 3) -> (0, np.int64(5)) -> end(5)",10.32163840713019,0.0,0.0,7.5,5.326192820120923e-10,2.0,0.0,5.040612371942643e-10,0.0,0.0,0.0,0.0,0.0,0.8216384060935094,0.0
+1,5,non,True,"('gate', 1) -> (0, 1) -> (0, 2) -> (0, 3) -> (0, np.int64(5)) -> end(5)",25.464915220152804,0.0,0.0,21.0,1.4280843174674374e-09,2.0,0.0,4.441935708143774e-10,0.0,0.0,0.0,0.0,0.0,2.4649152182805283,0.0
+1,7,non,True,"('gate', 1) -> (0, 1) -> (0, 2) -> (0, 3) -> (1, 3) -> (1, 4) -> (1, np.int64(7)) -> end(7)",45.78655362684276,0.0,0.0,28.5,1.5204637549004474e-09,2.0,0.0,4.441935708143774e-10,2.0,0.0,5.040612371942643e-10,10.0,0.0,3.2865536243740374,0.0
