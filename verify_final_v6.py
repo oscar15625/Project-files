@@ -22,6 +22,8 @@ for p in sorted(root.rglob('*')):
     if p.is_file() and p.name!='final_verification.json' and p.suffix in ['.json','.npy','.csv']:
         hashes[p.as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
 for p in [Path('src/model.py'),Path('src/checkpoint.py'),Path('refine.py'),Path('audit.py'),Path('campaign_v6.py'),Path('polish_v6.py'),Path('analyze_v6.py'),Path('spec_audit_v5.py'),Path('data/SiouxFalls_net.tntp'),Path('data/SiouxFalls_trips.tntp')]: hashes[p.as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
+for p in [Path('report_v6.py'),Path('REPRODUCTION_V6.md'),Path('notes/V6_METHOD_REVIEW.md'),Path('output/pdf/MaaS_reproduction_v6_final_ko.pdf')]:
+    if p.exists(): hashes[p.as_posix()]=hashlib.sha256(p.read_bytes()).hexdigest()
 result=dict(cases=len(checks),passed=sum(v['status']=='PASS' for v in checks.values()),checks=checks,sha256=hashes)
 (root/'final_verification.json').write_text(json.dumps(result,indent=2))
 print('Artifact checks complete:',result['cases'],'cases;',result['passed'],'validated states;',len(hashes),'hashes')

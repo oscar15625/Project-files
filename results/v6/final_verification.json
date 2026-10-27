@@ -323,6 +323,10 @@
     "analyze_v6.py": "f21acbbcadab379bb7b79958beb0ab5e979ac5cb9d527c7ae4ca8da69b513d83",
     "spec_audit_v5.py": "ea69f92cb9d24f4188e0cf732f77f71d2465bbf570e2103a04cfdb2236dcb536",
     "data/SiouxFalls_net.tntp": "ace99b24cec69c273ff0cf3d6d074110177f0cc0ae24b0c7a9f4f4cb5e27635c",
-    "data/SiouxFalls_trips.tntp": "56f9566857f3f66730fd5c4232258d7ee3ac2931a476526331afd062f4958de7"
+    "data/SiouxFalls_trips.tntp": "56f9566857f3f66730fd5c4232258d7ee3ac2931a476526331afd062f4958de7",
+    "report_v6.py": "4d91a857d10cf439bfb6384f9018558a173bcbe0d58e9d7570107109325c9d25",
+    "REPRODUCTION_V6.md": "6b4cf61a9ddc6354cb0e13d845768c4d15209418ef7db11c95914b2c9cc8b0e7",
+    "notes/V6_METHOD_REVIEW.md": "8352a4af108e7edbc24e457082e7fe68e0d8667688a0db9092f6d7e899b79f23",
+    "output/pdf/MaaS_reproduction_v6_final_ko.pdf": "068e61e1a2bd3a932ae876f2c85fef8b24f591f585b530c5bf1bf52f71ed12d4"
   }
 }

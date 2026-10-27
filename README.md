@@ -1,5 +1,25 @@
 # Project-files
 
+## Final reproduction baseline V6 (2026-10-27)
+
+[Korean final report](REPRODUCTION_V6.md), [7-page PDF](output/pdf/MaaS_reproduction_v6_final_ko.pdf), [methodological review notes](notes/V6_METHOD_REVIEW.md), [entry decomposition](results/v6/entry_comparison.csv), [validation and hashes](results/v6/final_verification.json).
+
+**Conditional mechanisms reproduced; published numerical equilibrium not recovered.** Sixteen bounded scenarios passed the recorded final checks. Sioux Falls PT wholesale 1 reduces PT profit; wholesale 2 improves both operator profits and aggregate traveler welfare under both node-MoD and aggregate-MoD access specifications. Some OD expected utilities still decline. These tested points do not identify a continuous Pareto regime, and PASS does not certify global equilibrium or uniqueness. Three small-network runs needed a documented numerical active-set cleanup; their original states and failed checks are preserved.
+
+The final campaign changes no default V5 behavior. It separates initial PT wait from transfer PT wait for labelled diagnostics. It uses auxiliary VI refinement, not a reproduction of the paper's extragradient iteration trajectory. No new heterogeneity experiment is claimed.
+
+```text
+python validate_v6.py
+python campaign_v6.py core
+python polish_v6.py
+python campaign_v6.py diagnostic
+python analyze_v6.py
+python verify_final_v6.py
+python report_v6.py
+```
+
+Scripts preserve completed runs and recover interrupted solves. Local timing measurements in the report are warm-start implementation observations, not large-network scalability proof. Branch `codex/maas-v6-final-mechanisms`; tag `maas-reproduction-v6-final`; local recovery bundle `backups/maas-reproduction-v6-final.bundle`. Read [recovery instructions](notes/RESUME.md) before restarting.
+
 ## Revision 5 (2026-10-23)
 
 [Korean audit report](REPRODUCTION_V5.md), [PDF](output/pdf/MaaS_reproduction_v5_ko.pdf), [source-to-code ledger](notes/V5_SPECIFICATION_LEDGER.md), [independent checks](results/v5/independent_checks.json).
