@@ -1,0 +1,12 @@
+{
+  "tag": "sioux_no_discount",
+  "phase": "diagnostic",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "penalty": 8
+  },
+  "source": "v6/sioux_node_paper"
+}

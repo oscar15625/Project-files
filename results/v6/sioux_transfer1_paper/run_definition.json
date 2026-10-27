@@ -1,0 +1,12 @@
+{
+  "tag": "sioux_transfer1_paper",
+  "phase": "diagnostic",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "transfer_pt_wait": 1
+  },
+  "source": "v6/sioux_node_paper"
+}

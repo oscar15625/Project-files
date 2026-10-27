@@ -1,0 +1,12 @@
+{
+  "tag": "small_no_discount",
+  "phase": "diagnostic",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "penalty": 10
+  },
+  "source": "v6/small_node_paper"
+}

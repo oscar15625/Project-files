@@ -115,6 +115,9 @@ class Model:
                     idx=len(self.t0); self.t0.append(tm); self.cap.append(1e6); self.congest.append(False); pt.append((l,i,j,idx))
         self.accessM=len(self.t0); self.t0.append(1); self.cap.append(100 if name=='small' else 60000); self.congest.append(True)
         self.accessP=len(self.t0); self.t0.append(2); self.cap.append(500 if name=='small' else 30000); self.congest.append(False)
+        # Keep one shared PT capacity/shadow variable per access resource.
+        # Edge offsets below replace its reference base 2 with the distinct
+        # initial/transfer base wait; they do not split or duplicate capacity.
         am={i:self.accessM for i in range(1,n+1)}; ap={i:self.accessP for i in range(1,n+1)}
         if self.mod_access_scope=='node' or self.pt_access_scope=='node':
             for node in range(2,n+1):

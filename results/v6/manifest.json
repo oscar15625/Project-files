@@ -193,5 +193,95 @@
       },
       "source": "v4/sioux_aggregate_node_total0_with"
     }
+  },
+  "sioux_initial1_without": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_initial1_without",
+      "phase": "diagnostic",
+      "config": {
+        "name": "sioux",
+        "maas": false,
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "initial_pt_wait": 1
+      },
+      "source": "v6/sioux_node_without"
+    }
+  },
+  "sioux_initial1_paper": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_initial1_paper",
+      "phase": "diagnostic",
+      "config": {
+        "name": "sioux",
+        "maas": true,
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "initial_pt_wait": 1
+      },
+      "source": "v6/sioux_node_paper"
+    }
+  },
+  "sioux_transfer1_without": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_transfer1_without",
+      "phase": "diagnostic",
+      "config": {
+        "name": "sioux",
+        "maas": false,
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "transfer_pt_wait": 1
+      },
+      "source": "v6/sioux_node_without"
+    }
+  },
+  "sioux_transfer1_paper": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_transfer1_paper",
+      "phase": "diagnostic",
+      "config": {
+        "name": "sioux",
+        "maas": true,
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "transfer_pt_wait": 1
+      },
+      "source": "v6/sioux_node_paper"
+    }
+  },
+  "sioux_no_discount": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_no_discount",
+      "phase": "diagnostic",
+      "config": {
+        "name": "sioux",
+        "maas": true,
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "penalty": 8
+      },
+      "source": "v6/sioux_node_paper"
+    }
+  },
+  "small_no_discount": {
+    "status": "PASS",
+    "definition": {
+      "tag": "small_no_discount",
+      "phase": "diagnostic",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "penalty": 10
+      },
+      "source": "v6/small_node_paper"
+    }
   }
 }

@@ -1,0 +1,3 @@
+﻿run,od_count,destinations,graphs,graph_transient_states,graph_edges,resources,median_evaluation_seconds,solver_seconds,solver_calls,cpu_threads_requested
+small_node_paper,3,2,6,82,188,40,0.0054148000199347734,21.55902409553528,1055,1
+sioux_node_paper,528,24,72,4080,10490,150,0.07206509995739907,9.044568061828613,89,1

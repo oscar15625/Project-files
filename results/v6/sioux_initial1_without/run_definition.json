@@ -1,0 +1,12 @@
+{
+  "tag": "sioux_initial1_without",
+  "phase": "diagnostic",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "initial_pt_wait": 1
+  },
+  "source": "v6/sioux_node_without"
+}
