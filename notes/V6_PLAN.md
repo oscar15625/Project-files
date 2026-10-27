@@ -1,0 +1,11 @@
+# Final reproduction campaign (2026-10-27)
+
+Purpose: prepare a defensible methodological review for the 2026-12-03 EPFL group meeting. Establish whether the mechanism works and under which conditions, without forcing agreement with paper tables. No author contact, automatic reconnect, or unbounded calibration. Feedback is a hypothesis source; validate all claims against original data and calculations.
+
+Bounded campaign: 16 equilibrium runs. Seven node-access cases across small and Sioux Falls (without MaaS, paper wholesale, PT=2; small PT=1 extra cross-check), three Sioux aggregate-MoD cases (without, PT=1, PT=2), four Sioux node cases separating initial PT wait=1 or transfer PT wait=1 in paired without/with comparisons, and two no-transfer-discount controls (MaaS penalty=non-MaaS penalty, each network). Defaults retain v5 exactly. Alternative waits are diagnostics, not recovered author settings.
+
+Re-solve each case, even when a saved warm start exists. Preserve configuration, source start, solver residuals, iterations and time. Validate retail deviations at fixed virtual-operator decisions and other fares (not a re-equilibrated Stackelberg test), MaaS OD fares, conservation, accounting, capacity complementarity, and OD-level benefits. Reuse v5 full cost identities. A failed case remains a failed case; do not silently tune to meet directional targets.
+
+Success reporting: distinguish same-parameter quantitative reproduction, conditional economic mechanism, aggregate welfare improvement, and every-OD improvement. A pair of wholesale points does not identify a continuous Pareto region. Report all runs, including contradictory results. Explain Shannon specialization, virtual operator, VI complementarity, partial versus total derivative, and limitations of the auxiliary solver. Record scaling measurements as local timings, not large-network proof. Behavioral heterogeneity is a proposed next experiment, not a completed contribution.
+
+Recovery: campaign_v6.py writes manifest.json after each case and per-iteration atomic checkpoints through refine.py. Completed cases are skipped; interrupted cases resume. Back up after core runs and after final report. Read notes/RESUME.md first after interruption. PDFs supplied by the user stay private.

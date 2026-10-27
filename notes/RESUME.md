@@ -1,13 +1,7 @@
-# V5 resume checkpoint
+# V6 recovery checkpoint (2026-10-27)
 
-Status: COMPLETE_V5_AUDIT_QUANTITATIVE_REPLICATION_INCOMPLETE. Date: 2026-10-23 (Asia/Seoul).
+Status: RUNNING_FINAL_MECHANISM_CAMPAIGN. Branch codex/maas-v6-final-mechanisms. Read notes/V6_PLAN.md. User goal is methodological paper review on 2026-12-03, with demand-model and large-network implications. No author contact and no automatic resume schedule.
 
-All six audit cases and independent verification are complete. All audit/check processes finished. No automatic reconnect is scheduled; wait for the user's instruction following connection recovery.
+New scripts: validate_v6.py (passed default regression and isolated wait semantics); campaign_v6.py core then diagnostic (16 cases total). Run with bundled Python. Every case has run_definition, atomic iterative checkpoints, state, metrics, deviation audit, validation and COMPLETE. results/v6/manifest.json identifies PASS/FAILED/ERROR; COMPLETE alone does not mean pass. Original PDFs and feedback remain private.
 
-Branch: codex/maas-v5-spec-audit. Final tag: maas-reproduction-v5. Previous v4 tag remains unchanged. Final local backup: backups/maas-reproduction-v5.bundle.
-
-Read REPRODUCTION_V5.md, notes/V5_SPECIFICATION_LEDGER.md and results/v5/independent_checks.json. PDF: output/pdf/MaaS_reproduction_v5_ko.pdf. Results include 5,295 OD-mode rows, six resource/path/price ledgers, 18 explicit graph checks and 12 gradient decompositions. All source PDFs remain local and ignored.
-
-No behavioral settings changed. Read-only edge labels added to src/model.py. spec_audit_v5.py skips completed cases via COMPLETE markers; verify_spec_v5.py repeats independent checks; report_v5.py creates the report without running experiments.
-
-Next research: identify source-backed initial PT access waiting and shared-capacity definitions, perturbation settings and reporting definitions. Test only explicit, documented candidate settings before rerunning leader optimization. Do not call closer individual metrics a recovered original specification. Do not contact authors. Preserve previous failed trials and baseline v4 results.
+Next: execute core; inspect validation and cost audits; back up; execute bounded diagnostics; derive retail/wholesale entry decomposition and OD-level benefit distribution; report the actual mechanisms and unresolved original-table mismatch. Create Korean PDF and technical review notes, verify rendering, commit/push final tag and local bundle. Do not interpret fixed-time deviation as re-equilibrated Stackelberg best response or aggregate welfare as benefit to every person. No heterogeneity experiment is promised in this final reproduction scope.

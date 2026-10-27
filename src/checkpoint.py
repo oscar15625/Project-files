@@ -22,5 +22,7 @@ def load(folder,config):
         meta=json.loads(str(snap['metadata']))
         meta['config'].setdefault('small_network_variant','appendix')
         config=dict(config); config.setdefault('small_network_variant','appendix')
+        for key in ['initial_pt_wait','transfer_pt_wait']:
+            meta['config'].setdefault(key,2.); config.setdefault(key,2.)
         if meta['config']!=config: raise ValueError('Checkpoint model configuration differs')
         return snap['x'].copy(),meta

@@ -24,7 +24,13 @@ def components(m,g,y,kind):
             else:
                 initial=s[0]=='gate'; c[e,3 if initial else 6]=m.t0[r]
                 c[e,(4 if d[0]=='M' else 5) if initial else (7 if d[0]=='M' else 8)]=t[r]-m.t0[r]
-        c[e,9 if a[e,6] else 12]=a[e,1]
+        if s[0]=='gate' and isinstance(d[0],int):
+            c[e,3]+=a[e,1]
+        elif a[e,6]:
+            penalty=m.nonpen if kind=='non' else m.penalty
+            c[e,9]=penalty
+            c[e,6]+=a[e,1]-penalty
+        else: c[e,12]=a[e,1]
     if kind=='non': c[:,10:12]=a[:,2:4]*y[-2:]
     return c
 
@@ -43,9 +49,9 @@ def pure_path(g,c,local):
                 best[j]=cand; heapq.heappush(queue,(cand,j,path+(e,)))
     return None
 
-def audit(tag):
+def audit(tag,source_root=Path('results/v4'),price_profile=True):
     out=OUT/tag; out.mkdir(exist_ok=True)
-    src=Path('results/v4')/tag; original=json.loads((src/'metrics.json').read_text()); y=np.load(src/'state.npy'); m=Model(**original['config'])
+    src=source_root/tag; original=json.loads((src/'metrics.json').read_text()); y=np.load(src/'state.npy'); m=Model(**original['config'])
     H,current=m.evaluate(y); err=max(abs(current[k]-original[k]) for k in current)
     assert err<1e-6,(tag,err)
     resource_flow=m.last_flows.copy(); records=[]; paths=[]; edges=[]; maxima={'regression':err,'value_identity':0.,'root_identity':0.,'load_balance':0.}
@@ -85,7 +91,7 @@ def audit(tag):
     summary=dict(source_run=tag,config=m.config(),checks=maxima,welfare_reconstruction_error=float(welfare_reconstructed-current['traveler_welfare']),total_components=dict(zip(FIELDS,aggregate)),entry_total=entry_total,entropy_total=entropy_total,baseline=current)
     (out/'summary.json').write_text(json.dumps(summary,indent=2)); print(tag,maxima,flush=True)
     profile=[]
-    for price in np.unique(np.r_[np.linspace(0,6,61),y[-1],3.65 if m.name=='sioux' else 1.38]):
+    for price in (np.unique(np.r_[np.linspace(0,6,61),y[-1],3.65 if m.name=='sioux' else 1.38]) if price_profile else []):
         z=y.copy(); z[-1]=price; h,r=m.evaluate(z); volume=m.retail_volume[1]
         eps=1e-5; zp=z.copy(); zm=z.copy(); zp[-1]+=eps; zm[-1]-=eps
         # No clipping here: tiny negative diagnostic perturbation is avoided at zero.

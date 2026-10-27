@@ -86,13 +86,15 @@ class Graph:
         return V,R,dV,dR,load
 
 class Model:
-    def __init__(self,name='small',maas=True,theta=1.,penalty=None,wholesale=None,access_scope='aggregate',mod_access_scope=None,pt_access_scope=None,mode_theta=None,pt_capacity_total=False,small_network_variant='appendix'):
+    def __init__(self,name='small',maas=True,theta=1.,penalty=None,wholesale=None,access_scope='aggregate',mod_access_scope=None,pt_access_scope=None,mode_theta=None,pt_capacity_total=False,small_network_variant='appendix',initial_pt_wait=2.,transfer_pt_wait=2.):
         self.name=name; self.maas=maas; self.theta=theta; self.access_scope=access_scope
         self.mod_access_scope=mod_access_scope or access_scope; self.pt_access_scope=pt_access_scope or access_scope
         self.mode_theta=theta if mode_theta is None else mode_theta; self.pt_capacity_total=pt_capacity_total
         assert self.mod_access_scope in ['aggregate','node']
         assert self.pt_access_scope in ['aggregate','node','line_node']
         self.small_network_variant=small_network_variant
+        self.initial_pt_wait=float(initial_pt_wait); self.transfer_pt_wait=float(transfer_pt_wait)
+        if min(self.initial_pt_wait,self.transfer_pt_wait)<0: raise ValueError('PT waiting times must be nonnegative')
         assert small_network_variant in ['appendix','figure_pt','figure_pt_reverse23']
         rows,lines,ods=inputs(name)
         if name=='small' and small_network_variant!='appendix':
@@ -144,12 +146,12 @@ class Model:
                         states=[('M',node)]+[(l,node) for l,line in enumerate(lines) if node in line]
                         for s in states:
                             for j in states:
-                                if s!=j: add(s,j,am[node] if j[0]=='M' else apl[node,j[0]],self.nonpen if kind=='non' else self.penalty,tr=1)
+                                if s!=j: add(s,j,am[node] if j[0]=='M' else apl[node,j[0]],(self.nonpen if kind=='non' else self.penalty)+(self.transfer_pt_wait-2 if j[0]!='M' else 0),tr=1)
                 for o,g in zip(origins,gates):
                     add(g,('M',int(o)),-1 if kind=='drive' else am[o])
                     if kind!='drive':
                         for l,line in enumerate(lines):
-                            if o in line: add(g,(l,int(o)),apl[o,l])
+                            if o in line: add(g,(l,int(o)),apl[o,l],self.initial_pt_wait-2)
                 add(('M',d),('end',d))
                 if kind!='drive':
                     for l,line in enumerate(lines):
@@ -162,7 +164,7 @@ class Model:
         return np.r_[self.t0+.05,np.full(self.nod,5.) if self.maas else [],[.65,1.4] if self.name=='small' else [.81,3.65]]
     def project(self,y): return np.clip(y,np.r_[self.t0,np.zeros(len(y)-self.nt)],200.)
     def config(self):
-        return dict(name=self.name,maas=self.maas,theta=self.theta,penalty=self.penalty,wholesale=self.wholesale.tolist(),access_scope=self.access_scope,mod_access_scope=self.mod_access_scope,pt_access_scope=self.pt_access_scope,mode_theta=self.mode_theta,pt_capacity_total=self.pt_capacity_total,small_network_variant=self.small_network_variant)
+        return dict(name=self.name,maas=self.maas,theta=self.theta,penalty=self.penalty,wholesale=self.wholesale.tolist(),access_scope=self.access_scope,mod_access_scope=self.mod_access_scope,pt_access_scope=self.pt_access_scope,mode_theta=self.mode_theta,pt_capacity_total=self.pt_capacity_total,small_network_variant=self.small_network_variant,initial_pt_wait=self.initial_pt_wait,transfer_pt_wait=self.transfer_pt_wait)
     def evaluate(self,y,details=False):
         self.last_od=[]
         self.retail_volume=np.zeros(2)
