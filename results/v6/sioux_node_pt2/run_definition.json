@@ -1,0 +1,15 @@
+{
+  "tag": "sioux_node_pt2",
+  "phase": "core",
+  "config": {
+    "name": "sioux",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "maas": true,
+    "wholesale": [
+      1.5,
+      2
+    ]
+  },
+  "source": "v4/sioux_node_node_total0_with"
+}

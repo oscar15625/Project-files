@@ -1,0 +1,15 @@
+{
+  "tag": "sioux_aggregate_paper",
+  "phase": "core",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "mod_access_scope": "aggregate",
+    "pt_access_scope": "node",
+    "wholesale": [
+      1.5,
+      1
+    ]
+  },
+  "source": "v4/sioux_aggregate_node_total0_with"
+}

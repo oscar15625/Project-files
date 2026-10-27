@@ -1,0 +1,29 @@
+{
+  "retail_test": {
+    "profit_mod": {
+      "equilibrium": 629.6559104820841,
+      "best_grid_refined": 629.6559104820841,
+      "best_tested_price": 0.3698696386020065,
+      "unilateral_gain": 0,
+      "failed_price_evaluations": []
+    },
+    "profit_pt": {
+      "equilibrium": 568.2572019730029,
+      "best_grid_refined": 568.2572019730029,
+      "best_tested_price": 0.8496712808052084,
+      "unilateral_gain": 0,
+      "failed_price_evaluations": []
+    },
+    "flow_conservation_error": 1.4210854715202004e-14,
+    "all_retail_deviation_gains_below_1e-4": true
+  },
+  "capacity_violation": 0.0,
+  "capacity_complementarity": 0.028168895149814317,
+  "maas_exact_fare_gain": 0.0,
+  "maas_fare_gradient_error": 8.526512829121202e-09,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "accounting_error": 5.684341886080802e-14,
+  "natural_residual": 3.6608285856039906e-08,
+  "scaled_residual": 3.6608285856055126e-08,
+  "pass": false
+}

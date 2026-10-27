@@ -1,0 +1,812 @@
+START sioux_node_without
+v6/sioux_node_without 1 0.0033609666276969287
+v6/sioux_node_without 2 2.168345775370658e-05
+v6/sioux_node_without 3 6.661501583718348e-10
+{
+  "profit_mod": 227625.60064724638,
+  "profit_pt": 292166.69645768584,
+  "profit_maas": 0.0,
+  "profit_total": 519792.29710493225,
+  "share_non": 55.30461562731007,
+  "share_drive": 44.69538437268994,
+  "share_maas": 0.0,
+  "price_mod": 0.7759110148349757,
+  "price_pt": 2.601456192678155,
+  "traveler_welfare": -9346013.94780335,
+  "social_welfare": -8826221.650698418,
+  "transfer_flow": 6271.372303297686,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 227625.60064724638,
+  "retail_pt": 292166.69645768584,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 40.84317551603109,
+  "share_non_pt": 14.46144011127898,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 1058.0708496260381,
+  "intermodal_transfers": 5213.301453671647,
+  "pt_access_flow": 66277.78885922788,
+  "mod_access_flow": 179307.71618656593,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 90,
+  "seconds": 6.470598220825195,
+  "natural_residual": 4.773500382604931e-09,
+  "scaled_residual": 6.661501583718348e-10,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/sioux_node_without {'profit_mod': {'equilibrium': np.float64(227625.60064724638), 'best_grid_refined': 227625.60064724638, 'best_tested_price': 0.7759110148349757, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(292166.69645768584), 'best_grid_refined': 292166.696457686, 'best_tested_price': 2.6014562088824245, 'unilateral_gain': 1.7462298274040222e-10, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': True}
+sioux_node_without {'regression': np.float64(0.0), 'value_identity': 4.929390229335695e-14, 'root_identity': np.float64(1.7763568394002505e-13), 'load_balance': 1.1102230246251565e-15}
+FINISHED sioux_node_without PASS
+START sioux_node_paper
+v6/sioux_node_paper 1 0.001309480961510723
+v6/sioux_node_paper 2 2.0199254635685696e-07
+v6/sioux_node_paper 3 8.317487751345348e-14
+{
+  "profit_mod": 281249.56756645814,
+  "profit_pt": 218468.89243588824,
+  "profit_maas": 135706.7128434965,
+  "profit_total": 635425.1728458429,
+  "share_non": 40.842894762744194,
+  "share_drive": 41.92943475305583,
+  "share_maas": 17.227670484199965,
+  "price_mod": 0.8651535026733994,
+  "price_pt": 1.7188070978890126,
+  "traveler_welfare": -8079235.9693574,
+  "social_welfare": -7443810.796511557,
+  "transfer_flow": 60941.38570097615,
+  "flow_conservation_error": 5.4569682106375694e-12,
+  "retail_mod": 196328.78714477285,
+  "retail_pt": 84527.09097681148,
+  "wholesale_mod": 84920.78042168521,
+  "wholesale_pt": 133941.80145907673,
+  "maas_receipts": 354569.29472425854,
+  "accounting_error": 5.820766091346741e-11,
+  "share_non_mod": 33.42610513246613,
+  "share_non_pt": 7.416789630278058,
+  "share_maas_mod": 7.927261112718931,
+  "share_maas_pt": 9.300409371481042,
+  "pt_pt_transfers": 11412.062140601804,
+  "intermodal_transfers": 49529.323560374345,
+  "pt_access_flow": 111769.61058640183,
+  "mod_access_flow": 200454.72505115106,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 89,
+  "seconds": 9.044568061828613,
+  "natural_residual": 1.432759051435169e-13,
+  "scaled_residual": 8.317487751345348e-14,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/sioux_node_paper {'profit_mod': {'equilibrium': np.float64(281249.56756645814), 'best_grid_refined': 281249.56756645814, 'best_tested_price': 0.8651535026733994, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(218468.89243588824), 'best_grid_refined': 218468.89243588824, 'best_tested_price': 1.7188070978890126, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(5.4569682106375694e-12), 'all_retail_deviation_gains_below_1e-4': True}
+sioux_node_paper {'regression': np.float64(0.0), 'value_identity': 4.285460875053104e-14, 'root_identity': np.float64(1.4921397450962104e-13), 'load_balance': 1.2212453270876722e-15}
+FINISHED sioux_node_paper PASS
+START sioux_node_pt2
+v6/sioux_node_pt2 1 0.6799116688437163
+v6/sioux_node_pt2 2 0.05093730948917258
+v6/sioux_node_pt2 3 0.00016587274806247995
+v6/sioux_node_pt2 4 2.02520518806473e-09
+{
+  "profit_mod": 265635.2077713779,
+  "profit_pt": 341836.21148038894,
+  "profit_maas": 94514.2666512613,
+  "profit_total": 701985.6859030281,
+  "share_non": 43.42083084548353,
+  "share_drive": 42.71675517054374,
+  "share_maas": 13.86241398397274,
+  "price_mod": 0.8291680200068459,
+  "price_pt": 2.453032120781287,
+  "traveler_welfare": -8479279.64144254,
+  "social_welfare": -7777293.9555395115,
+  "transfer_flow": 49156.69442806241,
+  "flow_conservation_error": 2.1827872842550278e-11,
+  "retail_mod": 205353.81753547856,
+  "retail_pt": 127925.55113185212,
+  "wholesale_mod": 60281.39023589935,
+  "wholesale_pt": 213910.6603485368,
+  "maas_receipts": 368706.31723569747,
+  "accounting_error": -5.820766091346741e-11,
+  "share_non_mod": 35.64673710407546,
+  "share_non_pt": 7.774093741408067,
+  "share_maas_mod": 6.080680035359892,
+  "share_maas_pt": 7.781733948612847,
+  "pt_pt_transfers": 10584.52979519966,
+  "intermodal_transfers": 38572.16463286275,
+  "pt_access_flow": 99992.00922225707,
+  "mod_access_flow": 197040.7422318285,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    2.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 85,
+  "seconds": 16.118924379348755,
+  "natural_residual": 2.416469588410443e-09,
+  "scaled_residual": 2.02520518806473e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      2.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/sioux_node_pt2 {'profit_mod': {'equilibrium': np.float64(265635.2077713779), 'best_grid_refined': 265635.20777137805, 'best_tested_price': 0.8291680358005585, 'unilateral_gain': 1.1641532182693481e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(341836.21148038894), 'best_grid_refined': 341836.21148038906, 'best_tested_price': 2.4530321737163776, 'unilateral_gain': 1.1641532182693481e-10, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.1827872842550278e-11), 'all_retail_deviation_gains_below_1e-4': True}
+sioux_node_pt2 {'regression': np.float64(0.0), 'value_identity': 3.302913498259841e-14, 'root_identity': np.float64(1.6342482922482304e-13), 'load_balance': 1.3322676295501878e-15}
+FINISHED sioux_node_pt2 PASS
+START small_node_without
+v6/small_node_without 1 0.06931884085770036
+v6/small_node_without 2 0.010446874735074467
+v6/small_node_without 3 0.0048720548072765215
+v6/small_node_without 4 0.0024595445848759724
+v6/small_node_without 5 0.0012293524064751896
+v6/small_node_without 6 0.0006145601034823643
+v6/small_node_without 7 0.0003072510144075289
+v6/small_node_without 8 0.0001536182600126806
+v6/small_node_without 9 7.680731805718963e-05
+v6/small_node_without 10 3.840320384225336e-05
+v6/small_node_without 11 1.920148901004932e-05
+v6/small_node_without 12 9.60071510267425e-06
+v6/small_node_without 13 4.800350557061084e-06
+v6/small_node_without 14 2.400173659281317e-06
+v6/small_node_without 15 1.2000864495264151e-06
+v6/small_node_without 16 6.000431068239368e-07
+v6/small_node_without 17 3.000215149913725e-07
+v6/small_node_without 18 1.5001075145723352e-07
+v6/small_node_without 19 7.500537499289227e-08
+v6/small_node_without 20 3.75026896340781e-08
+v6/small_node_without 21 1.8751343571906154e-08
+v6/small_node_without 22 9.375670105475151e-09
+v6/small_node_without 23 4.687835052737311e-09
+v6/small_node_without 24 4.687835052737311e-09
+{
+  "profit_mod": 569.9228950133484,
+  "profit_pt": 486.0882481039395,
+  "profit_maas": 0.0,
+  "profit_total": 1056.011143117288,
+  "share_non": 78.62543116112256,
+  "share_drive": 21.374568838877366,
+  "share_maas": 0.0,
+  "price_mod": 0.35650847373483213,
+  "price_pt": 0.8216384059052009,
+  "traveler_welfare": -16826.680691112997,
+  "social_welfare": -15770.669547995709,
+  "transfer_flow": 0.02769141697950396,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 569.9228950133484,
+  "retail_pt": 486.0882481039395,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 39.37879514012741,
+  "share_non_pt": 39.24663602099515,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0017995337034083503,
+  "intermodal_transfers": 0.02589188327609561,
+  "pt_access_flow": 392.4698112373084,
+  "mod_access_flow": 393.8121917908967,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1055,
+  "seconds": 17.401933431625366,
+  "natural_residual": 4.6878350527340866e-09,
+  "scaled_residual": 4.687835052737311e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/small_node_without {'profit_mod': {'equilibrium': np.float64(569.9228950133484), 'best_grid_refined': 569.9228950133496, 'best_tested_price': 0.35650848256078865, 'unilateral_gain': 1.2505552149377763e-12, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(486.0882481039395), 'best_grid_refined': 486.0882481039402, 'best_tested_price': 0.8216384050839579, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+small_node_without {'regression': np.float64(0.0), 'value_identity': 4.9960036108132044e-15, 'root_identity': np.float64(2.4868995751603507e-14), 'load_balance': 2.220446049250313e-16}
+FINISHED small_node_without FAILED_VALIDATION
+START small_node_paper
+v6/small_node_paper 1 0.06861137895227812
+v6/small_node_paper 2 0.010665709356676715
+v6/small_node_paper 3 0.005403654387439196
+v6/small_node_paper 4 0.0027220877267773442
+v6/small_node_paper 5 0.0013606050261570177
+v6/small_node_paper 6 0.0006801677023497893
+v6/small_node_paper 7 0.00034005009419584296
+v6/small_node_paper 8 0.0001700166284306601
+v6/small_node_paper 9 8.500621164454162e-05
+v6/small_node_paper 10 4.25025792342579e-05
+v6/small_node_paper 11 2.1251158660559473e-05
+v6/small_node_paper 12 1.0625547066587547e-05
+v6/small_node_paper 13 5.312765097809465e-06
+v6/small_node_paper 14 2.6563803586053387e-06
+v6/small_node_paper 15 1.3281897296168521e-06
+v6/small_node_paper 16 6.640946933113588e-07
+v6/small_node_paper 17 3.320473430249103e-07
+v6/small_node_paper 18 1.6602366471847717e-07
+v6/small_node_paper 19 8.301183906240415e-08
+v6/small_node_paper 20 4.1505916912774127e-08
+v6/small_node_paper 21 2.0752958812504444e-08
+v6/small_node_paper 22 1.0376479538926414e-08
+v6/small_node_paper 23 5.188240034799005e-09
+v6/small_node_paper 24 5.188240034799005e-09
+{
+  "profit_mod": 663.0509779411433,
+  "profit_pt": 540.3507775388318,
+  "profit_maas": 152.21563556298878,
+  "profit_total": 1355.617391042964,
+  "share_non": 66.86738472631284,
+  "share_drive": 20.1453659032044,
+  "share_maas": 12.987249370482745,
+  "price_mod": 0.3781683998203118,
+  "price_pt": 0.8402468338622503,
+  "traveler_welfare": -16653.817936952313,
+  "social_welfare": -15298.200545909349,
+  "transfer_flow": 26.827305469579464,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "retail_mod": 521.0644121660974,
+  "retail_pt": 422.8610832812683,
+  "wholesale_mod": 141.98656577504582,
+  "wholesale_pt": 117.4896942575636,
+  "maas_receipts": 411.6918955955982,
+  "accounting_error": 1.1368683772161603e-13,
+  "share_non_mod": 33.57682188973898,
+  "share_non_pt": 33.29056283657385,
+  "share_maas_mod": 5.254481961385792,
+  "share_maas_pt": 7.732767409096954,
+  "pt_pt_transfers": 2.8969189599417633,
+  "intermodal_transfers": 23.9303865096377,
+  "pt_access_flow": 415.7620875679796,
+  "mod_access_flow": 409.6115588695556,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1055,
+  "seconds": 21.55902409553528,
+  "natural_residual": 5.188240034796165e-09,
+  "scaled_residual": 5.188240034799005e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/small_node_paper {'profit_mod': {'equilibrium': np.float64(663.0509779411433), 'best_grid_refined': 663.050977941144, 'best_tested_price': 0.3781684087619672, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(540.3507775388318), 'best_grid_refined': 540.350777538832, 'best_tested_price': 0.8402468193696743, 'unilateral_gain': 1.1368683772161603e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4210854715202004e-14), 'all_retail_deviation_gains_below_1e-4': True}
+small_node_paper {'regression': np.float64(0.0), 'value_identity': 7.105427357601002e-15, 'root_identity': np.float64(2.842170943040401e-14), 'load_balance': 2.220446049250313e-16}
+FINISHED small_node_paper FAILED_VALIDATION
+START small_node_pt2
+v6/small_node_pt2 1 0.11071639144832918
+v6/small_node_pt2 2 0.017101819016312303
+v6/small_node_pt2 3 0.004897232939533492
+v6/small_node_pt2 4 0.002399964057491433
+v6/small_node_pt2 5 0.001200009156630149
+v6/small_node_pt2 6 0.0005998972869142938
+v6/small_node_pt2 7 0.0002999218567516572
+v6/small_node_pt2 8 0.0001499542417846521
+v6/small_node_pt2 9 7.497544615732035e-05
+v6/small_node_pt2 10 3.7487307682996427e-05
+v6/small_node_pt2 11 1.874354879930692e-05
+v6/small_node_pt2 12 9.371749068578684e-06
+v6/small_node_pt2 13 4.685868026326915e-06
+v6/small_node_pt2 14 2.3429323398161723e-06
+v6/small_node_pt2 15 1.1714657683098496e-06
+v6/small_node_pt2 16 5.857327641758303e-07
+v6/small_node_pt2 17 2.92866353788379e-07
+v6/small_node_pt2 18 1.4643316216544788e-07
+v6/small_node_pt2 19 7.321657796919087e-08
+v6/small_node_pt2 20 3.6608285856055126e-08
+v6/small_node_pt2 21 3.6608285856055126e-08
+{
+  "profit_mod": 629.6559104820841,
+  "profit_pt": 568.2572019730029,
+  "profit_maas": 101.15238385723625,
+  "profit_total": 1299.0654963123231,
+  "share_non": 70.49011377658667,
+  "share_drive": 20.5280085153092,
+  "share_maas": 8.981877708104163,
+  "price_mod": 0.3698696386020065,
+  "price_pt": 0.8496712808052084,
+  "traveler_welfare": -16729.716934901135,
+  "social_welfare": -15430.651438588811,
+  "transfer_flow": 19.104739488867935,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "retail_mod": 535.5433262453008,
+  "retail_pt": 452.7581668826039,
+  "wholesale_mod": 94.11258423678323,
+  "wholesale_pt": 115.49903509039898,
+  "maas_receipts": 310.7640031844184,
+  "accounting_error": 5.684341886080802e-14,
+  "share_non_mod": 35.37145094367796,
+  "share_non_pt": 35.11866283290871,
+  "share_maas_mod": 3.634743870167932,
+  "share_maas_pt": 5.347133837936231,
+  "pt_pt_transfers": 2.065995023751711,
+  "intermodal_transfers": 17.038744465116224,
+  "pt_access_flow": 408.3683353643177,
+  "mod_access_flow": 405.45631897145853,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    2.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 923,
+  "seconds": 18.42283034324646,
+  "natural_residual": 3.6608285856039906e-08,
+  "scaled_residual": 3.6608285856055126e-08,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      2.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/small_node_pt2 {'profit_mod': {'equilibrium': np.float64(629.6559104820841), 'best_grid_refined': 629.6559104820841, 'best_tested_price': 0.3698696386020065, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(568.2572019730029), 'best_grid_refined': 568.2572019730029, 'best_tested_price': 0.8496712808052084, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4210854715202004e-14), 'all_retail_deviation_gains_below_1e-4': True}
+small_node_pt2 {'regression': np.float64(0.0), 'value_identity': 8.881784197001252e-15, 'root_identity': np.float64(2.842170943040401e-14), 'load_balance': 4.440892098500626e-16}
+FINISHED small_node_pt2 FAILED_VALIDATION
+START small_node_pt1
+v6/small_node_pt1 1 0.06355754786881761
+v6/small_node_pt1 2 0.010789765102429894
+v6/small_node_pt1 3 0.005030114488008636
+v6/small_node_pt1 4 0.0025135813912591795
+v6/small_node_pt1 5 0.001256332843069053
+v6/small_node_pt1 6 0.0006280514304241838
+v6/small_node_pt1 7 0.0003139970024291474
+v6/small_node_pt1 8 0.00015699133882021875
+v6/small_node_pt1 9 7.849388522785045e-05
+v6/small_node_pt1 10 3.924649119548195e-05
+v6/small_node_pt1 11 1.962313253004816e-05
+v6/small_node_pt1 12 9.811538400414607e-06
+v6/small_node_pt1 13 4.905761625476431e-06
+v6/small_node_pt1 14 2.452879119921752e-06
+v6/small_node_pt1 15 1.2264391282975261e-06
+v6/small_node_pt1 16 6.13219418262885e-07
+v6/small_node_pt1 17 3.066096937084022e-07
+v6/small_node_pt1 18 1.5330483844586332e-07
+v6/small_node_pt1 19 7.66524185012825e-08
+v6/small_node_pt1 20 3.8326208812416274e-08
+v6/small_node_pt1 21 1.9163103111939822e-08
+v6/small_node_pt1 22 9.581553154092572e-09
+v6/small_node_pt1 23 4.790775382112489e-09
+v6/small_node_pt1 24 2.3953880445836554e-09
+v6/small_node_pt1 25 1.197694291099748e-09
+v6/small_node_pt1 26 5.988477678828231e-10
+v6/small_node_pt1 27 2.9942290823092963e-10
+v6/small_node_pt1 28 1.497116733153067e-10
+v6/small_node_pt1 29 7.485464196399863e-11
+v6/small_node_pt1 30 3.742537022908479e-11
+v6/small_node_pt1 31 1.871547904202691e-11
+v6/small_node_pt1 32 1.871547904202691e-11
+{
+  "profit_mod": 683.3941916183852,
+  "profit_pt": 512.0360847765446,
+  "profit_maas": 180.89859235384301,
+  "profit_total": 1376.328868748773,
+  "share_non": 64.96297704757791,
+  "share_drive": 19.91821132156523,
+  "share_maas": 15.118811630856849,
+  "price_mod": 0.3835497552174389,
+  "price_pt": 0.8272943232296444,
+  "traveler_welfare": -16602.39690298323,
+  "social_welfare": -15226.068034234457,
+  "transfer_flow": 30.93666741683188,
+  "flow_conservation_error": 2.842170943040401e-14,
+  "retail_mod": 512.5981613213705,
+  "retail_pt": 403.7971410123425,
+  "wholesale_mod": 170.79603029701474,
+  "wholesale_pt": 108.23894376420218,
+  "maas_receipts": 459.93356641506,
+  "accounting_error": -1.1368683772161603e-13,
+  "share_non_mod": 32.56363267282755,
+  "share_non_pt": 32.399344374750356,
+  "share_maas_mod": 6.167848762029272,
+  "share_maas_pt": 8.950962868827576,
+  "pt_pt_transfers": 3.291582847476988,
+  "intermodal_transfers": 27.645084569354893,
+  "pt_access_flow": 420.00163456285713,
+  "mod_access_flow": 411.7529196383223,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 1.0,
+  "wholesale": [
+    1.3,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 1407,
+  "seconds": 20.50592589378357,
+  "natural_residual": 1.8715477893889948e-11,
+  "scaled_residual": 1.871547904202691e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/small_node_pt1 {'profit_mod': {'equilibrium': np.float64(683.3941916183852), 'best_grid_refined': 683.3941916183859, 'best_tested_price': 0.3835497547365727, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(512.0360847765446), 'best_grid_refined': 512.0360847765446, 'best_tested_price': 0.8272943232296444, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.842170943040401e-14), 'all_retail_deviation_gains_below_1e-4': True}
+small_node_pt1 {'regression': np.float64(0.0), 'value_identity': 7.105427357601002e-15, 'root_identity': np.float64(2.842170943040401e-14), 'load_balance': 2.220446049250313e-16}
+FINISHED small_node_pt1 PASS
+START sioux_aggregate_without
+v6/sioux_aggregate_without 1 0.003042200263765293
+v6/sioux_aggregate_without 2 2.5245245237285485e-05
+v6/sioux_aggregate_without 3 8.818446025007594e-10
+{
+  "profit_mod": 101042.69836444456,
+  "profit_pt": 308438.8351219409,
+  "profit_maas": 0.0,
+  "profit_total": 409481.5334863854,
+  "share_non": 37.82568802970766,
+  "share_drive": 62.17431197029234,
+  "share_maas": 0.0,
+  "price_mod": 0.5949595822711677,
+  "price_pt": 2.846817914015384,
+  "traveler_welfare": -9600955.378665129,
+  "social_welfare": -9191473.845178744,
+  "transfer_flow": 4424.381617630429,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 101042.69836444456,
+  "retail_pt": 308438.8351219409,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 23.243311971030824,
+  "share_non_pt": 14.582376058676836,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 1136.784504476123,
+  "intermodal_transfers": 3287.597113154306,
+  "pt_access_flow": 65904.05665850491,
+  "mod_access_flow": 102199.6422012766,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": false,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 90,
+  "seconds": 7.648834705352783,
+  "natural_residual": 4.6246226741702784e-09,
+  "scaled_residual": 8.818446025007594e-10,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "sioux",
+    "maas": false,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "aggregate",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/sioux_aggregate_without {'profit_mod': {'equilibrium': np.float64(101042.69836444456), 'best_grid_refined': 101042.69836444456, 'best_tested_price': 0.5949595822711677, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(308438.8351219409), 'best_grid_refined': 308438.8351219409, 'best_tested_price': 2.846817914015384, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': True}
+sioux_aggregate_without {'regression': np.float64(0.0), 'value_identity': 6.195044477408373e-14, 'root_identity': np.float64(1.5631940186722204e-13), 'load_balance': 1.3322676295501878e-15}
+FINISHED sioux_aggregate_without PASS
+START sioux_aggregate_paper
+v6/sioux_aggregate_paper 1 0.0010362332581201985
+v6/sioux_aggregate_paper 2 1.202098195872336e-07
+v6/sioux_aggregate_paper 3 6.188127214017293e-14
+{
+  "profit_mod": 125859.01414046952,
+  "profit_pt": 222150.81124492377,
+  "profit_maas": 115967.557208166,
+  "profit_total": 463977.3825935593,
+  "share_non": 26.221686752534858,
+  "share_drive": 59.504959503386054,
+  "share_maas": 14.273353744079104,
+  "price_mod": 0.6378541252747769,
+  "price_pt": 1.8204647461035952,
+  "traveler_welfare": -8318515.419295822,
+  "social_welfare": -7854538.036702263,
+  "transfer_flow": 38051.55116400184,
+  "flow_conservation_error": 7.275957614183426e-12,
+  "retail_mod": 80842.95936139878,
+  "retail_pt": 94861.12165257974,
+  "wholesale_mod": 45016.05477907076,
+  "wholesale_pt": 127289.68959234399,
+  "maas_receipts": 288273.3015795807,
+  "accounting_error": 5.820766091346741e-11,
+  "share_non_mod": 18.1488414452038,
+  "share_non_pt": 8.072845307331056,
+  "share_maas_mod": 3.664227754963381,
+  "share_maas_pt": 10.609125989115727,
+  "pt_pt_transfers": 15274.444907464142,
+  "intermodal_transfers": 22777.106256537696,
+  "pt_access_flow": 108431.51535871136,
+  "mod_access_flow": 104850.1750422385,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    1.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 84,
+  "seconds": 8.66675615310669,
+  "natural_residual": 8.422166792653545e-14,
+  "scaled_residual": 6.188127214017293e-14,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "aggregate",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/sioux_aggregate_paper {'profit_mod': {'equilibrium': np.float64(125859.01414046952), 'best_grid_refined': 125859.01414046953, 'best_tested_price': 0.6378541251486963, 'unilateral_gain': 1.4551915228366852e-11, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(222150.81124492377), 'best_grid_refined': 222150.81124492377, 'best_tested_price': 1.8204647461035952, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(7.275957614183426e-12), 'all_retail_deviation_gains_below_1e-4': True}
+sioux_aggregate_paper {'regression': np.float64(0.0), 'value_identity': 5.162537064506978e-14, 'root_identity': np.float64(1.4921397450962104e-13), 'load_balance': 1.3322676295501878e-15}
+FINISHED sioux_aggregate_paper PASS
+START sioux_aggregate_pt2
+v6/sioux_aggregate_pt2 1 0.7873801625902693
+v6/sioux_aggregate_pt2 2 0.10299096413736343
+v6/sioux_aggregate_pt2 3 0.0006692483148236671
+v6/sioux_aggregate_pt2 4 6.850720871218458e-08
+v6/sioux_aggregate_pt2 5 2.8465206862744995e-14
+{
+  "profit_mod": 117677.29351035443,
+  "profit_pt": 342656.4147621043,
+  "profit_maas": 80886.52668036993,
+  "profit_total": 541220.2349528286,
+  "share_non": 27.921593957848124,
+  "share_drive": 60.566759853465236,
+  "share_maas": 11.511646188686633,
+  "price_mod": 0.6197746206813475,
+  "price_pt": 2.5941901048308287,
+  "traveler_welfare": -8728320.9483334,
+  "social_welfare": -8187100.7133805705,
+  "transfer_flow": 29739.45341731811,
+  "flow_conservation_error": 1.0913936421275139e-11,
+  "retail_mod": 86065.99403381499,
+  "retail_pt": 141572.48815846757,
+  "wholesale_mod": 31611.29947653943,
+  "wholesale_pt": 201083.92660363682,
+  "maas_receipts": 313581.75276054617,
+  "accounting_error": -1.1641532182693481e-10,
+  "share_non_mod": 19.55309096877719,
+  "share_non_pt": 8.368502989070926,
+  "share_maas_mod": 2.769843393588197,
+  "share_maas_pt": 8.741802795098433,
+  "pt_pt_transfers": 12907.071545593499,
+  "intermodal_transfers": 16832.38187172461,
+  "pt_access_flow": 96185.77046024255,
+  "mod_access_flow": 104189.1997191609,
+  "pt_total_capacity": 420000.0,
+  "network": "sioux",
+  "maas": true,
+  "theta": 1.0,
+  "penalty": 0.5,
+  "wholesale": [
+    1.5,
+    2.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "A solution was found at the specified tolerance.",
+  "calls": 114,
+  "seconds": 14.0438392162323,
+  "natural_residual": 2.161031364628563e-14,
+  "scaled_residual": 2.8465206862744995e-14,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      2.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "aggregate",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "initial_pt_wait": 2.0,
+    "transfer_pt_wait": 2.0
+  },
+  "converged": true
+}
+v6/sioux_aggregate_pt2 {'profit_mod': {'equilibrium': np.float64(117677.29351035443), 'best_grid_refined': 117677.29351035449, 'best_tested_price': 0.619774626870907, 'unilateral_gain': 5.820766091346741e-11, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(342656.4147621043), 'best_grid_refined': 342656.41476210445, 'best_tested_price': 2.5941901468753685, 'unilateral_gain': 1.7462298274040222e-10, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.0913936421275139e-11), 'all_retail_deviation_gains_below_1e-4': True}
+sioux_aggregate_pt2 {'regression': np.float64(0.0), 'value_identity': 3.681603633065578e-14, 'root_identity': np.float64(1.4210854715202004e-13), 'load_balance': 1.3322676295501878e-15}
+FINISHED sioux_aggregate_pt2 PASS

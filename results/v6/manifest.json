@@ -1,0 +1,197 @@
+{
+  "sioux_node_without": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_node_without",
+      "phase": "core",
+      "config": {
+        "name": "sioux",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "maas": false,
+        "wholesale": [
+          1.5,
+          1
+        ]
+      },
+      "source": "v4/sioux_node_node_total0_without"
+    }
+  },
+  "sioux_node_paper": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_node_paper",
+      "phase": "core",
+      "config": {
+        "name": "sioux",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "maas": true,
+        "wholesale": [
+          1.5,
+          1
+        ]
+      },
+      "source": "v4/sioux_node_node_total0_with"
+    }
+  },
+  "sioux_node_pt2": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_node_pt2",
+      "phase": "core",
+      "config": {
+        "name": "sioux",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "maas": true,
+        "wholesale": [
+          1.5,
+          2
+        ]
+      },
+      "source": "v4/sioux_node_node_total0_with"
+    }
+  },
+  "small_node_without": {
+    "status": "PASS",
+    "definition": {
+      "tag": "small_node_without",
+      "phase": "core",
+      "config": {
+        "name": "small",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "maas": false,
+        "wholesale": [
+          1.3,
+          1.3
+        ]
+      },
+      "source": "v4/small_node_node_total0_without"
+    },
+    "numerical_polish": {
+      "resources": 20,
+      "maximum_time_change": 3.7224578974814904e-09,
+      "preserved_original": "before_active_set_polish"
+    }
+  },
+  "small_node_paper": {
+    "status": "PASS",
+    "definition": {
+      "tag": "small_node_paper",
+      "phase": "core",
+      "config": {
+        "name": "small",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "maas": true,
+        "wholesale": [
+          1.3,
+          1.3
+        ]
+      },
+      "source": "v4/small_node_node_total0_with"
+    },
+    "numerical_polish": {
+      "resources": 20,
+      "maximum_time_change": 4.160492395044457e-09,
+      "preserved_original": "before_active_set_polish"
+    }
+  },
+  "small_node_pt2": {
+    "status": "PASS",
+    "definition": {
+      "tag": "small_node_pt2",
+      "phase": "core",
+      "config": {
+        "name": "small",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "maas": true,
+        "wholesale": [
+          1.3,
+          2
+        ]
+      },
+      "source": "v4/small_node_node_total0_with"
+    },
+    "numerical_polish": {
+      "resources": 20,
+      "maximum_time_change": 2.8179910849246426e-08,
+      "preserved_original": "before_active_set_polish"
+    }
+  },
+  "small_node_pt1": {
+    "status": "PASS",
+    "definition": {
+      "tag": "small_node_pt1",
+      "phase": "core",
+      "config": {
+        "name": "small",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "maas": true,
+        "wholesale": [
+          1.3,
+          1
+        ]
+      },
+      "source": "v4/small_node_node_total0_with"
+    }
+  },
+  "sioux_aggregate_without": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_aggregate_without",
+      "phase": "core",
+      "config": {
+        "name": "sioux",
+        "maas": false,
+        "mod_access_scope": "aggregate",
+        "pt_access_scope": "node",
+        "wholesale": [
+          1.5,
+          1
+        ]
+      },
+      "source": "v4/sioux_aggregate_node_total0_without"
+    }
+  },
+  "sioux_aggregate_paper": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_aggregate_paper",
+      "phase": "core",
+      "config": {
+        "name": "sioux",
+        "maas": true,
+        "mod_access_scope": "aggregate",
+        "pt_access_scope": "node",
+        "wholesale": [
+          1.5,
+          1
+        ]
+      },
+      "source": "v4/sioux_aggregate_node_total0_with"
+    }
+  },
+  "sioux_aggregate_pt2": {
+    "status": "PASS",
+    "definition": {
+      "tag": "sioux_aggregate_pt2",
+      "phase": "core",
+      "config": {
+        "name": "sioux",
+        "maas": true,
+        "mod_access_scope": "aggregate",
+        "pt_access_scope": "node",
+        "wholesale": [
+          1.5,
+          2
+        ]
+      },
+      "source": "v4/sioux_aggregate_node_total0_with"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tag": "small_node_pt2",
+  "phase": "core",
+  "config": {
+    "name": "small",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "maas": true,
+    "wholesale": [
+      1.3,
+      2
+    ]
+  },
+  "source": "v4/small_node_node_total0_with"
+}
