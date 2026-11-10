@@ -1,0 +1,10 @@
+case,resource,t0,capacity,reason,evidence_class
+A_no_maas,10,5.0,300.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY
+A_no_maas,11,5.0,300.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY
+A_no_maas,38,1.0,100.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY
+B_maas_no_transfer_advantage,10,5.0,300.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY
+B_maas_no_transfer_advantage,11,5.0,300.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY
+B_maas_no_transfer_advantage,38,1.0,100.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY
+C_maas_paper_advantage,10,5.0,300.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY
+C_maas_paper_advantage,11,5.0,300.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY
+C_maas_paper_advantage,38,1.0,100.0,Resource is absent from all destination-pruned graphs; aggregate demand identically zero,DIAGNOSTIC_ONLY

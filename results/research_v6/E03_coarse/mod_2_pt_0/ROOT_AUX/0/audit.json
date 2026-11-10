@@ -1,0 +1,18 @@
+{
+  "profit_mod": {
+    "equilibrium": 787.4818391690928,
+    "best_grid_refined": 787.4818391690928,
+    "best_tested_price": 0.405533871543698,
+    "unilateral_gain": 0,
+    "failed_price_evaluations": []
+  },
+  "profit_pt": {
+    "equilibrium": 366.0235935221201,
+    "best_grid_refined": 366.0235935221201,
+    "best_tested_price": 0.7290972807441161,
+    "unilateral_gain": 0,
+    "failed_price_evaluations": []
+  },
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "all_retail_deviation_gains_below_1e-4": true
+}

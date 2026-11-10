@@ -1,0 +1,7 @@
+{
+  "main_paper_text_path": "<REPRODUCTION_ROOT>\\sources\\maas.txt",
+  "main_paper_text_sha256": "9282ba59d9511abe03541927c1268684d809c639e80249166ce1ae0bbb1438e0",
+  "tables": "2 and 3",
+  "algorithm": "Equations 23-25 and Algorithm 1",
+  "model_sha256": "e138fd4f803a2ab5952c7e4d14b47a353bfc1f409c2634a71bb861b1d9338769"
+}

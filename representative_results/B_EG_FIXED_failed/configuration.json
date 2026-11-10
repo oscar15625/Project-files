@@ -1,0 +1,30 @@
+{
+  "case": "B_maas_no_transfer_advantage",
+  "method": "EG_FIXED",
+  "initial_factor": 1.0,
+  "h_budget": 20000,
+  "initial_step": 0.0001,
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 10,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "config_hash": "a23445a9ad18eacc90779b838612d529c757beb2209f846892eb486dd43bf56c",
+  "source_state_hash": "8e2160b235d9a0b1162d1524768a1e5470e1589f50cb1488352916775c7f267f",
+  "residual_gamma": 0.0001,
+  "tolerance": 1e-06,
+  "evidence_class": "DIAGNOSTIC_ONLY",
+  "start": "project(Model.initial()*factor)",
+  "process_id": 4464
+}

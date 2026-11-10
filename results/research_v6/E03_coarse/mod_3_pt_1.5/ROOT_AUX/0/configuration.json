@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E03_coarse",
+  "scenario_id": "mod_3_pt_1.5",
+  "experiment_class": "S",
+  "paper_source": "Sections 3-5; Table 2; section 5.1.4",
+  "assumption_status": "reconstruction counterfactual; illustrative, not empirically calibrated",
+  "baseline_id": "E01/A_no_maas",
+  "model_config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      3.0,
+      1.5
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "git_sha": "3971af9e9a6b35e2fda40c2bf1b15adc36618cab",
+  "config_hash": "b60a65bad65a0e08451dbdc20d03ba7c46856e27a38c2c0ada036026e7e180cc",
+  "seed": 0,
+  "solver": "ROOT_AUX",
+  "source_start": "results/v4/small_node_node_total0_with/state.npy",
+  "derivative_scope": "fixed time and other prices",
+  "reequilibrated_deviation_status": "NOT_PERFORMED"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS_WITH_DISCLOSED_RESIDUAL_CONVENTION",
+  "passes": 75,
+  "original_failed": 1,
+  "direct_residual_exceedances": 15,
+  "unexpected_economic_discrepancy": false
+}

@@ -1,0 +1,14 @@
+{
+  "independent_duplicate": {
+    "welfare_gain": 575.1803824295512,
+    "clone_share_pct": 43.45346230580132
+  },
+  "perfectly_correlated_clone": {
+    "welfare_gain": 0.0,
+    "clone_share_pct": 39.31271559102886
+  },
+  "split_corrected": {
+    "welfare_gain": 0.0,
+    "clone_share_pct": 39.31271559102886
+  }
+}

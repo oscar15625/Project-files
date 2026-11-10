@@ -1,0 +1,13 @@
+scenario,operator,price_factor,fixed_time_gain,reequilibrated_gain,traffic_status,natural_aux,scaled,evidence_class,scope
+mod_1.5_pt_1.5,mod,0.95,-1.268389660580965,-25.870480432987165,PASS,3.3428417837281003e-11,1.720405967179322e-09,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_1.5_pt_1.5,mod,1.0,0.0,-1.746512907629949e-07,PASS,2.5914337224862516e-11,1.4349416258404878e-09,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_1.5_pt_1.5,mod,1.05,-1.1927314588613172,25.19126697385525,PASS,3.58724037616909e-15,2.7852166265981767e-11,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_1.5_pt_1.5,pt,0.95,-0.7728405800966129,-20.284393522401956,PASS,0.0,6.844899992917287e-12,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_1.5_pt_1.5,pt,1.0,0.0,2.887577466026414e-07,PASS,2.5914337224862516e-11,1.4349416258404878e-09,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_1.5_pt_1.5,pt,1.05,-0.6966656005272398,19.783987902377135,PASS,3.658233088923503e-12,2.6706596640705884e-10,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_3_pt_3,mod,0.95,-1.2722928156105127,-25.564242903006857,PASS,1.0552401605024066e-12,8.142545701918836e-11,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_3_pt_3,mod,1.0,0.0,-8.399604212172562e-08,PASS,1.3081918423061958e-11,7.288833141127817e-10,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_3_pt_3,mod,1.05,-1.210342052743158,25.126997911007606,PASS,4.440892098500626e-16,1.3356134873767063e-10,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_3_pt_3,pt,0.95,-0.8528954536666333,-21.147714661751706,PASS,0.0,8.039189609151793e-12,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_3_pt_3,pt,1.0,0.0,1.4191971331456443e-07,PASS,1.3081918423061958e-11,7.288833141127817e-10,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"
+mod_3_pt_3,pt,1.05,-0.77427665201526,20.771185502798517,PASS,5.179167919779116e-13,2.6603545418280083e-11,NEW_COUNTERFACTUAL,"Finite price probe, not global best response; fixed rival retail and MaaS fares"

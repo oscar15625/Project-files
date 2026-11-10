@@ -1,0 +1,30 @@
+{
+  "shared_directory": "<RESEARCH_ROOT>\\backups\\v71_delivery_20261110\\shared",
+  "portable_directory": "<RESEARCH_ROOT>\\backups\\v71_delivery_20261110\\small_cloud",
+  "archives": [
+    {
+      "name": "MaaS_v7_1_Small_Cloud.zip",
+      "bytes": 307911,
+      "sha256": "9a008df152f3437b45f644e4163e5c233056506f21da193b59448b7fcda0cb21"
+    },
+    {
+      "name": "MaaS_v7_1_Full_Recovery.zip",
+      "bytes": 27517583,
+      "sha256": "c59a87ca2767fe7caf19a340f6efc4fd92f48cae6a1579fba5b3d65fa31f326e"
+    }
+  ],
+  "shared_files": 2809,
+  "recovery_files": 9279,
+  "excluded": [
+    "original PDFs",
+    "private request/feedback documents",
+    "credentials",
+    "Git history",
+    "local environments"
+  ],
+  "git_only_excluded": [
+    "per-H operator event streams",
+    "full checkpoint histories",
+    "files above 5 MB"
+  ]
+}

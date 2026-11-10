@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06",
+  "total": 76,
+  "status_counts": {
+    "PASS": 75,
+    "FAILED_VI": 1
+  },
+  "protected_unchanged": true,
+  "coarse_executed": true,
+  "source_tag": "maas-reproduction-v5",
+  "reequilibrated_deviations": "NOT_PERFORMED",
+  "interpretation": "Discrete tested points, not continuous region or negotiation prediction"
+}
+[{'contrast': 'B_minus_A', 'interpretation': 'sequential equilibrium difference, not causal contribution', 'profit_mod': 57.43465135419228, 'profit_pt': 42.26571981448825, 'profit_maas': 123.39730870656301, 'traveler_welfare': 103.2870421535954, 'social_welfare': 326.38472202883895, 'share_drive': -0.3689064987833568, 'share_maas': 10.75468206120539, 'transfer_flow': 0.0011872828777733345}, {'contrast': 'C_minus_B', 'interpretation': 'sequential equilibrium difference, not causal contribution', 'profit_mod': 35.69343136364341, 'profit_pt': 11.99680985383759, 'profit_maas': 28.818326915894843, 'traveler_welfare': 69.57571228313464, 'social_welfare': 146.0842804165095, 'share_drive': -0.8602964374774125, 'share_maas': 2.232567313688282, 'transfer_flow': 26.798426788911904}, {'contrast': 'C_minus_A', 'interpretation': 'sequential equilibrium difference, not causal contribution', 'profit_mod': 93.1280827178357, 'profit_pt': 54.26252966832584, 'profit_maas': 152.21563562245785, 'traveler_welfare': 172.86275443673003, 'social_welfare': 472.46900244534845, 'share_drive': -1.2292029362607693, 'share_maas': 12.987249374893672, 'transfer_flow': 26.799614071789676}]

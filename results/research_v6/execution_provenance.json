@@ -1,0 +1,30 @@
+[
+  {
+    "phase": "E01",
+    "phase_start_commit": "cab41f97b40f05a2e7f89edc91c8128e8ea216c7",
+    "runner_sha256": "20c7f71181839dad0d3a6e99a203fe062f2009c9d8e66682f73e9e92b932fbea",
+    "runner_archive": "results\\research_v6\\provenance\\E01_executed_runner.py",
+    "note": "Python imported the runner at phase start. Per-case git_sha can advance with local backup commits; economic model and solver sources were unchanged. Later runner changes concern restart handling only."
+  },
+  {
+    "phase": "E03_pilot",
+    "phase_start_commit": "39095b8dea8739b760b46200bd1f827bb46af5f5",
+    "runner_sha256": "20c7f71181839dad0d3a6e99a203fe062f2009c9d8e66682f73e9e92b932fbea",
+    "runner_archive": "results\\research_v6\\provenance\\E03_pilot_executed_runner.py",
+    "note": "Python imported the runner at phase start. Per-case git_sha can advance with local backup commits; economic model and solver sources were unchanged. Later runner changes concern restart handling only."
+  },
+  {
+    "phase": "E03_coarse",
+    "phase_start_commit": "bcc6b20089f44b6a19a887cf6450b9abf58d2940",
+    "runner_sha256": "20c7f71181839dad0d3a6e99a203fe062f2009c9d8e66682f73e9e92b932fbea",
+    "runner_archive": "results\\research_v6\\provenance\\E03_coarse_executed_runner.py",
+    "note": "Python imported the runner at phase start. Per-case git_sha can advance with local backup commits; economic model and solver sources were unchanged. Later runner changes concern restart handling only."
+  },
+  {
+    "phase": "E03_coarse_resume",
+    "date": "2026-11-08",
+    "runner_sha256": "91f8d44133ba3c1cee44d02f2e93d08a6108771cd09088c5d65e4bfb79217a62",
+    "runner_archive": "results\\research_v6\\provenance\\E03_coarse_resumed_20261108_runner.py",
+    "note": "Recovery-enhanced runner used for the final MoD=3.5 row. Economic model and numerical rules unchanged; original configuration metadata retained."
+  }
+]

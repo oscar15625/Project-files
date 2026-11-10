@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "economic_reanalysis": "75 accepted attempts re-evaluated; one original failure preserved",
+  "level1": 31,
+  "level2": 14,
+  "static_only": true,
+  "evidence_class": "REPRODUCED_MECHANISM"
+}

@@ -1,0 +1,31 @@
+claim_id,evidence_class,test_id,result_ref,limits,presentation_safe_claim
+R00-C01,AUTHOR_EXPLANATION,R00,paper_defense_ledger.csv,Conceptual product definition; no subscription/PAYG estimation.,Test product representativeness rather than claiming absent justification.
+R00-C02,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,Availability is assumed; adoption and vehicle eligibility are not identified.,Separate modeled availability from observed market participation.
+R00-C03,AUTHOR_EXPLANATION,R00,paper_defense_ledger.csv,Static duplication tests only the implemented upper Shannon specialization.,Non-MaaS is not restricted to unimodal travel.
+R00-C04,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,Payment-state mixing is excluded by construction.,Test a separate expanded payment-state model for mixed purchases.
+R00-C05,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,"Fleet operations, rebalancing and empirical service correspondence are not recovered.",MoD is explicitly defined; its real-market correspondence is a different question.
+R00-C06,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,"These are model outputs, not observed Swiss modal shares.",Test explicit hypothetical lower-MoD baseline markets.
+R00-C07,AUTHOR_EXPLANATION,R00,paper_defense_ledger.csv,The magnitudes are settings; RP/SP calibration is not demonstrated in these sections.,Acknowledge the qualitative rationale and test its magnitude.
+R00-C08,AUTHOR_EXPLANATION,R00,paper_defense_ledger.csv,"This code is a Shannon specialization, not the entire PUMCM class.",Upper Shannon duplication is not a theorem about every PUMCM.
+R00-C09,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,Integrated ticket systems require different fare states.,Link pricing is explicit; examine external applicability separately.
+R00-C10,AUTHOR_EXPLANATION,R00,paper_defense_ledger.csv,Government strategy and budgets are outside the modeled game.,Do not say government support was never discussed.
+R00-C11,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,A full two-dimensional contractual landscape is not the common-price experiment.,Distinguish common-price simplification from the asymmetric Sioux case.
+R00-C12,AUTHOR_EXPLANATION,R00,paper_defense_ledger.csv,Additional platform costs are not empirically estimated.,Positive modeled residual is not demonstrated commercial sustainability.
+R00-C13,AUTHOR_ACKNOWLEDGED_LIMITATION,R00,paper_defense_ledger.csv,An improving set does not determine which contract is negotiated.,Credit the authors discussion; test asymmetric participation sets.
+R00-C14,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,Aggregate welfare does not identify every OD or person improvement.,Do not attribute cooperative Pareto objectives to travelers.
+R00-C15,AUTHOR_EXPLANATION,R00,paper_defense_ledger.csv,No controlled same-game nested timing comparison is demonstrated here.,Separate a sound computational motivation from measured comparative speed.
+R00-C16,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,No matched PG/adaptive-EG cost table in the reviewed experiment sections.,Do not call it untested; reproduce the stated baseline and then compare.
+R00-C17,AUTHOR_ACKNOWLEDGED_LIMITATION,R00,paper_defense_ledger.csv,Within-OD distributions at common population means are different experiments.,OD VOT sensitivity already exists; target richer distributional robustness.
+R00-C18,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,Swiss fare systems would be external scenarios.,Do not judge numerical reproduction as a Lausanne empirical model.
+R00-C19,ORIGINAL_PAPER,R00,paper_defense_ledger.csv,November node/node baseline differs from that stated aggregation.,"Node/node outcomes are independent counterfactuals, not recovered author settings."
+R00-C20,UNRESOLVED_SPECIFICATION,R00,paper_defense_ledger.csv,For EG these two residuals are not generally identical.,Report both; do not infer certified accuracy solely from iterate change.
+R00-C21,AUTHOR_ACKNOWLEDGED_LIMITATION,R00,paper_defense_ledger.csv,Stationarity and finite deviations do not prove global profit maximization.,Credit the stated qualification and retain independent deviation diagnostics.
+N01,DIAGNOSTIC_ONLY,E01-P,e01_placebo_static.csv,Static cross states are not new equilibria or causal decomposition.,The implemented upper Shannon choice is sensitive to independent service duplication.
+N02,REPRODUCED_MECHANISM,E02-PT,pt_physical_flow_vs_sales_channel.csv,Model distance units are not verified km; first access is not ridership.,Actual PT use and payment-channel labels must be reported separately.
+N03,REPRODUCED_MECHANISM,E03-D,e03_welfare_levels.csv,November node/node baseline and original auxiliary residual acceptance.,31 aggregate improving points contain only 14 all-OD-mean nonworse points.
+N04,NOT_IDENTIFIED,E03-D,e03_welfare_levels.csv,No individual utility distribution or panel outcomes.,Individual Pareto improvement is not identified.
+N05,DIAGNOSTIC_ONLY,E03-V,e03_cost_summary.csv,Illustrative costs; no measured commercial model or re-equilibrium.,Participation depends on the assumed additional cost structure.
+N06,FAILED_NUMERICAL_CHECK,M01,m01_convergence_runs.csv,"Independent reconstruction differs from author settings; bounded budget, no theorem refutation.",0/27 tested projection runs passed the specified contract.
+N07,NEW_COUNTERFACTUAL,M02,m02_timing_comparison.csv,"Different response timing, finite probes and fixed rival/platform prices.",Re-equilibrating traffic can reverse the gain from a price increase.
+N08,DIAGNOSTIC_ONLY,M03,m03_same_vi_prototype.csv,"Warm-start small example; numerical elimination comparison, not total-derivative leader game.",Nested and joint methods must solve the same final residual before timing ratios are interpretable.
+N09,DIAGNOSTIC_ONLY,M01-boundary,m01_boundary_microtest.csv,Scalar zero-flow example; not a network equilibrium or theorem refutation.,A zero iterate change can coexist with a nonzero natural residual at an inverse-BPR boundary.

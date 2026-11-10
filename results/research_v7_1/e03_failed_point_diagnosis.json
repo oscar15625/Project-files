@@ -1,0 +1,16 @@
+{
+  "original_status": "FAILED_VI",
+  "diagnostic_source": "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1",
+  "diagnostic_status": "PASS",
+  "recomputed": {
+    "natural_direct": 1.0554890514784354e-06,
+    "natural_aux": 3.0346528445474485e-10,
+    "scaled": 1.0829111251588942e-08,
+    "capacity_violation": 0.0,
+    "complementarity": 0.0,
+    "conservation": 1.4210854715202004e-14,
+    "accounting": 0.0
+  },
+  "evidence_class": "DIAGNOSTIC_ONLY",
+  "original_grid_replaced": false
+}

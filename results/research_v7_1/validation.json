@@ -1,0 +1,13 @@
+{
+  "status": "PASS_INTEGRITY_AND_REPORTING",
+  "source_files_unchanged": 8897,
+  "m01_attempts": 27,
+  "m01_accepted": 0,
+  "m03_status": {
+    "JOINT_AUX": "PASS",
+    "NESTED_SAME_VI": "INTERRUPTED_NOT_COMPLETED"
+  },
+  "original_failure_preserved": true,
+  "evidence_files": 602,
+  "checks": "hashes, source metric replay, mass, probabilities, revenue transfers, complete operator call counts, raw final residuals; numerical experiment failures remain failures"
+}

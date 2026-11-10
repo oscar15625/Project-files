@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-09",
+  "placebo_gain": 575.1803824295512,
+  "level1": 31,
+  "level2": 14,
+  "direct_residual_mismatches": 15,
+  "algorithm_converged": 0,
+  "traffic_probes": 18,
+  "full_benchmark": "INCOMPLETE",
+  "nested_outer": "NOT_IMPLEMENTED",
+  "phase3": "DEFERRED"
+}

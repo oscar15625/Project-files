@@ -1,0 +1,10 @@
+{
+  "source": "https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls",
+  "retrieved": "2026-10-21",
+  "sha256": {
+    "data\\SiouxFalls_net.tntp": "ace99b24cec69c273ff0cf3d6d074110177f0cc0ae24b0c7a9f4f4cb5e27635c",
+    "data\\SiouxFalls_trips.tntp": "56f9566857f3f66730fd5c4232258d7ee3ac2931a476526331afd062f4958de7"
+  },
+  "network_blob": "66d0eca4ddcfb82f861bea040060deab7a741b2f",
+  "trips_blob": "db70eda57738877811e9ac07c25a567973d3b6a0"
+}

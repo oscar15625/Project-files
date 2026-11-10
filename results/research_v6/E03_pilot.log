@@ -1,0 +1,892 @@
+START E03_pilot/mod_0_pt_0
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 1 0.4299658862884726
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 2 0.0801108334678874
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 3 0.020428890858140106
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 4 0.012287553419102856
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 5 0.007611608252103038
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 6 0.0038919035254608753
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 7 0.001390487625601394
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 8 0.0002413801764643051
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 9 9.388076765123496e-06
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 10 1.991427494434544e-07
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 11 1.907985362526784e-08
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 12 9.483689843074146e-09
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 13 4.741844684922429e-09
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 14 4.741844684922429e-09
+{
+  "profit_mod": 256.5422496933519,
+  "profit_pt": 228.28660231556773,
+  "profit_maas": 636.7258183733472,
+  "profit_total": 1121.554670382267,
+  "share_non": 47.30802199513568,
+  "share_drive": 14.426575852741374,
+  "share_maas": 38.265402152122824,
+  "price_mod": 0.27464290710301104,
+  "price_pt": 0.7671326338532547,
+  "traveler_welfare": -15934.438774054384,
+  "social_welfare": -14812.884103672117,
+  "transfer_flow": 90.79491613180096,
+  "flow_conservation_error": 7.105427357601002e-15,
+  "retail_mod": 256.5422496933519,
+  "retail_pt": 228.28660231556773,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 636.7258183733472,
+  "accounting_error": 1.1368683772161603e-13,
+  "share_non_mod": 24.270938791057123,
+  "share_non_pt": 23.037083204078566,
+  "share_maas_mod": 15.350122619082022,
+  "share_maas_pt": 22.91527953304081,
+  "pt_pt_transfers": 6.333349974981495,
+  "intermodal_transfers": 84.46156615681946,
+  "pt_access_flow": 474.78832128870397,
+  "mod_access_flow": 471.74083631568215,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    0.0,
+    0.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 615,
+  "seconds": 5.150163888931274,
+  "natural_residual": 4.741782116630444e-09,
+  "scaled_residual": 4.741844684922429e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      0.0,
+      0.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_0_pt_0\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(256.5422496933222), 'best_grid_refined': 256.5422496933227, 'best_tested_price': 0.27464289953013843, 'unilateral_gain': 4.547473508864641e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(228.28660231554932), 'best_grid_refined': 228.28660231554966, 'best_tested_price': 0.7671326020189156, 'unilateral_gain': 3.410605131648481e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_0_pt_0 PASS
+START E03_pilot/mod_0_pt_1.5
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 1 0.49436562027718645
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 2 0.06456827927841022
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 3 0.01453573223076385
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 4 0.007090598198239137
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 5 0.0035393216689638815
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 6 0.0017688278151269585
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 7 0.0008842062134881475
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 8 0.00044205125776160026
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 9 0.00022101269244047752
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 10 0.00011050310833214871
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 11 5.525074625571123e-05
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 12 2.762517125059181e-05
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 13 1.3812533647747613e-05
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 14 6.906254866236756e-06
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 15 3.4531244186526493e-06
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 16 1.7265613623525507e-06
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 17 8.632804390754533e-07
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 18 4.316401501424898e-07
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 19 2.1582005370178844e-07
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 20 1.0791003083773184e-07
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 21 5.3955013867366665e-08
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 22 2.697751026923107e-08
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 23 1.3488752894000303e-08
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 24 6.744377601762628e-09
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 25 3.372189364386477e-09
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 26 1.6860937979254253e-09
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 27 8.430476763511791e-10
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 28 8.430476763511791e-10
+{
+  "profit_mod": 371.96689164550133,
+  "profit_pt": 665.8318281259718,
+  "profit_maas": 300.28070683668915,
+  "profit_total": 1338.0794266081623,
+  "share_non": 60.13189795646748,
+  "share_drive": 17.683538349285886,
+  "share_maas": 22.184563694246577,
+  "price_mod": 0.30060283516392855,
+  "price_pt": 0.9619219100528069,
+  "traveler_welfare": -16555.093569427998,
+  "social_welfare": -15217.014142819835,
+  "transfer_flow": 57.638125614058616,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 371.96689164550133,
+  "retail_pt": 391.9015545817485,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 273.93027354422327,
+  "maas_receipts": 574.2109803809124,
+  "accounting_error": 1.1368683772161603e-13,
+  "share_non_mod": 31.096012811483607,
+  "share_non_pt": 29.03588514498387,
+  "share_maas_mod": 8.461631151023994,
+  "share_maas_pt": 13.722932543222582,
+  "pt_pt_transfers": 3.943526897409931,
+  "intermodal_transfers": 53.694598716648684,
+  "pt_access_flow": 436.0881898708214,
+  "mod_access_flow": 444.7145522503777,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    0.0,
+    1.5
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1231,
+  "seconds": 8.553173065185547,
+  "natural_residual": 8.43047676328402e-10,
+  "scaled_residual": 8.430476763511791e-10,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      0.0,
+      1.5
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_0_pt_1.5\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(371.9668915649742), 'best_grid_refined': 371.9668915649752, 'best_tested_price': 0.3006028348103286, 'unilateral_gain': 9.663381206337363e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(665.8318283754442), 'best_grid_refined': 665.8318283754448, 'best_tested_price': 0.9619219093374574, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_0_pt_1.5 PASS
+START E03_pilot/mod_0_pt_3
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 1 0.3068595748144445
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 2 0.049363556906751746
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 3 0.008170164554841338
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 4 0.003929776458332898
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 5 0.0019641814441183165
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 6 0.0009818406391924345
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 7 0.0004908576937591857
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 8 0.0002454131983504939
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 9 0.00012270269200083435
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 10 6.135036743401659e-05
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 11 3.067493947437553e-05
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 12 1.533740860984051e-05
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 13 7.668689074499002e-06
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 14 3.8343402151322385e-06
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 15 1.9171691633682002e-06
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 16 9.5858433352045e-07
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 17 4.792921554822762e-07
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 18 2.3964608034206046e-07
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 19 1.1982302716022678e-07
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 20 5.991151687223269e-08
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 21 2.9955760152306976e-08
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 22 1.4977876799950644e-08
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 23 7.488938700186847e-09
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 24 3.74446898037331e-09
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 25 1.8722338115095542e-09
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 26 9.361168852292584e-10
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 27 4.68059279422916e-10
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 28 2.3403109040159734e-10
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 29 1.170140255677009e-10
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 30 5.850889272847254e-11
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 31 2.925336209233793e-11
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 32 1.462781620504273e-11
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 33 1.462781620504273e-11
+{
+  "profit_mod": 439.78306626481645,
+  "profit_pt": 661.5173798041626,
+  "profit_maas": 142.22058196995036,
+  "profit_total": 1243.5210280389294,
+  "share_non": 69.75384694806448,
+  "share_drive": 19.024907767182913,
+  "share_maas": 11.221245284752502,
+  "price_mod": 0.3179961720650585,
+  "price_pt": 0.8849443327623451,
+  "traveler_welfare": -16685.595577463922,
+  "social_welfare": -15442.074549424993,
+  "transfer_flow": 34.480420707677936,
+  "flow_conservation_error": 2.842170943040401e-14,
+  "retail_mod": 439.78306626481645,
+  "retail_pt": 460.8975097629732,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 200.61987004118953,
+  "maas_receipts": 342.84045201113986,
+  "accounting_error": 0.0,
+  "share_non_mod": 34.65907405521953,
+  "share_non_pt": 35.09477289284496,
+  "share_maas_mod": 4.86296310313022,
+  "share_maas_pt": 6.3582821816222825,
+  "pt_pt_transfers": 1.7657069965113283,
+  "intermodal_transfers": 32.71471371116661,
+  "pt_access_flow": 418.0051145392182,
+  "mod_access_flow": 426.2262284966296,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    0.0,
+    3.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 1451,
+  "seconds": 10.38264775276184,
+  "natural_residual": 1.462781334329844e-11,
+  "scaled_residual": 1.462781620504273e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      0.0,
+      3.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_0_pt_3\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(439.7830662626999), 'best_grid_refined': 439.7830662626999, 'best_tested_price': 0.3179961720650585, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(661.5173798092221), 'best_grid_refined': 661.5173798092221, 'best_tested_price': 0.8849443327623451, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.842170943040401e-14), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_0_pt_3 PASS
+START E03_pilot/mod_1.5_pt_0
+research_v6\E03_pilot\mod_1.5_pt_0\ROOT_AUX\0 1 0.026332198704135175
+research_v6\E03_pilot\mod_1.5_pt_0\ROOT_AUX\0 2 0.0007145810116268407
+research_v6\E03_pilot\mod_1.5_pt_0\ROOT_AUX\0 3 6.211329589508443e-06
+research_v6\E03_pilot\mod_1.5_pt_0\ROOT_AUX\0 4 9.583584137490267e-09
+research_v6\E03_pilot\mod_1.5_pt_0\ROOT_AUX\0 5 2.6725597971182517e-09
+research_v6\E03_pilot\mod_1.5_pt_0\ROOT_AUX\0 6 1.33349044906482e-09
+research_v6\E03_pilot\mod_1.5_pt_0\ROOT_AUX\0 7 1.33349044906482e-09
+{
+  "profit_mod": 784.8308544853339,
+  "profit_pt": 335.6887760576723,
+  "profit_maas": 257.2713998491838,
+  "profit_total": 1377.7910303921901,
+  "share_non": 60.3581116632265,
+  "share_drive": 19.388441012350967,
+  "share_maas": 20.25344732442253,
+  "price_mod": 0.4092695396848728,
+  "price_pt": 0.7175401845970423,
+  "traveler_welfare": -16391.75518743676,
+  "social_welfare": -15013.96415704457,
+  "transfer_flow": 38.57770608869837,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 499.61609173645843,
+  "retail_pt": 335.6887760576723,
+  "wholesale_mod": 285.2147627488755,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 542.4861625980593,
+  "accounting_error": 0.0,
+  "share_non_mod": 29.573503457328965,
+  "share_non_pt": 30.784608205897534,
+  "share_maas_mod": 8.768590646284096,
+  "share_maas_pt": 11.484856678138431,
+  "pt_pt_transfers": 4.266950737722561,
+  "intermodal_transfers": 34.31075535097581,
+  "pt_access_flow": 431.5700639065202,
+  "mod_access_flow": 413.1232320586684,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.5,
+    0.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 307,
+  "seconds": 2.4387996196746826,
+  "natural_residual": 1.2993692453890047e-09,
+  "scaled_residual": 1.33349044906482e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.5,
+      0.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_1.5_pt_0\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(784.830854485358), 'best_grid_refined': 784.830854485358, 'best_tested_price': 0.4092695396848728, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(335.68877605767835), 'best_grid_refined': 335.6887760576792, 'best_tested_price': 0.7175401850304707, 'unilateral_gain': 8.526512829121202e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_1.5_pt_0 PASS
+START E03_pilot/mod_1.5_pt_1.5
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 1 0.10006575332881251
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 2 0.021134705568517268
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 3 0.008733510922551162
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 4 0.003945905902221953
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 5 0.0018932408590231018
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 6 0.0009464109149863771
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 7 0.0004731388423288675
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 8 0.0002365527070413003
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 9 0.00011827218371894442
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 10 5.913504562019438e-05
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 11 2.9567260220015857e-05
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 12 1.4783564453308693e-05
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 13 7.391766193375719e-06
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 14 3.6958790730976373e-06
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 15 1.8479384097131505e-06
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 16 9.239689833323602e-07
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 17 4.619844128720729e-07
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 18 2.3099219039581996e-07
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 19 1.1549609187819963e-07
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 20 5.7748048010995524e-08
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 21 2.8874026609104466e-08
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 22 1.4437011520788836e-08
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 23 7.218506242432019e-09
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 24 3.609253796651333e-09
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 25 1.8046270424142133e-09
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 26 9.023133771329323e-10
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 27 4.511568328428217e-10
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 28 2.2558043902240223e-10
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 29 1.1279041354351991e-10
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 30 5.6392941562418183e-11
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 31 2.8198398846985862e-11
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 32 2.8198398846985862e-11
+{
+  "profit_mod": 660.5611036028,
+  "profit_pt": 541.732100678578,
+  "profit_maas": 118.13505835794253,
+  "profit_total": 1320.4282626393208,
+  "share_non": 69.1329709202164,
+  "share_drive": 20.519446229261575,
+  "share_maas": 10.347582850522052,
+  "price_mod": 0.37717467408993305,
+  "price_pt": 0.8365774875245066,
+  "traveler_welfare": -16696.506716472744,
+  "social_welfare": -15376.078453833423,
+  "transfer_flow": 20.363735300376025,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 539.6447608058852,
+  "retail_pt": 437.816438851442,
+  "wholesale_mod": 120.91634279691496,
+  "wholesale_pt": 103.91566182713602,
+  "maas_receipts": 342.9670629819935,
+  "accounting_error": 1.7053025658242404e-13,
+  "share_non_mod": 34.76169192948121,
+  "share_non_pt": 34.371278990735185,
+  "share_maas_mod": 4.130671406510139,
+  "share_maas_pt": 6.216911444011912,
+  "pt_pt_transfers": 2.472027679396151,
+  "intermodal_transfers": 17.891707620979872,
+  "pt_access_flow": 410.3595060903973,
+  "mod_access_flow": 404.8097669173633,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.5,
+    1.5
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1407,
+  "seconds": 12.068198442459106,
+  "natural_residual": 2.8198398646482726e-11,
+  "scaled_residual": 2.8198398846985862e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.5,
+      1.5
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_1.5_pt_1.5\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(660.5611035974772), 'best_grid_refined': 660.5611035974778, 'best_tested_price': 0.3771746702255312, 'unilateral_gain': 5.684341886080801e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(541.7321006866578), 'best_grid_refined': 541.7321006866578, 'best_tested_price': 0.8365774875245066, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_1.5_pt_1.5 PASS
+START E03_pilot/mod_1.5_pt_3
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 1 0.16782113316073682
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 2 0.04456473577575527
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 3 0.016656590157457466
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 4 0.012347020172760294
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 5 0.009487143491607598
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 6 0.0070150149075958994
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 7 0.004912296481078897
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 8 0.003181924303724286
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 9 0.001852082857273703
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 10 0.0009638473046449183
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 11 0.00048558303692698365
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 12 0.00023701171237011868
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 13 0.00011850157351167479
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 14 5.9249744380251504e-05
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 15 2.9624613305403404e-05
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 16 1.4812240824527054e-05
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 17 7.406104195753983e-06
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 18 3.7030479612745257e-06
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 19 1.8515228852190934e-06
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 20 9.257612014401115e-07
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 21 4.628805728345078e-07
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 22 2.3144026191616405e-07
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 23 1.1572011428666343e-07
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 24 5.786005072959447e-08
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 25 2.89300260410169e-08
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 26 1.446501489595976e-08
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 27 7.232506480202189e-09
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 28 3.616253128908643e-09
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 29 1.8081253141740349e-09
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 30 9.040631710661653e-10
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 31 4.520314142259772e-10
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 32 4.520314142259772e-10
+{
+  "profit_mod": 609.3110858427927,
+  "profit_pt": 558.564132128264,
+  "profit_maas": 49.78082739144447,
+  "profit_total": 1217.6560453625013,
+  "share_non": 74.33799914846146,
+  "share_drive": 21.00091144926644,
+  "share_maas": 4.6610894022721086,
+  "price_mod": 0.36552814479037543,
+  "price_pt": 0.845287436812648,
+  "traveler_welfare": -16792.432565840812,
+  "social_welfare": -15574.776520478312,
+  "transfer_flow": 9.852701419388595,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 556.2554486966857,
+  "retail_pt": 474.9064940976902,
+  "wholesale_mod": 53.055637146107046,
+  "wholesale_pt": 83.65763803057374,
+  "maas_receipts": 186.49410256812524,
+  "accounting_error": 2.8421709430404007e-13,
+  "share_non_mod": 37.27739544912903,
+  "share_non_pt": 37.060603699332425,
+  "share_maas_mod": 1.8790187141890216,
+  "share_maas_pt": 2.782070688083087,
+  "pt_pt_transfers": 1.12682570242063,
+  "intermodal_transfers": 8.725875716967964,
+  "pt_access_flow": 400.3399817379842,
+  "mod_access_flow": 399.5036051887401,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.5,
+    3.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1407,
+  "seconds": 11.14507269859314,
+  "natural_residual": 4.520314142220615e-10,
+  "scaled_residual": 4.520314142259772e-10,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.5,
+      3.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_1.5_pt_3\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(609.3110857664174), 'best_grid_refined': 609.3110857664174, 'best_tested_price': 0.36552814479037543, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(558.5641322440684), 'best_grid_refined': 558.5641322440684, 'best_tested_price': 0.845287436812648, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.842170943040401e-14), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_1.5_pt_3 PASS
+START E03_pilot/mod_3_pt_0
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 1 0.2034714139711014
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 2 0.08298130475875411
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 3 0.07445620858022899
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 4 0.06788598296706798
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 5 0.06214446072279262
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 6 0.057082050189262136
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 7 0.052584168167083556
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 8 0.04855998019117131
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 9 0.044937819960324255
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 10 0.041659449121689104
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 11 0.038677814110321854
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 12 0.035953857671123045
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 13 0.03345542002533858
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 14 0.031155328237981613
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 15 0.029030863394972968
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 16 0.02706251926853878
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 17 0.025233788485552376
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 18 0.02353029999861137
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 19 0.021939773532261262
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 20 0.020451382393480277
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 21 0.019055798401122447
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 22 0.017744716079771034
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 23 0.016510928373075825
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 24 0.015347958923010852
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 25 0.014250159517635733
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 26 0.013212414363635443
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 27 0.01223024302792028
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 28 0.011299566464399212
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 29 0.010416802893628202
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 30 0.009578678585778846
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 31 0.008782317290680313
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 32 0.006224453514771008
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 33 0.0008649798822424179
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 34 0.00022304747322084265
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 35 0.00011131822827740343
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 36 5.565881822634006e-05
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 37 2.7829335821223163e-05
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 38 1.3914649735486533e-05
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 39 6.957320346304862e-06
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 40 3.478659126321932e-06
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 41 1.7393293084508985e-06
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 42 8.696645761402344e-07
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 43 4.348322655342543e-07
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 44 2.1741611207899363e-07
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 45 1.0870805311222415e-07
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 46 5.435402457047228e-08
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 47 2.7177012289544296e-08
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 48 1.3588506384538411e-08
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 49 6.794252721302472e-09
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 50 6.794252721302472e-09
+{
+  "profit_mod": 725.9767636740744,
+  "profit_pt": 404.42796920360826,
+  "profit_maas": 112.87322462139554,
+  "profit_total": 1243.2779574990782,
+  "share_non": 69.56825843239439,
+  "share_drive": 20.86162679215418,
+  "share_maas": 9.570114775451437,
+  "price_mod": 0.3826205684855468,
+  "price_pt": 0.7507606238171737,
+  "traveler_welfare": -16612.323748339382,
+  "social_welfare": -15369.045790840304,
+  "transfer_flow": 12.219511717475502,
+  "flow_conservation_error": 2.842170943040401e-14,
+  "retail_mod": 567.4817633044897,
+  "retail_pt": 404.42796920360826,
+  "wholesale_mod": 158.49500036958474,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 271.36822499098025,
+  "accounting_error": 0.0,
+  "share_non_mod": 35.21465138122281,
+  "share_non_pt": 34.353607051171586,
+  "share_maas_mod": 3.6159419584036123,
+  "share_maas_pt": 5.954172817047824,
+  "pt_pt_transfers": 2.883903381617118,
+  "intermodal_transfers": 9.335608335858383,
+  "pt_access_flow": 407.79762268105196,
+  "mod_access_flow": 395.8056211148818,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    3.0,
+    0.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 2199,
+  "seconds": 16.156089544296265,
+  "natural_residual": 6.794252721284656e-09,
+  "scaled_residual": 6.794252721302472e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      3.0,
+      0.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_3_pt_0\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(725.976763098951), 'best_grid_refined': 725.976763098951, 'best_tested_price': 0.3826205684855468, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(404.42796959977), 'best_grid_refined': 404.4279695997711, 'best_tested_price': 0.7507606252028703, 'unilateral_gain': 1.0800249583553523e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.842170943040401e-14), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_3_pt_0 PASS
+START E03_pilot/mod_3_pt_1.5
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 1 0.21739869222228
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 2 0.08831469848009124
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 3 0.07160206815963008
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 4 0.06068018069670014
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 5 0.05229729908648509
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 6 0.045666186055790224
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 7 0.04028914713484608
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 8 0.035841208090680095
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 9 0.032099670382663405
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 10 0.028908382232476545
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 11 0.026153795133531447
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 12 0.023751905374183098
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 13 0.0216388925145371
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 14 0.019765610347845772
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 15 0.018093453017148375
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 16 0.01659176257821196
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 17 0.015235820772540676
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 18 0.014005512401735294
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 19 0.01250477507791092
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 20 0.007668359882830489
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 21 0.0019103744642425602
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 22 0.00027136089242846647
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 23 0.00010251043374598656
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 24 5.124700855883554e-05
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 25 2.562338296379619e-05
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 26 1.2811660780864455e-05
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 27 6.405822852166481e-06
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 28 3.2029097450888444e-06
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 29 1.6014544414973024e-06
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 30 8.007270557035587e-07
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 31 4.0036350416760566e-07
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 32 2.0018174670929744e-07
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 33 1.0009087238326034e-07
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 34 5.004543866613813e-08
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 35 2.5022717611561743e-08
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 36 1.2511359234011997e-08
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 37 6.255679832552097e-09
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 38 6.255679832552097e-09
+{
+  "profit_mod": 635.6653375369402,
+  "profit_pt": 504.6383168724854,
+  "profit_maas": 51.441972017326364,
+  "profit_total": 1191.745626426752,
+  "share_non": 74.0410115473911,
+  "share_drive": 21.229394088976385,
+  "share_maas": 4.729594363632461,
+  "price_mod": 0.36642677658463274,
+  "price_pt": 0.8164976806889753,
+  "traveler_welfare": -16766.12539463207,
+  "social_welfare": -15574.379768205315,
+  "transfer_flow": 5.745564195738352,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 567.2471539232894,
+  "retail_pt": 459.2572457440821,
+  "wholesale_mod": 68.41818361365097,
+  "wholesale_pt": 45.38107112840329,
+  "maas_receipts": 165.24122675938062,
+  "accounting_error": 2.842170943040401e-14,
+  "share_non_mod": 37.43924067529588,
+  "share_non_pt": 36.60177087209521,
+  "share_maas_mod": 1.7141401856252403,
+  "share_maas_pt": 3.0154541780072193,
+  "pt_pt_transfers": 1.516309506887942,
+  "intermodal_transfers": 4.22925468885041,
+  "pt_access_flow": 398.55766544576846,
+  "mod_access_flow": 394.89395786020543,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    3.0,
+    1.5
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1671,
+  "seconds": 12.631574869155884,
+  "natural_residual": 6.2556798325413105e-09,
+  "scaled_residual": 6.255679832552097e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      3.0,
+      1.5
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_3_pt_1.5\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(635.6653367680708), 'best_grid_refined': 635.6653367680708, 'best_tested_price': 0.36642677658463274, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(504.6383179720236), 'best_grid_refined': 504.63831797202374, 'best_tested_price': 0.8164976682788604, 'unilateral_gain': 1.7053025658242404e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_3_pt_1.5 PASS
+START E03_pilot/mod_3_pt_3
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 1 0.22879026147266568
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 2 0.08240933508566932
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 3 0.04366306558444824
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 4 0.038526404337726146
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 5 0.03515180030958786
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 6 0.032272379340266194
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 7 0.02978682131312204
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 8 0.027619527383236732
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 9 0.025713104425949672
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 10 0.02402314853419378
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 11 0.022514801913802816
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 12 0.021160299836867753
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 13 0.019937274836759313
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 14 0.018827489816455555
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 15 0.017815937118906788
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 16 0.01689015187419182
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 17 0.016039691876145165
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 18 0.01525574593201812
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 19 0.014530827422187337
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 20 0.01385853391231123
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 21 0.013233357302100113
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 22 0.012650531897045786
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 23 0.012105916488282902
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 24 0.011595892344991598
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 25 0.011117284652740584
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 26 0.010667295192600523
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 27 0.010243449934980662
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 28 0.009843552026660016
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 29 0.00946564394338233
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 30 0.0091079767779786
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 31 0.00876898236167868
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 32 0.008447251144386714
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 33 0.008141511119249838
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 34 0.007850613244090006
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 35 0.0075735155568942315
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 36 0.006976578766857221
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 37 0.006271937755021235
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 38 0.004939322453271541
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 39 0.002379690927905803
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 40 0.0004869865509291717
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 41 7.043777012365214e-05
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 42 3.2516992999987486e-05
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 43 1.6258426248688532e-05
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 44 8.129205503741107e-06
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 45 4.06460105450432e-06
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 46 2.0323000069740415e-06
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 47 1.0161498512922683e-06
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 48 5.080748811170514e-07
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 49 2.5403741802104514e-07
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 50 1.270187029994235e-07
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 51 6.350934697473612e-08
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 52 3.175467394835413e-08
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 53 1.5877338767195158e-08
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 54 7.938669161592588e-09
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 55 3.969334802828349e-09
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 56 1.984667435380693e-09
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 57 9.923334702511467e-10
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 58 4.961681180923127e-10
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 59 2.4808429814101974e-10
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 60 1.2404213211644788e-10
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 61 6.202084435101151e-11
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 62 3.100974792338101e-11
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 63 1.5506009848904912e-11
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 64 1.5506009848904912e-11
+{
+  "profit_mod": 597.697487441994,
+  "profit_pt": 519.4326384423082,
+  "profit_maas": 21.247163987513368,
+  "profit_total": 1138.3772898718157,
+  "share_non": 76.59015847083336,
+  "share_drive": 21.36055249853333,
+  "share_maas": 2.0492890306333447,
+  "price_mod": 0.360696489147863,
+  "price_pt": 0.8326162519873903,
+  "traveler_welfare": -16820.35060519469,
+  "social_welfare": -15681.973315322874,
+  "transfer_flow": 2.5164954194002536,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 568.884614952893,
+  "retail_pt": 480.9454848091582,
+  "wholesale_mod": 28.81287248910095,
+  "wholesale_pt": 38.487153633150044,
+  "maas_receipts": 88.54719010976436,
+  "accounting_error": 5.684341886080802e-14,
+  "share_non_mod": 38.54996844905027,
+  "share_non_pt": 38.04019002178308,
+  "share_maas_mod": 0.737934837422336,
+  "share_maas_pt": 1.3113541932110078,
+  "pt_pt_transfers": 0.6667915101743028,
+  "intermodal_transfers": 1.8497039092259508,
+  "pt_access_flow": 394.5522460442085,
+  "mod_access_flow": 394.3587243898589,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    3.0,
+    3.0
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 2815,
+  "seconds": 21.558972597122192,
+  "natural_residual": 1.550600960007736e-11,
+  "scaled_residual": 1.5506009848904912e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      3.0,
+      3.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E03_pilot\mod_3_pt_3\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(597.6974874406133), 'best_grid_refined': 597.6974874406135, 'best_tested_price': 0.36069648930230924, 'unilateral_gain': 2.2737367544323206e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(519.4326384441446), 'best_grid_refined': 519.4326384441456, 'best_tested_price': 0.8326162757077339, 'unilateral_gain': 1.0231815394945443e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E03_pilot/mod_3_pt_3 PASS

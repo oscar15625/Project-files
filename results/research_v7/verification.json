@@ -1,0 +1,563 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "run": "E01/A_no_maas",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E01/B_maas_no_transfer_advantage",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E01/C_maas_paper_advantage",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_0",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_0.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_1",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_1.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_2",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_2.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_3",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_3.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_0",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_0.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_1",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_1.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_2",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_2.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_3",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_3.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_0",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_0.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_1",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_1.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_2",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_2.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_3",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_3.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_0",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_0.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_1",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_1.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_2",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_2.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_3",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_3.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_0",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_0.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_1",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_1.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_2",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_2.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_3",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_3.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_0",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_0.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_1",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_1.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_2",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_2.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_3",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_3.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_0",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_0.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_1",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_2",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_2.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_3",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_3.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_0",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_0.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_1",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_1.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_2",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_2.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_3",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_3.5",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "V5/sioux_node_node_total0_with",
+      "status": "PASS",
+      "mass_and_accounting": true
+    },
+    {
+      "run": "V5/sioux_node_node_total0_without",
+      "status": "PASS",
+      "mass_and_accounting": true
+    }
+  ],
+  "protected_files": 8683,
+  "traffic_probes": 18,
+  "original_failure_preserved": true,
+  "benchmark_failures_preserved": 3,
+  "evidence_sha256": {
+    "results\\research_v7\\baseline_hashes.json": "5025ca275eb2c4471b3614442e204c001a7c83501de3ce27aaae9c8b04d667b4",
+    "results\\research_v7\\baseline_recheck.csv": "2402314d90d14fb76fc5e69d00a4259b688c7847b2565dd23ce19fe028098426",
+    "results\\research_v7\\baseline_status.json": "66b90a557f9f24b9d56ba62708a6aefeced839e7cc52e3b086f979aab06a6023",
+    "results\\research_v7\\benchmark_pilot.csv": "e22b08f67e3c49058b2005faac03666ed0d617c876a56ccc780c3eb0138f48c0",
+    "results\\research_v7\\benchmark_residual_components.csv": "ead229514b8a0942835e9e8daf3f6450c74b55747d7037e7cb85b304a21fd6aa",
+    "results\\research_v7\\claim_ledger.csv": "70daf2744cd3eb26ad438ffb8f81631317fa3e815a5915872bceb9f4894975e5",
+    "results\\research_v7\\environment.json": "f72049ccb291206f186714dcd4b9eaed538d3309fab9d361743603da8a120c8e",
+    "results\\research_v7\\M01_status.json": "89f75f572ab09bd6ff7102c06e26e85ff529f7128caa4af5f8c86d314483c601",
+    "results\\research_v7\\multistart.csv": "20edfd93c1203fdd316b3e2246c26cecacf3c8ff4238439a498f09e3ee017745",
+    "results\\research_v7\\od_usage_and_sales.csv": "4fa9a01f918c01a20ad6d4452fe88bae9be1d4ff66df974a6cbe438413c02bf0",
+    "results\\research_v7\\phase1_status.json": "8e5e151a942f3fa131c0fb4bbc76657a5b1440a348b8246a8d7670c688672173",
+    "results\\research_v7\\physical_summary.csv": "c7612e6bb0d17eea59a33f626411ec21e2772acd15031712ecf7064834675b91",
+    "results\\research_v7\\physical_usage.csv": "814150c352b3892d9133504429683af926419c806d66d1edd7a6cef9a675a2db",
+    "results\\research_v7\\placebo_od.csv": "51856ffb664503e292c2f1484047775e362fada8f85ab78d8306ef8f1993c625",
+    "results\\research_v7\\placebo_summary.json": "0dbaeafff73ec5eb794d43580cca0be0097d4e887c9d0b4e5169f8a922a81f1f",
+    "results\\research_v7\\platform_hurdle.csv": "64f99c2fbd1d8cc58c02baede34cf7035e1ce8e0a02c036b7148aab737ac197e",
+    "results\\research_v7\\report_summary.json": "237abd458bda3905dea252996f804696718633fd597f8f5561727bcccbd5dd99",
+    "results\\research_v7\\selected_edge_flows.csv": "c4815c2cb98c083fcc1ca88f7a21d5b5540329e72693a1da83d8754d0a0b0fba",
+    "results\\research_v7\\source_provenance.json": "f2cc2efbe270ea80a32f7e5a3348d932fdb6008a3e6eb4ba2f83d52f12e20905",
+    "results\\research_v7\\strategic_counterfactual.csv": "cac280c49d1562c72d608b8066ac9b4350daaf86c37130f0f7d3810286f38066",
+    "results\\research_v7\\wholesale_decomposition.csv": "3d0fb31aa50adcb35c1b7f0d5a63d2844fd1a8db1d7c7fc5e71d3399216c7a01",
+    "results\\research_v7\\figures\\algorithm_pilot.png": "ce9c543923ff8a1ed5a7d8405b9fc488fde524b0efd4840946789ed98badf147",
+    "results\\research_v7\\figures\\choice_diagnostic.png": "caa4b7a76110bd542a9867ea25b908ffa4bcaa449fd211d38165b283b97b38e5",
+    "results\\research_v7\\figures\\improvement_levels.png": "10837ece2a722bb0fb74f0f78df659e4ee9019994794e202e1ac3a166bb8c8f2",
+    "results\\research_v7\\M01\\EG_ADAPT_1\\checkpoint.npz": "11de04bde6a134a7a122000a39c68d9c5556f2f1a42b88961885d1bc426b8b91",
+    "results\\research_v7\\M01\\EG_ADAPT_1\\metrics.json": "4efb69b1cf8abaf889aa8a20cd2705a865d3a9a08b96fc4448bf3fb868701861",
+    "results\\research_v7\\M01\\EG_ADAPT_1\\state.npy": "2f986673ed1c484ecfe990f0ce0bdadde4e7ce2c570f408727242307118d183c",
+    "results\\research_v7\\M01\\EG_ADAPT_1\\trace.json": "96587b2c111a00eba5fb7069ee00e51fc2458d7e442c8623c90f717ea491aced",
+    "results\\research_v7\\M01\\EG_ADAPT_1\\trace_checkpoint.json": "96587b2c111a00eba5fb7069ee00e51fc2458d7e442c8623c90f717ea491aced",
+    "results\\research_v7\\M01\\EG_FIXED_1\\checkpoint.npz": "4264a16bbcc7a4a73a26ae41822197388bb7eea2a6be82846420976a9fd5c89a",
+    "results\\research_v7\\M01\\EG_FIXED_1\\metrics.json": "1233603ba6dfdd1479aab4b461b78817639a52fdead1db204804be848efecb25",
+    "results\\research_v7\\M01\\EG_FIXED_1\\state.npy": "5f991c222aa1bc4f58f192536edbfc3e8631ec4c5f63a9ba678e6e378f029053",
+    "results\\research_v7\\M01\\EG_FIXED_1\\trace.json": "21f1f481e3658e01d00d2a133f0ae3390e01d918d42a7b979d4caf808d74d862",
+    "results\\research_v7\\M01\\EG_FIXED_1\\trace_checkpoint.json": "21f1f481e3658e01d00d2a133f0ae3390e01d918d42a7b979d4caf808d74d862",
+    "results\\research_v7\\M01\\PG_1\\checkpoint.npz": "7639b616f5b755c8abafacbd32e7a0a0f979f137766713489c22dd1c86c3c175",
+    "results\\research_v7\\M01\\PG_1\\metrics.json": "1f8207d80f3b5bf89b1ec7c8181374bed87bd45008595cb43b1a18f7a6a048cf",
+    "results\\research_v7\\M01\\PG_1\\state.npy": "9371750b7f7340486aabdbe059960bfbe9095531011a309a1f6474f27b455335",
+    "results\\research_v7\\M01\\PG_1\\trace.json": "90f11c4fbdb12ebe9441a04a7c61aa6f366141293f584346970e60eebb358f21",
+    "results\\research_v7\\M01\\PG_1\\trace_checkpoint.json": "90f11c4fbdb12ebe9441a04a7c61aa6f366141293f584346970e60eebb358f21",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_mod_0.95\\metrics.json": "3021a4dd38efc8099bb80ffba8d3147ddf4304ab8f3c0c590e455a22baf31ba4",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_mod_0.95\\state.npy": "a6dd3859e49df4c5a6c722eb96d04417ae77e51089d5ec52895f2694d0a8e10f",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_mod_1\\metrics.json": "464da33d611d6e21afead4e3c913d88446327374bfeefe5ee57c73454a6f9605",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_mod_1\\state.npy": "19772b431ce7c5b41886aef9a1e759b852c67403c8ce210a1f366459ab9cae2b",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_mod_1.05\\metrics.json": "c8f2ef772bb729241e09c291e197db4da1614be794e9d9e49ce9c9d949733aa0",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_mod_1.05\\state.npy": "b755717886cdb49154b45ca3fd01a736b8205dd35c1459ffa81ef86c8097c00e",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_pt_0.95\\metrics.json": "19dc00d28889cdb6acd3c095c8c0f0a972da59214e9d4369cdf809e32a7d6080",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_pt_0.95\\state.npy": "4bc653e586e7cd3bcbf9c07b44504330dfddf44268962857a52b8abf63d51c7e",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_pt_1\\metrics.json": "39d135685f1b366740b2751df3b9dd3797db4f540682aefdad033368a9aabb38",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_pt_1\\state.npy": "19772b431ce7c5b41886aef9a1e759b852c67403c8ce210a1f366459ab9cae2b",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_pt_1.05\\metrics.json": "5d6596de61f24e00f0556bb0b5c13ebce616bc75042bad4f1ffc56d8ffdd37b9",
+    "results\\research_v7\\M02\\mod_0_pt_1.5_pt_1.05\\state.npy": "c1de338a8237674aff8c6e9daf6c8a7a2d77e7c5bf38012b5140259f5f23a385",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_mod_0.95\\metrics.json": "8dfb518197df6d3707322e1ee5d2a2beeb6d8eec10418eac7af923e5a17904c1",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_mod_0.95\\state.npy": "b083bdd7fe05525e434ff892099795766bfd2a6237fd068b5931d83f0dec8be6",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_mod_1\\metrics.json": "146dc880c1d12866669770a6d74e7b0a9aaba6018855786e00f5f9bad7812d27",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_mod_1\\state.npy": "75083f498bb12e359a7c4e1777096211d2a6f2498cfeb86a4dd86c8cccedf32a",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_mod_1.05\\metrics.json": "8854ef26e20e578be66c0164ddc8caef38b45f6e40c734b02dd0f9841d16526e",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_mod_1.05\\state.npy": "8e290e35b9ad2c707c504229364325f6621068a32a847ed9c36fcbc61b9cb6df",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_pt_0.95\\metrics.json": "be3b48c0478b39e0a993909adf668eb6226c9239f230eb6c740dc7fd237e91aa",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_pt_0.95\\state.npy": "ff66ae39983cb68fb930445bf2459249b8325cc1bf518c21e6ca98c6b988d2e2",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_pt_1\\metrics.json": "5c3d385a5a60fc5fd6b5cf85dc51adabcbe9abc3c14841aca76ffc479c6c40b1",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_pt_1\\state.npy": "75083f498bb12e359a7c4e1777096211d2a6f2498cfeb86a4dd86c8cccedf32a",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_pt_1.05\\metrics.json": "b330031eca68db2698623ad09ce5f74d93f1307d4180c66ed68bde7f992eefbf",
+    "results\\research_v7\\M02\\mod_1.5_pt_1.5_pt_1.05\\state.npy": "3997c45fa334970a72d2c8b2fd04d4195a16eb0750acaee62cf0eb036260a65d",
+    "results\\research_v7\\M02\\mod_3_pt_3_mod_0.95\\metrics.json": "14812712bc5f68e9a06dc10eb7b51a3b08e16bcfb70d30402ec64898c49d4ca3",
+    "results\\research_v7\\M02\\mod_3_pt_3_mod_0.95\\state.npy": "ffabc52aa849c28266f2505665418d8d6da4a19bdee6dfe13a51c340d9c5af5e",
+    "results\\research_v7\\M02\\mod_3_pt_3_mod_1\\metrics.json": "7f2f3ceac3965463b6cb9c245b81c776b967570d21f9a1bc354dd9221e7f7c80",
+    "results\\research_v7\\M02\\mod_3_pt_3_mod_1\\state.npy": "868cda5b45e6c75167fc3342ecd405fa8be1f916f2e4369e3cc87371727cc926",
+    "results\\research_v7\\M02\\mod_3_pt_3_mod_1.05\\metrics.json": "c59f439655938addc94015e819f6dba4ee803cc3667cc273a81f5229c745eb55",
+    "results\\research_v7\\M02\\mod_3_pt_3_mod_1.05\\state.npy": "dcd8ae750505b0e8849d22f0c8da2a1b059b6f15cbf882aec04fb1afafeffb18",
+    "results\\research_v7\\M02\\mod_3_pt_3_pt_0.95\\metrics.json": "c5479574c592c01fdb645960c7c004acc4da64a52a9d0b083fd81013dc880c05",
+    "results\\research_v7\\M02\\mod_3_pt_3_pt_0.95\\state.npy": "aecf02f263ac3c6d21acbaf3afa92e1b0f65761e07d307728950c8f74b94e2c0",
+    "results\\research_v7\\M02\\mod_3_pt_3_pt_1\\metrics.json": "eaa0798ec3e7dff356ee5c756cb25012e3ee89a69020cc72ab26333f003b7fe5",
+    "results\\research_v7\\M02\\mod_3_pt_3_pt_1\\state.npy": "868cda5b45e6c75167fc3342ecd405fa8be1f916f2e4369e3cc87371727cc926",
+    "results\\research_v7\\M02\\mod_3_pt_3_pt_1.05\\metrics.json": "2771292c8e42f52ac38d6ac50bf115a007288305d2654f689a1f6b90bd5863b1",
+    "results\\research_v7\\M02\\mod_3_pt_3_pt_1.05\\state.npy": "49bd9b0aad6e25bed9d52a797fec402029251cb961a80b29870f849682134d0c",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\audit.json": "d616478f7da3a8e61d05762a4e225fd0a9a37f8e41329624826cdca31870141f",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\coordinates.npy": "80af3321064c4df5c8d2ec066339f4529725f3fb0039e0e5659054c48b0c4060",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\events.jsonl": "a4fe9531264482832309b8e90f2b660869166f2a0dbef5d845a3ab6d9205e212",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\history.csv": "f6dd013fe286f89e7bdff761f6c4e2b2af606d465ff6005c0f253f70369bf2e5",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\metrics.json": "a14e76ad4125dcdc110d1a5ed580761a978c167295572fc81dc6d66ce5deb74c",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\od_costs.csv": "5244c99d89248624afd05c5c4095b85e21846b9ca7fc3ae6c8bfcc456a492c49",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\od_results.csv": "4f4d808381052c41b83edf4df025943701abb01cd185d73b6a23360c85d0ade5",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\resource_results.csv": "7969e948e6918fbcf41f15d08608f5021c020d062d3aace3dbbe5c16ca0e01a0",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\state.npy": "941ea00e7262bc0344c70e3821d343acbca6a9f56e7e99a6804e6eaaae4823c1",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\validation.json": "f9848523b9d382421b547620cc16db026c73df31cb6b02dd5e21fdfa0a65760c",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\audit.json": "00f6f6f0874e24f9ebd0839e68180d4f0d909e088bde06c0a244dcb68766c453",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\coordinates.npy": "47a310c8336c22725ea306b212a1dca8048c758ea4e1193c5db1db787daafb2f",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\events.jsonl": "0f080f839a7c9c08eebd5105c41d990ed1d8690915df6049c278544a0c56f4da",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\history.csv": "7befb33c571b80e608f60e24eeb7ca4788e9d6c5cecd31af9529f77cb2538200",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\metrics.json": "19dd7463b40fa96715c9a7635c40eace8717f1bee6193326dcedb748547607df",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\od_costs.csv": "193ea05948691bf9df29e5b98cb18d25b445d40c7b06a4cfb5df65597ef84094",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\od_results.csv": "8394dddcfe4aed2dd68edc784e8522b9089d4861b9b15e6b33c281ce3f43fe15",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\resource_results.csv": "96c4c75bbb0a4ee7052d57db149dd0f4e261201b2b3cb0ffed7dfcc6dfe4310e",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\state.npy": "771c76c56a97a6d40fc607673daf028c3bcdf1b8ebae567ab4ff625a3e5e04b5",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\validation.json": "45306ac8f3e89809cc4b992990906b1e9488a3d2d88bdac134c6bcf5e8e949e3",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\audit.json": "2dc1482486c515ab86915b0c54cb5d9042a805f8e7c7d5ef35642691a0260c8d",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\coordinates.npy": "d1a60601f5a1f78d9dc18a172b7f929be829f70c0a01be1aa0629c05d3b402b9",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\events.jsonl": "954dc466e5a81ea6f3b282b22b18c4dbceea4c6a96720d50daa1971ec6247e75",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\history.csv": "da621440dded0c995cb3bb9c109511fdefb6140a533f21896b7fa44c0185ef24",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\metrics.json": "e5617945f34e1d38148f7b8a474d07500b4892ba25e0edccced9e8bbba987059",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\od_costs.csv": "46946a2aa7f4b2bb075a341c65f30b624a3fca89fe452b3b49617417857b7615",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\od_results.csv": "60898b9139e6106e1c0bf2a2d60e8d010ff00f65cb57686ee2a2b14025e4f43d",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\resource_results.csv": "4ef24b16729115af19fb09ca2a76706985d0b89c04c52ae8acde76eea4e5b08f",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\state.npy": "cb000d9ca17b7a30cf4cb5e8a5e0b6c5383ef435dfe6af7ea06f14353790e77c",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\validation.json": "d23180599a24a59fb981cf21b87393fdc64d2973c7235772cbf90ec9e86370fd",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168597197580300-8960.npz": "1c79c195b9679ffecf9c13e062016d828b838fdcc662170f146155c22e1d90f2",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168597667300800-8960.npz": "a764f258421bda9ce6bbcf16c75281229054f973fd76501021b9c0b730c01e97",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168597973050300-8960.npz": "5807c064857e7530a53eae58b4d290097391368211507f976f540169f18777c4",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168598293478300-8960.npz": "55d99ac157b9c56d5219829c66f63c178c0daeeeceacd722feda608082731367",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168598630727900-8960.npz": "9a274300db6bb342480b1371d3dd379ac4ebfb158c75a0ca57e865be7d351f71",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168598921521300-8960.npz": "d66efb6de0e0d8e64b054d7c720d70552f0ca88961c9ee12a464754eb637381e",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168599204737600-8960.npz": "a6c6442ce56c6e2df05e630ba9e80d8726dd2e826df3efcecf9cfe73e5bdbe28",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168599498382600-8960.npz": "c203ab90a9bf5984f10a4f0165a479562559bd30dc460c46ed3fa03762011c92",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168599827298200-8960.npz": "adf4b892795ad242283316da59dfd42e552106461b94db436abfac9bd6bb6262",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168600097291100-8960.npz": "92331e4e4684b6c22414f80b98c99d62dc160b24fb4402959a14ab1f4bdc6d8f",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168600372241800-8960.npz": "84e7ceedb3e8f8095f318b79f63ee475dc8609b0090ba755984a5338758ef6fd",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168600668947500-8960.npz": "f6d91bf1b458ffd8f8ec4a5b9c55bb7705e8f7c0d04e6d1dc8188e786fa29032",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168601032587700-8960.npz": "b8c986397ddf03005fe5542acea6190795f194f49e947bfcf1152865b2d08064",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168601324041200-8960.npz": "051053bf72f2a5cd1003ce909a91c310c7959662ed7fc74e98112f3b0b41cdbd",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168601613608800-8960.npz": "e8534919b7944aaaee6a4dca5f78af09e39997f295125b6c915e62000ed54bdd",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168602003836600-8960.npz": "022259b713a75cd8230d52f6472ed3c7e180fe4b88840b2940959ad07e3e65ae",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168602418197500-8960.npz": "f3bb625be55c6abe86ede49ef6e29aef2eea336aa62dd9ef2f18382d34497154",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168602743664400-8960.npz": "493846613dbf6ac6921500d216e0191fd0ef484fa6e53da391348e171878529a",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168603106783500-8960.npz": "122e1059d2cad8a2dd58e85400c3422aa2ee93dad4f5aff3eb12ff78e3492b7e",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168603443471500-8960.npz": "4cee136efd698a1582e73377dc303cd1f11335969cd9efef3569e405ddd1fbc8",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168603827166700-8960.npz": "2cb253b0f8d171d0332c52727b59b747470efcc7258c60f68f900a64c85bc495",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168604180617800-8960.npz": "fe03fc90a005b35dab256476f886903f2f861a2b9832dd6ff0f535ae3aa64567",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168604499704900-8960.npz": "7f7fd9aef8109b8d705895cef118640bfb193dbe96cd1e1617bc2ff9bee0c210",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168604816022800-8960.npz": "f0dddba71c37da03c5446e207d59fe6a8dbfe7d6aacdf9a33a7f1da999b25b7f",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168605148351000-8960.npz": "ad3a2ee955397141f07a8dcf920884df319bc7b45b4a0867f6a2ec487cdc665a",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168605449984700-8960.npz": "2a83274e2d5ff2353475904892b788dfcfbef6363cdb2cbbdfeb09a6b0608853",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168605735786000-8960.npz": "b7d5d9235acc03cffac90ff5afdad31943b5dc7ca73d4ac2316b31c2173727f1",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168606040517900-8960.npz": "3549fc0f28432ca9e80da8a6133d3801e0e5d4ad881605063752de926d162f85",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168606391892600-8960.npz": "0cb19639b1a77c2de83d4da95e2b06993462f7fef0254d8bffe9dd2c282b8641",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168606674486600-8960.npz": "1d46a7579e4288b3b2fd76bfb7023ec44cae8ac0c381d4c7693546fed008a789",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168606962743400-8960.npz": "32517a35025c73a3b20acd30d5edd47f0c10f45fd752721b2ea7927c1de00d77",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168607023426000-8960.npz": "8a7cb24e99568c2eba31eb318653a222442539ac7e9a887229f809563b4aae9d",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\checkpoints\\1794168607085339000-8960.npz": "e47e0943a2cc675b5d81464f6dff3bb4d332824d4e7352d8e5265e5487343f64",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\raw_solver\\coordinates.npy": "091dc76164f2b250aed995ea8ac1fdd696edef3a3a2f1632ef41dd70c8a73133",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\raw_solver\\metrics.json": "69b37b482a2154100ad4995172407a76db86790c3ca9289643085dead7879444",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_0.95\\raw_solver\\state.npy": "1717198a7e3407920e572b2ded32f0415f65ef16f2f4ebc92fb2ae1e91072a9e",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168607799138100-8960.npz": "f517f9ee6c1f7e5dc1d9e4a0f3cbf276e0c83fc7784129210755841c2e512619",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168608329910400-8960.npz": "4daec29071b5ed2e54e28359503ea0ec50876a00eecde80f4c369c002c1e7b49",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168608624973200-8960.npz": "e951b7fc9cdbfecc1b447bad844946e86252484c5c54888fb0baff5f4249de79",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168608987298900-8960.npz": "c805b30518209a6e880bca78b0310276d8de76778e7879267d5079ca1d714750",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168609272298900-8960.npz": "a7f0c5ed9a70e47e88eb086cf417dfc78efdf1dbb614c7a13709c3f6daafa62e",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168609567517300-8960.npz": "6fd086851e9a40eab21e81af15bbadfe3b10987806cff8175cf39d9b6452bec7",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168609895097600-8960.npz": "1291a3d8c45322ea3f203c3c70015c2200f889a59f5a91d85e2480a430f93893",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168610242501400-8960.npz": "687284b6b3004ec7b75089b4f1872def9d6b7273471ae6f31d6d6ecc559a1513",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168610547330300-8960.npz": "a393f14f86080617157a88a2720e34999abd5a2d019eaa2a9f0b9b249432bcb2",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168610832504200-8960.npz": "85c1f41264dab7fab94f058079a8df2f01fb9d869aca04efc332e1e901318915",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168611121929600-8960.npz": "18a2a3b77b95bb1a88743d18a65759f11eea25c5de3d1bc5818ed3be61c5e6ce",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168611462413700-8960.npz": "49f6d863d8060c956aec5349dc4ba51167582e259a983f7482c9a0158240efc4",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168611914351300-8960.npz": "8fbf616b1574d7e1ec06c7d7e629d21b89de6d48dade7ec97f5d6f87e6adc2ad",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168612270773900-8960.npz": "21180f7dffa440e6612c27ae7f148aa69d38f865aefbb22e26ca013b9443b083",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168612617535200-8960.npz": "a6eefe57c3cd52241e08434d5996747ae61d5e461d29f2064f51cebc0eca0768",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168613023358400-8960.npz": "db4526684bd95da5e338b878345e6251aeaf662eef232c14c7b8d50c0e70f5d1",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168613336931400-8960.npz": "42be69584eeae7b7478ba404a3416deb9a6b6a4bcc053b91e65b3c0bf08c1166",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168613635698000-8960.npz": "ff79373617e95490d102de026af59959cfec01bc8ef8b6f2853d8630fd08b371",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168613932893200-8960.npz": "d33efaa7c9161eeb9737570d4ec9f540377f3576d4a4d445c36aec8507ad236b",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168614296676900-8960.npz": "ab361cf8afa6faf8f6807278db963e190295ae9be9a41fcfa1c4956164fa83b3",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168614599042900-8960.npz": "5772baaeb3a66d648399892485f350e7894eaa20bb454d7ba33fc3c54be6c7f2",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168614886288200-8960.npz": "605d8f401b156603d5b503f7604c89cbb517024050fd70ef3dbd5c8fd082e552",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168615183071400-8960.npz": "2645957a2b1655524ff4875e72eef19b28c78555d93b1e0013056a0308c6e352",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168615540458000-8960.npz": "bda9d2947bb6bf639471b44bdca681b2bbb2a7500e66f9c4eea04a19ecde12a3",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168615848255600-8960.npz": "4238d824330786b1a572a5e99163d99e0fc274bbe5add58b8d488cc402444a8b",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168616143592700-8960.npz": "30f47ed23d6c6651504a26ec0ecce2fbe4b83508773a1d7a7f564d70c09beaec",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168616431235800-8960.npz": "58d152f402894ee8c85170144637b1333a4764e9b8db0a3e1fa9949063e258c7",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168616758234000-8960.npz": "1528c70f0f4c39149b4aee7c1699a1facfeaad7412a0b7e4560ab306a0fd3073",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168617072961600-8960.npz": "5749cfc4815d03871c5c04f090e95bf2d9937974b4b20952e659120635bc38dc",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168617365990100-8960.npz": "5823706834f7ce9e21dbe81e70243de1d8f6f4f48668aa932102a453188d0c6a",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168617660525700-8960.npz": "aa148c21575802bb607218e12b448e7efb6160a81a9b86b65f1b7d2f4ec25e25",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168617974402500-8960.npz": "6c9e34e863730fcab35ffc5fc56ace8e97bf69f7ec5f151049c9628eef4bcb51",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168618309202500-8960.npz": "9b013764b7fde9e519e2d567a5dae06d73770b6776fb6b5c3eef31f241d6dfc5",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168618610249500-8960.npz": "5b4e85c3db3f030409c2dc7f5b1578ca8a46afc9187f53adb0b1b887ae30e316",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168618889844600-8960.npz": "9fcf81f1e48586149187399fd7c5091d206232d62b4e9d2e2e01cb9ea7f65191",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168618954091400-8960.npz": "bb45d8d9b495945360fd722fed56a94348bb4dc6a2049355e1cead79bc06fed3",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\checkpoints\\1794168619013003600-8960.npz": "f1bbfc32c73b6072ef6118caef570fcf7363746e274c089610a6be30290800c0",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\raw_solver\\coordinates.npy": "094b29a54ae46477f10cef37d3304e317d531c22d68e946b4b168c0bb2969426",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\raw_solver\\metrics.json": "4c39d37046f7191a61a4319838433aebf7609f9e3b36e2eef849d38e8e6f9da9",
+    "results\\research_v7\\multistart\\mod_1.5_pt_1.5_1.05\\raw_solver\\state.npy": "1d49d3ff49788486d9dbf4500b4b195ada1122eab3288bccbdce7fa8538fac5d",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168619731115800-8960.npz": "9b2fd1cb46fdee2aa476ac1a8f2938a026911fcf165515349b5c760d21590f03",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168620243605100-8960.npz": "a7878921e5feeb9b88f38201fafd6e1b137ab0f196156d91d7aee3d45617b847",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168620537929000-8960.npz": "1eb651b395e9650f8e16fdb376332ec7d17e52a4f1c4a465a15ced618c9252dc",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168620870839000-8960.npz": "cad01b3289b59e1a591d817fff9294266ef87f161ed2dcf8272391a96a72e8c0",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168621183900700-8960.npz": "280fae4096d21f8180018a8450adced482163acda13c6168471ca9aa73ad7292",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168621459981300-8960.npz": "8b7624c378a763d1eb7a6a241a04d0847c61c8decf70bc29cf38d1bbe10eb5f9",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168621759784900-8960.npz": "e63ce571b53422d3cbf6af7ee8125d15ed62a96d67dae0fb4251cee63a477a0b",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168622141412000-8960.npz": "f66035fd17b3934920c851454992e832cb3125b70e414937b29a81678dc55ac5",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168622451660000-8960.npz": "2bfaefdfca0e0f5dc121e0f663061d9a74392b2896744dcd6d6fec58a8a68c68",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168622759897600-8960.npz": "e0fa0d0100969f892a8431834f65af0c422e2d7fd13107bbcd97f493cf44027c",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168623060401900-8960.npz": "e78aea813243a22bd233475bff4904bd1062797f57f7ed6a669b98604a037f09",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168623395784000-8960.npz": "6a6c3629b29e7ea6af3c731024207fdcf58b9ce351b820eaea6d21b10e0e7b86",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168623696435000-8960.npz": "345d1e1288b7e741bb441c6a0718dcb29d41d1cd13969b12ca1781934f17886c",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168624017129600-8960.npz": "0045be594d47d9e427ee22aa7d794b8d839faa42861776caab26501caf571429",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168624066833200-8960.npz": "b4ba2d965d857dd8e075ebcb88fc433b9d3745defe77e7d321e8ea959ff70ef9",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\checkpoints\\1794168624128005600-8960.npz": "da14eb9d7fa123e4d32b6365c035c7fd0384b258e36671f802b6f23a61932111",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\raw_solver\\coordinates.npy": "2f13c554b122aa5d5aeb12eb5e30c49b8a8f2b5bf4f755bb20ab47f34072b14f",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\raw_solver\\metrics.json": "7b32bef20f96b22017b7ad720e3afcbdc199a3a902f5f65077ccb5c1395d1060",
+    "results\\research_v7\\multistart\\mod_3.5_pt_1.5_1\\raw_solver\\state.npy": "07b22d0388579edc25e24a6b2cb3d4f5a54249005a506549711d28c491bb0b27",
+    "research_v7.py": "e9061098e08ddd5626a9840be31d41a502dca6e4e3de76d2f3f9857b9c50dac7",
+    "research_v7_benchmark.py": "ec1f0bfd6b4a0543e1e8502664b3e6ebb894d00b389ecdb0b29c2c421b10c54e",
+    "research_v7_report.py": "8b7dd2fa5a0965a23bffefa9677f6913bf1e1cf6ed875c83bab581ce42781e23",
+    "research_v7_stability.py": "357ac6ecf8e99d0c7c656d88a25dd4cff7609165621f03ae6fb897762618b4c8",
+    "verify_research_v7.py": "46024bd5f513f0edee15ffb3127444d8f53c0162edede7e5dde32efa8bb81f3c",
+    "RESEARCH_V7_EN.md": "4b42a06e71eec708aad486a61f152205e362e5aebab504a4b8ce842f34d736f5",
+    "RESEARCH_V7_KO.md": "370a3432174868cc915383283083a2aac057867c2cd9af2bef4de22ede3cdd82",
+    "notes\\RESUME_RESEARCH_V7.md": "eece5e0c38ee134abf23970f1252d2f169788963f40a4531cd7e6d2993af9c3b",
+    "notes\\V7_PROTOCOL.md": "f35637c9c97b0614bcab86c7e31bd04d6fbd297539184350fb831352ce89bad6",
+    "notes\\V7_REQUEST.txt": "7ed78121029bdb857860c3c04568531863da508b7b0043b6191ed08b74df597d",
+    "output\\pdf\\MaaS_Research_v7_EN.pdf": "32b6ff53dca2f8d12abcb05b01d778b4cf98ef4e4873cb877d3f3becb7ff5465",
+    "output\\pdf\\MaaS_Research_v7_KO.pdf": "578550e88b581ba37490b4d83f92603ce7d33a8a51b348d8bcef4fbb53b5fc0d"
+  }
+}

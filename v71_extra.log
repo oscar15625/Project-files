@@ -1,0 +1,671 @@
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 1 0.003474958472703424
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 2 0.000136071626247625
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 3 2.126030975334698e-06
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 4 1.016002765867138e-08
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 5 5.0762358159336e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 6 2.5366792379068748e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 7 1.2676362012092072e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 8 6.334484190855774e-10
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 9 3.1662982198181835e-10
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 10 1.5831059869235898e-10
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 11 7.915462953559302e-11
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 12 7.915462953559302e-11
+{
+  "profit_mod": 714.9486927827212,
+  "profit_pt": 468.74656395572674,
+  "profit_maas": 198.734435575929,
+  "profit_total": 1382.4296923143768,
+  "share_non": 63.77799141590447,
+  "share_drive": 19.837103034970937,
+  "share_maas": 16.3849055491246,
+  "price_mod": 0.3915432534149328,
+  "price_pt": 0.8013893169987065,
+  "traveler_welfare": -16552.651589920042,
+  "social_welfare": -15170.221897605665,
+  "transfer_flow": 32.50059121198821,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 513.2528162777552,
+  "retail_pt": 386.2518233787401,
+  "wholesale_mod": 201.695876504966,
+  "wholesale_pt": 82.49474057698667,
+  "maas_receipts": 482.92505265788174,
+  "accounting_error": -2.8421709430404007e-13,
+  "share_non_mod": 31.855408595890506,
+  "share_non_pt": 31.922582820013957,
+  "share_maas_mod": 6.758666458861868,
+  "share_maas_pt": 9.626239090262734,
+  "pt_pt_transfers": 3.569242313147888,
+  "intermodal_transfers": 28.93134889884032,
+  "pt_access_flow": 422.6317977275128,
+  "mod_access_flow": 411.4977631347662,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.4,
+    0.7
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 527,
+  "seconds": 4.828494071960449,
+  "natural_residual": 7.861308238675791e-11,
+  "scaled_residual": 7.915462953559302e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.4,
+      0.7
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.7 {'profit_mod': {'equilibrium': np.float64(714.9486927758885), 'best_grid_refined': 714.948692775889, 'best_tested_price': 0.39154325336366663, 'unilateral_gain': 4.547473508864641e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(468.7465639624958), 'best_grid_refined': 468.7465639624958, 'best_tested_price': 0.8013893169987065, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 1 0.0014751047495670131
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 2 2.0839089749105718e-05
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 3 1.2153698377986233e-08
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 4 6.05373691179092e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 5 3.0215135484179858e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 6 1.5087089299099937e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 7 7.533192710902859e-10
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 8 7.533192710902859e-10
+{
+  "profit_mod": 706.4790342541571,
+  "profit_pt": 483.44342470024606,
+  "profit_maas": 188.42003201644167,
+  "profit_total": 1378.342490970845,
+  "share_non": 64.42481746023522,
+  "share_drive": 19.92240311806411,
+  "share_maas": 15.652779421700656,
+  "price_mod": 0.38928974817805456,
+  "price_pt": 0.809532350765881,
+  "traveler_welfare": -16574.7101780417,
+  "social_welfare": -15196.367687070855,
+  "transfer_flow": 31.124089933244193,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "retail_mod": 516.3845070129934,
+  "retail_pt": 393.7537387992799,
+  "wholesale_mod": 190.09452724116366,
+  "wholesale_pt": 89.68968590096614,
+  "maas_receipts": 468.2042451585715,
+  "accounting_error": 1.7053025658242404e-13,
+  "share_non_mod": 32.233478559322194,
+  "share_non_pt": 32.19133890091302,
+  "share_maas_mod": 6.419131389064814,
+  "share_maas_pt": 9.233648032635843,
+  "pt_pt_transfers": 3.4420690221378836,
+  "intermodal_transfers": 27.68202091110631,
+  "pt_access_flow": 421.06531012361614,
+  "mod_access_flow": 410.83474862898674,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.4,
+    0.8
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 351,
+  "seconds": 3.9280407428741455,
+  "natural_residual": 7.383977496559075e-10,
+  "scaled_residual": 7.533192710902859e-10,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.4,
+      0.8
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.8 {'profit_mod': {'equilibrium': np.float64(706.4790341971493), 'best_grid_refined': 706.4790341971498, 'best_tested_price': 0.38928976177858515, 'unilateral_gain': 4.547473508864641e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(483.44342475950316), 'best_grid_refined': 483.4434247595039, 'best_tested_price': 0.8095323402242122, 'unilateral_gain': 7.389644451905042e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.842170943040401e-14), 'all_retail_deviation_gains_below_1e-4': True}
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 1 0.0006425013714663748
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 2 2.443730719218573e-06
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 3 6.804390472129423e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 4 3.3403928487476216e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 5 1.660991047277973e-09
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 6 8.270392952366297e-10
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 7 4.1175821219699473e-10
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 8 2.0486852215609935e-10
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 9 1.021244012952311e-10
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 10 5.103784886874989e-11
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 11 2.5518569985889253e-11
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 12 2.5518569985889253e-11
+{
+  "profit_mod": 698.2652485467584,
+  "profit_pt": 496.63462237568314,
+  "profit_maas": 178.404207709219,
+  "profit_total": 1373.3040786316606,
+  "share_non": 65.06611111153343,
+  "share_drive": 20.00373807104178,
+  "share_maas": 14.930150817424739,
+  "price_mod": 0.38711323000220466,
+  "price_pt": 0.8166049249165644,
+  "traveler_welfare": -16595.324895146437,
+  "social_welfare": -15222.020816514778,
+  "transfer_flow": 29.758590682833955,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "retail_mod": 519.3138335370893,
+  "retail_pt": 400.9296130931307,
+  "wholesale_mod": 178.95141500966898,
+  "wholesale_pt": 95.70500928255248,
+  "maas_receipts": 453.0606320014405,
+  "accounting_error": 5.684341886080802e-14,
+  "share_non_mod": 32.59882562328145,
+  "share_non_pt": 32.46728548825198,
+  "share_maas_mod": 6.091591889902607,
+  "share_maas_pt": 8.838558927522133,
+  "pt_pt_transfers": 3.313673378806361,
+  "intermodal_transfers": 26.444917304027594,
+  "pt_access_flow": 419.5481161938566,
+  "mod_access_flow": 410.1730937785591,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.4,
+    0.9
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 527,
+  "seconds": 4.319781541824341,
+  "natural_residual": 2.403048602900291e-11,
+  "scaled_residual": 2.5518569985889253e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.4,
+      0.9
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.4_pt_0.9 {'profit_mod': {'equilibrium': np.float64(698.2652485467595), 'best_grid_refined': 698.2652485467595, 'best_tested_price': 0.38711323000220466, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(496.6346223756834), 'best_grid_refined': 496.63462237568376, 'best_tested_price': 0.8166049257564443, 'unilateral_gain': 3.410605131648481e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4210854715202004e-14), 'all_retail_deviation_gains_below_1e-4': True}
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 1 0.0017280543643371177
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 2 1.0756490382917744e-05
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 3 1.2441404127024985e-08
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 4 2.83603497865074e-09
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 5 1.4064400313514918e-09
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 6 6.9862996695969e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 7 3.4711494151904713e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 8 1.7234972900250067e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 9 8.583046164947854e-11
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 10 4.289232919755509e-11
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 11 2.1446600797752282e-11
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 12 2.1446600797752282e-11
+{
+  "profit_mod": 720.4521213198022,
+  "profit_pt": 467.83348538524973,
+  "profit_maas": 185.41969618412045,
+  "profit_total": 1373.7053028891726,
+  "share_non": 64.5760458269326,
+  "share_drive": 20.00692992546562,
+  "share_maas": 15.417024247601882,
+  "price_mod": 0.39246912842303794,
+  "price_pt": 0.7983678403606673,
+  "traveler_welfare": -16567.604035482836,
+  "social_welfare": -15193.898732593663,
+  "transfer_flow": 29.863424587570897,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 523.0477647090654,
+  "retail_pt": 391.0792427650041,
+  "wholesale_mod": 197.40435661073673,
+  "wholesale_pt": 76.75424262024562,
+  "maas_receipts": 459.5782954151028,
+  "accounting_error": 2.8421709430404007e-13,
+  "share_non_mod": 32.292400683510955,
+  "share_non_pt": 32.283645143421644,
+  "share_maas_mod": 6.323519575869938,
+  "share_maas_pt": 9.093504671731948,
+  "pt_pt_transfers": 3.4576305851269042,
+  "intermodal_transfers": 26.405794002443994,
+  "pt_access_flow": 420.55140380422046,
+  "mod_access_flow": 409.24272152869526,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.5,
+    0.7
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 527,
+  "seconds": 5.242769002914429,
+  "natural_residual": 1.9621872325519043e-11,
+  "scaled_residual": 2.1446600797752282e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.5,
+      0.7
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.7 {'profit_mod': {'equilibrium': np.float64(720.4521213198012), 'best_grid_refined': 720.4521213198019, 'best_tested_price': 0.3924691256896668, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(467.8334853852507), 'best_grid_refined': 467.8334853852507, 'best_tested_price': 0.7983678403606673, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(4.263256414560601e-14), 'all_retail_deviation_gains_below_1e-4': True}
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 1 0.0006815827327728521
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 2 3.714337881865461e-06
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 3 5.739438087640808e-09
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 4 2.770822244664445e-09
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 5 1.3739151252486714e-09
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 6 6.8246974464759e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 7 3.3909939223862455e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 8 1.6831335982601195e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 9 8.37584640109855e-11
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 10 8.37584640109855e-11
+{
+  "profit_mod": 711.6430943774594,
+  "profit_pt": 481.62561217171253,
+  "profit_maas": 175.8059779915662,
+  "profit_total": 1369.074684540738,
+  "share_non": 65.1918203700913,
+  "share_drive": 20.08422854046405,
+  "share_maas": 14.723951089444718,
+  "price_mod": 0.39016971579784243,
+  "price_pt": 0.8061018758987627,
+  "traveler_welfare": -16588.392578493753,
+  "social_welfare": -15219.317893953015,
+  "transfer_flow": 28.574545441997167,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 525.6712727286395,
+  "retail_pt": 398.1995831484929,
+  "wholesale_mod": 185.97182164881997,
+  "wholesale_pt": 83.42602902321966,
+  "maas_receipts": 445.20382866360586,
+  "accounting_error": -1.7053025658242404e-13,
+  "share_non_mod": 32.65053223198956,
+  "share_non_pt": 32.541288138101756,
+  "share_maas_mod": 6.00467375097423,
+  "share_maas_pt": 8.719277338470487,
+  "pt_pt_transfers": 3.333022044611529,
+  "intermodal_transfers": 25.241523397385638,
+  "pt_access_flow": 419.07417080502773,
+  "mod_access_flow": 408.6580892323298,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.5,
+    0.8
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 439,
+  "seconds": 3.3969311714172363,
+  "natural_residual": 7.629794973747331e-11,
+  "scaled_residual": 8.37584640109855e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.5,
+      0.8
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.8 {'profit_mod': {'equilibrium': np.float64(711.6430943774602), 'best_grid_refined': 711.6430943774602, 'best_tested_price': 0.39016971579784243, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(481.6256121717128), 'best_grid_refined': 481.62561217171293, 'best_tested_price': 0.8061018490073023, 'unilateral_gain': 1.1368683772161603e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 1 9.5927516850929e-05
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 2 4.842747598153662e-07
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 3 5.4412904013491875e-09
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 4 2.700537038052264e-09
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 5 1.338934364832059e-09
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 6 6.651229501082478e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 7 3.305137718904983e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 8 1.6401396374785139e-10
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 9 8.155855893407572e-11
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 10 4.073057782482376e-11
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 11 2.0365031531239566e-11
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 12 2.0365031531239566e-11
+{
+  "profit_mod": 703.1287680333634,
+  "profit_pt": 494.0125222880026,
+  "profit_maas": 166.48103733515603,
+  "profit_total": 1363.622327656522,
+  "share_non": 65.80064615249675,
+  "share_drive": 20.15786553546809,
+  "share_maas": 14.041488312035197,
+  "price_mod": 0.3879566216542359,
+  "price_pt": 0.8128590263386313,
+  "traveler_welfare": -16607.823110225978,
+  "social_welfare": -15244.200782569456,
+  "transfer_flow": 27.29962602771448,
+  "flow_conservation_error": 2.2737367544323206e-13,
+  "retail_mod": 528.1141820666196,
+  "retail_pt": 404.9954187140553,
+  "wholesale_mod": 175.01458596674377,
+  "wholesale_pt": 89.01710357394732,
+  "maas_receipts": 430.51272687584714,
+  "accounting_error": -5.684341886080802e-14,
+  "share_non_mod": 32.99609340006781,
+  "share_non_pt": 32.80455275242895,
+  "share_maas_mod": 5.69749489169776,
+  "share_maas_pt": 8.343993420337437,
+  "pt_pt_transfers": 3.207568136913205,
+  "intermodal_transfers": 24.092057890801275,
+  "pt_access_flow": 417.6457418994195,
+  "mod_access_flow": 408.07522877361447,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.5,
+    0.9
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 527,
+  "seconds": 5.471731185913086,
+  "natural_residual": 1.8506500316061245e-11,
+  "scaled_residual": 2.0365031531239566e-11,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.5,
+      0.9
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.5_pt_0.9 {'profit_mod': {'equilibrium': np.float64(703.1287680333638), 'best_grid_refined': 703.1287680333638, 'best_tested_price': 0.3879566216542359, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(494.012522288003), 'best_grid_refined': 494.012522288003, 'best_tested_price': 0.8128590263386313, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4210854715202004e-14), 'all_retail_deviation_gains_below_1e-4': True}
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.7 1 0.00141152882562829
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.7 2 3.805722630802011e-06
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.7 3 7.51534796944789e-08
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.7 4 3.757529274673234e-08
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.7 5 1.8786795007762053e-08
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.7 6 9.393052719944162e-09
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.7 7 9.393052719944162e-09
+{
+  "profit_mod": 723.5056146153642,
+  "profit_pt": 467.0977974993228,
+  "profit_maas": 173.16979743038596,
+  "profit_total": 1363.7732095450729,
+  "share_non": 65.33474349723762,
+  "share_drive": 20.159040160485137,
+  "share_maas": 14.506216342277197,
+  "price_mod": 0.39271551566568574,
+  "price_pt": 0.7958972953007923,
+  "traveler_welfare": -16581.63781704819,
+  "social_welfare": -15217.864607503117,
+  "transfer_flow": 27.398671997115684,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 531.6124068438098,
+  "retail_pt": 395.6021867254558,
+  "wholesale_mod": 191.89320777155444,
+  "wholesale_pt": 71.495610773867,
+  "maas_receipts": 436.55861597580736,
+  "accounting_error": -1.1368683772161603e-13,
+  "share_non_mod": 32.71644150456916,
+  "share_non_pt": 32.61830199266848,
+  "share_maas_mod": 5.90951868159074,
+  "share_maas_pt": 8.59669766068646,
+  "pt_pt_transfers": 3.350316741715906,
+  "intermodal_transfers": 24.048355255399777,
+  "pt_access_flow": 418.58774542310033,
+  "mod_access_flow": 407.22052496916365,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.6,
+    0.7
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 307,
+  "seconds": 3.3382763862609863,
+  "natural_residual": 9.388136870342397e-09,
+  "scaled_residual": 9.393052719944162e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.6,
+      0.7
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.7 {'profit_mod': {'equilibrium': np.float64(723.5056146210131), 'best_grid_refined': 723.5056146210131, 'best_tested_price': 0.39271551566568574, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(467.09779750067054), 'best_grid_refined': 467.0977975006707, 'best_tested_price': 0.7958972953848974, 'unilateral_gain': 1.7053025658242404e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.8 1 0.0006800804941652039
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.8 2 9.576652156457187e-07
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.8 3 5.584088227594738e-09
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.8 4 2.7728767797809673e-09
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.8 5 1.3750562621585486e-09
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.8 6 1.3750562621585486e-09
+{
+  "profit_mod": 714.4927042945096,
+  "profit_pt": 480.05434875670386,
+  "profit_maas": 164.20246564983606,
+  "profit_total": 1358.7495187010495,
+  "share_non": 65.91987779430892,
+  "share_drive": 20.229106568649648,
+  "share_maas": 13.851015637041412,
+  "price_mod": 0.39040592004672287,
+  "price_pt": 0.803249308264569,
+  "traveler_welfare": -16601.24717409402,
+  "social_welfare": -15242.49765539297,
+  "transfer_flow": 26.194945597055646,
+  "flow_conservation_error": 2.2737367544323206e-13,
+  "retail_mod": 533.7654091028551,
+  "retail_pt": 402.35919630297985,
+  "wholesale_mod": 180.7272951916546,
+  "wholesale_pt": 77.69515245372403,
+  "maas_receipts": 422.6249132952147,
+  "accounting_error": -1.1368683772161603e-13,
+  "share_non_mod": 33.05445203981893,
+  "share_non_pt": 32.865425754489976,
+  "share_maas_mod": 5.611054156543806,
+  "share_maas_pt": 8.239961480497604,
+  "pt_pt_transfers": 3.228203021675591,
+  "intermodal_transfers": 22.966742575380056,
+  "pt_access_flow": 417.1964151868533,
+  "mod_access_flow": 406.7074647237056,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.6,
+    0.8
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 263,
+  "seconds": 2.2499687671661377,
+  "natural_residual": 1.2225138455607615e-09,
+  "scaled_residual": 1.3750562621585486e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.6,
+      0.8
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.8 {'profit_mod': {'equilibrium': np.float64(714.492704294904), 'best_grid_refined': 714.4927042949047, 'best_tested_price': 0.3904059189128606, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(480.0543487568304), 'best_grid_refined': 480.05434875683136, 'best_tested_price': 0.8032492948094674, 'unilateral_gain': 9.663381206337363e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': True}
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 1 0.0007391334417804354
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 2 0.0007101431410976948
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 3 0.0007046014637146549
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 4 7.45169017129272e-06
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 5 3.307566071978196e-06
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 6 1.6537827934148993e-06
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 7 8.26891275792005e-07
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 8 4.1344562745790866e-07
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 9 2.0672280141356229e-07
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 10 1.0336140066222133e-07
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 11 5.168070050503978e-08
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 12 2.5840352196056517e-08
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 13 1.2920174468261578e-08
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 14 6.460087964826497e-09
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 15 3.2300435211670473e-09
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 16 3.2300435211670473e-09
+{
+  "profit_mod": 705.8080274377791,
+  "profit_pt": 491.7003692205783,
+  "profit_maas": 155.51368424269495,
+  "profit_total": 1353.0220809010525,
+  "share_non": 66.49699098994955,
+  "share_drive": 20.295799237673222,
+  "share_maas": 13.20720977237723,
+  "price_mod": 0.3881902898433117,
+  "price_pt": 0.8097097774525334,
+  "traveler_welfare": -16619.580729310284,
+  "social_welfare": -15266.558648409231,
+  "transfer_flow": 25.007586468213155,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "retail_mod": 535.7619255608968,
+  "retail_pt": 408.7966218679848,
+  "wholesale_mod": 170.0461018768824,
+  "wholesale_pt": 82.90374735259348,
+  "maas_receipts": 408.4635334721708,
+  "accounting_error": 5.684341886080802e-14,
+  "share_non_mod": 33.38017704978038,
+  "share_non_pt": 33.11681394016917,
+  "share_maas_mod": 5.323813602402117,
+  "share_maas_pt": 7.88339616997511,
+  "pt_pt_transfers": 3.105585673495046,
+  "intermodal_transfers": 21.90200079471811,
+  "pt_access_flow": 415.85317371722095,
+  "mod_access_flow": 406.19642037425996,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.6,
+    0.9
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 703,
+  "seconds": 6.544524908065796,
+  "natural_residual": 3.2300428561800564e-09,
+  "scaled_residual": 3.2300435211670473e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.6,
+      0.9
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v7_1\e03_edge_cases\mod_1.6_pt_0.9 {'profit_mod': {'equilibrium': np.float64(705.8080270408285), 'best_grid_refined': 705.8080270408298, 'best_tested_price': 0.3881903015159475, 'unilateral_gain': 1.2505552149377763e-12, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(491.7003699966405), 'best_grid_refined': 491.7003699966416, 'best_tested_price': 0.8097097681839435, 'unilateral_gain': 1.0800249583553523e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(5.684341886080802e-14), 'all_retail_deviation_gains_below_1e-4': True}

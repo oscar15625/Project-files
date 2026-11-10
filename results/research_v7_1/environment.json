@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 166 Stepping 0, GenuineIntel",
+  "numpy": "2.5.4",
+  "thread_variables": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "git_sha_at_verification": "a2197ac43f36b4334bb6ccbcda93f34e639a1407",
+  "execution_version_archive": "provenance/",
+  "main_paper_text_hash": "9282ba59d9511abe03541927c1268684d809c639e80249166ce1ae0bbb1438e0"
+}

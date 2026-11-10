@@ -1,0 +1,13 @@
+cost_type,parameter,L1,L2,evidence_class
+fixed,0.0,31,14,DIAGNOSTIC_ONLY
+fixed,25.0,27,14,DIAGNOSTIC_ONLY
+fixed,50.0,16,12,DIAGNOSTIC_ONLY
+fixed,100.0,6,6,DIAGNOSTIC_ONLY
+per_trip,0.1,31,14,DIAGNOSTIC_ONLY
+per_trip,0.25,31,14,DIAGNOSTIC_ONLY
+per_trip,0.5,31,14,DIAGNOSTIC_ONLY
+per_trip,1.0,31,14,DIAGNOSTIC_ONLY
+revenue_fraction,0.05,31,14,DIAGNOSTIC_ONLY
+revenue_fraction,0.1,31,14,DIAGNOSTIC_ONLY
+revenue_fraction,0.25,25,14,DIAGNOSTIC_ONLY
+revenue_fraction,0.5,0,0,DIAGNOSTIC_ONLY

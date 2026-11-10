@@ -1,0 +1,22 @@
+{
+  "local_source_commit": "7f08fe798dcdfd50efb36acae2ffaa9d96648f11",
+  "original_evidence_commit": "1a78d260c53aadce48d4bfd1704938b425b73175",
+  "branch": "research-v7-1-critical-validation",
+  "repository": "oscar15625/Project-files",
+  "publication": "sanitized independent-history snapshot",
+  "archives": [
+    {
+      "name": "MaaS_v7_1_Small_Cloud.zip",
+      "bytes": 321048,
+      "sha256": "a8f73d1c24e37322088fdc3956528468de4665df14bddc8aee70c4a352fe7450"
+    },
+    {
+      "name": "MaaS_v7_1_Full_Recovery.zip",
+      "bytes": 27518281,
+      "sha256": "ac57dec6b6704baf967c24875616b4d9dc8be8dfbc36eda709fc60ca9af0dbcd"
+    }
+  ],
+  "original_files_unchanged": 8897,
+  "portable_replay_cases": 6,
+  "portable_replay_max_error": 1.1368683772161603e-13
+}

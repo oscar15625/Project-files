@@ -1,0 +1,100 @@
+{
+  "profit_mod": 720.4521213198012,
+  "profit_pt": 467.8334853852507,
+  "profit_maas": 185.41969618412023,
+  "profit_total": 1373.7053028891723,
+  "share_non": 64.5760458269326,
+  "share_drive": 20.006929925465585,
+  "share_maas": 15.417024247601866,
+  "price_mod": 0.39246912842303794,
+  "price_pt": 0.7983678403606673,
+  "traveler_welfare": -16567.604035482833,
+  "social_welfare": -15193.898732593661,
+  "transfer_flow": 29.863424587571096,
+  "flow_conservation_error": 4.263256414560601e-14,
+  "retail_mod": 523.0477647090645,
+  "retail_pt": 391.079242765005,
+  "wholesale_mod": 197.4043566107366,
+  "wholesale_pt": 76.75424262024566,
+  "maas_receipts": 459.5782954151025,
+  "accounting_error": 3.410605131648481e-13,
+  "share_non_mod": 32.29240068351091,
+  "share_non_pt": 32.28364514342169,
+  "share_maas_mod": 6.323519575869923,
+  "share_maas_pt": 9.09350467173194,
+  "pt_pt_transfers": 3.4576305851269065,
+  "intermodal_transfers": 26.40579400244419,
+  "pt_access_flow": 420.55140380422097,
+  "mod_access_flow": 409.2427215286947,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.5,
+    0.7
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`xtol` termination condition is satisfied.",
+  "calls": 527,
+  "seconds": 5.242769002914429,
+  "natural_residual": 0.0,
+  "scaled_residual": 8.656719690366836e-12,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.5,
+      0.7
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true,
+  "polish_max_time_change": 1.156141848923653e-11,
+  "vi_residual": 0.0,
+  "capacity_violation": 0.0,
+  "capacity_complementarity": 0.0,
+  "conservation_error": 4.263256414560601e-14,
+  "cost_identity_error": 2.1316282072803006e-14,
+  "welfare_identity_error": 1.0913936421275139e-11,
+  "deviation_gain_fixed_t": 6.821210263296962e-13,
+  "maas_exact_fare_gain": 0,
+  "finite_differences": [
+    {
+      "index": -2,
+      "analytic": -1.7053025658242404e-13,
+      "finite_difference": 5.74118530494161e-07,
+      "relative_error": 5.741187010244175e-07
+    },
+    {
+      "index": -1,
+      "analytic": 1.7247192714807402e-13,
+      "finite_difference": 8.810729923425241e-08,
+      "relative_error": 8.810712676232526e-08
+    },
+    {
+      "index": 40,
+      "analytic": -4.305959412434875e-14,
+      "finite_difference": 1.4210854715202002e-09,
+      "relative_error": 1.4211285311143245e-09
+    },
+    {
+      "index": 41,
+      "analytic": 6.1539237464150545e-15,
+      "finite_difference": 1.4210854715202002e-09,
+      "relative_error": 1.4210793175964537e-09
+    }
+  ],
+  "deviation_gain_reequilibrated": null,
+  "status": "PASS"
+}

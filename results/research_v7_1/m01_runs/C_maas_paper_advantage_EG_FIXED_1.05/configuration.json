@@ -1,0 +1,30 @@
+{
+  "case": "C_maas_paper_advantage",
+  "method": "EG_FIXED",
+  "initial_factor": 1.05,
+  "h_budget": 20000,
+  "initial_step": 0.0001,
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "config_hash": "f10131aafd9cdcc2db286bd2d0960178ec1563406b290b221bb43daa111c0aef",
+  "source_state_hash": "44634409be15ee5b9b5a5a8c3509cc50e5b261fba89dfcb87b7ca85391513939",
+  "residual_gamma": 0.0001,
+  "tolerance": 1e-06,
+  "evidence_class": "DIAGNOSTIC_ONLY",
+  "start": "project(Model.initial()*factor)",
+  "process_id": 3920
+}

@@ -1,0 +1,14 @@
+{
+  "m01_runs": 27,
+  "m01_passes": 0,
+  "level1": 31,
+  "level2": 14,
+  "nested_status": {
+    "JOINT_AUX": "PASS",
+    "NESTED_SAME_VI": "INTERRUPTED_NOT_COMPLETED"
+  },
+  "static_actual_A_increment": 113.56388533789868,
+  "static_clone_A_increment": 575.1803824295494,
+  "static_actual_B_increment": 115.07750127136023,
+  "evidence_class": "DIAGNOSTIC_ONLY"
+}

@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.vendor/
+cloud_runs/
+.mplconfig/
+*.pdf
+*.docx

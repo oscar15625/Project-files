@@ -1,0 +1,54 @@
+START A_no_maas PG 0.95
+FINISHED 1
+START A_no_maas EG_FIXED 0.95
+FINISHED 2
+START A_no_maas EG_ADAPT 0.95
+FINISHED 3
+START A_no_maas PG 1.0
+FINISHED 4
+START A_no_maas EG_FIXED 1.0
+FINISHED 5
+START A_no_maas EG_ADAPT 1.0
+FINISHED 6
+START A_no_maas PG 1.05
+FINISHED 7
+START A_no_maas EG_FIXED 1.05
+FINISHED 8
+START A_no_maas EG_ADAPT 1.05
+FINISHED 9
+START B_maas_no_transfer_advantage PG 0.95
+FINISHED 10
+START B_maas_no_transfer_advantage EG_FIXED 0.95
+FINISHED 11
+START B_maas_no_transfer_advantage EG_ADAPT 0.95
+FINISHED 12
+START B_maas_no_transfer_advantage PG 1.0
+FINISHED 13
+START B_maas_no_transfer_advantage EG_FIXED 1.0
+FINISHED 14
+START B_maas_no_transfer_advantage EG_ADAPT 1.0
+FINISHED 15
+START B_maas_no_transfer_advantage PG 1.05
+FINISHED 16
+START B_maas_no_transfer_advantage EG_FIXED 1.05
+FINISHED 17
+START B_maas_no_transfer_advantage EG_ADAPT 1.05
+FINISHED 18
+START C_maas_paper_advantage PG 0.95
+FINISHED 19
+START C_maas_paper_advantage EG_FIXED 0.95
+FINISHED 20
+START C_maas_paper_advantage EG_ADAPT 0.95
+FINISHED 21
+START C_maas_paper_advantage PG 1.0
+FINISHED 22
+START C_maas_paper_advantage EG_FIXED 1.0
+FINISHED 23
+START C_maas_paper_advantage EG_ADAPT 1.0
+FINISHED 24
+START C_maas_paper_advantage PG 1.05
+FINISHED 25
+START C_maas_paper_advantage EG_FIXED 1.05
+FINISHED 26
+START C_maas_paper_advantage EG_ADAPT 1.05
+FINISHED 27

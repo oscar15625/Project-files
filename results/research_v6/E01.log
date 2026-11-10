@@ -1,0 +1,269 @@
+START E01/A_no_maas
+research_v6\E01\A_no_maas\ROOT_AUX\0 1 0.06931884085770036
+research_v6\E01\A_no_maas\ROOT_AUX\0 2 0.010446874735074467
+research_v6\E01\A_no_maas\ROOT_AUX\0 3 0.0048720548072765215
+research_v6\E01\A_no_maas\ROOT_AUX\0 4 0.0024595445848759724
+research_v6\E01\A_no_maas\ROOT_AUX\0 5 0.0012293524064751896
+research_v6\E01\A_no_maas\ROOT_AUX\0 6 0.0006145601034823643
+research_v6\E01\A_no_maas\ROOT_AUX\0 7 0.0003072510144075289
+research_v6\E01\A_no_maas\ROOT_AUX\0 8 0.0001536182600126806
+research_v6\E01\A_no_maas\ROOT_AUX\0 9 7.680731805718963e-05
+research_v6\E01\A_no_maas\ROOT_AUX\0 10 3.840320384225336e-05
+research_v6\E01\A_no_maas\ROOT_AUX\0 11 1.920148901004932e-05
+research_v6\E01\A_no_maas\ROOT_AUX\0 12 9.60071510267425e-06
+research_v6\E01\A_no_maas\ROOT_AUX\0 13 4.800350557061084e-06
+research_v6\E01\A_no_maas\ROOT_AUX\0 14 2.400173659281317e-06
+research_v6\E01\A_no_maas\ROOT_AUX\0 15 1.2000864495264151e-06
+research_v6\E01\A_no_maas\ROOT_AUX\0 16 6.000431068239368e-07
+research_v6\E01\A_no_maas\ROOT_AUX\0 17 3.000215149913725e-07
+research_v6\E01\A_no_maas\ROOT_AUX\0 18 1.5001075145723352e-07
+research_v6\E01\A_no_maas\ROOT_AUX\0 19 7.500537499289227e-08
+research_v6\E01\A_no_maas\ROOT_AUX\0 20 3.75026896340781e-08
+research_v6\E01\A_no_maas\ROOT_AUX\0 21 1.8751343571906154e-08
+research_v6\E01\A_no_maas\ROOT_AUX\0 22 9.375670105475151e-09
+research_v6\E01\A_no_maas\ROOT_AUX\0 23 4.687835052737311e-09
+research_v6\E01\A_no_maas\ROOT_AUX\0 24 4.687835052737311e-09
+{
+  "profit_mod": 569.9228950133484,
+  "profit_pt": 486.0882481039395,
+  "profit_maas": 0.0,
+  "profit_total": 1056.011143117288,
+  "share_non": 78.62543116112256,
+  "share_drive": 21.374568838877366,
+  "share_maas": 0.0,
+  "price_mod": 0.35650847373483213,
+  "price_pt": 0.8216384059052009,
+  "traveler_welfare": -16826.680691112997,
+  "social_welfare": -15770.669547995709,
+  "transfer_flow": 0.02769141697950396,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 569.9228950133484,
+  "retail_pt": 486.0882481039395,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 39.37879514012741,
+  "share_non_pt": 39.24663602099515,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0017995337034083503,
+  "intermodal_transfers": 0.02589188327609561,
+  "pt_access_flow": 392.4698112373084,
+  "mod_access_flow": 393.8121917908967,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": false,
+  "theta": 1,
+  "penalty": 10,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1055,
+  "seconds": 5.961365461349487,
+  "natural_residual": 4.6878350527340866e-09,
+  "scaled_residual": 4.687835052737311e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": false,
+    "theta": 1,
+    "penalty": 10,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E01\A_no_maas\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(569.9228942392529), 'best_grid_refined': 569.922894239253, 'best_tested_price': 0.35650846517171475, 'unilateral_gain': 1.1368683772161603e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(486.08824936942807), 'best_grid_refined': 486.08824936942807, 'best_tested_price': 0.8216384059052009, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E01/A_no_maas PASS
+START E01/B_maas_no_transfer_advantage
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 1 0.08469053087941697
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 2 0.042886820704997275
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 3 0.0385523534980981
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 4 0.0385252231350905
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 5 0.038523664523405464
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 6 0.019206769616699634
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 7 0.009549864099521466
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 8 0.004721711445643847
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 9 0.0023082348592389536
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 10 0.0011026950041049257
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 11 0.0005023136431614326
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 12 0.0002068344818414129
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 13 6.801937212817552e-05
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 14 1.317072080640216e-05
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 15 7.26181734245981e-07
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 16 5.3146475772056854e-08
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 17 2.6104571879522974e-08
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 18 1.3038218993222669e-08
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 19 6.519101734763063e-09
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 20 3.259550253653984e-09
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 21 1.629775856197659e-09
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 22 8.148868973082767e-10
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 23 8.148868973082767e-10
+{
+  "profit_mod": 627.357545779666,
+  "profit_pt": 528.3539688497032,
+  "profit_maas": 123.39730869759286,
+  "profit_total": 1279.108823326962,
+  "share_non": 68.23965561491949,
+  "share_drive": 21.005662324614956,
+  "share_maas": 10.754682060465566,
+  "price_mod": 0.36942550717959094,
+  "price_pt": 0.8325249452570241,
+  "traveler_welfare": -16723.39364707855,
+  "social_welfare": -15444.284823751586,
+  "transfer_flow": 0.028878699850608227,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 517.7861423278838,
+  "retail_pt": 436.3077720419074,
+  "wholesale_mod": 109.57140345178207,
+  "wholesale_pt": 92.04619680779581,
+  "maas_receipts": 325.01490895717075,
+  "accounting_error": 0.0,
+  "share_non_mod": 34.2820205583956,
+  "share_non_pt": 33.95763505652389,
+  "share_maas_mod": 5.245750524417929,
+  "share_maas_pt": 5.508931536047639,
+  "pt_pt_transfers": 0.0018097534098231133,
+  "intermodal_transfers": 0.027068946440785113,
+  "pt_access_flow": 394.6690652618178,
+  "mod_access_flow": 395.3031901918833,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 10,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1011,
+  "seconds": 8.498298645019531,
+  "natural_residual": 8.148868964418799e-10,
+  "scaled_residual": 8.148868973082767e-10,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 10,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E01\B_maas_no_transfer_advantage\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(627.3575455934451), 'best_grid_refined': 627.3575455934458, 'best_tested_price': 0.36942551667860835, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(528.3539691839163), 'best_grid_refined': 528.3539691839165, 'best_tested_price': 0.8325249440110063, 'unilateral_gain': 2.2737367544323206e-13, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4210854715202004e-14), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E01/B_maas_no_transfer_advantage PASS
+START E01/C_maas_paper_advantage
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 1 0.06861137895227812
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 2 0.010665709356676715
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 3 0.005403654387439196
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 4 0.0027220877267773442
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 5 0.0013606050261570177
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 6 0.0006801677023497893
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 7 0.00034005009419584296
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 8 0.0001700166284306601
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 9 8.500621164454162e-05
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 10 4.25025792342579e-05
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 11 2.1251158660559473e-05
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 12 1.0625547066587547e-05
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 13 5.312765097809465e-06
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 14 2.6563803586053387e-06
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 15 1.3281897296168521e-06
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 16 6.640946933113588e-07
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 17 3.320473430249103e-07
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 18 1.6602366471847717e-07
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 19 8.301183906240415e-08
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 20 4.1505916912774127e-08
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 21 2.0752958812504444e-08
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 22 1.0376479538926414e-08
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 23 5.188240034799005e-09
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 24 5.188240034799005e-09
+{
+  "profit_mod": 663.0509779411433,
+  "profit_pt": 540.3507775388318,
+  "profit_maas": 152.21563556298878,
+  "profit_total": 1355.617391042964,
+  "share_non": 66.86738472631284,
+  "share_drive": 20.1453659032044,
+  "share_maas": 12.987249370482745,
+  "price_mod": 0.3781683998203118,
+  "price_pt": 0.8402468338622503,
+  "traveler_welfare": -16653.817936952313,
+  "social_welfare": -15298.200545909349,
+  "transfer_flow": 26.827305469579464,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "retail_mod": 521.0644121660974,
+  "retail_pt": 422.8610832812683,
+  "wholesale_mod": 141.98656577504582,
+  "wholesale_pt": 117.4896942575636,
+  "maas_receipts": 411.6918955955982,
+  "accounting_error": 1.1368683772161603e-13,
+  "share_non_mod": 33.57682188973898,
+  "share_non_pt": 33.29056283657385,
+  "share_maas_mod": 5.254481961385792,
+  "share_maas_pt": 7.732767409096954,
+  "pt_pt_transfers": 2.8969189599417633,
+  "intermodal_transfers": 23.9303865096377,
+  "pt_access_flow": 415.7620875679796,
+  "mod_access_flow": 409.6115588695556,
+  "pt_total_capacity": 3500.0,
+  "network": "small",
+  "maas": true,
+  "theta": 1,
+  "penalty": 1,
+  "wholesale": [
+    1.3,
+    1.3
+  ],
+  "method": "Flow-coordinate root refinement of equivalent VI",
+  "solver_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "calls": 1055,
+  "seconds": 9.305099725723267,
+  "natural_residual": 5.188240034796165e-09,
+  "scaled_residual": 5.188240034799005e-09,
+  "access_scope": "aggregate",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "converged": true
+}
+research_v6\E01\C_maas_paper_advantage\ROOT_AUX\0 {'profit_mod': {'equilibrium': np.float64(663.0509769570886), 'best_grid_refined': 663.0509769570888, 'best_tested_price': 0.37816839066404245, 'unilateral_gain': 2.2737367544323206e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(540.3507790377539), 'best_grid_refined': 540.3507790377539, 'best_tested_price': 0.8402468338622503, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINISHED E01/C_maas_paper_advantage PASS

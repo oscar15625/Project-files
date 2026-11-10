@@ -1,0 +1,28 @@
+{
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.4,
+      0.9
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "start_source": "research_v6/E03_coarse/mod_1.5_pt_1",
+  "evidence_class": "NEW_COUNTERFACTUAL",
+  "registered_grid": [
+    1.4,
+    1.5,
+    1.6,
+    0.7,
+    0.8,
+    0.9
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "source": "results\\research_v7_1\\m01_runs\\B_maas_no_transfer_advantage_EG_FIXED_0.95",
+  "status": "FAILED_NUMERICAL_CHECK",
+  "stop_reason": "H_BUDGET_EXHAUSTED",
+  "natural": 0.0009264388355156514,
+  "economic_claim_eligible": false,
+  "evidence_class": "FAILED_NUMERICAL_CHECK"
+}

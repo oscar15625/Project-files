@@ -1,0 +1,73 @@
+{
+  "source_run": "small_node_node_total0_with",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 1.0,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "checks": {
+    "regression": 0.0,
+    "value_identity": 5.10702591327572e-15,
+    "root_identity": 3.552713678800501e-14,
+    "load_balance": 4.440892098500626e-16
+  },
+  "welfare_reconstruction_error": 2.1827872842550278e-11,
+  "total_components": {
+    "road_time": 8894.848946917708,
+    "pt_ride_base": 4312.967781094202,
+    "pt_ride_shadow": 5.977758003651117e-13,
+    "initial_access_base": 1208.779643657585,
+    "initial_mod_delay": 912.8663466955253,
+    "initial_pt_shadow": 5.947379658702191e-09,
+    "transfer_access_base": 32.35609063158442,
+    "transfer_mod_delay": 9.09384340708041,
+    "transfer_pt_shadow": 9.748025728452747e-11,
+    "transfer_penalty": 27.01110040751219,
+    "retail_mod": 521.0644120789846,
+    "retail_pt": 422.86108349434164,
+    "driving_variable": 218.56783960881842
+  },
+  "entry_total": 1418.9601905052855,
+  "entropy_total": 1325.5593458702342,
+  "baseline": {
+    "profit_mod": 663.05097783365,
+    "profit_pt": 540.3507778374715,
+    "profit_maas": 152.21563561926746,
+    "profit_total": 1355.617391290389,
+    "share_non": 66.86738472963908,
+    "share_drive": 20.145365895764463,
+    "share_maas": 12.987249374596368,
+    "price_mod": 0.378168399800158,
+    "price_pt": 0.8402468341192982,
+    "traveler_welfare": -16653.817932634454,
+    "social_welfare": -15298.200541344066,
+    "transfer_flow": 26.827305499491874,
+    "flow_conservation_error": 3.410605131648481e-13,
+    "retail_mod": 521.0644120789846,
+    "retail_pt": 422.8610834943418,
+    "wholesale_mod": 141.98656575466526,
+    "wholesale_pt": 117.48969434312964,
+    "maas_receipts": 411.6918957170624,
+    "accounting_error": 2.2737367544323206e-13,
+    "share_non_mod": 33.576821882598566,
+    "share_non_pt": 33.290562847040526,
+    "share_maas_mod": 5.254481960113871,
+    "share_maas_pt": 7.732767414482497,
+    "pt_pt_transfers": 2.8969189724424163,
+    "intermodal_transfers": 23.930386527049457,
+    "pt_access_flow": 415.762087747323,
+    "mod_access_flow": 409.61155879452343,
+    "pt_total_capacity": 3500.0
+  }
+}

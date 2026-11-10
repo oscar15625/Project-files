@@ -1,0 +1,58 @@
+{
+  "status": "PASS_SAVED_STATE_REPLAY",
+  "not_a_new_equilibrium": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cases": [
+    {
+      "case": "A_reference",
+      "stored_status": "PASS",
+      "metric_replay_max_error": 0.0,
+      "natural_direct": 8.262822011337776e-08,
+      "natural_aux": 2.206245361270928e-10,
+      "state_sha256": "7b2816ce9a081fd38212efed6aa0be44ed9e8b5cab5089d98654086c7e19050d"
+    },
+    {
+      "case": "A_EG_FIXED_failed",
+      "stored_status": "FAILED_NUMERICAL_CHECK",
+      "metric_replay_max_error": 0.0,
+      "natural_direct": 0.021642217847881003,
+      "natural_aux": null,
+      "state_sha256": "8f94fa29f5274e444d6cdb37526f77807df476e1163b55c277f2ec701cdcf9bc"
+    },
+    {
+      "case": "B_reference",
+      "stored_status": "PASS",
+      "metric_replay_max_error": 0.0,
+      "natural_direct": 2.000676230523322e-07,
+      "natural_aux": 4.083123642169913e-11,
+      "state_sha256": "8e2160b235d9a0b1162d1524768a1e5470e1589f50cb1488352916775c7f267f"
+    },
+    {
+      "case": "B_EG_FIXED_failed",
+      "stored_status": "FAILED_NUMERICAL_CHECK",
+      "metric_replay_max_error": 0.0,
+      "natural_direct": 0.022278114273041997,
+      "natural_aux": null,
+      "state_sha256": "e8a417fd361b4cba047e03cb099827573ecaba89a129dbb95ca81e425173869e"
+    },
+    {
+      "case": "C_reference",
+      "stored_status": "PASS",
+      "metric_replay_max_error": 1.1368683772161603e-13,
+      "natural_direct": 1.1894695603705764e-07,
+      "natural_aux": 2.2955933038589268e-10,
+      "state_sha256": "44634409be15ee5b9b5a5a8c3509cc50e5b261fba89dfcb87b7ca85391513939"
+    },
+    {
+      "case": "C_EG_FIXED_failed",
+      "stored_status": "FAILED_NUMERICAL_CHECK",
+      "metric_replay_max_error": 0.0,
+      "natural_direct": 0.023342556087726146,
+      "natural_aux": null,
+      "state_sha256": "ce46bbd40fd3916a6bae70ba59a29f9d4663f8af2d789606b2487c8508e86def"
+    }
+  ]
+}

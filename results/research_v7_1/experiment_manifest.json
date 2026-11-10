@@ -1,0 +1,1904 @@
+{
+  "source_tag": "research-handoff-20261108",
+  "protected_files": 8897,
+  "original_cases": [
+    {
+      "run": "E01/A_no_maas",
+      "source": "results\\research_v6\\E01\\A_no_maas\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": false,
+        "theta": 1,
+        "penalty": 10,
+        "wholesale": [
+          1.3,
+          1.3
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "7b2816ce9a081fd38212efed6aa0be44ed9e8b5cab5089d98654086c7e19050d",
+      "coordinate_hash": "8005be14ba5adbf94b9db222ddba7314239df32f95f38a8d6576cc8cc744a585",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E01/B_maas_no_transfer_advantage",
+      "source": "results\\research_v6\\E01\\B_maas_no_transfer_advantage\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 10,
+        "wholesale": [
+          1.3,
+          1.3
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "8e2160b235d9a0b1162d1524768a1e5470e1589f50cb1488352916775c7f267f",
+      "coordinate_hash": "cdc554d433534d73cea31b97388f628bd002a49f73ae5f3171b667470b4c0744",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E01/C_maas_paper_advantage",
+      "source": "results\\research_v6\\E01\\C_maas_paper_advantage\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.3,
+          1.3
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "44634409be15ee5b9b5a5a8c3509cc50e5b261fba89dfcb87b7ca85391513939",
+      "coordinate_hash": "23de60178cf5a4bf21012893b1f65eb8c1a89761fdc92fae27bb985faa2d4ba6",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_0_pt_0",
+      "source": "results\\research_v6\\E03_pilot\\mod_0_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "af375247caca2f196323656ee9f9e7a0a3765938daace2647e2abc2fc62ed68f",
+      "coordinate_hash": "a32dfeeb2f6e723e9bd991c1c242ae45a280b60dc701fdb5c72c5fa00d14638e",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_0_pt_1.5",
+      "source": "results\\research_v6\\E03_pilot\\mod_0_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "e030d83fc79a02eb4e901fc66b41518d655f25176a5377e9de79c1af47619d62",
+      "coordinate_hash": "df6495d1a494a111f5cdbf628ce0a42d219447543da6beb50bbca1c655abb52e",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_0_pt_3",
+      "source": "results\\research_v6\\E03_pilot\\mod_0_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "97306e33eedaff4e987ce4fa21c1364894e8ce0d20e5d3d5123eae75fe6b6eb9",
+      "coordinate_hash": "e185e156fa1bb7574d41f807b8397f0e1780267547e9f1e7725cf1282eb40c26",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_1.5_pt_0",
+      "source": "results\\research_v6\\E03_pilot\\mod_1.5_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "aefb0fb70294a12ba18b1d00bacbb0c269737550bb4d9d3030da91122dc643e9",
+      "coordinate_hash": "64f1037521540690757985e41a3776af5f01c51f78217217db2a11027428ebcb",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_1.5_pt_1.5",
+      "source": "results\\research_v6\\E03_pilot\\mod_1.5_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "d10f333bf4c4db3833aa545687b59dda1175b5fcbeab6cb0b56d7c9d1532c54f",
+      "coordinate_hash": "0629b632eb4de7112df4566a05b812048bd9821e10871f572d98c1992ebdfa7d",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_1.5_pt_3",
+      "source": "results\\research_v6\\E03_pilot\\mod_1.5_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "150c238a35d617d92f18291aa4556b41877cd74cd8bbb7e21274072b24f77f58",
+      "coordinate_hash": "8166075ebaeb4028d28ad11a297710ee2b304776e73e07dca9db8c743fffdf0c",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_3_pt_0",
+      "source": "results\\research_v6\\E03_pilot\\mod_3_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "b78562ec6bd637999e9e564eace5f41611c3b53115e5ab04c46bc29702c89f44",
+      "coordinate_hash": "46c1d4633f0efa1c7bb12fc55da6040dcc321cf9bc40078a26a6450cc5873f7e",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_3_pt_1.5",
+      "source": "results\\research_v6\\E03_pilot\\mod_3_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "a016b631ea0f301d20a771f63706c4e15fe8dda3d7e210f1a90c5262cbc107ec",
+      "coordinate_hash": "40d1a2f89ba8ff655e38877e92851af335ac289a0f0e65ac50289cbe783e1205",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_pilot/mod_3_pt_3",
+      "source": "results\\research_v6\\E03_pilot\\mod_3_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "fa062dab7eb0973781555e48925fc634a062ce0b4805d3aa89c6bacd6dcea067",
+      "coordinate_hash": "8ae84283b878e2a0b38b950c7ccddf874a390c5b1aef858082d3c2e886994b96",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_0",
+      "source": "results\\research_v6\\E03_coarse\\mod_0_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "af375247caca2f196323656ee9f9e7a0a3765938daace2647e2abc2fc62ed68f",
+      "coordinate_hash": "a32dfeeb2f6e723e9bd991c1c242ae45a280b60dc701fdb5c72c5fa00d14638e",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_0.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_0_pt_0.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          0.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "e8057db1c347885f7bd5761a434866827d483446ceea209e2bed1fe579fa7e7c",
+      "coordinate_hash": "69944e667dede18a904153d2ac2ccd0d524255ac4cf960d25a162c22a01ba500",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_1",
+      "source": "results\\research_v6\\E03_coarse\\mod_0_pt_1\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          1.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "a5ac8c7567802e9c254863daa75ee872eed88eb26b8fa06c91db00a9be9d7041",
+      "coordinate_hash": "f90bd6e5dc0ff8f4920ea046770a90db3cb58c7122f62d6d4cb0fb2d54bd5129",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_1.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_0_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "e030d83fc79a02eb4e901fc66b41518d655f25176a5377e9de79c1af47619d62",
+      "coordinate_hash": "df6495d1a494a111f5cdbf628ce0a42d219447543da6beb50bbca1c655abb52e",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_2",
+      "source": "results\\research_v6\\E03_coarse\\mod_0_pt_2\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          2.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "202a8c87eb950e57eac5b8d3258c21a318e021cde2afb8984a78a55ef0df7b8f",
+      "coordinate_hash": "169ee710ec8934d42322b10c6e38e74186774c9df8c5ccbe075585f1e02299b3",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_2.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_0_pt_2.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          2.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "f8db60819d743afbce477f0a91981be67a85e57d0f8e91036f2ac1b53c5d797a",
+      "coordinate_hash": "cd1a21b21bc42e3affe6020429778d47ef4f475367b9fda01479a81adfab9089",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_3",
+      "source": "results\\research_v6\\E03_coarse\\mod_0_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "97306e33eedaff4e987ce4fa21c1364894e8ce0d20e5d3d5123eae75fe6b6eb9",
+      "coordinate_hash": "e185e156fa1bb7574d41f807b8397f0e1780267547e9f1e7725cf1282eb40c26",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0_pt_3.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_0_pt_3.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.0,
+          3.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "35c08ed10ccf8d467f81a5269776c2ea9f9aed950d1bbbfadcd236a7793f2289",
+      "coordinate_hash": "b469523ca8388556871e222d94ea7749cc5c1ca88d89944eff3558db94171baa",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_0",
+      "source": "results\\research_v6\\E03_coarse\\mod_0.5_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.5,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "f8231a2e636367b3ca3be232f0c8a1168e8dbe6cc161ceabff5ea1e37a6f62f9",
+      "coordinate_hash": "b39ca6aaf7b45a7f25408da82db42e26415725fe176211e12b659a4187ef491e",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_0.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_0.5_pt_0.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.5,
+          0.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "e100b75d1df39418d2dc8cdfe866a284c8f7f21dea55a5141b3af525595e1033",
+      "coordinate_hash": "ec73530d9bdc83bec21b5ff177ce41a80ff4fdf8044c913b487bf115772a8fc7",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_1",
+      "source": "results\\research_v6\\E03_coarse\\mod_0.5_pt_1\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.5,
+          1.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "41d88eaf7201a3caf4fd4681fb53dada9f6ef61bcf06a49890b9440316d1f08c",
+      "coordinate_hash": "c690908d06fbf6022e30729f6e695a7fd6afd51be69ef18cfa6f7ec22055e7c2",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_1.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_0.5_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.5,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "b07680e5d5c0c3a1a90f0566c8ab01beff9ea6e751edb8a27b3ee643f7a3d2c1",
+      "coordinate_hash": "e1805b9ca083a5c16c0815f41c379d4918d278988e4fbe2fdd1c114c51544496",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_2",
+      "source": "results\\research_v6\\E03_coarse\\mod_0.5_pt_2\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.5,
+          2.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "379cd15852e30d03cf3bc77f5c3a003b992ed307cac67648eca3aefdf98d59ae",
+      "coordinate_hash": "0563bb4d976c3e8b3a5cd5c16cc6ee4c3b593d6e26e329b3e069bd348d27e7c9",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_2.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_0.5_pt_2.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.5,
+          2.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "7272df566c0575af969fb7a37e7837bd8e4c7b391dff24401535c0ec8181ba94",
+      "coordinate_hash": "0e8e76de8e31285f13260a0225bd7c50ef063e1a1a2afb21df74e48162df9bf7",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_3",
+      "source": "results\\research_v6\\E03_coarse\\mod_0.5_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.5,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "c0ec3f9ac9336be5da70a9070bba8b6693f8b6781be82a8ceb87d6a522d2c3b5",
+      "coordinate_hash": "cec53c49d0d7ba30d52871fa2119433d9ba9b327723a342bac62accfc4f44ac4",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_0.5_pt_3.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_0.5_pt_3.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          0.5,
+          3.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "1b7bfb73b8f0b454c7caba7b3055a89ae51ef76947ff8fa288d105cca7544e76",
+      "coordinate_hash": "4b912d3a3fda5ca9f564c031732e5c84563770fcfaa49efda51f43ee967e415d",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_0",
+      "source": "results\\research_v6\\E03_coarse\\mod_1_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.0,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "d35bf0b1785ba1d20baab108612e5e45a93df90aa4591a2d544a45688c39e49b",
+      "coordinate_hash": "e04340dba91f0c8fd5791ab55b464deaaa45f5b6a4cd2badcb2e035c30596a2f",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_0.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_1_pt_0.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.0,
+          0.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "6c9b9ef8437706457206d59fe9fb3611eae516f9c5a5ce3c4e883842d3bbfa14",
+      "coordinate_hash": "de0383e5b944e26dfe9a5386cb4d763228d41b47d168e20223fb2d57cb3de0da",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_1",
+      "source": "results\\research_v6\\E03_coarse\\mod_1_pt_1\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.0,
+          1.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "d53e9aba6447eebe205c183730c0da9c0e254bbec6168a7054bbe5cbbc3dff4a",
+      "coordinate_hash": "c9787adc8f4c2fa96c5beddd32010a0a5a8fe04d195a5a40618857613e7a62b2",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_1.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_1_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.0,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "7eb5a99f3c6cef70b65dec071fe640a349c5a26972e00abcc8ffdfe945505275",
+      "coordinate_hash": "32f5dcd5b9f566b6da90adc8f095e634b78b35ee30b4233ca768029dc704b99f",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_2",
+      "source": "results\\research_v6\\E03_coarse\\mod_1_pt_2\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.0,
+          2.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "3d14696056612c5e1ec5a7c0ccf15139f6bde7162a37feff01a0916befd21953",
+      "coordinate_hash": "b629495202f97071336677d93ad7cbd98b242600f6f5e76776a595a20fc4b880",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_2.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_1_pt_2.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.0,
+          2.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "50caed132ed41572388e9628d25796ee619d6151839ab91462831896b8bd42ea",
+      "coordinate_hash": "afc622f0f857ff48f8792c8fce922b618807198f86c7a45bf460f791a11c6c63",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_3",
+      "source": "results\\research_v6\\E03_coarse\\mod_1_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.0,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "6619a36f385ff10c3cf7ea3edd147cb70a9b828b2b11170e796413fd6f2dd2aa",
+      "coordinate_hash": "01f764796594ef8cd5aa606cb404ada162242bf4d0a5e2b1107c63c0fb4fdd5a",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1_pt_3.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_1_pt_3.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.0,
+          3.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "1ab2f3c512f9d298a2cf26b1f3369164aa65fba02ca5cba6d269c05bf2010fcd",
+      "coordinate_hash": "fe793ca524bc61c4552752bd34418f5a76645e1441c6dcf039940b6092e79ecf",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_0",
+      "source": "results\\research_v6\\E03_coarse\\mod_1.5_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "aefb0fb70294a12ba18b1d00bacbb0c269737550bb4d9d3030da91122dc643e9",
+      "coordinate_hash": "64f1037521540690757985e41a3776af5f01c51f78217217db2a11027428ebcb",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_0.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_1.5_pt_0.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          0.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "016525876600efb85b4213a21076576022dc065b56c42759633ab5826492855b",
+      "coordinate_hash": "2c22bf53077f9b49f3f60d6a89e334a95f0acc3bc9fe252bff77fa8ba8ae89c6",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_1",
+      "source": "results\\research_v6\\E03_coarse\\mod_1.5_pt_1\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          1.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "4bab9bd1422e32ddf0af58e2820b4c3b809ed99a745b4fc50185ef580b0e7278",
+      "coordinate_hash": "1a91830fddf4dbb53ee7f35731f476b6bb0b7ecd8fd38f0073c02331bbd22d38",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_1.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_1.5_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "d10f333bf4c4db3833aa545687b59dda1175b5fcbeab6cb0b56d7c9d1532c54f",
+      "coordinate_hash": "0629b632eb4de7112df4566a05b812048bd9821e10871f572d98c1992ebdfa7d",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_2",
+      "source": "results\\research_v6\\E03_coarse\\mod_1.5_pt_2\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          2.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "ea99aaca00c21aba60f4bae3a00ca9fe81fbcb72c0dce54fd4f8ac3908890d92",
+      "coordinate_hash": "1cccaf910841b35540236692406cb81218b7315979d84c5da7126a400d460c82",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_2.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_1.5_pt_2.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          2.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "09ed46c6088161b5cb262fab9939cb756ac96875875d6adff4f1a15caa8b8687",
+      "coordinate_hash": "7d99b0a40f27bc6fc4e71cd1b178f79628a5a82722da1a7c92ebad0e7b957da4",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_3",
+      "source": "results\\research_v6\\E03_coarse\\mod_1.5_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "150c238a35d617d92f18291aa4556b41877cd74cd8bbb7e21274072b24f77f58",
+      "coordinate_hash": "8166075ebaeb4028d28ad11a297710ee2b304776e73e07dca9db8c743fffdf0c",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_1.5_pt_3.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_1.5_pt_3.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          1.5,
+          3.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "c6805b23f423692e55c7e922dd380b4da97c564bd2fa145e38846a7da0656cb3",
+      "coordinate_hash": "73df02f231c4a864d46b02fca79a6a112e8e241641e4ab865df7d16094ee0f97",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_0",
+      "source": "results\\research_v6\\E03_coarse\\mod_2_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.0,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "190ba0eee741bf02604d0a59d968a184f58232074682f7f528253e2f96c90129",
+      "coordinate_hash": "72520ec49f83260ba7783e63cf180293198bd9ca3de1382b89e6896ddad99d69",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_0.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_2_pt_0.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.0,
+          0.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "57e665f27ffcdc8c0e9e77d2c38642adcc0060891a1a0c157f3baf4dee834440",
+      "coordinate_hash": "fb39a02f9e68c94f61dc3ea35be7ade5db03cbcc296cc0ba56f3ee9985d39816",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_1",
+      "source": "results\\research_v6\\E03_coarse\\mod_2_pt_1\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.0,
+          1.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "41a337f3bd1dbf866a63f236bee90428d09d52426a20c28d6fb5975d2b00a445",
+      "coordinate_hash": "40849304335daf97bb26a33545659ea07e3c37f763bb51af8bcf989c23c2f1e0",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_1.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_2_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.0,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "0f20e0930a3213bfe3923dbcf3958be0418e764097ac0462224705d8ba3bbd70",
+      "coordinate_hash": "8c961be43ba921b6a5dfa0c1c74a657feae9d8454a21bc435a167845e890e62b",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_2",
+      "source": "results\\research_v6\\E03_coarse\\mod_2_pt_2\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.0,
+          2.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "63cf27dada4c08786515eb849f09b575a82c41cb11eed7c0703b6ca6313c452b",
+      "coordinate_hash": "27d834b31ddb8e4c781e3f391471e40181777d0ceb053225283522834bf59fd9",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_2.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_2_pt_2.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.0,
+          2.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "c33d098b3072f654421c01e17dff6068ab133072e1f9c0b5657ef7b42f338f21",
+      "coordinate_hash": "1c022db9dc6fd770a19170f3d41251f6ca44f88af67aff7dc1d69e9c4d2f2e30",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_3",
+      "source": "results\\research_v6\\E03_coarse\\mod_2_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.0,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "d7a8874fde501a521131aed93c78f4607f077e240c5d7dc8c785f8c6a01c8843",
+      "coordinate_hash": "24bff37f660200b2526c74badf44c448113bff5757c51190048cb7d94ac8d8aa",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2_pt_3.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_2_pt_3.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.0,
+          3.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "3803bfcd20943672a3fad29dc1dd35862c667423ed8b410b7f7d374157cf5e35",
+      "coordinate_hash": "0cbd7ea909d943264815796aff533859979a0de62c6a36e946f407a1b71d0444",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_0",
+      "source": "results\\research_v6\\E03_coarse\\mod_2.5_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.5,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "d9bd76cbb0b9a60861a9a354eecbec3bca3a0e1b35a79106588430f29129f1f2",
+      "coordinate_hash": "54c69520ebf67e490685b4d6849172a9dcaad665e007a7c8f3aeaa2ae30cf311",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_0.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_2.5_pt_0.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.5,
+          0.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "bcca66422e1c17f6da5d4d86d890b5190e817c0fc421f9326b6e850695000d0b",
+      "coordinate_hash": "56611dba752a50d6b06230b6f21c785121b1ab0e7ba3a625a1b8d6a04ea375c6",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_1",
+      "source": "results\\research_v6\\E03_coarse\\mod_2.5_pt_1\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.5,
+          1.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "2e140ab84f3b60d5c175977cc99db6498d2e5d6b2e718b358a4e4c5f3a81d293",
+      "coordinate_hash": "852208c5320a7e007cdf9ace4f22c3feb1e84afdd6045514fdff71501a6f8cb3",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_1.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_2.5_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.5,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "d8fb9bcf66401aa156ee16c9ce1fb6c9a9e696526e2354d52740cd961aad26d0",
+      "coordinate_hash": "4c29123ea79ad1fa1fc827493b0a4364108cbec755dad89f350caed3bc28b5a6",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_2",
+      "source": "results\\research_v6\\E03_coarse\\mod_2.5_pt_2\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.5,
+          2.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "b7b950f5df79865944a10056c589db257ea383b15315c9a4026125b5cdef9e59",
+      "coordinate_hash": "95595a4c783e23d5026b8c1ad1018ef12799c2151cb6a5193894493fcedc61fd",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_2.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_2.5_pt_2.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.5,
+          2.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "17ce9deb35471852c78c1dabe40c2ff7a593177df1a34642c06103ee3a66cb8b",
+      "coordinate_hash": "2c219812314ac7d124750709931b3f2efd6d3fcc8fc68e9d81c217b369a39d5f",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_3",
+      "source": "results\\research_v6\\E03_coarse\\mod_2.5_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.5,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "79528c663b522120430341990126a9e9f89b12b766989d7080c9558ef160768b",
+      "coordinate_hash": "0fbff6629650cc39068529f8d3416c0c70783c500e0a2f9d19e85bfa51ddf999",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_2.5_pt_3.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_2.5_pt_3.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          2.5,
+          3.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "9cf238552a2e64ddfa6f6edea0cacedebe72583b7ae89c58afe4d7b9913fc716",
+      "coordinate_hash": "cbaad6564ef6032a0fc189174336444f4a278654c404a393cbaeceaa90efa3a2",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_0",
+      "source": "results\\research_v6\\E03_coarse\\mod_3_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "b78562ec6bd637999e9e564eace5f41611c3b53115e5ab04c46bc29702c89f44",
+      "coordinate_hash": "46c1d4633f0efa1c7bb12fc55da6040dcc321cf9bc40078a26a6450cc5873f7e",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_0.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_3_pt_0.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          0.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "b449eede58a0faf975e85c746af2c67d16836f3a27d5539ecbc40f61e4e372ca",
+      "coordinate_hash": "562724ee58dd7ae18c599e8793699729823522e9c503c1f66e73058e8d6218b1",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_1",
+      "source": "results\\research_v6\\E03_coarse\\mod_3_pt_1\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          1.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "d97280e0783cd4fc23beb7812ef3c00d1bb8da5bc5a6b17d5e29a5a9d4648952",
+      "coordinate_hash": "3d7a3eddc193619f732b8839b6447603cc5f08e7a48ae9c95b7fc9fb97a05645",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_1.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_3_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "a016b631ea0f301d20a771f63706c4e15fe8dda3d7e210f1a90c5262cbc107ec",
+      "coordinate_hash": "40d1a2f89ba8ff655e38877e92851af335ac289a0f0e65ac50289cbe783e1205",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_2",
+      "source": "results\\research_v6\\E03_coarse\\mod_3_pt_2\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          2.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "852cca4cf459fa9342897a2a28fd6625dee62770ae6b0bd7916d0cf1f6276818",
+      "coordinate_hash": "aa81963ddd0b33f94f9c28bc418e72641e7bdcb736b43f3108696f9f6a851267",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_2.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_3_pt_2.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          2.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "e031ca527cf25cdec14ebfe4b77a3c21bbb825dfc38d436c97109572535e3418",
+      "coordinate_hash": "4e2006882a1f8b5b1bb3a97855c20089e5f54e18dfc2674de04481df0a5f5db1",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_3",
+      "source": "results\\research_v6\\E03_coarse\\mod_3_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "fa062dab7eb0973781555e48925fc634a062ce0b4805d3aa89c6bacd6dcea067",
+      "coordinate_hash": "8ae84283b878e2a0b38b950c7ccddf874a390c5b1aef858082d3c2e886994b96",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3_pt_3.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_3_pt_3.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.0,
+          3.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "611cffc4078037b7a16744b92c6c44d526baf4c9756c80470abbc9813bbbae82",
+      "coordinate_hash": "7adc0660157b6b552ef4973ddde7b94bb442b05404f6de08f95f7c54047fdae2",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_0",
+      "source": "results\\research_v6\\E03_coarse\\mod_3.5_pt_0\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.5,
+          0.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "c6bbbd864730055fe1321d36323ec0d014b2e803f4f009e9683ac08715feffa9",
+      "coordinate_hash": "5c531036a66d07d71604760df00ea5b4015d210e4cc0ef593a87a47e07fdcfe2",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_0.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_3.5_pt_0.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.5,
+          0.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "529ed85979f0e87a4e7605dd8ac8b91c1c4680d8352326f0358b2e49f5574308",
+      "coordinate_hash": "de8c03625819219af1075df96b994fb0cc7aedceb21bade9527b3e2c54fa34d5",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_1",
+      "source": "results\\research_v6\\E03_coarse\\mod_3.5_pt_1\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.5,
+          1.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "1cbc3e7eec3759f3521cafcbcfe10b29f866573f5f2bd9873a79cd5866bb13ef",
+      "coordinate_hash": "f1b3bbd93a95147d69544e541f368c20f7855f7315adf2c2de9142085e7d6750",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_1.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_3.5_pt_1.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.5,
+          1.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "9c93cbd95bcd083f3e3012adc032499c3e58adbf9e34adbdd1ec9a081d886c93",
+      "coordinate_hash": "6dd4ed4ef31a7f90b32ce1ed9ac2367bd9129cffd4e0fca0116cbce44c9bc85f",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_2",
+      "source": "results\\research_v6\\E03_coarse\\mod_3.5_pt_2\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.5,
+          2.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "73e97ae8d54c8f90ad3a3d7b21dec191fbb061b3e8231327c8ceb23d67389f17",
+      "coordinate_hash": "27ad0e39f773260f84ad2365638d334f89b4553993a09f4f30491236fd2d2394",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_2.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_3.5_pt_2.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.5,
+          2.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "ffc4830b858ccc8cb2608e570877892df1c76a0efcb58b33bfa1ff03c618b56d",
+      "coordinate_hash": "ffc2b4f74144cda22e0e313486b24eef6e536869efeaeeb5fbb3c0a2fe4748b6",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_3",
+      "source": "results\\research_v6\\E03_coarse\\mod_3.5_pt_3\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.5,
+          3.0
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "07c80eb443b8fe75d4ac3264692fac4f15ef4a661f2d0093261a046c428c512c",
+      "coordinate_hash": "fd5e71b616af8b7b825c0ca35e32452269ea4594d59a35d8998560dedd0876ea",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    },
+    {
+      "run": "E03_coarse/mod_3.5_pt_3.5",
+      "source": "results\\research_v6\\E03_coarse\\mod_3.5_pt_3.5\\ROOT_AUX\\0",
+      "config": {
+        "name": "small",
+        "maas": true,
+        "theta": 1,
+        "penalty": 1,
+        "wholesale": [
+          3.5,
+          3.5
+        ],
+        "access_scope": "aggregate",
+        "mod_access_scope": "node",
+        "pt_access_scope": "node",
+        "mode_theta": 1,
+        "pt_capacity_total": false,
+        "small_network_variant": "appendix"
+      },
+      "state_hash": "9d95cafa63c8d93ebb2ec8cd88c56154c7ba97181799af3392b54adb48d2c4e3",
+      "coordinate_hash": "d3d53d06d8c60fe6359d591626ec51d0f884d85d6e6c9cd724e253b288a6e03b",
+      "modified_assumptions": [],
+      "source_class": "November research_v6 node/node Shannon reconstruction"
+    }
+  ],
+  "tolerances": {
+    "natural_aux": 1e-06,
+    "scaled": 1e-06,
+    "conservation": 1e-06,
+    "accounting": 1e-06,
+    "capacity_violation": 0.0001,
+    "complementarity": 0.001,
+    "fixed_time_deviation": 0.0001,
+    "aggregate_gain": 0.001,
+    "od_nonworse": 1e-08
+  },
+  "residual_contract": "Retain inherited auxiliary-coordinate criterion; separately report direct-time residual; no silent reclassification",
+  "boundary_grid": {
+    "mod": [
+      1.4,
+      1.5,
+      1.6
+    ],
+    "pt": [
+      0.7,
+      0.8,
+      0.9
+    ],
+    "purpose": "new local tests, never replace original grid"
+  },
+  "m01": {
+    "cases": [
+      "A_no_maas",
+      "B_maas_no_transfer_advantage",
+      "C_maas_paper_advantage"
+    ],
+    "initial_factors": [
+      0.95,
+      1.0,
+      1.05
+    ],
+    "methods": [
+      "PG",
+      "EG_FIXED",
+      "EG_ADAPT"
+    ],
+    "h_budget": 20000,
+    "initial_step": 0.0001,
+    "natural_gamma": 0.0001,
+    "adaptive_eta": 0.7,
+    "adaptive_contraction": 0.5,
+    "process_isolation": true,
+    "sioux_gate": "All small configurations must pass; otherwise NOT_RUN"
+  },
+  "e01": {
+    "route_scale": 1,
+    "mode_scale": 1,
+    "frozen_crosses": "A/B times and retail prices x no-MaaS or actual B product with B fare; no equilibrium solve"
+  },
+  "cost_hypotheses": {
+    "fixed": [
+      0,
+      25,
+      50,
+      100
+    ],
+    "per_trip": [
+      0.1,
+      0.25,
+      0.5,
+      1
+    ],
+    "revenue_fraction": [
+      0.05,
+      0.1,
+      0.25,
+      0.5
+    ]
+  }
+}

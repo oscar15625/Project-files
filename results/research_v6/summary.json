@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-06",
+  "total": 76,
+  "status_counts": {
+    "PASS": 75,
+    "FAILED_VI": 1
+  },
+  "protected_unchanged": true,
+  "coarse_executed": true,
+  "source_tag": "maas-reproduction-v5",
+  "reequilibrated_deviations": "NOT_PERFORMED",
+  "interpretation": "Discrete tested points, not continuous region or negotiation prediction"
+}
