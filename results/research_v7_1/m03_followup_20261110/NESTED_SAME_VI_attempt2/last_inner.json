@@ -1,0 +1,15 @@
+{
+  "inner_solves": 36,
+  "inner_failures": 0,
+  "h_calls": 12202,
+  "pumcm_calls": 73212,
+  "seconds": 141.95336999999927,
+  "prices": [
+    2.676353781804639,
+    5.560438149607034,
+    4.1704951720219325,
+    0.3771746725441099,
+    0.8365774901817904
+  ],
+  "checkpoint_scope": "last completed inner solve; not a restartable scipy outer-optimizer state"
+}

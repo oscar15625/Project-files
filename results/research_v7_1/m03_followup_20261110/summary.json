@@ -1,0 +1,51 @@
+{
+  "status": "COMPARABLE_SMALL_PROTOTYPE",
+  "joint_reused": true,
+  "other_experiments_rerun": false,
+  "original_nested_interruption_preserved": true,
+  "price_max_absolute_difference": 4.010825271905105e-08,
+  "operator_profit_max_absolute_difference": 7.02005092989566e-06,
+  "h_call_ratio_nested_over_joint": 8.261073825503356,
+  "wall_ratio_descriptive_only": 19.009535728009546,
+  "caveat": "One small warm-start case, different execution sessions; timings include instrumentation and validation. No general efficiency ranking or paper-EG claim.",
+  "results": [
+    {
+      "method": "JOINT_AUX",
+      "status": "PASS",
+      "natural_aux": 4.302923675924941e-13,
+      "natural_direct": 9.95309249313483e-08,
+      "full_scaled": 1.763537022315015e-11,
+      "total_h_calls": 1490,
+      "total_pumcm_calls": 8946,
+      "seconds": 7.51105730002746,
+      "cpu_seconds": 7.40625,
+      "inner_solves": 0,
+      "inner_failures": 0,
+      "profit_mod": 660.5611035997655,
+      "profit_pt": 541.7321006844312,
+      "profit_maas": 118.13505835837158,
+      "traveler_welfare": -16696.506716456992,
+      "max_metric_replay_error": 0.0,
+      "source": "results/research_v7_1/m03_runs/JOINT_AUX"
+    },
+    {
+      "method": "NESTED_SAME_VI",
+      "status": "PASS",
+      "natural_aux": 5.474772355142418e-10,
+      "natural_direct": 9.95324305011137e-08,
+      "full_scaled": 3.046205538404777e-08,
+      "total_h_calls": 12309,
+      "total_pumcm_calls": 73860,
+      "seconds": 142.7817120999989,
+      "cpu_seconds": 141.015625,
+      "inner_solves": 36,
+      "inner_failures": 0,
+      "profit_mod": 660.5610971582391,
+      "profit_pt": 541.7321077044821,
+      "profit_maas": 118.1350584844693,
+      "traveler_welfare": -16696.506731105885,
+      "max_metric_replay_error": 2.2737367544323206e-13,
+      "source": "results/research_v7_1/m03_followup_20261110/NESTED_SAME_VI_attempt2"
+    }
+  ]
+}

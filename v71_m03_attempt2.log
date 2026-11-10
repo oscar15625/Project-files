@@ -1,0 +1,39 @@
+INNER 1 H 945 failures 0
+INNER 2 H 1850 failures 0
+INNER 3 H 2632 failures 0
+INNER 4 H 3496 failures 0
+INNER 5 H 4483 failures 0
+PROGRESS 5000 6
+INNER 6 H 5511 failures 0
+INNER 7 H 5924 failures 0
+INNER 8 H 6132 failures 0
+INNER 9 H 6340 failures 0
+INNER 10 H 6671 failures 0
+INNER 11 H 7289 failures 0
+INNER 12 H 7661 failures 0
+INNER 13 H 7787 failures 0
+INNER 14 H 7995 failures 0
+INNER 15 H 8121 failures 0
+INNER 16 H 8247 failures 0
+INNER 17 H 8455 failures 0
+INNER 18 H 8581 failures 0
+INNER 19 H 8666 failures 0
+INNER 20 H 8792 failures 0
+INNER 21 H 8959 failures 0
+INNER 22 H 9126 failures 0
+INNER 23 H 9375 failures 0
+INNER 24 H 9542 failures 0
+INNER 25 H 9709 failures 0
+INNER 26 H 9794 failures 0
+PROGRESS 10000 27
+INNER 27 H 10330 failures 0
+INNER 28 H 10456 failures 0
+INNER 29 H 10992 failures 0
+INNER 30 H 11364 failures 0
+INNER 31 H 11531 failures 0
+INNER 32 H 11657 failures 0
+INNER 33 H 11783 failures 0
+INNER 34 H 11950 failures 0
+INNER 35 H 12117 failures 0
+INNER 36 H 12202 failures 0
+research_v7_1\m03_followup_20261110\NESTED_SAME_VI_attempt2 {'profit_mod': {'equilibrium': np.float64(660.5610971582391), 'best_grid_refined': 660.5610971582402, 'best_tested_price': 0.37717466865585975, 'unilateral_gain': 1.0231815394945443e-12, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(541.7321077044821), 'best_grid_refined': 541.7321077044833, 'best_tested_price': 0.8365774724784538, 'unilateral_gain': 1.1368683772161603e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': True}

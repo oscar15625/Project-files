@@ -1,0 +1,27 @@
+{
+  "method": "NESTED_SAME_VI",
+  "config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.5,
+      1.5
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "start": "original reference with all prices multiplied by 1.03",
+  "inner_max_nfev": 100,
+  "outer_max_nfev": 50,
+  "outer_diff_step": 0.0001,
+  "numerical_protocol": "identical to original nested_worker; output and progress instrumentation only",
+  "previous_attempt": "m03_runs/NESTED_SAME_VI",
+  "joint_reused": "m03_runs/JOINT_AUX",
+  "original_source_sha256": "4cbec490b5b79bd5c7f72088aa5b7464bd373a54534b8157dba74814ff8951f0"
+}
