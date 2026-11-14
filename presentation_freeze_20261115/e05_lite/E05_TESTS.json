@@ -1,0 +1,6 @@
+{
+  "status": "NOT_RUN",
+  "reason": "Optional design-only closeout; group-model implementation and regression gates not assessed",
+  "new_solver_runs": 0,
+  "new_H_calls": 0
+}

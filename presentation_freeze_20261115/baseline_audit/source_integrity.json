@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "vi_manifest_entries": 348,
+  "cloud_manifest_entries": 118,
+  "cloud_archive": "Original ZIP not required: unpacked cloud manifest and 10 exported states audited",
+  "source_local_commit": "8c3270c8a6841d41a947ecabb25afb9438e84a52",
+  "source_public_commit": "4d9bbc450cbfafe97744047dd943e6bd7ac65942",
+  "initial_git_status": "clean",
+  "new_branch": "codex/maas-v71-presentation-freeze-20261115"
+}

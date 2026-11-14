@@ -1,0 +1,7 @@
+Build: Windows AMD64
+Python: 3.12.14
+NumPy: 2.5.4
+SciPy: 1.18.1
+Matplotlib: 3.11.2
+Replay: python verify_presentation_release.py
+No optimization. Windows verified; Linux-compatible Python, not yet executed on Linux.

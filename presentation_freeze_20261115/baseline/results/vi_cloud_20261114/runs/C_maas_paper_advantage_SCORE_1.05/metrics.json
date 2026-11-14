@@ -1,0 +1,91 @@
+{
+  "profit_mod": 663.0509778334465,
+  "profit_pt": 540.350777837967,
+  "profit_maas": 152.21563561954898,
+  "profit_total": 1355.6173912909624,
+  "share_non": 66.86738472963,
+  "share_drive": 20.14536589575314,
+  "share_maas": 12.98724937461686,
+  "price_mod": 0.378168399800096,
+  "price_pt": 0.8402468341200677,
+  "traveler_welfare": -16653.81793262626,
+  "social_welfare": -15298.2005413353,
+  "transfer_flow": 26.82730549971813,
+  "flow_conservation_error": 2.2737367544323206e-13,
+  "retail_mod": 521.0644120787281,
+  "retail_pt": 422.8610834945285,
+  "wholesale_mod": 141.9865657547185,
+  "wholesale_pt": 117.48969434343844,
+  "maas_receipts": 411.6918957177059,
+  "accounting_error": -5.684341886080802e-14,
+  "share_non_mod": 33.57682188257433,
+  "share_non_pt": 33.29056284705568,
+  "share_maas_mod": 5.254481960108367,
+  "share_maas_pt": 7.7327674145084915,
+  "pt_pt_transfers": 2.8969189725158193,
+  "intermodal_transfers": 23.93038652720231,
+  "pt_access_flow": 415.76208774783964,
+  "mod_access_flow": 409.6115587943471,
+  "pt_total_capacity": 3500.0,
+  "status": "PASS",
+  "strict_original_time_pass": true,
+  "full_scaled": 1.936606412545007e-13,
+  "natural_aux": 3.510833468576701e-16,
+  "natural_direct": 1.1894673366248036e-07,
+  "capacity_violation": 0.0,
+  "complementarity": 0.0,
+  "forward_bpr_error": 1.9539925233402755e-14,
+  "price_audit_gain": 4.547473508864641e-13,
+  "finite_difference_error": 5.059032446297351e-07,
+  "deviations": [
+    {
+      "index": -2,
+      "gain": 4.547473508864641e-13
+    },
+    {
+      "index": -1,
+      "gain": 0.0
+    },
+    {
+      "index": 40,
+      "gain": 1.1368683772161603e-13
+    },
+    {
+      "index": 41,
+      "gain": 0.0
+    },
+    {
+      "index": 42,
+      "gain": 0.0
+    }
+  ],
+  "exact_mnl_fare_gain": 0,
+  "solver_h_calls": 2395,
+  "validation_h_calls": 257,
+  "total_h_calls": 2652,
+  "pumcm_calls": 15912,
+  "solver_seconds": 12.698633900000004,
+  "total_seconds": 13.960399400000142,
+  "cpu_seconds": 13.859375,
+  "stop_reason": "`xtol` termination condition is satisfied.",
+  "cleanup_max_time": 4.307665335545607e-12,
+  "model_config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "case": "C_maas_paper_advantage",
+  "factor": 1.05,
+  "score": "SCORE"
+}

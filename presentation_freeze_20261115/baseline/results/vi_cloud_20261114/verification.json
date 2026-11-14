@@ -1,0 +1,7 @@
+{
+  "status": "PASS_INTEGRITY_AND_REPLAY",
+  "replayed_new_states": 24,
+  "score_identity_checks": 12,
+  "cloud_input_unchanged": true,
+  "failures_preserved": true
+}

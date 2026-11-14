@@ -1,0 +1,22 @@
+{
+  "label": "B_lambda0.85",
+  "cfg": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 10,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "nest_lambda": 0.85
+  },
+  "factor": 1.0,
+  "score": "SCORE"
+}

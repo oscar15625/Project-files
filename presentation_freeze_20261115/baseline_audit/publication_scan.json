@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "private_windows_paths": 0,
+  "credential_pattern_hits": 0,
+  "copyright_document_files": 0,
+  "large_files_over_10MB": 0,
+  "scope": "Pattern and extension screening; curated input inventory"
+}

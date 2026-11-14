@@ -1,0 +1,2 @@
+experiment_id,attempt,status,h_calls,reason
+E05_LITE,0,NOT_RUN,0,Optional design only; no solver attempts

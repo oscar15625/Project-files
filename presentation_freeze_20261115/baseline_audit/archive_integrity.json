@@ -1,0 +1,20 @@
+[
+  {
+    "file": "MaaS_VI_Cloud_20261114.zip",
+    "sha256": "aaaee9aa435c5bb02d5164b103f0a13dc0ccc2fa6fb22dc80283c285a4c82884",
+    "verified_manifest_entries": 563,
+    "status": "PASS"
+  },
+  {
+    "file": "MaaS_v7_1_Small_Cloud.zip",
+    "sha256": "a8f73d1c24e37322088fdc3956528468de4665df14bddc8aee70c4a352fe7450",
+    "verified_manifest_entries": 48,
+    "status": "PASS"
+  },
+  {
+    "file": "MaaS_v7_1_M03_followup_20261110.zip",
+    "sha256": "871057a1a6ad0fee1085c2b30a4b5c0bd1e9b54187bfa61d60b36d335cfe4cdd",
+    "verified_manifest_entries": 32,
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "E01_AB": 103.2870421535954,
+  "E01_BC": 69.57571228313464,
+  "E01_AC": 172.86275443673003,
+  "placebo": {
+    "no_maas": 0.0,
+    "independent_clone": 575.1803824295494,
+    "split_corrected": 0.0,
+    "actual_B_product_B_fares": 113.56388533789868
+  },
+  "E03_total": 64,
+  "E03_PASS": 63,
+  "E03_L1": 31,
+  "E03_L2": 14,
+  "E03_failures": [
+    "E03_coarse/mod_3.5_pt_1.5"
+  ],
+  "M01_total": 27,
+  "M01_PASS": 0,
+  "M01_h_budgets": [
+    20000
+  ],
+  "Root_total": 24,
+  "Root_strict_PASS": 21,
+  "Root_status": {
+    "PASS": 21,
+    "FAILED_VALIDATION": 3
+  },
+  "PT": {
+    "E01/A_no_maas": {
+      "any_actual_pt_trips": 392.46447071039796,
+      "pt_vehicle_link_traversals": 591.6084811467686
+    },
+    "E01/B_maas_no_transfer_advantage": {
+      "any_actual_pt_trips": 394.6636998303868,
+      "pt_vehicle_link_traversals": 594.8824834172391
+    },
+    "E01/C_maas_paper_advantage": {
+      "any_actual_pt_trips": 408.0321356784415,
+      "pt_vehicle_link_traversals": 593.6348587507024
+    }
+  },
+  "cloud": [
+    {
+      "case": "B_lambda0.55",
+      "profit_maas": 44.4023730468135,
+      "welfare_gain": 26.93805487336067,
+      "harmed_od": 1
+    },
+    {
+      "case": "B_lambda0.65",
+      "profit_maas": 60.36349611118305,
+      "welfare_gain": 41.76595316195744,
+      "harmed_od": 1
+    },
+    {
+      "case": "B_lambda0.75",
+      "profit_maas": 77.41598196321233,
+      "welfare_gain": 57.92637063929578,
+      "harmed_od": 0
+    },
+    {
+      "case": "B_lambda0.85",
+      "profit_maas": 95.3187479600511,
+      "welfare_gain": 75.32074693262257,
+      "harmed_od": 0
+    },
+    {
+      "case": "B_lambda1.00",
+      "profit_maas": 123.39730870548397,
+      "welfare_gain": 103.28704230348376,
+      "harmed_od": 0
+    },
+    {
+      "case": "C_lambda0.55",
+      "profit_maas": 64.28664858735301,
+      "welfare_gain": 83.94725997111527,
+      "harmed_od": 0
+    },
+    {
+      "case": "C_lambda0.65",
+      "profit_maas": 82.60788535427618,
+      "welfare_gain": 101.50108536794141,
+      "harmed_od": 0
+    },
+    {
+      "case": "C_lambda0.75",
+      "profit_maas": 101.77453594995396,
+      "welfare_gain": 120.62763647561587,
+      "harmed_od": 0
+    },
+    {
+      "case": "C_lambda0.85",
+      "profit_maas": 121.58362717304882,
+      "welfare_gain": 140.92170950430955,
+      "harmed_od": 0
+    },
+    {
+      "case": "C_lambda1.00",
+      "profit_maas": 152.21563562345074,
+      "welfare_gain": 172.8627560631503,
+      "harmed_od": 0
+    }
+  ],
+  "M03": {
+    "status": "COMPARABLE_SMALL_PROTOTYPE",
+    "joint_reused": true,
+    "other_experiments_rerun": false,
+    "original_nested_interruption_preserved": true,
+    "price_max_absolute_difference": 4.010825271905105e-08,
+    "operator_profit_max_absolute_difference": 7.02005092989566e-06,
+    "h_call_ratio_nested_over_joint": 8.261073825503356,
+    "wall_ratio_descriptive_only": 19.009535728009546,
+    "caveat": "One small warm-start case, different execution sessions; timings include instrumentation and validation. No general efficiency ranking or paper-EG claim.",
+    "results": [
+      {
+        "method": "JOINT_AUX",
+        "status": "PASS",
+        "natural_aux": 4.302923675924941e-13,
+        "natural_direct": 9.95309249313483e-08,
+        "full_scaled": 1.763537022315015e-11,
+        "total_h_calls": 1490,
+        "total_pumcm_calls": 8946,
+        "seconds": 7.51105730002746,
+        "cpu_seconds": 7.40625,
+        "inner_solves": 0,
+        "inner_failures": 0,
+        "profit_mod": 660.5611035997655,
+        "profit_pt": 541.7321006844312,
+        "profit_maas": 118.13505835837158,
+        "traveler_welfare": -16696.506716456992,
+        "max_metric_replay_error": 0.0,
+        "source": "results/research_v7_1/m03_runs/JOINT_AUX"
+      },
+      {
+        "method": "NESTED_SAME_VI",
+        "status": "PASS",
+        "natural_aux": 5.474772355142418e-10,
+        "natural_direct": 9.95324305011137e-08,
+        "full_scaled": 3.046205538404777e-08,
+        "total_h_calls": 12309,
+        "total_pumcm_calls": 73860,
+        "seconds": 142.7817120999989,
+        "cpu_seconds": 141.015625,
+        "inner_solves": 36,
+        "inner_failures": 0,
+        "profit_mod": 660.5610971582391,
+        "profit_pt": 541.7321077044821,
+        "profit_maas": 118.1350584844693,
+        "traveler_welfare": -16696.506731105885,
+        "max_metric_replay_error": 2.2737367544323206e-13,
+        "source": "results/research_v7_1/m03_followup_20261110/NESTED_SAME_VI_attempt2"
+      }
+    ]
+  },
+  "M02_probes": 12,
+  "Root_groups": {
+    "original_SCORE": {
+      "total": 9,
+      "PASS": 9
+    },
+    "nested_default": {
+      "total": 10,
+      "PASS": 9
+    },
+    "nested_restarts": {
+      "total": 2,
+      "PASS": 2
+    },
+    "DEMAND": {
+      "total": 3,
+      "PASS": 1
+    }
+  },
+  "E03_L1_with_OD_loss": 17
+}

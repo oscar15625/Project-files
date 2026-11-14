@@ -1,0 +1,40 @@
+{
+  "vi_residual": 6.437188081766625e-13,
+  "scaled_residual": 2.579391603533071e-11,
+  "capacity_violation": 0.0,
+  "capacity_complementarity": 0.0,
+  "conservation_error": 2.842170943040401e-14,
+  "accounting_error": 2.2737367544323206e-13,
+  "cost_identity_error": 7.105427357601002e-15,
+  "welfare_identity_error": 7.275957614183426e-12,
+  "deviation_gain_fixed_t": 0,
+  "maas_exact_fare_gain": 0,
+  "finite_differences": [
+    {
+      "index": -2,
+      "analytic": -4.253024599165656e-09,
+      "finite_difference": 5.74118530494161e-07,
+      "relative_error": 5.783715550933266e-07
+    },
+    {
+      "index": -1,
+      "analytic": 1.9185460412192434e-09,
+      "finite_difference": 6.252776074688882e-08,
+      "relative_error": 6.060921470566957e-08
+    },
+    {
+      "index": 40,
+      "analytic": 0.0,
+      "finite_difference": 4.263256414560601e-09,
+      "relative_error": 4.263256414560601e-09
+    },
+    {
+      "index": 41,
+      "analytic": 1.8337241765198677e-15,
+      "finite_difference": 0.0,
+      "relative_error": 1.8337241765198677e-15
+    }
+  ],
+  "deviation_gain_reequilibrated": null,
+  "status": "PASS"
+}

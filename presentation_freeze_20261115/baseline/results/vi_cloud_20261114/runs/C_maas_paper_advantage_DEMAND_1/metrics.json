@@ -1,0 +1,91 @@
+{
+  "profit_mod": 688.5640360094449,
+  "profit_pt": 919.2913099244744,
+  "profit_maas": 77.40704154836286,
+  "profit_total": 1685.262387482282,
+  "share_non": 65.61898152877201,
+  "share_drive": 23.576655342345674,
+  "share_maas": 10.804363128882306,
+  "price_mod": 0.3864492188437483,
+  "price_pt": 2.18371479252441,
+  "traveler_welfare": -17858.775065494574,
+  "social_welfare": -16173.512678012292,
+  "transfer_flow": 29.14096131291804,
+  "flow_conservation_error": 1.4210854715202004e-14,
+  "retail_mod": 545.9936378396746,
+  "retail_pt": 681.2632268292576,
+  "wholesale_mod": 142.57039816977016,
+  "wholesale_pt": 238.02808309521674,
+  "maas_receipts": 458.0055228133497,
+  "accounting_error": -5.684341886080802e-14,
+  "share_non_mod": 35.738392507551424,
+  "share_non_pt": 29.880589021220587,
+  "share_maas_mod": 3.300351117342454,
+  "share_maas_pt": 7.504012011539854,
+  "pt_pt_transfers": 0.44391650765927265,
+  "intermodal_transfers": 28.697044805258766,
+  "pt_access_flow": 378.99090394925605,
+  "mod_access_flow": 414.3835039402052,
+  "pt_total_capacity": 3500.0,
+  "status": "FAILED_VALIDATION",
+  "strict_original_time_pass": false,
+  "full_scaled": 0.30506786150063436,
+  "natural_aux": 0.035782972222478115,
+  "natural_direct": 0.035782972222478115,
+  "capacity_violation": 0.0,
+  "complementarity": 23645.093425883308,
+  "forward_bpr_error": 0.8158080391082985,
+  "price_audit_gain": 222.39920537716964,
+  "finite_difference_error": 5.986101716537462e-07,
+  "deviations": [
+    {
+      "index": -2,
+      "gain": 0.0006906762050675752
+    },
+    {
+      "index": -1,
+      "gain": 54.71456674628928
+    },
+    {
+      "index": 40,
+      "gain": 210.61141154739923
+    },
+    {
+      "index": 41,
+      "gain": 11.527530093087961
+    },
+    {
+      "index": 42,
+      "gain": 0.2602637366824183
+    }
+  ],
+  "exact_mnl_fare_gain": 222.39920537716964,
+  "solver_h_calls": 6555,
+  "validation_h_calls": 260,
+  "total_h_calls": 6815,
+  "pumcm_calls": 40890,
+  "solver_seconds": 34.75384860000008,
+  "total_seconds": 36.08567740000012,
+  "cpu_seconds": 35.859375,
+  "stop_reason": "The maximum number of function evaluations is exceeded.",
+  "cleanup_max_time": 1.1859895288068856e-09,
+  "model_config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "case": "C_maas_paper_advantage",
+  "factor": 1.0,
+  "score": "DEMAND"
+}

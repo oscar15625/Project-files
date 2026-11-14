@@ -1,0 +1,807 @@
+[
+  {
+    "id": 0,
+    "kind": "v6",
+    "source": "results/research_v6/E01/A_no_maas/ROOT_AUX/0",
+    "path": "states/s000",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 1,
+    "kind": "v6",
+    "source": "results/research_v6/E01/B_maas_no_transfer_advantage/ROOT_AUX/0",
+    "path": "states/s001",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 2,
+    "kind": "v6",
+    "source": "results/research_v6/E01/C_maas_paper_advantage/ROOT_AUX/0",
+    "path": "states/s002",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 3,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_0_pt_0/ROOT_AUX/0",
+    "path": "states/s003",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 4,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_0_pt_1.5/ROOT_AUX/0",
+    "path": "states/s004",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 5,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_0_pt_3/ROOT_AUX/0",
+    "path": "states/s005",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 6,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_1.5_pt_0/ROOT_AUX/0",
+    "path": "states/s006",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 7,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_1.5_pt_1.5/ROOT_AUX/0",
+    "path": "states/s007",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 8,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_1.5_pt_3/ROOT_AUX/0",
+    "path": "states/s008",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 9,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_3_pt_0/ROOT_AUX/0",
+    "path": "states/s009",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 10,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_3_pt_1.5/ROOT_AUX/0",
+    "path": "states/s010",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 11,
+    "kind": "v6",
+    "source": "results/research_v6/E03_pilot/mod_3_pt_3/ROOT_AUX/0",
+    "path": "states/s011",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 12,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0_pt_0/ROOT_AUX/0",
+    "path": "states/s012",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 13,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0_pt_0.5/ROOT_AUX/0",
+    "path": "states/s013",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 14,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0_pt_1/ROOT_AUX/0",
+    "path": "states/s014",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 15,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0_pt_1.5/ROOT_AUX/0",
+    "path": "states/s015",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 16,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0_pt_2/ROOT_AUX/0",
+    "path": "states/s016",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 17,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0_pt_2.5/ROOT_AUX/0",
+    "path": "states/s017",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 18,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0_pt_3/ROOT_AUX/0",
+    "path": "states/s018",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 19,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0_pt_3.5/ROOT_AUX/0",
+    "path": "states/s019",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 20,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0.5_pt_0/ROOT_AUX/0",
+    "path": "states/s020",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 21,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0.5_pt_0.5/ROOT_AUX/0",
+    "path": "states/s021",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 22,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0.5_pt_1/ROOT_AUX/0",
+    "path": "states/s022",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 23,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0.5_pt_1.5/ROOT_AUX/0",
+    "path": "states/s023",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 24,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0.5_pt_2/ROOT_AUX/0",
+    "path": "states/s024",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 25,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0.5_pt_2.5/ROOT_AUX/0",
+    "path": "states/s025",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 26,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0.5_pt_3/ROOT_AUX/0",
+    "path": "states/s026",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 27,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_0.5_pt_3.5/ROOT_AUX/0",
+    "path": "states/s027",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 28,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1_pt_0/ROOT_AUX/0",
+    "path": "states/s028",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 29,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1_pt_0.5/ROOT_AUX/0",
+    "path": "states/s029",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 30,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1_pt_1/ROOT_AUX/0",
+    "path": "states/s030",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 31,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1_pt_1.5/ROOT_AUX/0",
+    "path": "states/s031",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 32,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1_pt_2/ROOT_AUX/0",
+    "path": "states/s032",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 33,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1_pt_2.5/ROOT_AUX/0",
+    "path": "states/s033",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 34,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1_pt_3/ROOT_AUX/0",
+    "path": "states/s034",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 35,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1_pt_3.5/ROOT_AUX/0",
+    "path": "states/s035",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 36,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1.5_pt_0/ROOT_AUX/0",
+    "path": "states/s036",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 37,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1.5_pt_0.5/ROOT_AUX/0",
+    "path": "states/s037",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 38,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1.5_pt_1/ROOT_AUX/0",
+    "path": "states/s038",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 39,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1.5_pt_1.5/ROOT_AUX/0",
+    "path": "states/s039",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 40,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1.5_pt_2/ROOT_AUX/0",
+    "path": "states/s040",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 41,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1.5_pt_2.5/ROOT_AUX/0",
+    "path": "states/s041",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 42,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1.5_pt_3/ROOT_AUX/0",
+    "path": "states/s042",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 43,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_1.5_pt_3.5/ROOT_AUX/0",
+    "path": "states/s043",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 44,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2_pt_0/ROOT_AUX/0",
+    "path": "states/s044",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 45,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2_pt_0.5/ROOT_AUX/0",
+    "path": "states/s045",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 46,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2_pt_1/ROOT_AUX/0",
+    "path": "states/s046",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 47,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2_pt_1.5/ROOT_AUX/0",
+    "path": "states/s047",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 48,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2_pt_2/ROOT_AUX/0",
+    "path": "states/s048",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 49,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2_pt_2.5/ROOT_AUX/0",
+    "path": "states/s049",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 50,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2_pt_3/ROOT_AUX/0",
+    "path": "states/s050",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 51,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2_pt_3.5/ROOT_AUX/0",
+    "path": "states/s051",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 52,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2.5_pt_0/ROOT_AUX/0",
+    "path": "states/s052",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 53,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2.5_pt_0.5/ROOT_AUX/0",
+    "path": "states/s053",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 54,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2.5_pt_1/ROOT_AUX/0",
+    "path": "states/s054",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 55,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2.5_pt_1.5/ROOT_AUX/0",
+    "path": "states/s055",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 56,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2.5_pt_2/ROOT_AUX/0",
+    "path": "states/s056",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 57,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2.5_pt_2.5/ROOT_AUX/0",
+    "path": "states/s057",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 58,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2.5_pt_3/ROOT_AUX/0",
+    "path": "states/s058",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 59,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_2.5_pt_3.5/ROOT_AUX/0",
+    "path": "states/s059",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 60,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3_pt_0/ROOT_AUX/0",
+    "path": "states/s060",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 61,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3_pt_0.5/ROOT_AUX/0",
+    "path": "states/s061",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 62,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3_pt_1/ROOT_AUX/0",
+    "path": "states/s062",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 63,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3_pt_1.5/ROOT_AUX/0",
+    "path": "states/s063",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 64,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3_pt_2/ROOT_AUX/0",
+    "path": "states/s064",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 65,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3_pt_2.5/ROOT_AUX/0",
+    "path": "states/s065",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 66,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3_pt_3/ROOT_AUX/0",
+    "path": "states/s066",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 67,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3_pt_3.5/ROOT_AUX/0",
+    "path": "states/s067",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 68,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3.5_pt_0/ROOT_AUX/0",
+    "path": "states/s068",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 69,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3.5_pt_0.5/ROOT_AUX/0",
+    "path": "states/s069",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 70,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3.5_pt_1/ROOT_AUX/0",
+    "path": "states/s070",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 71,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3.5_pt_1.5/ROOT_AUX/0",
+    "path": "states/s071",
+    "stored_status": "FAILED_VI"
+  },
+  {
+    "id": 72,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3.5_pt_2/ROOT_AUX/0",
+    "path": "states/s072",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 73,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3.5_pt_2.5/ROOT_AUX/0",
+    "path": "states/s073",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 74,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3.5_pt_3/ROOT_AUX/0",
+    "path": "states/s074",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 75,
+    "kind": "v6",
+    "source": "results/research_v6/E03_coarse/mod_3.5_pt_3.5/ROOT_AUX/0",
+    "path": "states/s075",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 76,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_EG_ADAPT_0.95",
+    "path": "states/s076",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 77,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_EG_ADAPT_1",
+    "path": "states/s077",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 78,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_EG_ADAPT_1.05",
+    "path": "states/s078",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 79,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_EG_FIXED_0.95",
+    "path": "states/s079",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 80,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_EG_FIXED_1",
+    "path": "states/s080",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 81,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_EG_FIXED_1.05",
+    "path": "states/s081",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 82,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_PG_0.95",
+    "path": "states/s082",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 83,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_PG_1",
+    "path": "states/s083",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 84,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/A_no_maas_PG_1.05",
+    "path": "states/s084",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 85,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_EG_ADAPT_0.95",
+    "path": "states/s085",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 86,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_EG_ADAPT_1",
+    "path": "states/s086",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 87,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_EG_ADAPT_1.05",
+    "path": "states/s087",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 88,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_EG_FIXED_0.95",
+    "path": "states/s088",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 89,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_EG_FIXED_1",
+    "path": "states/s089",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 90,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_EG_FIXED_1.05",
+    "path": "states/s090",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 91,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_PG_0.95",
+    "path": "states/s091",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 92,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_PG_1",
+    "path": "states/s092",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 93,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/B_maas_no_transfer_advantage_PG_1.05",
+    "path": "states/s093",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 94,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_EG_ADAPT_0.95",
+    "path": "states/s094",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 95,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_EG_ADAPT_1",
+    "path": "states/s095",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 96,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_EG_ADAPT_1.05",
+    "path": "states/s096",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 97,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_EG_FIXED_0.95",
+    "path": "states/s097",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 98,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_EG_FIXED_1",
+    "path": "states/s098",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 99,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_EG_FIXED_1.05",
+    "path": "states/s099",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 100,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_PG_0.95",
+    "path": "states/s100",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 101,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_PG_1",
+    "path": "states/s101",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 102,
+    "kind": "M01",
+    "source": "results/research_v7_1/m01_runs/C_maas_paper_advantage_PG_1.05",
+    "path": "states/s102",
+    "stored_status": "FAILED_NUMERICAL_CHECK"
+  },
+  {
+    "id": 103,
+    "kind": "M03",
+    "source": "results/research_v7_1/m03_runs/JOINT_AUX",
+    "path": "states/s103",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 104,
+    "kind": "M03",
+    "source": "results/research_v7_1/m03_followup_20261110/NESTED_SAME_VI_attempt2",
+    "path": "states/s104",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 105,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/B_lambda0.55",
+    "path": "states/s105",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 106,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/B_lambda0.65",
+    "path": "states/s106",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 107,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/B_lambda0.75",
+    "path": "states/s107",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 108,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/B_lambda0.85",
+    "path": "states/s108",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 109,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/B_lambda1.00",
+    "path": "states/s109",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 110,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/C_lambda0.55",
+    "path": "states/s110",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 111,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/C_lambda0.65",
+    "path": "states/s111",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 112,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/C_lambda0.75",
+    "path": "states/s112",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 113,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/C_lambda0.85",
+    "path": "states/s113",
+    "stored_status": "PASS"
+  },
+  {
+    "id": 114,
+    "kind": "cloud",
+    "source": "results/vi_cloud_20261114/cloud_reference/C_lambda1.00",
+    "path": "states/s114",
+    "stored_status": "PASS"
+  }
+]

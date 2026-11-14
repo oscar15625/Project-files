@@ -1,0 +1,11 @@
+{
+  "case": "B_lambda0.65",
+  "factors": [
+    0.95,
+    1.05
+  ],
+  "reason": "Original start exhausted 8000 solver H with failed traffic complementarity; preserved unchanged.",
+  "h_budget_per_attempt": 8000,
+  "solver_settings_unchanged": true,
+  "no_equilibrium_warm_start": true
+}

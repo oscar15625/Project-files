@@ -1,0 +1,6 @@
+{
+  "paper": "https://doi.org/10.1016/j.trc.2026.105703",
+  "public_baseline": "https://github.com/oscar15625/Project-files/tree/4d9bbc450cbfafe97744047dd943e6bd7ac65942",
+  "original_reconstruction": "https://github.com/oscar15625/Project-files/tree/b682637921d843bc2edac8f154b5d03f21fa257a",
+  "network": "https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls"
+}

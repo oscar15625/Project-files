@@ -1,0 +1,20 @@
+[
+  {
+    "file": "MaaS_Codex_Final_Closeout_Spec_20261114_KR.md",
+    "bytes": 20830,
+    "sha256": "1dffa8392599a1f15c035bd3710df1f280625ed2690d9bbc7a5ab5228c16737e",
+    "status": "PASS"
+  },
+  {
+    "file": "MaaS_Codex_Final_Closeout_Spec_20261114_KR.docx",
+    "bytes": 24578,
+    "sha256": "d79bef721cb9430e393cc21a7205dcdb6ba014404b5d83bac64cf3b57e8d140d",
+    "status": "PASS"
+  },
+  {
+    "file": "MaaS_Codex_Final_Closeout_Start_20261114.txt",
+    "bytes": 1296,
+    "sha256": "37c7b0736ae5e8954fb89a6a780246f463959e5e5d7f590012cc414fe0884394",
+    "status": "PASS"
+  }
+]

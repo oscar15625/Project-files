@@ -1,0 +1,94 @@
+{
+  "profit_mod": 632.8238140164407,
+  "profit_pt": 524.3811555342207,
+  "profit_maas": 64.28664870057915,
+  "profit_total": 1221.4916182512407,
+  "share_non": 69.44951174933144,
+  "share_drive": 20.58440679358423,
+  "share_maas": 9.966081457084282,
+  "price_mod": 0.37071676532159337,
+  "price_pt": 0.8395546904296443,
+  "traveler_welfare": -16742.733409454755,
+  "social_welfare": -15521.241791203514,
+  "transfer_flow": 21.45932909878351,
+  "flow_conservation_error": 1.1368683772161603e-13,
+  "retail_mod": 523.934048565754,
+  "retail_pt": 443.76801186250935,
+  "wholesale_mod": 108.88976545068671,
+  "wholesale_pt": 80.61314367171138,
+  "maas_receipts": 253.78955782297726,
+  "accounting_error": 0.0,
+  "share_non_mod": 34.653010044238464,
+  "share_non_pt": 34.796501705092986,
+  "share_maas_mod": 4.1676604984624905,
+  "share_maas_pt": 5.798420958621793,
+  "pt_pt_transfers": 2.2141937369990377,
+  "intermodal_transfers": 19.24513536178447,
+  "pt_access_flow": 409.97604600618394,
+  "mod_access_flow": 405.63921515675696,
+  "pt_total_capacity": 3500.0,
+  "nested_lambda": 0.55,
+  "pt_ride_link_flow": 590.5855766788994,
+  "status": "PASS",
+  "strict_original_time_pass": true,
+  "full_scaled": 7.422594705095661e-12,
+  "natural_aux": 2.1029936435411324e-14,
+  "natural_direct": 2.1590441703544505e-07,
+  "capacity_violation": 0.0,
+  "complementarity": 0.0,
+  "forward_bpr_error": 2.367883666920534e-12,
+  "price_audit_gain": 1.1368683772161603e-13,
+  "finite_difference_error": 6.026830874361622e-07,
+  "deviations": [
+    {
+      "index": -2,
+      "gain": 1.1368683772161603e-13
+    },
+    {
+      "index": -1,
+      "gain": 0.0
+    },
+    {
+      "index": 40,
+      "gain": 8.526512829121202e-14
+    },
+    {
+      "index": 41,
+      "gain": 1.4210854715202004e-14
+    },
+    {
+      "index": 42,
+      "gain": 0.0
+    }
+  ],
+  "exact_mnl_fare_gain": null,
+  "solver_h_calls": 3447,
+  "validation_h_calls": 257,
+  "total_h_calls": 3704,
+  "pumcm_calls": 22224,
+  "solver_seconds": 30.141719199999898,
+  "total_seconds": 32.08407239999997,
+  "cpu_seconds": 31.0625,
+  "stop_reason": "`xtol` termination condition is satisfied.",
+  "cleanup_max_time": 4.137135078963183e-12,
+  "model_config": {
+    "name": "small",
+    "maas": true,
+    "theta": 1,
+    "penalty": 1,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix",
+    "nest_lambda": 0.55
+  },
+  "case": "C_lambda0.55",
+  "factor": 1.0,
+  "score": "SCORE"
+}

@@ -1,0 +1,174 @@
+{
+  "status": "PASS_SAVED_STATE_REPLAY_NOT_NEW_EQUILIBRIUM",
+  "cases": 24,
+  "checks": [
+    {
+      "case": "A_no_maas_DEMAND_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 8.262792630568069e-08,
+      "natural_aux": 5.887585032172293e-15
+    },
+    {
+      "case": "A_no_maas_SCORE_0.95",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 8.262792630568049e-08,
+      "natural_aux": 2.7755575615628914e-16
+    },
+    {
+      "case": "A_no_maas_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 8.262792630568069e-08,
+      "natural_aux": 5.887585032172293e-15
+    },
+    {
+      "case": "A_no_maas_SCORE_1.05",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 8.26279263056805e-08,
+      "natural_aux": 1.7944789959805767e-15
+    },
+    {
+      "case": "B_lambda0.55_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 8.906948265106261e-08,
+      "natural_aux": 4.628777964573276e-15
+    },
+    {
+      "case": "B_lambda0.65_SCORE_0.95",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.1079261566766602e-07,
+      "natural_aux": 1.2412670766236366e-16
+    },
+    {
+      "case": "B_lambda0.65_SCORE_1",
+      "stored_status": "FAILED_VALIDATION",
+      "max_economic_error": 0.0,
+      "natural_direct": 0.0006241436852910629,
+      "natural_aux": 0.0006241436852910482
+    },
+    {
+      "case": "B_lambda0.65_SCORE_1.05",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.1079261566768836e-07,
+      "natural_aux": 7.036344434920387e-14
+    },
+    {
+      "case": "B_lambda0.75_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.3438088256759277e-07,
+      "natural_aux": 3.2506033358264633e-15
+    },
+    {
+      "case": "B_lambda0.85_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.5956051699230942e-07,
+      "natural_aux": 1.2824878117884043e-14
+    },
+    {
+      "case": "B_lambda1.00_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 2.0006761845838583e-07,
+      "natural_aux": 2.065134201172189e-15
+    },
+    {
+      "case": "B_maas_no_transfer_advantage_DEMAND_1",
+      "stored_status": "FAILED_VALIDATION",
+      "max_economic_error": 0.0,
+      "natural_direct": 5.930482573743823e-08,
+      "natural_aux": 1.5926815422836557e-11
+    },
+    {
+      "case": "B_maas_no_transfer_advantage_SCORE_0.95",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 2.0006761845838583e-07,
+      "natural_aux": 1.1102230246251565e-16
+    },
+    {
+      "case": "B_maas_no_transfer_advantage_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 2.0006761845838583e-07,
+      "natural_aux": 1.88411095042053e-15
+    },
+    {
+      "case": "B_maas_no_transfer_advantage_SCORE_1.05",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 2.0006761845841514e-07,
+      "natural_aux": 1.0213021499685905e-13
+    },
+    {
+      "case": "C_lambda0.55_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 2.1590441703544505e-07,
+      "natural_aux": 2.1029936435411324e-14
+    },
+    {
+      "case": "C_lambda0.65_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.0358394334759683e-07,
+      "natural_aux": 6.12877551685575e-14
+    },
+    {
+      "case": "C_lambda0.75_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.0634469770793852e-07,
+      "natural_aux": 1.1102230246251565e-16
+    },
+    {
+      "case": "C_lambda0.85_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.2735551372930143e-07,
+      "natural_aux": 5.375360066455862e-14
+    },
+    {
+      "case": "C_lambda1.00_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.1894673366248036e-07,
+      "natural_aux": 1.2412670766236366e-16
+    },
+    {
+      "case": "C_maas_paper_advantage_DEMAND_1",
+      "stored_status": "FAILED_VALIDATION",
+      "max_economic_error": 0.0,
+      "natural_direct": 0.035782972222478115,
+      "natural_aux": 0.035782972222478115
+    },
+    {
+      "case": "C_maas_paper_advantage_SCORE_0.95",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.1894673366248037e-07,
+      "natural_aux": 1.4988010832439613e-15
+    },
+    {
+      "case": "C_maas_paper_advantage_SCORE_1",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.1894673366248036e-07,
+      "natural_aux": 1.1102230246251565e-16
+    },
+    {
+      "case": "C_maas_paper_advantage_SCORE_1.05",
+      "stored_status": "PASS",
+      "max_economic_error": 0.0,
+      "natural_direct": 1.1894673366248036e-07,
+      "natural_aux": 3.510833468576701e-16
+    }
+  ]
+}

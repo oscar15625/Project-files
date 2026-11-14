@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "protected_files": 6066,
+  "all_original_hashes_unchanged": true,
+  "remote_baseline_sha": "4d9bbc450cbfafe97744047dd943e6bd7ac65942",
+  "source_branch": "codex/vi-solver-cloud-validation-20261114",
+  "source_local_sha": "8c3270c8a6841d41a947ecabb25afb9438e84a52"
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<LOCAL_USER>\Desktop\������\0. Apply\EPFL\EDCE_Zhang\Group_Meeting\Reproduction\MaaS_Codex_v6_All\research_run\package_vi_20261114.py", line 28, in <module>
+    dest=K/rel;dest.parent.mkdir(parents=True,exist_ok=True);dest.write_bytes(b)
+                                                             ^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1036, in write_bytes
+    with self.open(mode='wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "<LOCAL_USER>\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '<LOCAL_USER>\\Desktop\\������\\0. Apply\\EPFL\\EDCE_Zhang\\Group_Meeting\\Reproduction\\MaaS_Codex_v6_All\\research_run\\backups\\vi_cloud_delivery_20261114\\portable\\results\\research_v7_1\\m01_improved_20261110\\B_maas_no_transfer_advantage_FLOW_TRF_0.95\\checkpoint_coordinates.npy'

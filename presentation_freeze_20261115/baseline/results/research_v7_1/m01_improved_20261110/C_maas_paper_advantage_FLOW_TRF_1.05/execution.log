@@ -1,0 +1,34 @@
+C_maas_paper_advantage FLOW_TRF 1.05 1 6.217061953187354
+C_maas_paper_advantage FLOW_TRF 1.05 201 1.229269374027003
+C_maas_paper_advantage FLOW_TRF 1.05 401 0.501042370285102
+C_maas_paper_advantage FLOW_TRF 1.05 601 0.35525242660058626
+C_maas_paper_advantage FLOW_TRF 1.05 801 0.33821623676763757
+C_maas_paper_advantage FLOW_TRF 1.05 1001 0.3282740513736891
+C_maas_paper_advantage FLOW_TRF 1.05 1201 0.3271924289097982
+C_maas_paper_advantage FLOW_TRF 1.05 1401 0.32505021979635607
+C_maas_paper_advantage FLOW_TRF 1.05 1601 0.32323091338939364
+C_maas_paper_advantage FLOW_TRF 1.05 1801 0.3221053177849385
+C_maas_paper_advantage FLOW_TRF 1.05 2001 0.3219235902188938
+C_maas_paper_advantage FLOW_TRF 1.05 2201 0.32188087186142195
+C_maas_paper_advantage FLOW_TRF 1.05 2401 0.32175421749449995
+C_maas_paper_advantage FLOW_TRF 1.05 2601 0.3216314179642746
+C_maas_paper_advantage FLOW_TRF 1.05 2801 0.32157341864022293
+C_maas_paper_advantage FLOW_TRF 1.05 3001 0.32150631406667235
+C_maas_paper_advantage FLOW_TRF 1.05 3201 0.32146527964604943
+C_maas_paper_advantage FLOW_TRF 1.05 3401 0.32143189554185364
+C_maas_paper_advantage FLOW_TRF 1.05 3601 0.3214307961162417
+C_maas_paper_advantage FLOW_TRF 1.05 3801 0.3213886291415658
+C_maas_paper_advantage FLOW_TRF 1.05 4001 0.32136247723483585
+C_maas_paper_advantage FLOW_TRF 1.05 4201 0.32132570517861003
+C_maas_paper_advantage FLOW_TRF 1.05 4401 0.321309729689862
+C_maas_paper_advantage FLOW_TRF 1.05 4601 0.32129821457577146
+C_maas_paper_advantage FLOW_TRF 1.05 4801 0.3212873016629236
+C_maas_paper_advantage FLOW_TRF 1.05 5001 0.3212771023974989
+C_maas_paper_advantage FLOW_TRF 1.05 5201 0.32127283429470366
+C_maas_paper_advantage FLOW_TRF 1.05 5401 0.3212646619060607
+C_maas_paper_advantage FLOW_TRF 1.05 5601 0.32125633626272115
+C_maas_paper_advantage FLOW_TRF 1.05 5801 0.3212524140959608
+C_maas_paper_advantage FLOW_TRF 1.05 6001 0.32124472434042994
+C_maas_paper_advantage FLOW_TRF 1.05 6201 0.32124286658205653
+research_v7_1\m01_improved_20261110\C_maas_paper_advantage_FLOW_TRF_1.05 {'profit_mod': {'equilibrium': np.float64(642.4042856055665), 'best_grid_refined': 642.4067256291612, 'best_tested_price': 0.36900177510388055, 'unilateral_gain': 0.002440023594658669, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(909.5094043802928), 'best_grid_refined': 964.3891198592783, 'best_tested_price': 1.2483491585313122, 'unilateral_gain': 54.87971547898542, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4210854715202004e-14), 'all_retail_deviation_gains_below_1e-4': False}
+FINAL C_maas_paper_advantage FLOW_TRF 1.05 FAILED_NUMERICAL_CHECK False 6268 0.3212426403240597

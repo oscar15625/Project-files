@@ -1,0 +1,8 @@
+{
+  "status": "INTERRUPTED_NOT_COMPLETED",
+  "final_state_exists": false,
+  "execution_log_bytes": 0,
+  "known_call_count": null,
+  "resumable_numerical_checkpoint": false,
+  "next_action": "Do not run under current low-compute scope; later explicit authorization requires a separately logged fresh attempt, preserving this interruption."
+}
