@@ -1,0 +1,10 @@
+B_maas_no_transfer_advantage FLOW_TRF 0.95 1 7.3129353927619185
+B_maas_no_transfer_advantage FLOW_TRF 0.95 201 1.0876288826069906
+B_maas_no_transfer_advantage FLOW_TRF 0.95 401 0.06468789164539196
+B_maas_no_transfer_advantage FLOW_TRF 0.95 601 0.0003669933906201296
+B_maas_no_transfer_advantage FLOW_TRF 0.95 801 1.4908719904705178e-05
+B_maas_no_transfer_advantage FLOW_TRF 0.95 1001 3.570374043297323e-07
+B_maas_no_transfer_advantage FLOW_TRF 0.95 1201 2.528719539513533e-07
+B_maas_no_transfer_advantage FLOW_TRF 0.95 1401 1.0369934024808458e-07
+research_v7_1\m01_improved_20261110\B_maas_no_transfer_advantage_FLOW_TRF_0.95 {'profit_mod': {'equilibrium': np.float64(569.9228951004618), 'best_grid_refined': 569.9228951004626, 'best_tested_price': 0.3565084827838742, 'unilateral_gain': 7.958078640513122e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(486.08824857577827), 'best_grid_refined': 486.0882485757795, 'best_tested_price': 0.8216383900487031, 'unilateral_gain': 1.2505552149377763e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINAL B_maas_no_transfer_advantage FLOW_TRF 0.95 FAILED_DEVIATION False 1429 6.350986819738776e-09

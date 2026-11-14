@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-14",
+  "original_m01": "27 completed, 0 accepted; preserved",
+  "initial_flow_time_attempts": 12,
+  "initial_attempts_pass": 2,
+  "score_original_strict_pass": 9,
+  "score_original_runs": 9,
+  "score_cloud_strict_pass": 9,
+  "score_cloud_runs": 10,
+  "demand_ablation_strict_pass": 1,
+  "demand_ablation_runs": 3,
+  "model_source_sha256": "e138fd4f803a2ab5952c7e4d14b47a353bfc1f409c2634a71bb861b1d9338769",
+  "cloud_source_sha256": "0d60c74b28ac443143aeb9cc41e1f7da72d9451a95293831348dc6f9982d66b6",
+  "cloud_input_files_unchanged": 123,
+  "score_identity_checks": 12,
+  "scope": "Small network cold starts; no original PG/EG or M03 rerun; not original paper EG reproduction or global Nash proof",
+  "fallback_strict_pass": 2,
+  "fallback_runs": 2,
+  "cloud_cases_with_at_least_one_strict_pass": 10
+}

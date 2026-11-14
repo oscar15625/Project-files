@@ -1,0 +1,5 @@
+A_no_maas TIME_TRF 1.0 1 6.081725873746873
+A_no_maas TIME_TRF 1.0 201 0.2726737185140724
+A_no_maas TIME_TRF 1.0 401 0.03570326328139036
+research_v7_1\m01_improved_20261110\A_no_maas_TIME_TRF_1 {'profit_mod': {'equilibrium': np.float64(569.9207811806565), 'best_grid_refined': 569.9207811842371, 'best_tested_price': 0.35650801757045086, 'unilateral_gain': 3.580566954042297e-09, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(486.0880556211841), 'best_grid_refined': 486.08805563139316, 'best_tested_price': 0.8216361506022957, 'unilateral_gain': 1.020907802740112e-08, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(4.263256414560601e-14), 'all_retail_deviation_gains_below_1e-4': True}
+FINAL A_no_maas TIME_TRF 1.0 FAILED_NUMERICAL_CHECK False 599 0.0009095531127373299

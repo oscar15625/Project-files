@@ -1,0 +1,12 @@
+A_no_maas FLOW_TRF 1.0 1 6.081725873746873
+A_no_maas FLOW_TRF 1.0 201 1.6559574990319423
+A_no_maas FLOW_TRF 1.0 401 1.352191446650922
+A_no_maas FLOW_TRF 1.0 601 0.8495829564421593
+A_no_maas FLOW_TRF 1.0 801 0.6547964599523212
+A_no_maas FLOW_TRF 1.0 1001 0.6066215227898674
+A_no_maas FLOW_TRF 1.0 1201 0.01518848304146196
+A_no_maas FLOW_TRF 1.0 1401 0.0016458028330674029
+A_no_maas FLOW_TRF 1.0 1601 4.965141552600674e-05
+A_no_maas FLOW_TRF 1.0 1801 1.431101502062454e-06
+research_v7_1\m01_improved_20261110\A_no_maas_FLOW_TRF_1 {'profit_mod': {'equilibrium': np.float64(569.9228947481429), 'best_grid_refined': 569.9228947481436, 'best_tested_price': 0.35650848251864786, 'unilateral_gain': 6.821210263296962e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(486.0882486394101), 'best_grid_refined': 486.0882486394114, 'best_tested_price': 0.8216383900074914, 'unilateral_gain': 1.3073986337985843e-12, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINAL A_no_maas FLOW_TRF 1.0 PASS True 1918 1.2217544282049184e-07

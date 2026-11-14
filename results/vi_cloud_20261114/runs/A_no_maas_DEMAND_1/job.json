@@ -1,0 +1,21 @@
+{
+  "label": "A_no_maas",
+  "cfg": {
+    "name": "small",
+    "maas": false,
+    "theta": 1,
+    "penalty": 10,
+    "wholesale": [
+      1.3,
+      1.3
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "node",
+    "pt_access_scope": "node",
+    "mode_theta": 1,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "factor": 1.0,
+  "score": "DEMAND"
+}

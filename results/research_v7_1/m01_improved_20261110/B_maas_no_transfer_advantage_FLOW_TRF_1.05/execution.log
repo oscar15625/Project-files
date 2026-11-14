@@ -1,0 +1,34 @@
+B_maas_no_transfer_advantage FLOW_TRF 1.05 1 6.206918369794813
+B_maas_no_transfer_advantage FLOW_TRF 1.05 201 0.6575990877543747
+B_maas_no_transfer_advantage FLOW_TRF 1.05 401 0.41725526079772896
+B_maas_no_transfer_advantage FLOW_TRF 1.05 601 0.3585213367989557
+B_maas_no_transfer_advantage FLOW_TRF 1.05 801 0.3423734294195497
+B_maas_no_transfer_advantage FLOW_TRF 1.05 1001 0.333867080761714
+B_maas_no_transfer_advantage FLOW_TRF 1.05 1201 0.33299653565996873
+B_maas_no_transfer_advantage FLOW_TRF 1.05 1401 0.33101441356238864
+B_maas_no_transfer_advantage FLOW_TRF 1.05 1601 0.33064269969439286
+B_maas_no_transfer_advantage FLOW_TRF 1.05 1801 0.3300532847507526
+B_maas_no_transfer_advantage FLOW_TRF 1.05 2001 0.32978949144194625
+B_maas_no_transfer_advantage FLOW_TRF 1.05 2201 0.3294648216209525
+B_maas_no_transfer_advantage FLOW_TRF 1.05 2401 0.3293645076216522
+B_maas_no_transfer_advantage FLOW_TRF 1.05 2601 0.3292547389851281
+B_maas_no_transfer_advantage FLOW_TRF 1.05 2801 0.3291213437342097
+B_maas_no_transfer_advantage FLOW_TRF 1.05 3001 0.3290711109575753
+B_maas_no_transfer_advantage FLOW_TRF 1.05 3201 0.328997719317058
+B_maas_no_transfer_advantage FLOW_TRF 1.05 3401 0.32891451469043664
+B_maas_no_transfer_advantage FLOW_TRF 1.05 3601 0.3288876456845253
+B_maas_no_transfer_advantage FLOW_TRF 1.05 3801 0.3288035162714237
+B_maas_no_transfer_advantage FLOW_TRF 1.05 4001 0.32877929258004035
+B_maas_no_transfer_advantage FLOW_TRF 1.05 4201 0.3287457297766757
+B_maas_no_transfer_advantage FLOW_TRF 1.05 4401 0.328737229880167
+B_maas_no_transfer_advantage FLOW_TRF 1.05 4601 0.3287118613677628
+B_maas_no_transfer_advantage FLOW_TRF 1.05 4801 0.32868512000915434
+B_maas_no_transfer_advantage FLOW_TRF 1.05 5001 0.32867271684202365
+B_maas_no_transfer_advantage FLOW_TRF 1.05 5201 0.3286575683841481
+B_maas_no_transfer_advantage FLOW_TRF 1.05 5401 0.3286363212686914
+B_maas_no_transfer_advantage FLOW_TRF 1.05 5601 0.32862919354637643
+B_maas_no_transfer_advantage FLOW_TRF 1.05 5801 0.32862394318331745
+B_maas_no_transfer_advantage FLOW_TRF 1.05 6001 0.3286197306340327
+B_maas_no_transfer_advantage FLOW_TRF 1.05 6201 0.3286144711365107
+research_v7_1\m01_improved_20261110\B_maas_no_transfer_advantage_FLOW_TRF_1.05 {'profit_mod': {'equilibrium': np.float64(609.0942687110461), 'best_grid_refined': 609.0969423240499, 'best_tested_price': 0.3596395545045994, 'unilateral_gain': 0.002673613003821629, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(913.077783965853), 'best_grid_refined': 968.0321902716262, 'best_tested_price': 1.2518556870415258, 'unilateral_gain': 54.954406305773205, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.1368683772161603e-13), 'all_retail_deviation_gains_below_1e-4': False}
+FINAL B_maas_no_transfer_advantage FLOW_TRF 1.05 FAILED_NUMERICAL_CHECK False 6391 0.32860738783430893

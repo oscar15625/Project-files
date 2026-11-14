@@ -9,3 +9,7 @@ Raw per-H events and complete checkpoints are retained in the local recovery ZIP
 ## Latest M03-only follow-up
 
 Nested attempt2 is now complete and PASS. The prior Joint result was reused; no other experiment was rerun. [M03 report](results/research_v7_1/m03_followup_20261110/M03_REPORT_KR.md), [comparison data](results/research_v7_1/m03_followup_20261110/comparison.csv), [incremental ZIP](distribution/MaaS_v7_1_M03_followup_20261110.zip). Earlier interrupted-status reports remain historical records.
+
+## 2026-11-14: VI solver and cloud nested-choice validation
+
+[Report](results/vi_cloud_20261114/REPORT_KR.md) | [Handoff](VI_CLOUD_HANDOFF_20261114.md) | [Portable ZIP](distribution/MaaS_VI_Cloud_20261114.zip). Original Small 9/9 strict PASS; nested default starts 9/10 and two preserved retry attempts PASS. All 10 nested configurations have accepted solutions; the failed default start remains visible. This is a same-model residual root solver, not an EG trajectory. Run python replay_vi_results_20261114.py for safe saved-state verification.

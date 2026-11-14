@@ -1,0 +1,32 @@
+{
+  "cases": [
+    "A_no_maas",
+    "B_maas_no_transfer_advantage",
+    "C_maas_paper_advantage"
+  ],
+  "flow_initial_factors": [
+    0.95,
+    1,
+    1.05
+  ],
+  "time_ablation_initial_factors": [
+    1
+  ],
+  "solver_h_budget": 8000,
+  "solver": "bounded trust-region reflective least squares on equivalent projected VI residual",
+  "tolerances": {
+    "xtol": 1e-12,
+    "ftol": 1e-12,
+    "gtol": 1e-12,
+    "natural": 1e-06,
+    "full_scaled": 1e-06
+  },
+  "max_nfev": 200,
+  "x_scale": "jac",
+  "prices": "all explicit; no analytic MaaS fare elimination",
+  "initial": "same projected Model.initial()*factor as M01; no equilibrium warm start",
+  "unused": "Only graph-absent traffic resources are fixed exactly to free time; both ablations use same elimination",
+  "bounds": "Original t<=200 guard expressed consistently in flow coordinates; reject artificial-bound hits",
+  "acceptance": "inherited auxiliary residual and full scaled including MaaS fares, physical/economic checks; separately require direct-time criterion for strict M01 comparison",
+  "notes": "Not an EG trajectory or a global convergence proof. Numerical Jacobian H calls included in budget; validation extra and reported."
+}

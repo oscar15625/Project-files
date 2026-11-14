@@ -1,0 +1,10 @@
+B_maas_no_transfer_advantage FLOW_TRF 1.0 1 6.196245741801498
+B_maas_no_transfer_advantage FLOW_TRF 1.0 201 2.0715825935930576
+B_maas_no_transfer_advantage FLOW_TRF 1.0 401 0.21416673622388466
+B_maas_no_transfer_advantage FLOW_TRF 1.0 601 0.02466933944785393
+B_maas_no_transfer_advantage FLOW_TRF 1.0 801 2.509889539420289e-05
+B_maas_no_transfer_advantage FLOW_TRF 1.0 1001 3.63458855570478e-07
+B_maas_no_transfer_advantage FLOW_TRF 1.0 1201 1.1344405986949299e-07
+B_maas_no_transfer_advantage FLOW_TRF 1.0 1401 1.2960255686874473e-07
+research_v7_1\m01_improved_20261110\B_maas_no_transfer_advantage_FLOW_TRF_1 {'profit_mod': {'equilibrium': np.float64(588.8465284284811), 'best_grid_refined': 588.8465284284816, 'best_tested_price': 0.36185266801079297, 'unilateral_gain': 5.684341886080801e-13, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(518.2145573704911), 'best_grid_refined': 518.2145573704911, 'best_tested_price': 0.859819063904579, 'unilateral_gain': 0, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(1.4210854715202004e-14), 'all_retail_deviation_gains_below_1e-4': True}
+FINAL B_maas_no_transfer_advantage FLOW_TRF 1.0 FAILED_DEVIATION False 1473 3.899820910657068e-09

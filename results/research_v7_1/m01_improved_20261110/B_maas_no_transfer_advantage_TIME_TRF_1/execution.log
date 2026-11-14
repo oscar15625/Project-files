@@ -1,0 +1,6 @@
+B_maas_no_transfer_advantage TIME_TRF 1.0 1 6.196245741801498
+B_maas_no_transfer_advantage TIME_TRF 1.0 201 0.4195604343508313
+B_maas_no_transfer_advantage TIME_TRF 1.0 401 0.05070616425025722
+B_maas_no_transfer_advantage TIME_TRF 1.0 601 0.002955119987188872
+research_v7_1\m01_improved_20261110\B_maas_no_transfer_advantage_TIME_TRF_1 {'profit_mod': {'equilibrium': np.float64(615.8598749128408), 'best_grid_refined': 615.859874913034, 'best_tested_price': 0.3731419411994605, 'unilateral_gain': 1.9315393728902563e-10, 'failed_price_evaluations': []}, 'profit_pt': {'equilibrium': np.float64(520.3034971773054), 'best_grid_refined': 520.3034971809343, 'best_tested_price': 0.8603295902261576, 'unilateral_gain': 3.6288838600739837e-09, 'failed_price_evaluations': []}, 'flow_conservation_error': np.float64(2.2737367544323206e-13), 'all_retail_deviation_gains_below_1e-4': True}
+FINAL B_maas_no_transfer_advantage TIME_TRF 1.0 FAILED_NUMERICAL_CHECK False 685 0.0007896351687526759

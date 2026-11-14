@@ -1,0 +1,13 @@
+{
+  "status": "PASS_MODEL_AND_SAVED_STATES",
+  "declared_file_hashes": 118,
+  "kernel_tests": 18,
+  "saved_states": 10,
+  "original_inputs_unchanged": true,
+  "qualification": "Cloud price audit is local finite deviations, not global Nash proof. Additional broadened audits will be applied to new solver outputs.",
+  "plan_correction": {
+    "retail_price_max_difference": 2.655853759137017e-09,
+    "all_prices_max_difference": 4.010825271905105e-08,
+    "issue": "Plan 2.66e-9 refers only to retail prices; all prices including MaaS fares differ by 4.01e-8. Not a model error."
+  }
+}
