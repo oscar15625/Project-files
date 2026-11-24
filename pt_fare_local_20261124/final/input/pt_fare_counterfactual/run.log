@@ -1,0 +1,15 @@
+START link_without_MaaS graphs [(array([0, 1]), {'non': (17, 42), 'drive': (8, 10)}), (array([2]), {'non': (16, 41), 'drive': (8, 12)})]
+DONE link_without_MaaS PASS True nfev 0 res None pt_unit 0.8216384057182505 maas 0.0 PT 486.0882477753378 MOD 569.9228950613582 W -16826.68069560371
+START link_with_MaaS graphs [(array([0, 1]), {'non': (17, 42), 'drive': (8, 10), 'maas': (17, 42)}), (array([2]), {'non': (16, 41), 'drive': (8, 12), 'maas': (16, 41)})]
+DONE link_with_MaaS PASS True nfev 0 res None pt_unit 0.8402468340882151 maas 12.987249373349433 PT 540.3507777641412 MOD 663.0509778303726 W -16653.81793348593
+PAIR link deltaW 172.86276211778022 delta_social 472.46901047842584
+START flat_without_MaaS graphs [(array([0, 1]), {'non': (34, 84), 'drive': (8, 10)}), (array([2]), {'non': (32, 82), 'drive': (8, 12)})]
+DONE flat_without_MaaS PASS True nfev 10 res 3.0000535589931637e-10 pt_unit 1.915275722312543 maas 0.0 PT 720.278538626124 MOD 587.9437933307387 W -17107.060426536944
+START flat_with_MaaS graphs [(array([0, 1]), {'non': (34, 84), 'drive': (8, 10), 'maas': (17, 42)}), (array([2]), {'non': (32, 82), 'drive': (8, 12), 'maas': (16, 41)})]
+DONE flat_with_MaaS PASS True nfev 34 res 5.772495190503146e-08 pt_unit 1.8405674232040043 maas 16.185472484834186 PT 683.2131333490556 MOD 667.0937668248521 W -16801.918044473427
+PAIR flat deltaW 305.1423820635173 delta_social 551.6039419327408
+START zones_without_MaaS graphs [(array([0, 1]), {'non': (272, 672), 'drive': (8, 10)}), (array([2]), {'non': (256, 656), 'drive': (8, 12)})]
+DONE zones_without_MaaS PASS True nfev 7 res 8.399329668258957e-10 pt_unit 0.7765681561024984 maas 0.0 PT 673.2399799733658 MOD 580.9663385145516 W -17098.623466701345
+START zones_with_MaaS graphs [(array([0, 1]), {'non': (272, 672), 'drive': (8, 10), 'maas': (17, 42)}), (array([2]), {'non': (256, 656), 'drive': (8, 12), 'maas': (16, 41)})]
+DONE zones_with_MaaS PASS True nfev 21 res 9.244528054305347e-08 pt_unit 0.7563433951640711 maas 15.226416290399367 PT 670.8782184712275 MOD 666.8814923558178 W -16826.265730168627
+PAIR zones deltaW 272.35773653271826 delta_social 542.7240425404234

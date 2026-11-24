@@ -1,0 +1,29 @@
+[
+  {
+    "origin": 3,
+    "dest": 5,
+    "maas": false,
+    "tariff": "link",
+    "pt_charge_units": 292.872538222018,
+    "nonmaas_trips": 475.5506157799374,
+    "pt_charge_per_non_trip": 0.6158598653934784
+  },
+  {
+    "origin": 1,
+    "dest": 5,
+    "maas": false,
+    "tariff": "link",
+    "pt_charge_units": 298.7259340264587,
+    "nonmaas_trips": 206.73159262536285,
+    "pt_charge_per_non_trip": 1.4449941116054146
+  },
+  {
+    "origin": 1,
+    "dest": 7,
+    "maas": false,
+    "tariff": "link",
+    "pt_charge_units": 0.0100070927667083,
+    "nonmaas_trips": 103.9721031059243,
+    "pt_charge_per_non_trip": 9.62478632995748e-05
+  }
+]

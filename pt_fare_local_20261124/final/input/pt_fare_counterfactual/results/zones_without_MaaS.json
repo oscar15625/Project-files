@@ -1,0 +1,85 @@
+{
+  "name": "zones_without_MaaS",
+  "tariff": "zones",
+  "maas": false,
+  "graph_non_links": 1328,
+  "graph_non_states": 528,
+  "profit_mod": 580.9663385145516,
+  "profit_pt": 673.2399799733658,
+  "profit_maas": 0.0,
+  "profit_total": 1254.2063184879175,
+  "share_non": 78.12695027237359,
+  "share_drive": 21.87304972762639,
+  "share_maas": 0.0,
+  "price_mod": 0.3599734433230299,
+  "price_pt": 0.7765681561024984,
+  "traveler_welfare": -17098.623466701345,
+  "social_welfare": -15844.417148213428,
+  "transfer_flow": 0.021545287958576954,
+  "flow_conservation_error": 2.2737367544323206e-13,
+  "retail_mod": 580.9663385145516,
+  "retail_pt": 673.2399799733658,
+  "wholesale_mod": 0.0,
+  "wholesale_pt": 0.0,
+  "maas_receipts": 0.0,
+  "accounting_error": 0.0,
+  "share_non_mod": 40.146136982353035,
+  "share_non_pt": 37.98081329002054,
+  "share_maas_mod": 0.0,
+  "share_maas_pt": 0.0,
+  "pt_pt_transfers": 0.0016740704327471434,
+  "intermodal_transfers": 0.01987121752582981,
+  "pt_access_flow": 379.8109103210344,
+  "mod_access_flow": 401.48013769065994,
+  "pt_total_capacity": 3500.0,
+  "success": true,
+  "status": 1,
+  "nfev": 7,
+  "calls": 302,
+  "seconds": 1.12,
+  "scaled_residual": 8.399329668258957e-10,
+  "natural_projected": 8.390608892952892e-10,
+  "flow_conservation": 2.2737367544323206e-13,
+  "accounting": 0.0,
+  "message": "`gtol` termination condition is satisfied.",
+  "passed": true,
+  "od": [],
+  "config": {
+    "original_baseline": "C_group_regression or A_group_regression",
+    "m": {
+      "name": "small",
+      "maas": false,
+      "theta": 1.0,
+      "penalty": 1.0,
+      "wholesale": [
+        1.3,
+        1.3
+      ],
+      "access_scope": "node",
+      "mod_access_scope": "node",
+      "pt_access_scope": "node",
+      "mode_theta": 1.0,
+      "pt_capacity_total": false,
+      "small_network_variant": "appendix"
+    },
+    "retail_PT_tariff": "zones",
+    "zone_map": {
+      "A": [
+        1,
+        2
+      ],
+      "B": [
+        3,
+        4
+      ],
+      "C": [
+        5,
+        6
+      ],
+      "D": [
+        7,
+        8
+      ]
+    }
+  }
+}

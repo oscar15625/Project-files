@@ -1,0 +1,110 @@
+[
+  {
+    "tariff": "link",
+    "maas": false,
+    "H_seconds": 0.04988679999996748,
+    "traffic_variables": 127,
+    "ODs": 528,
+    "demand": 432720.0,
+    "graph_states": 2592,
+    "graph_edges": 6395,
+    "initial_conservation": 5.4569682106375694e-12,
+    "config": {
+      "name": "sioux",
+      "maas": false,
+      "theta": 1.0,
+      "penalty": 0.5,
+      "wholesale": [
+        1.5,
+        1.0
+      ],
+      "access_scope": "aggregate",
+      "mod_access_scope": "aggregate",
+      "pt_access_scope": "node",
+      "mode_theta": 1.0,
+      "pt_capacity_total": false,
+      "small_network_variant": "appendix"
+    }
+  },
+  {
+    "tariff": "flat",
+    "maas": false,
+    "H_seconds": 0.0553972000000158,
+    "traffic_variables": 127,
+    "ODs": 528,
+    "demand": 432720.0,
+    "graph_states": 4080,
+    "graph_edges": 10490,
+    "initial_conservation": 7.275957614183426e-12,
+    "config": {
+      "name": "sioux",
+      "maas": false,
+      "theta": 1.0,
+      "penalty": 0.5,
+      "wholesale": [
+        1.5,
+        1.0
+      ],
+      "access_scope": "aggregate",
+      "mod_access_scope": "aggregate",
+      "pt_access_scope": "node",
+      "mode_theta": 1.0,
+      "pt_capacity_total": false,
+      "small_network_variant": "appendix"
+    }
+  },
+  {
+    "tariff": "link",
+    "maas": true,
+    "H_seconds": 0.08777530000003253,
+    "traffic_variables": 127,
+    "ODs": 528,
+    "demand": 432720.0,
+    "graph_states": 4080,
+    "graph_edges": 10490,
+    "initial_conservation": 7.275957614183426e-12,
+    "config": {
+      "name": "sioux",
+      "maas": true,
+      "theta": 1.0,
+      "penalty": 0.5,
+      "wholesale": [
+        1.5,
+        1.0
+      ],
+      "access_scope": "aggregate",
+      "mod_access_scope": "aggregate",
+      "pt_access_scope": "node",
+      "mode_theta": 1.0,
+      "pt_capacity_total": false,
+      "small_network_variant": "appendix"
+    }
+  },
+  {
+    "tariff": "flat",
+    "maas": true,
+    "H_seconds": 0.11817170000000488,
+    "traffic_variables": 127,
+    "ODs": 528,
+    "demand": 432720.0,
+    "graph_states": 5568,
+    "graph_edges": 14585,
+    "initial_conservation": 5.4569682106375694e-12,
+    "config": {
+      "name": "sioux",
+      "maas": true,
+      "theta": 1.0,
+      "penalty": 0.5,
+      "wholesale": [
+        1.5,
+        1.0
+      ],
+      "access_scope": "aggregate",
+      "mod_access_scope": "aggregate",
+      "pt_access_scope": "node",
+      "mode_theta": 1.0,
+      "pt_capacity_total": false,
+      "small_network_variant": "appendix"
+    }
+  }
+]

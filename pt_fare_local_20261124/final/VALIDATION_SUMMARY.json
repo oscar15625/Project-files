@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FULL_NETWORK_COUNTERFACTUAL_CONDITIONAL",
+  "small_saved_replay": 6,
+  "full_network_primary": 4,
+  "multistart": 8,
+  "strict_pass": 12,
+  "failed": 0,
+  "max_original_time_residual": 1.1540960938317305e-09,
+  "max_scaled_residual": 1.1288737897622362e-09,
+  "max_Markov_balance": 1.2960299500264227e-11,
+  "max_PT_revenue_error": 1.7462298274040222e-10,
+  "max_price_deviation_gain": 1.7462298274040222e-10,
+  "max_FD_error": 1.8997466118738277e-07,
+  "max_multistart_price_difference": 2.441953306231426e-10,
+  "solver_H_calls": 2348,
+  "solver_seconds_sum": 244.02232020000008,
+  "zone": "NOT_RUN_NO_ZONE_MAP"
+}
