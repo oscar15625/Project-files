@@ -1,0 +1,85 @@
+{
+  "name": "zones_with_MaaS",
+  "tariff": "zones",
+  "maas": true,
+  "graph_non_links": 1328,
+  "graph_non_states": 528,
+  "profit_mod": 666.8814923558178,
+  "profit_pt": 670.8782184712275,
+  "profit_maas": 186.81291366857639,
+  "profit_total": 1524.5726244956215,
+  "share_non": 64.3381394456443,
+  "share_drive": 20.435444263956377,
+  "share_maas": 15.226416290399367,
+  "price_mod": 0.38010359567497937,
+  "price_pt": 0.7563433951640711,
+  "traveler_welfare": -16826.265730168627,
+  "social_welfare": -15301.693105673005,
+  "transfer_flow": 25.92757773237107,
+  "flow_conservation_error": 2.842170943040401e-14,
+  "retail_mod": 527.7220349078979,
+  "retail_pt": 527.0338700532039,
+  "wholesale_mod": 139.1594574479201,
+  "wholesale_pt": 143.84434841802357,
+  "maas_receipts": 469.81671953452,
+  "accounting_error": -2.8421709430404007e-13,
+  "share_non_mod": 34.23295998641523,
+  "share_non_pt": 30.105179459229063,
+  "share_maas_mod": 5.282371856644727,
+  "share_maas_pt": 9.944044433754641,
+  "pt_pt_transfers": 4.226903299711312,
+  "intermodal_transfers": 21.70067443265976,
+  "pt_access_flow": 407.5130031536713,
+  "mod_access_flow": 414.0601319391365,
+  "pt_total_capacity": 3500.0,
+  "success": true,
+  "status": 1,
+  "nfev": 21,
+  "calls": 904,
+  "seconds": 4.27,
+  "scaled_residual": 9.244528054305347e-08,
+  "natural_projected": 9.244528054305008e-08,
+  "flow_conservation": 2.842170943040401e-14,
+  "accounting": -2.8421709430404007e-13,
+  "message": "`gtol` termination condition is satisfied.",
+  "passed": true,
+  "od": [],
+  "config": {
+    "original_baseline": "C_group_regression or A_group_regression",
+    "m": {
+      "name": "small",
+      "maas": true,
+      "theta": 1.0,
+      "penalty": 1.0,
+      "wholesale": [
+        1.3,
+        1.3
+      ],
+      "access_scope": "node",
+      "mod_access_scope": "node",
+      "pt_access_scope": "node",
+      "mode_theta": 1.0,
+      "pt_capacity_total": false,
+      "small_network_variant": "appendix"
+    },
+    "retail_PT_tariff": "zones",
+    "zone_map": {
+      "A": [
+        1,
+        2
+      ],
+      "B": [
+        3,
+        4
+      ],
+      "C": [
+        5,
+        6
+      ],
+      "D": [
+        7,
+        8
+      ]
+    }
+  }
+}

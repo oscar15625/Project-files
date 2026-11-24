@@ -1,0 +1,25 @@
+{
+  "model": {
+    "name": "sioux",
+    "maas": true,
+    "theta": 1.0,
+    "penalty": 0.5,
+    "wholesale": [
+      1.5,
+      1.0
+    ],
+    "access_scope": "aggregate",
+    "mod_access_scope": "aggregate",
+    "pt_access_scope": "node",
+    "mode_theta": 1.0,
+    "pt_capacity_total": false,
+    "small_network_variant": "appendix"
+  },
+  "tariff": "link",
+  "start": "primary",
+  "start_source": "Model.initial",
+  "H_budget": 4000,
+  "wall_budget_seconds": 600,
+  "price_elimination": "Exact lambda=1 conditional MaaS fare root; retail residual remains fixed-time partial derivative",
+  "scope": "Full528OD; no demand scaling; no empirical zones"
+}
